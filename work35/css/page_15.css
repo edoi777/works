@@ -1,0 +1,119 @@
+.first-screen {
+    background-color: #f7f3f3;
+  box-shadow: inset 0px -5px 29px 0 rgba(224, 220, 220, 0.75);
+}  
+.privacy_agreement {
+    border-bottom: 2px solid #000; 
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 43px 50px 50px 45px;
+    max-width: 789px;
+    margin: 0px auto 77px auto;
+}
+.privacy_agreement > *:not(.btn_t_1) {
+    width: 100%;
+}
+.privacy_agreement:before {
+    content: '';
+    display: block;
+    width: 20%;
+    height: 100%;
+    max-width: 64px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border:2px solid #000;
+    border-bottom: none;
+    border-right: none;
+}
+.privacy_agreement:after {
+    content: '';
+    display: block;
+    width: 20%;
+    height: 100%;
+    max-width: 64px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border:2px solid #000;
+    border-bottom: none;
+    border-left: none;
+}
+.privacy_agreement__t1 {
+    margin-top: 126px;
+    margin-bottom: 30px;
+      font-size: 45px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0px auto;
+  font-weight: bold;
+    width: 100%;
+}
+.privacy_agreement__t2{
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.53;
+    width: 100%;
+  text-align: left;
+  color: #231f20;
+    margin-bottom: 26px;
+}
+.privacy_agreement__t2 p {
+display: block;
+    width: 100%;
+}
+
+.privacy_agreement__t3 {
+font-weight: 800;
+      font-size: 17px;
+      line-height: 1.53;
+    margin-bottom: 28px;
+    width: 100%;
+}
+.common_ul__item {
+    margin-bottom: 15px;
+}
+.common_ul {
+    margin-bottom: 8px;
+    width: 100%;
+}
+.privacy_agreement__t4 {
+
+      font-size: 17px;
+      line-height: 1.53;
+    margin-bottom: 16px;
+    width: 100%;
+}
+.privacy_agreement__t5 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.53;
+    margin-bottom: 44px;
+}
+.first-screen__body {
+    display: block !important;
+    height: auto !important;
+}
+@media screen and (max-width:850px) {
+    .privacy_agreement__t1 {
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .privacy_agreement {
+        padding: 15px;
+    }
+        .privacy_agreement__t1 {
+        font-size: 20px;
+    }
+    .privacy_agreement {
+        margin-bottom: 20px;
+    }
+    
+}

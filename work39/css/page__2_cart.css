@@ -1,0 +1,67 @@
+.cart {
+    margin-bottom: 90px; 
+}
+
+/*//////////////////////////////////////*/
+.cart__total {
+    width: 100%;
+    max-width:817px; 
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 73px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.cart__total__price{
+  font-size: 15.8px;
+  font-weight: 500;
+  text-align: right;
+  color: #2e2d2c;
+}
+.cart__total__title{
+  font-size: 15.8px;
+  font-weight: 300;
+  text-align: right;
+  color: #2e2d2c;
+    margin-right: 5px;
+}
+.cart__total__price:after {
+    content: ' руб.';
+}
+/*//////////////////////////////////////*/
+.cart__send-order {
+        width: 100%;
+    max-width:817px; 
+        align-items: center;
+    display: flex;
+    justify-content: flex-end
+}
+.cart__send-order__button {
+    margin-left: 18px;
+}
+.cart__send-order__text {
+     max-width: 240px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  text-align: left;
+  color: rgba(46, 45, 44, 0.6);
+}
+@media screen and (max-width:767px) {
+    .cart__send-order {
+        flex-direction: column;
+    }
+    .cart__send-order__text {
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    .cart__send-order__button {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .cart__total {
+        display: none;
+    }
+}

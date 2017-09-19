@@ -1,0 +1,14 @@
+<svg version="1.1" id="calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"   width="17px"
+  height="16px"
+	 viewBox="0 0 17 16" style="enable-background:new 0 0 17 16;" xml:space="preserve">
+<g fill="#fff">
+	<path d="M15,2c0.551,0,1,0.449,1,1v11c0,0.551-0.449,1-1,1H2c-0.551,0-1-0.449-1-1V3c0-0.551,0.449-1,1-1H15 M15,1H2
+		C0.895,1,0,1.895,0,3v11c0,1.105,0.895,2,2,2h13c1.105,0,2-0.895,2-2V3C17,1.895,16.105,1,15,1L15,1z"/>
+	<g>
+		<rect x="8" y="6" width="1" height="5"/>
+		<rect x="6" y="8" width="5" height="1"/>
+	</g>
+	<rect x="4" y="0" width="1" height="3"/>
+	<rect x="12" y="0" width="1" height="3"/>
+</g>
+</svg>

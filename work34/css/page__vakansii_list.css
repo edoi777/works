@@ -1,0 +1,38 @@
+.options-for-search__item.category {
+    background-color: #0277bd;
+}.options-for-search__item.services {
+    background-color: #039be5;
+}
+.options-for-search__item-category__popup {
+    background-color: #0277bd;
+}
+.vakansii__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.slider__item {
+    margin-bottom: 20px;
+}
+@media screen and (min-width:480px){
+    .vakansii__wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .vakansii__wrapper > * {
+        width: 50%;
+    }
+}
+/*//////////////////////////////////////////*/
+/*//////////////////////////////////////////*/
+/*//////////////////////////////////////////*/
+.registration__salon {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+      width: 276px;
+  height: 50px;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-left: -138px;
+    z-index: 1;
+}

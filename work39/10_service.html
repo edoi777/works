@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+	<link href="https://fonts.googleapis.com/css?family=Lato:700|Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<meta http-equiv="Pragma" content="no-cache">
+<!--common css-->
+	<link rel="stylesheet" href="css/common__reset.css">
+	<link rel="stylesheet" href="css/common__general.css">
+	<link rel="stylesheet" href="css/common__header.css">
+	<link rel="stylesheet" href="css/common__footer.css">
+<!--plugins css-->
+    <link rel="stylesheet" href="css/plugin__slickslider.css">
+    <link rel="stylesheet" href="css/plugin__date-picker.css">
+    <link rel="stylesheet" href="css/plugin__selectric.css">
+<!--js plugins-->
+	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAa7dukgxETKrvVN62ArY9gQf70cPZ0bZM&amp;"></script>
+    <script src="js/plugins/plugin__slickslider.js"></script>
+    <script src="js/plugins/plugin__datepicker.js"></script>
+    <script src="js/plugins/plugin__selectric.js"></script>
+<!--common js-->
+	<script src="js/map.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/footer__map-and-form.js"></script>
+
+
+</head>
+
+<body>
+
+<div class="popup__make-an-appointment">
+        <form class="zapis popup__make-an-appointment__zapis">
+           <div class="popup__make-an-appointment__zapis__close"></div>
+            <div class="zapis__t1">Записаться на приём</div>
+            <div class="zapis__t2">Все поля обязательны для заполнения. Администратор свяжется с вами, чтобы уточнить время.</div>
+            <div class="zapis__wr">
+                <div class="zapis__wr__left-part">
+                    <input type="text" class="zapis__input" placeholder="Имя">
+                    <input type="text" class="zapis__input" placeholder="Телефон">
+                    <select class="zapis__select">
+                        <option value="Клиника">Клиника</option>
+                        <option value="Клиника1">Клиника1</option>
+                        <option value="Клиника2">Клиника2</option>
+                    </select>
+                    <select class="zapis__select">
+                        <option value="Услуга">Услуга</option>
+                        <option value="Услуга1">Услуга1</option>
+                        <option value="Услуга2">Услуга2</option>
+                    </select>
+                    <select class="zapis__select">
+                        <option value="Врач">Врач</option>
+                        <option value="Врач1">Врач1</option>
+                        <option value="Врач2">Врач2</option>
+                    </select>
+                </div>
+                <div class="zapis__wr__right-part">
+                    <div class="zapis__date-pickedr"></div>
+                    <select class="zapis__select">
+                        <option value="12:00 — 14:00">12:00 — 14:00</option>
+                        <option value="12:00 — 14:00">12:00 — 14:00</option>
+                        <option value="12:00 — 14:00">12:00 — 14:00</option>
+                    </select>
+                </div>
+            </div>
+            <button class="btn_t_1 zapis__submit">отправить</button>
+    </form>
+</div>
+<div class="popup__make-an-appointment__select-city">
+    <div class="popup__make-an-appointment__select-city__wr">
+        <div class="select-city__wr__close"></div>
+        <div class="select-city__wr__left-part-text">
+            <div class="select-city__wr__left-part-text__title">Адреса клиник</div>
+            <ul class="select-city__wr__left-part-text__ul">
+                <li class="select-city__wr__left-part-text__ul__li" data-position-lat="55.7541303" data-position-lng="37.6313594">
+                    <div class="select-city__wr__left-part-text__ul__li__adress">ул. Сакольнический Вал 1Б</div>
+                    <div class="select-city__wr__left-part-text__ul__li__metro">
+                        <div class="select-city__wr__left-part-text__ul__li__metro__circles">
+                            <div class="select-city__wr__left-part-text__ul__li__metro__circles__item" data-background-color="#fbd601"></div>
+                            <div class="select-city__wr__left-part-text__ul__li__metro__circles__item" data-background-color="#725d28"></div>
+                            <div class="select-city__wr__left-part-text__ul__li__metro__circles__item" data-background-color="#b31d8e"></div>
+                        </div>
+                        <div class="select-city__wr__left-part-text__ul__li__metro__text">
+                            м. Таганская
+                            <div class="select-city__wr__left-part-text__ul__li__metro__text__rasstoianie">
+                                350 м
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="select-city__wr__left-part-text__ul__li" data-position-lat="55.7441303" data-position-lng="37.6213594">
+                    <div class="select-city__wr__left-part-text__ul__li__adress">ул. Сакольнический Вал 1Б</div>
+                    <div class="select-city__wr__left-part-text__ul__li__metro">
+                        <div class="select-city__wr__left-part-text__ul__li__metro__circles">
+                            <div class="select-city__wr__left-part-text__ul__li__metro__circles__item" data-background-color="#fbd601"></div>
+                            <div class="select-city__wr__left-part-text__ul__li__metro__circles__item" data-background-color="#725d28"></div>
+                            <div class="select-city__wr__left-part-text__ul__li__metro__circles__item" data-background-color="#b31d8e"></div>
+                        </div>
+                        <div class="select-city__wr__left-part-text__ul__li__metro__text">
+                            м. Таганская
+                            <div class="select-city__wr__left-part-text__ul__li__metro__text__rasstoianie">
+                                350 м
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="select-city__wr__right-part-map">
+            
+        </div>
+    </div>
+</div>
+
+<header>
+	<div class="header__top-line">
+		<div class="wrapper top-line__wrapper">
+			<div class="top-line__mobille-menu">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<a href="#" class="top-line__add-question">
+                    <img src="img/icon/top-line__question.svg" alt="" class="top-line__add-question__icon">
+                    <span class="top-line__add-question__text">задать вопрос</span>
+                </a>
+			<a href="#" class="top-line__review">
+                    <img src="img/icon/top-line__review.svg" alt="" class="top-line__review__icon">
+                    <span class="top-line__review__text">Оставить отзыв</span>
+                </a>
+			<a href="#" class="top-line__reviews">отзывы</a>
+			<a href="#" class="top-line__questions">вопрос-ответ</a>
+			<div class="soc top-line__soc">
+				<a href="#" class="soc__item" data-background-image="img/icon/soc__vk.svg"></a>
+				<a href="#" class="soc__item" data-background-image="img/icon/soc__fb.svg"></a>
+				<a href="#" class="soc__item" data-background-image="img/icon/soc__ok.svg"></a>
+				<a href="#" class="soc__item" data-background-image="img/icon/soc__in.svg"></a>
+			</div>
+			<a href="tel:880005553535" class="top-line__tel"><span>8(495) </span>64-911-03</a>
+			<div class="top-line__cart">
+				<div class="top-line__cart__wr">
+					<img src="img/icon/top-line__cart.svg" alt="" class="top-line__cart__icon">
+					<div class="top-line__cart__count">10</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header__second-line">
+		<div class="wrapper second-line__wrapper">
+			<a href="#" class="second-line__logo">
+                    <img src="img/icon/second-line__logo.svg" alt="" class="second-line__logo__img">
+                    <span class="second-line__logo__text">Городская больница №1</span>
+                </a>
+			<div class="second-line__toggle-language">
+				<a href="#" class="second-line__toggle-language__item active">Rus</a>
+				<a href="#" class="second-line__toggle-language__item">eng</a>
+			</div>
+			<a href="#" class="second-line__blind-version"><img src="img/icon/second-line__glasses.svg" alt="" class="second-line__blind-version__icon"></a>
+			<ul class="second-line__info-list">
+				<li class="second-line__info-list__item map">
+					<div class="second-line__info-list__item__title">Москва, </div>
+					<div class="second-line__info-list__item__text select-city__popup-button">Адреса клиник</div>
+				</li>
+				<li class="second-line__info-list__item time-work">
+					<div class="second-line__info-list__item__title">Пн–Вс:</div>
+					<div class="second-line__info-list__item__text">09:00–22:00</div>
+				</li>
+			</ul>
+			<div class="btn_t_1 second-line__make-appointment popup-show__make-an-appointment-button">
+				<img src="img/icon/second-line__calendar__white.svg" alt="" class="btn_t_1__icon">
+				<span>записаться на приём</span>
+			</div>
+		</div>
+	</div>
+	<div class="header__menu">
+		<ul class="wrapper menu__wrapper">
+			<li class="menu__item mobile-text">
+				<p class="menu__item__text adress"><span>Москва,</span> <span>адреса клиник</span></p>
+				<p class="menu__item__text">Пн–Вс: 09:00–22:00</p>
+			</li>
+			<li class="menu__item">
+				<a href="#" class="menu__item__link submenu">отделения</a>
+				<div class="menu__wrapper-lvl-2">
+                        <div class="menu__wrapper-lvl-2__back">
+							<p class="menu__wrapper-lvl-2__back__text">назад</p>
+						</div>
+					<ul class="menu-lvl-2">
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/1.svg" alt="" class="menu-lvl-2__item__link__icon" width="33px">
+                                   <span>Вызов врача на дом</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/2.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Кардиология</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/1.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Вызов врача на дом</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/3.svg" alt="" class="menu-lvl-2__item__link__icon"  width="30px">
+                                   <span>Комплексные обследования. Диспансеризация</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/4.svg" alt="" class="menu-lvl-2__item__link__icon"  width="28px">
+                                   <span>Неврология</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/3.svg" alt="" class="menu-lvl-2__item__link__icon"  width="30px">
+                                   <span>Комплексные обследования. Диспансеризация</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/5.svg" alt="" class="menu-lvl-2__item__link__icon"  width="46px">
+                                   <span>Комплексные программы </span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/6.svg" alt="" class="menu-lvl-2__item__link__icon"  width="46px">
+                                   <span>Эндокринология</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/5.svg" alt="" class="menu-lvl-2__item__link__icon"  width="46px">
+                                   <span>Комплексные программы </span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/7.svg" alt="" class="menu-lvl-2__item__link__icon"  width="26px">
+                                   <span>Терапия</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/8.svg" alt="" class="menu-lvl-2__item__link__icon"  width="39px">
+                                   <span>ОФтальмология</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/7.svg" alt="" class="menu-lvl-2__item__link__icon"  width="26px">
+                                   <span>Терапия</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/9.svg" alt="" class="menu-lvl-2__item__link__icon"  width="28px">
+                                   <span>Вакцинация</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/10.svg" alt="" class="menu-lvl-2__item__link__icon"  width="32px">
+                                   <span>Гастроэнтерология</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/9.svg" alt="" class="menu-lvl-2__item__link__icon"  width="28px">
+                                   <span>Вакцинация</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/11.svg" alt="" class="menu-lvl-2__item__link__icon"  width="29px">
+                                   <span>Оформление медицинской документации</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/12.svg" alt="" class="menu-lvl-2__item__link__icon"  width="36px">
+                                   <span>стоматология</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/11.svg" alt="" class="menu-lvl-2__item__link__icon"  width="29px">
+                                   <span>Оформление медицинской документации</span>
+                               </a>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="menu__item">
+				<a href="#" class="menu__item__link submenu">анализы</a>
+				<div class="menu__wrapper-lvl-2">
+                        <div class="menu__wrapper-lvl-2__back">
+                            <p class="menu__wrapper-lvl-2__back__text">назад</p>
+                        </div>
+					<ul class="menu-lvl-2">
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/1.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Вызов врача на дом</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/2.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Кардиология</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/1.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Вызов врача на дом</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/3.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Комплексные обследования. Диспансеризация</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/4.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Неврология</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/3.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Комплексные обследования. Диспансеризация</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/5.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Комплексные программы </span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/6.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Эндокринология</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/5.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Комплексные программы </span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/7.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Терапия</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/8.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>ОФтальмология</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/7.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Терапия</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/9.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Вакцинация</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/10.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Гастроэнтерология</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/9.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Вакцинация</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/11.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Оформление медицинской документации</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/12.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>стоматология</span>
+                               </a>
+						</li>
+						<li class="menu-lvl-2__item">
+							<a href="#" class="menu-lvl-2__item__link">
+                                   <img src="img/icon/otdelenia/11.svg" alt="" class="menu-lvl-2__item__link__icon"  width="33px">
+                                   <span>Оформление медицинской документации</span>
+                               </a>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="menu__item">
+				<a href="#" class="menu__item__link">Врачи</a>
+			</li>
+			<li class="menu__item">
+				<a href="#" class="menu__item__link">график работы</a>
+			</li>
+			<li class="menu__item">
+				<a href="#" class="menu__item__link">цены</a>
+			</li>
+			<li class="menu__item">
+				<a href="#" class="menu__item__link">Программы</a>
+			</li>
+			<li class="menu__item">
+				<a href="#" class="menu__item__link">статьи</a>
+			</li>
+			<li class="menu__item">
+				<a href="#" class="menu__item__link">Новости и акции</a>
+			</li>
+			<li class="menu__item">
+				<a href="#" class="menu__item__link">Контакты</a>
+			</li>
+		</ul>
+	</div>
+</header>
+<link rel="stylesheet" href="css/page__10_service.css">
+<link rel="stylesheet" href="css/page__9_template.css">
+<script src="js/page__10_service.js"></script>
+
+<div class="wrapper wrapper__breadcumbs">
+	<ul class="breadcumbs">
+		<li class="breadcumbs__item">
+			<a href="#" class="breadcumbs__item__link">Главная</a>
+		</li>
+		<li class="breadcumbs__item">
+			<a href="#" class="breadcumbs__item__link">Программы</a>
+		</li>
+		<li class="breadcumbs__item">
+			<a href="#" class="breadcumbs__item__link">Комплексное обследование h2</a>
+		</li>
+	</ul>
+</div>
+<div class="title-page">
+    <div class="wrapper title__page__wrapper">
+        <h1 class="title-page__tag">Гинекология</h1>
+    </div>
+</div>
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<div class="service wrapper">
+       <div class="programma service__programma">
+       <img src="img/ginekologia.png" alt="" class="programma__img">
+        <div class="programma__description">Пройдите комплексную программу диагностики в комфортных условиях центров Медскан.рф на ультрасовременном оборудовании.</div>
+        <div class="programma__slider">
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+            <div class="programma__slider__item" data-background-image="img/img2.jpg">
+                <div class="programma__slider__item__h"></div>
+            </div>
+        </div>
+        <div class="programma__slider__dots">
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+            <div class="programma__slider__dots__item"><div class="programma__slider__dots__item_h" data-background-image="img/img2.jpg"></div></div>
+        </div>
+        <h3>Заголовок h3</h3>
+        <p>Комплексное обследование VIP представляет собой расширенную версию программы «Стандарт», которая направлена на глубокую оценку состояния здоровья пациента. Анализируя состояние органов и систем, доктор может выявить как явные, так и скрытые заболевания, а также своевременно приступить к лечебной терапии. Комплексное обследование VIP представлено в двух видах: для женщин и мужчин, что позволяет учесть нюансы и ключевые особенности состояния здоровья в зависимости от пола. По результатам обследования врач выдает заключение, проводит консультацию по текущему состоянию здоровья. При необходимости привлекается второй специалист или организуется встреча с узкопрофильными специалистами российских или зарубежных клиник. </p>
+        <h4>Заголовок h4</h4>
+        <p>Важным принципом оперативного лечения в клинике является использования максимально щадящих методов с сохранением репродуктивных функций. В центре проводятся органосохраняющие операции по удалению доброкачественных новообразований (миомы, полипы); лечение заболеваний шейки матки с помощью лазера; пластические операции на наружных половых органах; исследование матки (гистероскопия, кольпоскопия); оперативное и консервативное лечение бесплодия; прерывание беременности. Практически все операции в гинекологическом отделении клиники  выполняются методом эндовидеохирургии (без разрезов), что дает возможность значительно сократить восстановительный период.</p>
+   </div>
+       <div class="service__here">
+            <div class="service__mobille-menu">
+                <div class="service__here__menu-item">
+                   <div class="service__here__menu-item__title">Услуги отделения</div>
+               </div>
+                <div class="service__here__menu-item">
+                   <div class="service__here__menu-item__title">Цены</div>
+
+                </div>
+                <div class="service__here__menu-item">
+                   <div class="service__here__menu-item__title">как подготовиться к обследованию</div>
+               </div>
+            </div>
+           <div class="service__toggle-content-wrapper">
+               <div class="service__wrapper__links">
+                   <div class="service__wrapper__links__title">Улуги отделения</div>
+                    <div class="service__links" >
+               <div class="service__links__item">
+                   <a href="#">Консультация гинеколога</a>
+                   <a href="#">Ведение беременности</a>
+                   <a href="#">Лечение бесплодия</a>
+                   <a href="#">Лечение миомы матки</a>
+                   <a href="#">Лечение эндометриоза</a>
+                   <a href="#">Лечение кисты яичника</a>
+                   <a href="#">Лечение заболеваний шейки матки (дисплазия, эрозия)</a>
+                   <a href="#">Эстетическая гинекология</a>
+                   <a href="#">Плазмолифтинг в гинекологии</a>
+                   <a href="#">Эстетическая гинекология</a>
+                   <a href="#">Плазмолифтинг в гинекологии</a>
+                   <a href="#">Консультация гинеколога</a>
+                   <a href="#">Ведение беременности</a>
+                   <a href="#">Лечение бесплодия</a>
+                   <a href="#">Лечение миомы матки</a>
+                   <a href="#">Лечение эндометриоза</a>
+               </div>
+               <div class="service__links__item">
+                   <a href="#">Консультация гинеколога</a>
+                   <a href="#">Ведение беременности</a>
+                   <a href="#">Лечение бесплодия</a>
+                   <a href="#">Лечение миомы матки</a>
+                   <a href="#">Лечение эндометриоза</a>
+                   <a href="#">Лечение кисты яичника</a>
+                   <a href="#">Лечение заболеваний шейки матки (дисплазия, эрозия)</a>
+                   <a href="#">Эстетическая гинекология</a>
+                   <a href="#">Плазмолифтинг в гинекологии</a>
+                   <a href="#">Эстетическая гинекология</a>
+                   <a href="#">Плазмолифтинг в гинекологии</a>
+                   <a href="#">Консультация гинеколога</a>
+                   <a href="#">Ведение беременности</a>
+                   <a href="#">Лечение бесплодия</a>
+                   <a href="#">Лечение миомы матки</a>
+                   <a href="#">Лечение эндометриоза</a>
+               </div>
+               <div class="service__links__item">
+                   <a href="#">Консультация гинеколога</a>
+                   <a href="#">Ведение беременности</a>
+                   <a href="#">Лечение бесплодия</a>
+                   <a href="#">Лечение миомы матки</a>
+                   <a href="#">Лечение эндометриоза</a>
+                   <a href="#">Лечение кисты яичника</a>
+                   <a href="#">Лечение заболеваний шейки матки (дисплазия, эрозия)</a>
+                   <a href="#">Эстетическая гинекология</a>
+                   <a href="#">Плазмолифтинг в гинекологии</a>
+                   <a href="#">Эстетическая гинекология</a>
+                   <a href="#">Плазмолифтинг в гинекологии</a>
+                   <a href="#">Консультация гинеколога</a>
+                   <a href="#">Ведение беременности</a>
+                   <a href="#">Лечение бесплодия</a>
+                   <a href="#">Лечение миомы матки</a>
+                   <a href="#">Лечение эндометриоза</a>
+               </div>
+           </div>
+               </div>
+                <div class="service__price">
+               <div class="service__price__title">Цены</div>
+               <div class="service__price__item list">
+                   <div class="service__price__item__title list__toggler">Услуги УЗИ и функциональной диагностики</div>
+                   <div class="service__price__item__row">
+                       <div class="service__price__item__row__name">УЗДГ артерий верхних конечностей </div>
+                       <div class="service__price__item__row__price">1200</div>
+                  </div>
+                   <div class="service__price__item__row">
+                       <div class="service__price__item__row__name">УЗДГ артерий верхних конечностей </div>
+                       <div class="service__price__item__row__price">1200</div>
+                  </div>
+                   <div class="service__price__item__row">
+                       <div class="service__price__item__row__name">УЗДГ артерий верхних конечностей </div>
+                       <div class="service__price__item__row__price">1200</div>
+                  </div>
+                  <div class="service__price__item__link">подробнее об узи</div>
+               </div>
+               <div class="service__price__item list">
+                   <div class="service__price__item__title list__toggler">Услуги УЗИ и функциональной диагностики</div>
+                   <div class="service__price__item__row">
+                       <div class="service__price__item__row__name">УЗДГ артерий верхних конечностей </div>
+                       <div class="service__price__item__row__price">1200</div>
+                  </div>
+                   <div class="service__price__item__row">
+                       <div class="service__price__item__row__name">УЗДГ артерий верхних конечностей </div>
+                       <div class="service__price__item__row__price">1200</div>
+                  </div>
+                   <div class="service__price__item__row">
+                       <div class="service__price__item__row__name">УЗДГ артерий верхних конечностей </div>
+                       <div class="service__price__item__row__price">1200</div>
+                  </div>
+                  <div class="service__price__item__link">подробнее об узи</div>
+               </div>
+               <div class="service__price__item list">
+                   <div class="service__price__item__title list__toggler">Услуги УЗИ и функциональной диагностики</div>
+                   <div class="service__price__item__row">
+                       <div class="service__price__item__row__name">УЗДГ артерий верхних конечностей </div>
+                       <div class="service__price__item__row__price">1200</div>
+                  </div>
+                   <div class="service__price__item__row">
+                       <div class="service__price__item__row__name">УЗДГ артерий верхних конечностей </div>
+                       <div class="service__price__item__row__price">1200</div>
+                  </div>
+                   <div class="service__price__item__row">
+                       <div class="service__price__item__row__name">УЗДГ артерий верхних конечностей </div>
+                       <div class="service__price__item__row__price">1200</div>
+                  </div>
+                  <div class="service__price__item__link">подробнее об узи</div>
+               </div>
+           </div>
+                <div class="service__here__info">
+                   <div class="service__here__info__title">Как подготовиться к обследованию</div>
+                   <div class="service__here__info__item">Необходимо сдавать в состоянии сытости, не рекомендуется сдавать данный тест натощак. Следует воздержаться от приёма антибиотиков за месяц до исследования на кариотип. </div>
+                   <div class="service__here__info__item">Не рекомендуется сдавать кровь единовременно с тестами, имеющие строгую подготовку к сдаче биоматериала (биохимический анализ крови, клинический анализ крови, часть тестов на инфекции и т.д.). </div>
+                   <div class="service__here__info__item">Рекомендуется предварительная консультация врача лаборатории </div>
+               </div>
+           </div>
+           
+           <div class="service__here__banner" data-background-image="img/banner-smal.jpg">
+               <div class="service__here__banner__t1">Универсальное решение </div>
+               <div class="service__here__banner__t2">для медицинских учреждений</div>
+               <a href="#" class="service__here__banner__link btn_t_1">узнать больше</a>
+           </div>
+       </div>
+</div>
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<div class="map-and-form">
+    <div class="map-and-form__map"></div>
+    <div class="map-and-form__form">
+        <div class="map-and-form__form__contacts">
+            <div class="map-and-form__form__contacts__title">Контактные данные</div>
+            <ul class="map-and-form__form__contacts__ul">
+                <li class="map-and-form__form__contacts__ul__item">
+                    <img src="img/icon/map__white.svg" alt="" width="18px" class="map-and-form__form__contacts__ul__item__icon">
+                    <span class="map-and-form__form__contacts__ul__item__text">г. Санкт-Петербург, Большой пр. П.С., д. 12</span>
+                </li>
+                <li class="map-and-form__form__contacts__ul__item">
+                    <img src="img/icon/tel__white.svg" alt="" width="14px" class="map-and-form__form__contacts__ul__item__icon">
+                    <a href="tel:+79211234567" class="map-and-form__form__contacts__ul__item__text">+7 (921) 123-45-67</a>
+                </li>
+                <li class="map-and-form__form__contacts__ul__item">
+                    <img src="img/icon/mail__white.svg" alt="" width="20px" class="map-and-form__form__contacts__ul__item__icon">
+                    <a href="mailto:hospital@mail.ru" class="map-and-form__form__contacts__ul__item__text">hospital@mail.ru</a>
+                </li>
+            </ul>
+            <div class="map-and-form__form__contacts__soc soc">
+				<a href="#" class="soc__item"><img src="img/icon/soc__vk__red.svg" alt="" class="soc__item__icon"></a>
+				<a href="#" class="soc__item"><img src="img/icon/soc__fb__red.svg" alt="" class="soc__item__icon"></a>
+				<a href="#" class="soc__item"><img src="img/icon/soc__ok__red.svg" alt="" class="soc__item__icon"></a>
+				<a href="#" class="soc__item"><img src="img/icon/soc__in__red.svg" alt="" class="soc__item__icon"></a>
+            </div>
+        </div>
+        <form class="map-and-form__form__contacts__form">
+            <p class="map-and-form__form__contacts__form__text1">Нужна  консультация?</p>
+            <p class="map-and-form__form__contacts__form__text2">Оставьте свои контактные данные, 
+мы перезвоним</p>
+           <input name="" type="text" placeholder="Имя" class="map-and-form__form__contacts__form__input">
+           <input name="" type="text" placeholder="Телефон" class="map-and-form__form__contacts__form__input">
+           <textarea name="" id="" cols="30" rows="10" class="map-and-form__form__contacts__form__texarea" placeholder="Комментарий"></textarea>
+           <button class="map-and-form__form__contacts__form__submit btn_t_1">Отправить</button>
+        </form>
+    </div>
+</div>
+<footer>
+    <div class="wrapper footer__wrapper">
+        <div class="footer__copy-right">© 2017 ООО «Медцентр». Все права защищены.</div>
+        <a href="#" class="footer__ahahata-logo"><img src="img/icon/anahata-logo.png" alt="" class="footer__ahahata-logo"></a>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,268 @@
+footer {
+    background-color: #323642;
+    padding-top: 32px;
+    margin-top: auto;
+    padding-bottom: 23px;
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    color: #8892b3;
+    max-width: 1015px;
+}
+@media screen and (max-width:1233px) {
+    .footer__wrapper {
+        max-width: 95%;
+    }
+}
+@media screen and (max-width:767px) {
+    .footer__wrapper {
+        flex-direction: column;
+    }
+    .footer__copy-right {
+      font-size: 14px;
+        font-weight: 300;
+         width: 170px;
+        text-align: center;
+        margin-bottom: 25px;
+          line-height: 1.71;
+    }
+}
+
+/*/////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////*/
+.map-and-form {
+    background-color: #323642;
+    max-width: 100%;
+    margin-top: auto;
+}
+.map-and-form__map {
+    height: 700px;
+    width: 100%;
+}
+.map-and-form + footer {
+    margin-top: 0px;
+}
+/*///////////////////////*/
+/*///////////////////////*/
+
+@media screen and (max-width:767px) {
+    .map-and-form__map {
+        height: 254px
+    }
+}
+/*/////////////////////////////*/
+.map-and-form__form {
+    margin-top: -430px;
+    min-height: 555px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+      width: 1022px;
+      background-color: #f2f3f5;
+    display: flex;
+    justify-content: space-between;
+}
+.map-and-form__form__contacts {
+    background-color: #fe615d;
+    padding-top: 54px;
+    color: #fff;
+    width: 415px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 0px 0px 0px;
+}
+.map-and-form__form__contacts__title {
+      font-size: 24px;
+    text-align: center;
+    margin-bottom: 72px;
+}
+.map-and-form__form__contacts__soc {
+    margin-top: auto;
+    background-color: #fe817d;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.map-and-form__form__contacts__ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+.map-and-form__form__contacts__ul__item {
+    display: flex;
+    padding-left: 48px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 37px;
+}
+.map-and-form__form__contacts__ul__item__icon {
+    position: absolute;
+    left: 17px;
+    top: 50%;
+    transform: translateX(-50%) translateY(-59%)
+}
+.map-and-form__form__contacts__ul__item__text {
+  max-width: 175px;
+  font-size: 16px;
+  font-weight: 50;
+  line-height: 1.5;
+}
+@media screen and (max-width:1233px) {
+    .map-and-form__form__contacts {
+        width: 261px;
+    }
+    .map-and-form__form__contacts__ul {
+        padding: 0px;
+        padding-left: 25px;
+    }
+    .map-and-form__form__contacts__title {
+      max-width: 114px;
+        text-align: left;
+        margin: 0px auto 46px auto;
+    }
+}
+@media screen and (max-width:767px) {
+    .map-and-form__form {
+        margin-top: 0px;
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .map-and-form__form__contacts {
+        width: 100%;
+        order: 1;
+    }
+    .map-and-form__form__contacts {
+        padding-top: 40px;
+    }
+    .map-and-form__form__contacts__title {
+        font-size: 20px;
+        max-width: 100%;
+    }
+    .map-and-form__form__contacts__ul {
+        max-width: 285px;
+    }
+}
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+.map-and-form__form__contacts__form {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    padding-top: 54px;
+    padding-bottom: 50px;
+}
+.map-and-form__form__contacts__form__text1 {
+  font-size: 24px;
+    margin-bottom: 31px;
+}
+.map-and-form__form__contacts__form__text2{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.33;
+  text-align: center;
+  color: #2e2d2c;
+      max-width: 300px;
+    margin-bottom: 15px;
+}
+.map-and-form__form__contacts__form__input {
+    width: 402px;
+    max-width: 90%;
+      height: 50px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 0px 0px rgba(62, 54, 38, 0.15);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-left: 16px;
+      font-size: 16px;
+  color: #1c1b20;
+    transition: all 0.3s;
+      border: solid 1px #eaeaeb;
+}
+.map-and-form__form__contacts__form__input:focus {
+  box-shadow: 0px 6px 12px 0px rgba(62, 54, 38, 0.15);
+      border: solid 1px transparent;
+}
+.map-and-form__form__contacts__form__input::placeholder {
+    font-weight: 300;
+}
+.map-and-form__form__contacts__form__texarea{
+    width: 402px;
+    max-width: 402px;
+    height: 124px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 0px rgba(62, 54, 38, 0.15);
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    font-size: 16px;
+    color: #1c1b20;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, border, color;
+    padding-top: 11px;
+    border: solid 1px #eaeaeb;
+}
+.map-and-form__form__contacts__form__texarea:focus {
+  box-shadow: 0px 6px 12px 0px rgba(62, 54, 38, 0.15);
+      border: solid 1px transparent;
+}
+.map-and-form__form__contacts__form__texarea::placeholder {
+    font-weight: 300;
+}
+.map-and-form__form__contacts__form__submit {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+@media screen and (max-width:767px) {
+    .map-and-form__form__contacts__form {
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
+    .map-and-form__form__contacts__form__text1 {
+        font-size: 20px;
+        margin-bottom: 28px;
+        max-width: 100%;
+    }
+    .map-and-form__form__contacts__form__text2 {
+        width: 300px;
+        max-width: 90%;
+    }
+    .map-and-form__form__contacts__form__input {
+        width: 100%;
+    }
+    .map-and-form__form__contacts__form__texarea {
+        max-width: 90%;
+        width: 90%;
+    }
+}
+/*////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////*/
+.footer__make-an-appointment {
+    padding-bottom: 90px;
+    padding-top: 95px;
+    background-color: #a3dced;
+}
+@media screen and (max-width:767px) {
+    .footer__make-an-appointment {
+        padding-top: 40px;
+        padding-bottom: 52px;
+    }
+}

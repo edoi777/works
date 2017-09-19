@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16">
+<defs>
+    <style>
+      .cls-1 {
+        fill:  #2f2562;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke:  #2f2562;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="6.5" cy="6.5" r="1"/>
+  <path id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" class="cls-2" d="M6.5,1a5.736,5.736,0,0,1,5.736,5.736C12.236,9.9,6.5,15,6.5,15S0.764,9.9.764,6.735A5.736,5.736,0,0,1,6.5,1Z"/>
+</svg>

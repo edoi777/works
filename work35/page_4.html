@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+        <!--        common css-->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <!--        page css-->
+        <link rel="stylesheet" href="css/page_4.css">
+        <!--        jq-->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <!--        noui-->
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/wnumb.js"></script>
+        <script src="js/noui.js"></script>
+        <link rel="stylesheet" href="css/noui.css">
+        <!--        slickslider-->
+        <script src="js/slick.js"></script>
+        <link rel="stylesheet" href="css/slick.css">
+        <!--       commons script and page script-->
+        <script src="js/common.js"></script>
+<!--        <script src="js/page_4.js"></script>-->
+        <script src="js/footer__callback_form.js"></script>
+    </head>
+    <body>  <img src="img/up-button.svg" alt="" class="up_button">
+        <header>
+            <div class="wrapper header__wrapper">
+                <div class="header__top-line">
+                    <div class="header__menu-button-and-tel-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 50 50" class="header__menu-button" id="header__menu-button">
+                            <path style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;-inkscape-font-specification:Bitstream Vera Sans" d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 L 0 7.5 z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 L 0 22.5 z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 L 0 37.5 z" overflow="visible" enable-background="accumulate" font-family="Bitstream Vera Sans"/>
+                        </svg>
+                        <a href="tel:+7 495 555-55-55" class="header__tel">+7 495 555-55-55</a>
+                    </div>
+                    <a href="#" class="header__logo">
+                        <img src="img/logo.svg" alt="" class="header__logo__img">
+                        <span class="header__logo__span">баня<span>под</span>ключ</span>
+                    </a>
+                    <a href="#" class="header__submit-application-button">Оставить заявку</a>
+                </div>
+                <img src="img/header__close-button.png" class="header__close-button" id="header__close-button">
+                <ul class="header__menu">
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Главная</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Контакты</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">О производстве</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Города</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Цены на бани</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Готовые бани</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Бани из бруса</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Деревянные бани</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Каркасные бани</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Купить баню</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Строительство бань</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Баня на дачу</a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="first-screen p1">
+            <div class="breadcubs-and-top-panel-wrapper wrapper">
+                <ul class="breadcubms">
+                    <li class="breadcubms__li"><a href="#" class="breadcubms__li__a link_t_1">Главная</a></li>
+                    <li class="breadcubms__li">—  Готовые бани</li>
+                </ul>
+                <ul class="top__tools">
+                    <li class="top__tools__li">
+                        <img src="img/icon__discount.svg" alt="" class="top__tools__li__img">
+                        <div class="top__tools__wr-text">
+                            <div class="top__tools__title">Калькулятор</div>
+                            <div class="top__tools__description">цен на бани</div>
+                        </div>
+                    </li>
+                    <li class="top__tools__li">
+                        <img src="img/icon__marker.svg" alt="" class="top__tools__li__img">
+                        <div class="top__tools__wr-text">
+                            <div class="top__tools__title select-city">Москва</div>
+                            <div class="top__tools__description">ваш город</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="wrapper first-screen__body">
+                <h1 class="first-screen__t1">Купить баню<br> под ключ</h1>
+                <p class="first-screen__t2">У нас вы можете купить баню недорого под ключ либо отдельно по элементам!</p>
+                <p class="first-screen__t3">от <span>199 000</span> рублей</p>
+                <a href="#" class="btn_t_1 first-screen__t4">Рассчитать цену<img src="img/btn_t_1.svg" alt=""></a>
+                <p class="first-screen__t5"><span>1 августа</span> цены повышаются — успейте!</p>
+            </div>
+            <div class="first-screen__arrow-botom__wr" id="first-screen__arrow-botom"><img src="img/icon__arrow_bottom.svg" alt="" class="first-screen__arrow-botom"></div>
+        </section>
+        <section class="p4_b1 white">
+            <div class="wrapper p4_b1_wrapper">
+                <h2 class="p4_b1_t1">Где купить баню?</h2>
+                <div class="p4_b1_t2">
+                   <img src="img/page_4/p4_b1_t2__right_part.png" alt="" class="p4_b1_t2__right_part">
+                    <div class="p4_b1_t2__left_part text">
+                        <p>Если решили купить баню в Москве или другом городе, вы наверняка столкнетесь с сотнями разных предложений. На одном сайте вам будут говорить, что у них самые лучшие бани, на другом будут уверять, что главное - купить баню недорого (а остальное, якобы, приложится).</p>
+                        <p> Правда в том, что все это не так.</p>
+                       <p>Единственный, кто действительно должен знать, что ему нужно в данной ситуации, - вы. Вам стоит сначала нарисовать в голове идеальную комплектацию своей бани, продумать мелочи, и только потом выбирать среди разных предложений.</p>
+                       <p> Мы долго думали, как помочь клиентам проще покупать бани, и поэтому разработали удобный <a href="#" class="blue_link">калькулятор цен</a>, который поможет учесть все важные критерии и ничего не забыть.</p>
+                        <p> Мы рекомендуем покупать бани только у проверенных производителей (про наше производство читайте <a href="#" class="blue_link">здесь</a>). И покупку стоит делать только с предварительно подготовленным списком того, что вам действительно необходимо в бане (кому-то важна финская парная и навороченный котел, а кому-то достаточно купить стены, а остальное сделать самостоятельно).</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="p4_b2 gray_and_shadow">
+            <div class="wrapper p4_b2_wrapper">
+                <h2 class="p4_b2_t1">Можно ли купить баню
+под ключ недорого?</h2>
+                <div class="p4_b2_t2">
+                   <img src="img/page_4/p4_b2_t2__left_part.png" alt="" class="p4_b2_t2__left_part">
+                    <div class="p4_b2_t2__right_part text">
+                        <p>Да, конечно, вы можете купить готовую баню недорого и быстро. Но опять встанет вопрос: как и где найти ту идеальную <a href="#" class="blue_link">готовую баню</a>, которая подойдет именно вам и будет соответствовать задумке? И бывают ли такие?</p>
+<p>
+<a href="#" class="blue_link">Бани под ключ</a> отличаются тем, что они продаются уже готовыми, без необхоимости долго ждать изготовления (для сравнения: обычные бани на заказ могут делаться от 1 до 2 месяцев).
+<p>
+Грубо говоря, сегодня выбрал - завтра оплатил - послезавтра получил готовую баню. Вот так это работает!</p>
+<p>
+Что ж, есть отличное решение на бани из бруса под ключ! Вы можете не просто выбрать из наших готовых проектов (такое вам предложат сотни других сайтов), а можете полностью сконфигурировать ту баню мечты, которую пожелаете!</p>
+<p>
+    В совокупности, в нашем <a href="#" class="blue_link">конструкторе</a> вы можете составить более 1 000 000 различных размеров и комплектаций бань.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="common_block_t1">
+            <div class="wrapper common_block_t1__wrapper">
+                <div class="common_block_t1__b1">“</div>
+                <div class="common_block_t1__b2">Чтобы купить баню под ключ,
+больше не нужно выбирать “из
+готового”. Соберите её сами!</div>
+                <a href="#" class="btn_t_2 common_block_t1__b3">Рассчитать в калькуляторе</a>
+                <div class="common_block_t1__b4">.</div>
+            </div>
+        </section>
+        <section class="p4_b3 white">
+            <div class="wrapper p4_b3_wrapper">
+                <h2 class="p4_b3_t1">Можно ли от чего-то отказаться?</h2>
+                <div class="p4_b3_t2">
+                    <img src="img/page_4/p4_b3_t2__right_part__img.png" alt="" class="p4_b3_t2__right_part">
+                    <div class="p4_b3_t2__left_part">
+                        <div class="p4_b3_t2__left_part__t1 text">
+                           <p> Мы создали гибкую технологию производства бань, которая позволяет вам купить только ту комплектацию готовой бани, которая вам действительно необходимо.</p>
+                       <p>
+                        Это значит, что вы сами решаете все важные параметры.</p>
+                        <p>
+                        Чаще всего клиенты пользуются одним из 3 вариантов:</p>
+                        </div>
+                    <ul class="p4_b3_t2__left_part__t2">
+                        <li class="p4_b3_t2__left_part__t2__item">
+                            <img src="img/page_4/p4_b3_t2__left_part__t2__item__img_1.png" alt="" class="p4_b3_t2__left_part__t2__item__img">
+                            <div class="p4_b3_t2__left_part__t2__item__wr">
+                                <p class="p4_b3_t2__left_part__t2__item__wr__t1">Только стены бани</p>
+                                <p class="p4_b3_t2__left_part__t2__item__wr__t2">В этом случае клиенты заказывают только стены готовой бани, а дальнейшие работы по монтажу и подготовке фундамента и обработке древесины берут на себя. Такой вариант популярен у строительных бригад, которые сотрудничают с нами.</p>
+                            </div>
+                        </li>
+                        <li class="p4_b3_t2__left_part__t2__item">
+                            <img src="img/page_4/p4_b3_t2__left_part__t2__item__img_3.png" alt="" class="p4_b3_t2__left_part__t2__item__img">
+                            <div class="p4_b3_t2__left_part__t2__item__wr">
+                                <p class="p4_b3_t2__left_part__t2__item__wr__t1">Баня под ключ с работами</p>
+                                <p class="p4_b3_t2__left_part__t2__item__wr__t2">При таком выборе клиенты выбирают покупают баню, а также заказывают установку под ключ. Этот вариант подойдет для тех, кто понимает важность соблюдения технологии сборки бани.</p>
+                            </div>
+                        </li>
+                        <li class="p4_b3_t2__left_part__t2__item">
+                            <img src="img/page_4/p4_b3_t2__left_part__t2__item__img_2.png" alt="" class="p4_b3_t2__left_part__t2__item__img">
+                            <div class="p4_b3_t2__left_part__t2__item__wr">
+                                <p class="p4_b3_t2__left_part__t2__item__wr__t1">Баня под ключ с работами и парилкой</p>
+                                <p class="p4_b3_t2__left_part__t2__item__wr__t2">Это самый элитный вариант. Мы не только изготовим и установим для вас отличную баню по выбранным размерам. Еще мы сделаем качественную парилку на выбор (русская, финская, турецкая), смонтируем и наладим котел № 1 для бань от фирмы Vohringer, установим 2 двери и окно. Такая баня сразу готова к использованию!</p>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+        <section class="p4_b4 gray_and_shadow">
+            <div class="wrapper p4_b4_wrapper">
+                <h2 class="p4_b4_t1">Купите баню под ключ
+в несколько кликов!</h2>
+                <div class="p4_b4_t2 text"><p>Наш завод давно изготавливает бани. Последние несколько лет мы работали днём и ночью, чтобы сделать особенный сервис по заказу бань, гибкий и максимально комфортный для вас.</p>
+<p>
+Мы уверены, что эта задумка получилась “на отлично”!</p>
+<p>
+Мы первыми на российском рынке стали использовать технологию быстрой сборки бань из бруса по принципу HPW.</p>
+<p>
+    Чтобы купить баню под ключ можно было в несколько кликов, мы создали калькулятор цен. В нем вы можете:</p></div>
+           <ul class="common_ul">
+               <li class="common_ul__item">Выбрать интересующие параметры бани под ключ (включая размеры);</li>
+               <li class="common_ul__item">Определиться с дополнительными функциями;</li>
+               <li class="common_ul__item">Решить, нужна ли парилка под ключ или только сама баня;</li>
+               <li class="common_ul__item">Получить бесплатный расчет цены за несколько минут и бесплатную консультацию нашего эксперта</li>
+           </ul>
+           <a href="#" class="btn_t_1 p4_b4_t4">В конструктор!<img src="img/btn_t_1.svg" alt=""></a>
+            </div>
+        </section>
+        <div class="footer__callback">
+            <form class="footer_form">
+                <p class="footer_form__title">Свяжитесь с экспертом по баням под ключ</p>
+                <label class="footer_form__label">
+                    <input type="text" placeholder="Имя" class="footer_form__input" required>
+                    <span class="footer_form__span">укажите ваше имя</span>
+                </label>
+                <label class="footer_form__label">
+                    <input type="text" placeholder="+7" class="footer_form__input footer_form__input__tel" required>
+                    <span class="footer_form__span">укажите контактный телефон</span>
+                </label>
+                <button class="btn_t_2 disabled">Хочу поговорить с экспертом</button>
+                <label class="footer_form__label privacy_agreement">
+                    <input type="checkbox" class="footer_form__label__checkbox" checked required>
+                    <span class="footer_form__span">Согласен на обработку персональных данных и
+                        принимаю <a href="#">Соглашение о конфиденциальности</a></span>
+                </label>
+            </form>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <ul class="footer__menu">
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Баня под ключ</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Бани из бруса</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Купить баню</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Контакты</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Цены на бани</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Деревянные бани</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Строительство бань</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">О производстве</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Готовые бани</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Каркасные бани</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Баня на дачу</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Доставка и оплата</a></li>
+                </ul>
+                <div class="footer__callback_button">
+                    <span class="footer__callback_button__span">+7 (495) 505-28-02</span>
+                    <a href="tel:+7 (495) 505-28-02" class="footer__callback_button__a to_footer">Вам перезвонить?</a>
+                </div>
+                <div class="footer__adress">
+                    г. Москва, Краснопресненская набережная, д. 12  |  <a href="#" class="footer__adress__all_sity">Все города</a>
+                </div>
+                <div class="footer__soc">
+                    <a href="#" class="footer__soc__item">
+                        <img src="img/icon__vk.png" alt="">
+                    </a>
+                    <a href="#" class="footer__soc__item">
+                        <img src="img/icon__yt.png" alt="">
+                    </a>
+                    <a href="#" class="footer__soc__item">
+                        <img src="img/icon__in.png" alt="">
+                    </a>
+                </div>
+                <div class="footer__copy_right">
+                    <p class="footer__copy_right__item">© ООО “Баня под ключ”. Не является публичной офертой.</p>
+                    <a href="#" class="footer__copy_right__item">Соглашение о конфиденциальности</a>
+                    <a href="#" class="footer__copy_right__item">Карта сайта</a>
+                    <a href="#" class="footer__copy_right__item">О сайте</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

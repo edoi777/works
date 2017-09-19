@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta name="viewport" id="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=10.0,minimal-ui">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!--<meta name="apple-mobile-web-app-status-bar-style" content="black">-->
+	<meta name="apple-mobile-web-app-title" content="Blockchain.aero — proof-of-flight">
+
+
+	<link rel="icon" href="img/517e397155d56772b3000021/upload-307df420-7b15-11e7-b93d-4905c1a3959f_144.png" type="image/png"/>
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/517e397155d56772b3000021/upload-307df420-7b15-11e7-b93d-4905c1a3959f_144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/517e397155d56772b3000021/upload-307df420-7b15-11e7-b93d-4905c1a3959f_114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/517e397155d56772b3000021/upload-307df420-7b15-11e7-b93d-4905c1a3959f_72.png">
+	<link rel="apple-touch-icon-precomposed" href="img/517e397155d56772b3000021/upload-307df420-7b15-11e7-b93d-4905c1a3959f_57.png">
+    <link rel="next" href="http://readymag.com/2/">
+    <link rel="canonical" href="http://readymag.com/">
+    <meta content="955357184504374" property="fb:app_id" >
+    <meta content="website" property="og:type" >
+    <meta content="http://readymag.com/830710/" property="og:url" >
+    <meta content="summary_large_image" name="twitter:card" >
+    <meta content="@readymag" name="twitter:site" >
+    <meta content="The world&#x27;s 1st blockchain-platform for mass urban aviation" name="description" >
+    <meta content="mcfly, token, mcfly token, blockchain.aero, evtol, proof-of-flight" name="keywords" >
+    <meta content="Blockchain.aero — proof-of-flight" property="og:site_name" >
+    <meta content="https://rm-content.s3.amazonaws.com/517e397155d56772b3000021/upload-38d2bbd0-82ac-11e7-a4de-072981b2f602.png" property="og:image" >
+    <meta content="Blockchain.aero — proof-of-flight" property="og:title" >
+    <meta content="The world&#x27;s 1st blockchain-platform for mass urban aviation" property="og:description" >
+    <link href="https://plus.google.com/105502199532525442597" rel="publisher"/>
+	<!--[if IE]><link rel="shortcut icon" href="http://readymag.com/img/517e397155d56772b3000021/upload-307df420-7b15-11e7-b93d-4905c1a3959f_144.png" type="image/x-icon"/><![endif]-->
+
+
+	<title>Blockchain.aero — proof-of-flight by Attractor | Readymag</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/common.js"></script>
+	<style>
+    @font-face {
+    font-family: 'mblc';
+    src: url(https://use.typekit.net/af/a6f61f/00000000000000003b9aee00/27/l?subset_id=1&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/a6f61f/00000000000000003b9aee00/27/d?subset_id=1&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/a6f61f/00000000000000003b9aee00/27/a?subset_id=1&fvd=n7&v=3) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mblc';
+    src: url(https://use.typekit.net/af/bf0194/00000000000000003b9aedfe/27/l?subset_id=1&fvd=n3&v=3) format("woff2"), url(https://use.typekit.net/af/bf0194/00000000000000003b9aedfe/27/d?subset_id=1&fvd=n3&v=3) format("woff"), url(https://use.typekit.net/af/bf0194/00000000000000003b9aedfe/27/a?subset_id=1&fvd=n3&v=3) format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mblc';
+    src: url(https://use.typekit.net/af/3bd8b6/00000000000000003b9aedff/27/l?subset_id=1&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/3bd8b6/00000000000000003b9aedff/27/d?subset_id=1&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/3bd8b6/00000000000000003b9aedff/27/a?subset_id=1&fvd=n4&v=3) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mblc';
+    src: url(https://use.typekit.net/af/02335f/00000000000000003b9aee01/27/l?subset_id=1&fvd=n8&v=3) format("woff2"), url(https://use.typekit.net/af/02335f/00000000000000003b9aee01/27/d?subset_id=1&fvd=n8&v=3) format("woff"), url(https://use.typekit.net/af/02335f/00000000000000003b9aee01/27/a?subset_id=1&fvd=n8&v=3) format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}</style>
+<script>
+/*******************************************************/
+//          Переключение меню
+/*******************************************************/
+document.addEventListener('DOMContentLoaded', function(){
+    document.getElementsByClassName('mobille__menu-button')[0].onclick = function() {
+        document.getElementsByClassName('header_fixed')[0].classList.toggle('show');
+    };
+    document.getElementsByClassName('header_fixed__close')[0].onclick = function() {
+        document.getElementsByClassName('header_fixed')[0].classList.toggle('show');
+    };
+     startCountdown();
+});
+    /*******************************************************/
+//          Анимация при скроллинге
+/*******************************************************/
+var anim = document.getElementsByClassName('s3__t2'),
+    anim_elem = document.getElementsByClassName('s3__t2__item__circle'),
+    anim2 =  document.getElementsByClassName('s3__t4'),
+    anim3 =  document.getElementsByClassName('header_fixed'),
+    anim4 =  document.getElementsByClassName('footer_fixed');
+
+var anim5 =  document.getElementsByClassName('s10__left__t2__anim');
+window.onscroll = function() {
+    if (window.innerWidth > 1024) {
+            if (anim[0].getBoundingClientRect().top < 780) {
+                    var percent = (((anim[0].getBoundingClientRect().top - 500) / 2.8)).toFixed(0);
+                    var percent =  (percent < 100) ? '0.' + ((100 - percent < 10) ? ('0' + (100 - percent)) : 100 - percent  ) : 0;
+                    var scale = (anim[0].getBoundingClientRect().top > 500) ? percent : 1;
+
+                    for (var i = 0; i < anim_elem.length; i++) {
+                        anim_elem[i].style.transform = 'translateX(-50%) scale(' + scale + ')';
+                    }
+        //            console.log(scale);
+                    anim2[0].style.opacity = scale;
+                    anim3[0].style.opacity = scale;
+                    anim3[0].style.pointerEvents = 'all';
+                    anim4[0].style.opacity = scale;
+            } else {
+                    for (var i = 0; i < anim_elem.length; i++) {
+                          anim_elem[i].style.transform = 'translateX(-50%) scale(' + 0 + ')';
+                    }//for
+                    anim2[0].style.opacity = 0;
+                    anim3[0].style.opacity = 0;
+                    anim3[0].style.pointerEvents = 'none';
+                    anim4[0].style.opacity = 0;
+            }
+    }
+
+    if (anim5[0].getBoundingClientRect().top < 780) {
+            var percent = (((anim5[0].getBoundingClientRect().top - 500) / 2.8)).toFixed(0);
+            var percent =  (percent < 100) ? '0.' + ((100 - percent < 10) ? ('0' + (100 - percent)) : 100 - percent  ) : 0;
+            var scale = (anim5[0].getBoundingClientRect().top > 500) ? percent : 1;
+
+            anim5[0].style.transform = 'scale(' + scale + ')';
+            anim5[0].style.opacity = scale;
+            anim5[1].style.transform = 'scale(' + scale + ')';
+            anim5[1].style.opacity = scale;
+    } else {
+
+            anim5[0].style.transform = 'scale(0.7,0.7)';
+            anim5[0].style.opacity = 0;
+            anim5[1].style.transform = 'scale(0.7,0.7)';
+            anim5[1].style.opacity = 0;
+    }
+
+}//end
+	punctuation.definition.tag.html
+	meta.tag.any.html
+	text.html.basic
+
+	entity.name.tag.html
+		meta.tag.metadata.script.html
+		meta.embedded.block.html
+		text.html.basic
+</script>
+</head>
+<body class="en">
+<script src="js/common.js"></script>
+	<div class="mobille__menu-button">
+    <img src="img/mobille__menu-button.png" alt="" class="mobille__menu-button__img">
+</div>
+<div class="header_fixed">
+    <div class="wrap header_fixed__wrapper">
+        <a href="#scroll_1" class="header_fixed__logo">
+            <img src="img/logo.png" alt="" class="header_fixed__logo__img">
+        </a>
+        <a href="#scroll_2" class="header_fixed__item">
+            <span class="en">Token Launch</span>
+            <span class="cn">代币的开展</span>
+        </a>
+        <a href="#scroll_3" class="header_fixed__item">
+            <span class="en">Bartini</span>
+            <span class="cn">Bartini</span>
+        </a>
+        <a href="#scroll_4" class="header_fixed__item">
+            <span class="en">Blockchain</span>
+            <span class="cn">区块链</span>
+        </a>
+        <a href="#scroll_5" class="header_fixed__item">
+            <span class="en">Members</span>
+            <span class="cn">管理团队</span>
+		</a>
+        <div class="header_fixed__close"></div>
+        <div class="header_fixed__token">
+             McFly token Asset ID on <a href="https://wavesplatform.com/" target="_blank">Waves</a>
+             <span>7EHVUjcgEV9Du8qp95tS1eBV8DFtenmX64H3QawdCkC4</span>
+        </div>
+        <a href="mailto:info@blockchain.aero" class="header_fixed__mail">info@blockchain.aero</a>
+    </div>
+</div>
+<div class="footer_fixed fff">
+    <div class="wrap footer_fixed__wrapper">
+        <div class="footer_fixed__text">
+           <span class="en"> McFly token Asset ID on <a href="#">Waves</a> — 7EHVUjcgEV9Du8qp95tS1eBV8DFtenmX64H3QawdCkC4</span>
+           <span class="cn"> 在 <a href="#">Waves</a> 平台上代币资产身份: 7EHVUjcgEV9Du8qp95tS1eBV8DFtenmX64H3QawdCkC4</span>
+        </div>
+        <a href="#" class="footer_fixed__link">
+            <span class="en">Hop On!</span>
+            <span class="cn">作短途旅行</span>
+        </a>
+    </div>
+</div>
+<section class="s1 fff" id="scroll_1">
+    <div class="wrap">
+        <header class="s1__header">
+            <a href="http://blockchain.aero/" class="header__logo">
+                <img src="img/logo.png" alt="" class="header__logo__img">
+            </a>
+            <div class="header__toggle-language">
+                <div class="header__toggle-language__en active">English</div>
+                <div class="header__toggle-language__cn">中文</div>
+            </div>
+            <div class="header__soc">
+                <a href="https://publicslack.com/slacks/blockchainaero/invites/new" class="header__soc__item"><img src="img/slack.png" alt="" class="header__soc__item__img"></a>
+                <a href="https://www.facebook.com/Blockchainaero-1010791549057886/" class="header__soc__item"><img src="img/facebook.png" alt="" class="header__soc__item__img"></a>
+                <a href="https://t.me/blockchainaero" class="header__soc__item"><img src="img/telegramm.png" alt="" class="header__soc__item__img"></a>
+                <a href="https://twitter.com/blockchainaero" class="header__soc__item"><img src="img/twitter.png" alt="" class="header__soc__item__img"></a>
+                <a href="https://www.youtube.com/channel/UCxZKKVzitGqYAQwefDMqNrw" class="header__soc__item"><img src="img/youtube.png" alt="" class="header__soc__item__img"></a>
+            </div>
+        </header>
+        <div class="s1__t1">
+            <span class="en">The world's first blockchain<br> platform for mass urban aviation</span>
+            <span class="cn">世界上首个城市大众航空的区块链平台</span>
+        </div>
+        <div class="s1__t2" id="countdownText">
+            <p>Token Launch Phase 1.1: <span>40% Discount</span></p>
+            <p class="timer">3 days 3 hours 4 minutes 5 seconds remaining</p>
+        </div>
+    </div>
+        <div class="s1__t3">
+            <img src="img/samolet.png" alt="" class="s1__t3__samolet">
+            <div class="s1__t3__item"><img src="img/phone.png" alt="" class="s1__t3__item__img s1__t3__item__img--phone" width="32"></div>
+            <div class="s1__t3__item"><img src="img/pay.png" alt="" class="s1__t3__item__img s1__t3__item__img--pay" width="42"></div>
+            <div class="s1__t3__item"><img src="img/eco.png" alt="" class="s1__t3__item__img" width="48"></div>
+            <div class="s1__t3__item"><img src="img/yakor.png" alt="" class="s1__t3__item__img" width="47"></div>
+            <div class="s1__t3__item__full-width"><img src="img/steps.jpg" alt="" class="s1__t3__item__full-width__img"></div>
+        </div>
+        <div class="s1__t4">
+            <a href="#" class="s1__t4__btn-ho-on"><span class="en">Hop On!</span><span class="cn">作短途旅行!</span></a>
+            <a href="#" class="s1__t4__btn-white-paper"><span class="en">White Paper</span><span class="cn">白皮书</span></a>
+        </div>
+            <div class="header__soc header__soc--mobile">
+                <a href="https://publicslack.com/slacks/blockchainaero/invites/new" class="header__soc__item"><img src="img/slack.png" alt="" class="header__soc__item__img"></a>
+                <a href="https://www.facebook.com/Blockchainaero-1010791549057886/" class="header__soc__item"><img src="img/facebook.png" alt="" class="header__soc__item__img"></a>
+                <a href="https://t.me/blockchainaero" class="header__soc__item"><img src="img/telegramm.png" alt="" class="header__soc__item__img"></a>
+                <a href="https://twitter.com/blockchainaero" class="header__soc__item"><img src="img/twitter.png" alt="" class="header__soc__item__img"></a>
+                <a href="https://www.youtube.com/channel/UCxZKKVzitGqYAQwefDMqNrw" class="header__soc__item"><img src="img/youtube.png" alt="" class="header__soc__item__img"></a>
+            </div>
+</section>
+<section class="s2">
+    <div class="wrap s2__wraper">
+        <a href="https://www.vedomosti.ru/technology/articles/2017/07/20/724764-bartini-letayuschego-elektromobilya" class="s2__item" target="_blank"><img src="img/vedomosti.png" alt="" class="s2__item__img" height="18"></a>
+        <a href="https://incrussia.ru/news/rossijskij-startap-anonsiroval-letayushhee-taksi-na-blokchejne/" class="s2__item" target="_blank"><img src="img/inc.png" alt="" class="s2__item__img" height="22"></a>
+        <a href="http://firrma.ru/data/news/60158/" class="s2__item" target="_blank"><img src="img/firrma.png" alt="" class="s2__item__img" height="36"></a>
+        <a href="http://forklog.com/rossijskij-startap-bartini-razrabotal-proekt-letayushhego-taksi-na-blokchejne/" class="s2__item" target="_blank"><img src="img/forklog.png" alt="" class="s2__item__img" height="24"></a>
+        <a href="https://rb.ru/news/bartini-photos/" class="s2__item" target="_blank"><img src="img/rusbase.png" alt="" class="s2__item__img" height="25"></a>
+        <a href="https://youtu.be/oLOhAouRrNI" class="s2__item" target="_blank"><img src="img/rt.png" alt="" class="s2__item__img" height="20"></a>
+        <a href="http://sk.ru/news/b/articles/archive/2017/08/03/flying-cars-ready-to-take-to-moscow_1920_s-skies.aspx" class="s2__item" target="_blank"><img src="img/skolkova.png" alt="" class="s2__item__img" height="38"></a>
+        <a href="http://www.the-village.ru/village/business/news/275638-biz-geek" class="s2__item" target="_blank"><img src="img/village.png" alt="" class="s2__item__img" height="28"></a>
+    </div>
+</section>
+<section class="s3 fff">
+    <div class="wrap s3__wrapper">
+        <div class="s3__t1"><span class="en">Get Your McFly Tokens</span><span class="cn">获得您的McFly代币</span></div>
+        <ul class="s3__t2">
+            <li class="s3__t2__item">
+                <span class="en">Get your waves wallet <br><a href="#">Waves Lite Client</a></span>
+                <span class="cn">安装您的Waves <br>轻客户机软件</span>
+                <div class="s3__t2__item__circle"></div>
+            </li>
+            <li class="s3__t2__item">
+                <span class="en">Get BTC, ETH or Waves to exchange for the McFly</span>
+                <span class="cn">得到比特币，以太坊或者Waves去换取 McFly 代币</span> <div class="s3__t2__item__circle"></div></li>
+            <li class="s3__t2__item">
+                <span class="en">Get McFly tokens on the DEX<br> decentralized exchange</span>
+                <span class="cn">在去中心化的交易所得到 <br>McFly 代币</span>
+                <div class="s3__t2__item__circle"></div></li>
+            <li class="s3__t2__item-line"><div class="s3__t2__item-line__line"></div></li>
+        </ul>
+        <div class="s3__t3">
+           <span class="cn"> 在 <a href="#">waves</a>平台上代币资产身份<br>
+<span>7EHVUjcgEV9Du8qp95tS1eBV8DFtenmX64H3QawdCkC4</span></span>
+            <span class="en">McFly token Asset ID on <a href="#">Waves</a>
+<span>7EHVUjcgEV9Du8qp95tS1eBV8DFtenmX64H3QawdCkC4</span></span>
+        </div>
+        <a href="#" class="s3__t4"><span class="en">Get McFly Step-By-Step </span><span class="cn">获得 McFly 代币的分步说明</span></a>
+    </div>
+</section>
+<section class="s4 bfff blue" id="scroll_2">
+    <div class="wrap">
+        <div class="s4__t1">
+             <div class="s4__t1__left">
+                    <div class="s4__t1_1"><span class="en">Token Launch</span><span class="cn">代币的开展</span></div>
+                    <div class="s4__t1_2">
+                        <span class="en">Announced at the International Aviation and Space Salon MAKS-2017</span>
+                        <span class="cn">代币的开展</span>
+                    </div>
+                    <div class="s4__t1_3">
+                        <span class="en">A total of 1.8 Bln McFly on Waves and Ethereum platforms. Only 3000 Bartini Flying Cars for the early adopters.</span>
+                        <span class="cn">在2017年莫斯科国际航空博览会上宣布了</span>
+                    </div>
+             </div>
+           <div class="s4__t1__right">
+                 <iframe class="" id="video_video_1124" src="https://www.youtube.com/embed/oLOhAouRrNI?wmode=opaque&amp;enablejsapi=1&amp;playlist=&amp;autohide=1&amp;loop=0&amp;showinfo=0&amp;theme=dark&amp;controls=1&amp;html5=1&amp;rel=0&amp;vq=hd1080" width="410" height="223" frameborder="0" allowfullscreen="" class="fade-out"></iframe>
+           </div>
+        </div>
+        <blockquote class="s4__t2">
+            <span class="en">Blockchains are a new invention that allows meritorious participants in an open network to govern without a ruler and without money.</span>
+            <span class="cn">区块链是新发明物，它允许值得称赞的参与者不依靠钱和主导者的情况下在一个公开的系统上。</span>
+            <div class="s4__t2__name">Naval Ravikant</div>
+        </blockquote>
+    </div>
+</section>
+<section class="s5 fff">
+    <div class="wrap">
+        <div class="s5__t1">
+            <div class="s5__t1__item">
+                <div class="s5__t1__item__title">
+                   <span class="en">Token Launch Phase 1.1</span>
+                   <span class="cn">代币开展阶段1.1</span>
+                </div>
+                <img src="img/img1.png" alt="" class="s5__t1__item__img">
+                <div class="s5__t1__item__text1">
+                    <span class="en">500 Flying Cars = 300m McFly<br> 1 Waves = 146 McFly</span>
+                    <span class="cn">500辆飞行车 = 3亿McFly代币<br> 1 Waves = 146McFly 代币</span>
+                </div>
+          <a  href="#" class="s5__t1__item__discont">
+              <span class="en">LIVE NOW<br> 40%<br> DISCOUNT</span>
+              <span class="cn">现在40%折扣</span>
+          </a>
+           </div>
+            <div class="s5__t1__item">
+                <div class="s5__t1__item__title">
+                    <span class="en">Token Launch Phase 1.2</span>
+                    <span class="cn">代币开展阶段1.2</span>
+                </div>
+                <img src="img/img2.png" alt="" class="s5__t1__item__img">
+                <div class="s5__t1__item__text1">
+                    <span class="en">2500 Flying Cars = 1,500m McFly <br>1 ETH = 5,600 McFly</span>
+                    <span class="cn">2500辆飞行车 = 15亿McFly代币<br>1 ETH = 5600 McFly</span>
+                </div>
+           </div>
+        </div>
+        <div class="s5__t2">
+            <div class="s5__t2__item">
+                <div class="s5__t2__item__background-text">1x</div>
+                <div class="s5__t2__item__text">Waves</div>
+            </div>
+            <div class="s5__t2__item">
+                <div class="s5__t2__item__background-text">2x</div>
+                <div class="s5__t2__item__text">Ethereum</div>
+            </div>
+            <div class="s5__t2__item">
+                <div class="s5__t2__item__background-text">Trade</div>
+                <div class="s5__t2__item__text">Blockchain.aero</div>
+            </div>
+        </div>
+        <div class="s5__t3">
+            <div class="s5__t3__left">
+                <div class="s5__t3__title">
+                    <span class="en">1 minute of your flight shall cost</span>
+                    <span class="cn">1分钟航行的费用应该是</span>
+                </div>
+                <div class="s5__t3__left__list">
+                    <div class="s5__t3__left__list__item">
+                        <div class="s5__t3__left__list__item__img-wr"><img src="img/list__img1.png" alt="" class="s5__t3__left__list__item__img-wr__img"></div>
+                        <div class="s5__t3__left__list__item__text">
+                            <div class="s5__t3__left__list__item__title">Helicopter</div>
+                            <div class="s5__t3__left__list__item__price">$50</div>
+                        </div>
+                    </div>
+                    <div class="s5__t3__left__list__item">
+                        <div class="s5__t3__left__list__item__img-wr"><img src="img/list__img2.png" alt="" class="s5__t3__left__list__item__img-wr__img"></div>
+                        <div class="s5__t3__left__list__item__text">
+                            <div class="s5__t3__left__list__item__title">Private Jet</div>
+                            <div class="s5__t3__left__list__item__price">$100</div>
+                        </div>
+                    </div>
+                    <div class="s5__t3__left__list__item">
+                        <div class="s5__t3__left__list__item__img-wr"><img src="img/list__img3.png" alt="" class="s5__t3__left__list__item__img-wr__img"></div>
+                        <div class="s5__t3__left__list__item__text">
+                            <div class="s5__t3__left__list__item__title">Uber Elevate</div>
+                            <div class="s5__t3__left__list__item__price">$8</div>
+                        </div>
+                    </div>
+                    <div class="s5__t3__left__list__item">
+                        <div class="s5__t3__left__list__item__img-wr"><img src="img/list__img4.png" alt="" class="s5__t3__left__list__item__img-wr__img"></div>
+                        <div class="s5__t3__left__list__item__text">
+                            <div class="s5__t3__left__list__item__title"><img src="img/icon__mcfly.png" alt="">Bartini</div>
+                            <div class="s5__t3__left__list__item__price">1 McFly</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="s5__t3__right">
+                  <div class="s5__t3__title">
+                      <span class="en">McFly shall be listed on 2-3 exchanges</span>
+                      <span class="cn">McFly 代币将在2-3交易所挂牌上市</span>
+                  </div>
+                  <div class="s5__t3__right__list">
+                      <img src="img/list2__img1.png" alt="" class="s5__t3__right__list__img">
+                      <img src="img/list2__img2.png" alt="" class="s5__t3__right__list__img">
+                      <img src="img/list2__img3.png" alt="" class="s5__t3__right__list__img">
+                      <img src="img/list2__img4.png" alt="" class="s5__t3__right__list__img">
+                      <img src="img/list2__img5.png" alt="" class="s5__t3__right__list__img">
+                      <img src="img/list2__img6.png" alt="" class="s5__t3__right__list__img">
+                      <img src="img/list2__img7.png" alt="" class="s5__t3__right__list__img">
+                      <img src="img/list2__img8.png" alt="" class="s5__t3__right__list__img">
+                      <img src="img/list2__img9.png" alt="" class="s5__t3__right__list__img">
+                      <img src="img/list2__img10.png" alt="" class="s5__t3__right__list__img">
+                      <img src="img/list2__img11.png" alt="" class="s5__t3__right__list__img">
+                      <img src="img/list2__img12.png" alt="" class="s5__t3__right__list__img">
+                      <img src="img/list2__img13.png" alt="" class="s5__t3__right__list__img">
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s6 bfff blue" id="scroll_3">
+    <div class="wrap">
+        <div class="s6__title"><a href="#" class="s6__title__link">Bartini.aero</a> <span class="en">Vision</span> <span class="cn">概念</span></div>
+        <div class="s6__iframe">
+            <iframe class="s6__iframe__this" src="https://www.youtube.com/embed/0enR3QosQWg?wmode=opaque&amp;enablejsapi=1&amp;playlist=&amp;autohide=1&amp;loop=0&amp;showinfo=1&amp;theme=dark&amp;controls=1&amp;html5=1&amp;rel=0&amp;vq=hd1080" width="645" height="360" frameborder="0" allowfullscreen="" class="fade-out"></iframe>
+        </div>
+        <div class="s6__t1">
+            <span class="en">Bartini technology is designed so that one full lifecycle of one aerial vehicle shall correspond to approximately 700,000 McFly tokens, much like full lifecycle of a modern automobile approximates to 500,000 km of driving. Tokens therefore are used to measure the total life cycle of all components by expending tokens while the latter perform their respective functions.</span>
+            <span class="cn">Bartini技术的目的是使一台飞行器完整的生命周期有相应约700000 McFly代币，如同一辆现代汽车的完整生命周期的行驶里程约500000公里。因此，当所有的部件通过消耗代币执行各自的功能后，代币，被用于测量它们的总生命周期。</span>
+            <div class="s6__t1__description">
+                <span class="en">— commits the Bartini tech team</span>
+                <span class="cn">— Bartini技术团队提交</span>
+            </div>
+        </div>
+        <a href="#" class="s6__t2">
+            <span class="en">More about Bartini flying car</span>
+            <span class="cn">详情关于 Bartini 电动飞行车</span>
+        </a>
+    </div>
+</section>
+<section class="s7 fff">
+    <div class="wrap">
+        <div class="s7__t1">
+            <span class="en">McFly tokens in the $1.2 trillion industry</span>
+            <span class="cn">McFly 代币在1.2万亿美元的行业</span>
+        </div>
+        <div class="s7__t2">
+            <div class="s7__t2__item">
+                <div class="s7__t2__item__title">
+                    <span class="en">1 minute<br> flight</span>
+                    <span class="cn">1分钟飞行</span>
+                </div>
+                <div class="s7__t2__item__circle"></div>
+            </div>
+            <div class="s7__t2__item">
+                <div class="s7__t2__item__title">
+                    <span class="en">100 km daily<br> commute</span>
+                    <span class="cn">100公里每日<br>的路程</span>
+                </div>
+                <div class="s7__t2__item__circle"></div>
+            </div>
+            <div class="s7__t2__item">
+                <div class="s7__t2__item__title">
+                    <span class="en">1 year<br> commute</span>
+                    <span class="cn">1年路程</span>
+                </div>
+                <div class="s7__t2__item__circle"></div>
+            </div>
+            <div class="s7__t2__item">
+                <div class="s7__t2__item__title">
+                    <span class="en">Your 4-seater Bartini<br> (off-the-grid use, 3 years)</span>
+                    <span class="cn">您的有四座位的 Bartini<br> (没有电网的使用, 3年）</span>
+                </div>
+                <div class="s7__t2__item__circle"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s8 blue bfff " id="scroll_4">
+    <div class="wrap">
+        <div class="s8__title">
+            <span class="en">Transactions On The Blockchain</span>
+            <span class="cn">在区块链上的数据处理</span>
+        </div>
+         <div class="s1__t3">
+            <img src="img/samolet.png" alt="" class="s1__t3__samolet">
+            <div class="s1__t3__item"><img src="img/phone__orange.png" alt="" class="s1__t3__item__img s1__t3__item__img--phone" width="34"></div>
+            <div class="s1__t3__item"><img src="img/pay__orange.png" alt="" class="s1__t3__item__img s1__t3__item__img--pay" width="50"></div>
+            <div class="s1__t3__item"><img src="img/eco__orange.png" alt="" class="s1__t3__item__img" width="53"></div>
+            <div class="s1__t3__item"><img src="img/yakor__orange.png" alt="" class="s1__t3__item__img" width="53"></div>
+            <div class="s1__t3__item__full-width"><img src="img/steps__white.jpg" alt="" class="s1__t3__item__full-width__img"></div>
+        </div>
+        <ul class="s8__t1">
+            <li class="s8__t1__item">
+                <p>
+                    <span class="en">Client’s request (walletID1, geotag)</span>
+                    <span class="cn">客户的要求（钱包身份1，地理位置标签)</span>
+                </p>
+                <p>
+                    <span class="en">Chosen route and flight style data</span>
+                    <span class="cn">选择航线和飞行方式的数据</span>
+                </p>
+                <p>
+                    <span class="en">Flying car assigned to Flight (walletID2)</span>
+                    <span class="cn">把飞行车分配给飞行（钱包身份2）</span>
+                </p>
+                <p>
+                    <span class="en">Transaction: walletID1 (client) sends 35 McFly tokens to walletID2 (vehicle)</span>
+                    <span class="cn">数据处理：钱包身份（客户）发送35McFly代币给钱包身份2（车）</span>
+                </p>
+                <p>
+                    <span class="en">Technical lifetime consumption</span>
+                    <span class="cn">技术一生消费</span>
+                </p>
+            </li>
+            <li class="s8__t1__item">
+                <p>
+                    <span class="en">Media content during the flight</span>
+                    <span class="cn">飞行中媒体内容</span>
+                </p>
+                <p>
+                    <span class="en">Transaction: walletID2 sends 7 McFly tokens to walletZ (content distributor)</span>
+                    <span class="cn">数据处理：钱包身份2发送 7McFly 代币 给 钱包Z （内容的提供者）</span>
+                </p>
+                <p>
+                    <span class="en">Transaction: walletR (vehicle lifetime) sent 60 McFly tokens to walletF (flying vehicle factory and tech support)</span>
+                    <span class="cn">数据处理：钱包R（车的一生）发送 60McFly 代币给钱包F（飞行工厂和技术支持）</span>
+                </p>
+                <p>
+                    <span class="en">Route data</span>
+                    <span class="cn">航线的数据</span>
+                </p>
+            </li>
+            <li class="s8__t1__item">
+                <p>
+                    <span class="en">Technical lifetime consumption</span>
+                    <span class="cn">技术一生消费</span>
+                </p>
+                <p>
+                    <span class="en">Energy use</span>
+                    <span class="cn">电用</span>
+                </p>
+                <p>
+                    <span class="en">Transaction: walletID2 (vehicle) sends 20 McFly tokens to walletC (charging)</span>
+                    <span class="cn">数据处理：钱包身份2（车）发送 20McFly 代币给钱包C （充电）</span>
+                </p>
+                <p>
+                    <span class="en">Transaction: walletID2 (vehicle operations) sent 10 McFly tokens to walletP (parking)</span>
+                    <span class="cn">数据处理：钱包身份2（车运作）发送 10McFly 代币给钱包P （停车）</span>
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="s9 fff">
+    <div class="wrap s9__wrapper">
+        <div class="s9__left">
+            <div class="s9__t1">
+                <span class="en">$1.2tn market for urban flights on electrical VTOLs. Automated charging, maintenance and parking.</span>
+                <span class="cn">电动VTOL城市飞行能够投入1.2万亿美元市场。自动化的充电，保养和停车</span>
+            </div>
+            <div class="s9__t2">
+                <span class="en">McFly token is flight itself. Flying cars fly on tokens, like ordinary cars burn gasoline.</span>
+                <span class="cn">代币它自身就是飞行！如同普通的汽车烧汽油,飞行车用代币飞行</span>
+            </div>
+            <div class="s9__t2">
+                <span class="en">Open algorithms calculate price of the flight, life cycle and service charges of the vehicle.</span>
+                <span class="cn">公开的算法计算飞行，运作周期和维护费的价格。</span>
+            </div>
+            <div class="s9__t2">
+                <span class="en">McFly token forms a new OSS/BSS (operation support and business support) systems.</span>
+                <span class="cn">McFly代币制成新 OSS／BSS 系统（运作和业务的支持）</span>
+            </div>
+            <a href="#" class="s9__t3">
+                <span class="en">Hop On!</span>
+                <span class="cn">作短途旅行</span>
+            </a>
+        </div>
+        <div class="s9__right">
+            <img src="img/s9__hand.png" alt="" class="s9__right__img" width="388">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="34px" height="34px" class="s9__right__svg1"><defs><clipPath id="clip_5993060eed20e27a60b4ff9f_viewer"><ellipse cx="17" cy="17" rx="17" ry="17"></ellipse></clipPath></defs><ellipse mask="url(#mask_5993060eed20e27a60b4ff9f_viewer)" cx="17" cy="17" rx="17" ry="17" style="fill:rgba(255,177,0,0.27); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="34px" height="34px" class="s9__right__svg2"><defs><clipPath id="clip_5993060eed20e27a60b4ff9f_viewer"><ellipse cx="17" cy="17" rx="17" ry="17"></ellipse></clipPath></defs><ellipse mask="url(#mask_5993060eed20e27a60b4ff9f_viewer)" cx="17" cy="17" rx="17" ry="17" style="fill:rgba(255,177,0,1); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg>
+        </div>
+    </div>
+</section>
+<section class="s10 blue bfff">
+    <div class="wrap s10__wrapper">
+        <div class="s10__wr">
+            <img src="img/s10__img1.png" alt="" class="s10__left__img" width="98">
+            <div class="s10__left__title">
+                <span class="en">Consortium</span>
+                <span class="cn">财团</span>
+            </div>
+            <div class="s10__left__t1">
+                <span class="en">Blockchain.Aero consortium is a business platform for all participants of the mass urban aviation market. Charging and service stations, technology platforms, assembly factories, content providers, interior designers, spare parts manufacturers and the flying car makers themselves.</span>
+                <span class="cn">Blockchain. Aero 是一个面向大众城市航空市场的所有参与者的商业平台。对充电站和服务站，技术平台, 装配厂，内容的提供者，内部设计师，备件的生产者和飞行汽车的生产者。</span>
+            </div>
+            <div class="s10__left__t2">
+               <div class="s10__left__t2__anim"></div>
+                <a href="#" class="s10__left__t2__t1">
+                    <span class="en">Be Flight-Provider</span>
+                    <span class="cn">获得 McFly 代币的分步说明成为飞行提供者吧</span>
+                </a>
+                <p class="s10__left__t2__t2">
+                    <span class="en">Own 10+ vehicles and influence business agenda: participate in the Consortium's development</span>
+                    <span class="cn">您来拥有10+汽车并且影响商业事项：参与财团的发展吧</span>
+                </p>
+            </div>
+        </div>
+        <div class="s10__wr">
+            <img src="img/s10__img2.png" alt="" class="s10__left__img" width="96">
+            <div class="s10__left__title">
+                <span class="en">Community</span>
+                <span class="cn">社区</span>
+            </div>
+            <div class="s10__left__t1">
+                <span class="en">Holders of McFly tokens validate demand for flights and mass urban aviation networks. Interchange of tokens enhances the Blockchain.aero community by connecting with other blockchain enthusiasts (Ethereum, Waves, Litecoin, et al).</span>
+                <span class="cn">McFly代币的持有者认可大众城市航空系统和飞行的需求。代币交易与其他区块链的热衷者联系（以太坊，Waves, 菜特币，等等）从而提高Blockchain. Aero的社区</span>
+            </div>
+            <div class="s10__left__t2">
+               <div class="s10__left__t2__anim"></div>
+                <a href="#" class="s10__left__t2__t1">
+                    <span class="en">Be Opinion Leader</span>
+                    <span class="cn">成为意见领袖吧</span>
+                </a>
+                <p class="s10__left__t2__t2">
+                    <span class="en">Take the lead and bring flights to your followers while we offer 1 min of flight to each of them</span>
+                    <span class="cn">您来领导并把飞行带给您的粉丝。我们将对您的每个粉丝提供1分钟飞行机会</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s11 fff">
+    <div class="wrap s11__wrapper">
+        <div class="s11__t1">
+            <span class="en">Token Program Details</span>
+            <span class="cn">代币计划详情</span>
+        </div>
+        <div class="s11__t2">
+            <span class="en">Enjoy the ride — from when the first tokens will be used in experimental flights between scattered heliports to when they become the daily bread of your life.</span>
+            <span class="cn">享受旅程 — 从首代币将被投入至少数的直升机试验飞行到它们成为您生活的主要部分。</span>
+        </div>
+        <table class="s11__t3">
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="en">Token Launch Phase</span>
+                        <span class="cn">代币开展的阶段</span>
+                    </td>
+                    <td>1.1</td>
+                    <td>1.2</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>2-4</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="en"># of Bartini Flying cars <span class="s11__little">% of the 2021 production</span></span>
+                        <span class="cn">Bartini 飞行车的数量 <span class="s11__little">2021年生产的百分比</span></span>
+                    </td>
+                    <td>500 <span class="s11__little">1%</span></td>
+                    <td>2,500 <span class="s11__little">5%</span></td>
+                    <td>10,000 <span class="s11__little">20%</span></td>
+                    <td>30,000 <span class="s11__little">60%</span></td>
+                    <td>7,000 <span class="s11__little">14%</span></td>
+                    <td>47,000 <span class="s11__little">94%</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="en">Tokens generated *</span>
+                        <span class="cn">发行代币的数量*</span>
+                    </td>
+                    <td>
+                        <span class="en">300m</span>
+                        <span class="cn">3亿</span>
+                    </td>
+                    <td>
+                        <span class="en">1,500m</span>
+                        <span class="cn">15亿</span>
+                    </td>
+                    <td>
+                        <span class="en">6,000m</span>
+                        <span class="cn">60亿</span>
+                    </td>
+                    <td>
+                        <span class="en">18,000m</span>
+                        <span class="cn">180亿</span>
+                    </td>
+                    <td>
+                        <span class="en">4,200m</span>
+                        <span class="cn">42亿</span>
+                    </td>
+                    <td>
+                        <span class="en">28,200m</span>
+                        <span class="cn">2820亿</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="en">McFly exchange rate</span>
+                        <span class="cn">McFly 汇率</span>
+                    </td>
+                    <td>0.0069<br>Waves</td>
+                    <td>0.0002<br>Ethereum</td>
+                    <td>
+                        <span class="s11__little en">to be<br> announced</span>
+                        <span class="s11__little cn">将宣布</span>
+                    </td>
+                    <td>
+                        <span class="s11__little en">to be<br> announced</span>
+                        <span class="s11__little cn">将宣布</span>
+                    </td>
+                    <td>
+                        <span class="s11__little en">to be<br> announced</span>
+                        <span class="s11__little cn">将宣布</span>
+                    </td>
+                    <td>
+                        <span class="s11__little en">to be<br> announced</span>
+                        <span class="s11__little cn">将宣布</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="s11__t4">
+            <div class="s11__t4__item">
+                <p>
+                    <span class="en">*For the first 300 million tokens, which equal the lifetime of the first 250 two-seater and 250 four-seater Bartini flying cars 1 McFly will start at 0.00571428 Waves.</span>
+                    <span class="cn">*起初的3亿个代币与250辆两座车和250辆四座车的周期相同。它们的汇率是1代币兑>0.00571428 Waves</span>
+                </p>
+                <p>
+                    <span class="en">For the next 1.5 billion tokens, which equal the lifetime of 1250 two-seater and 1250 four-seater Bartini flying cars 1 McFly = 0.000179 ETH.</span>
+                    <span class="cn">后来15亿个代币与1250辆两座汽车和1250辆四座汽车的周期相同，它们的汇率是1代币兑0.000179 ETH</span>
+                </p>
+            </div>
+            <div class="s11__t4__item">
+                <p>
+                    <span class="en">Another 47’000 Bartini Flying Cars shall be tokenized to match the output of the first year of mass production. Aerial vehicles from other manufacturers, further production years, as well as infrastructure capacities and functions shall also be tokenized on the Blockchain.aero platform for the benefit of the decentralized mass urban aviation market. Blockchain.aero is a platform for all projects in the industry, however grand or local.</span>
+                    <span class="cn">其他的47000辆Bartini飞行车将代币化的与第一年产量的生产批量匹配。其他生产者的飞行车和后来生产年的车，以及基础设施能力和功能也将于Blockchain. Aero 平台代币化为了得到大众城市航空去中心化市场的好处。Blockchain. aero 能够包括行业所有的项目，不管宏大或者地方性的。</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s12 fff">
+    <div class="wrap s12__wrapper">
+            <div class="s12__t5">
+            <div class="s12__t5__t1">
+                <span class="en">Bartini total flight tokenization progress</span>
+                <span class="cn">代币化</span>
+            </div>
+            <div class="s12__t5__t6">
+                <span class="en">Distribution of proceeds</span>
+                <span class="cn">代币化</span>
+            </div>
+            <div class="s12__t5__grafik">
+                <img src="img/s11__t5__1.png" alt="" class="s12__t5__grafik__img">
+                <img src="img/s11__t5__2.png" alt="" class="s12__t5__grafik__img2">
+                <div class="s12__t5__grafik__item t1 op">
+                    <span class="en">Legal Expences</span>
+                    <span class="cn">法定费用</span>
+                </div>
+                <div class="s12__t5__grafik__item t2 op">
+                    <span class="en">Miscellaneous and unexpected</span>
+                    <span class="cn">杂项和意外</span>
+                </div>
+                <div class="s12__t5__grafik__item t3 op">
+                    <span class="en">Scientific Research</span>
+                    <span class="cn">科学研究</span>
+                </div>
+                <div class="s12__t5__grafik__item t4 op">
+                    <span class="en">GR for certification and regulation <span class="hide">development</span></span>
+                    <span class="cn">政府关系认证和监管</span>
+                </div>
+                <div class="s12__t5__grafik__item t5 op">
+                    <span class="en">PR + marketing</span>
+                    <span class="cn">公关和营销</span>
+                </div>
+                <div class="s12__t5__grafik__item t6 op">
+                    <span class="en">Infrastructure<br>  development</span>
+                    <span class="cn">基建发展</span>
+                </div>
+                <div class="s12__t5__grafik__item t7 op">
+                    <span class="en">Operational<br>    expences</span>
+                    <span class="cn">经营费用</span>
+                </div>
+                <div class="s12__t5__grafik__item t8 op">
+                    <span class="en">Communities <br>management</span>
+                    <span class="cn">社区管理</span>
+                </div>
+                <div class="s12__t5__grafik__item t9 op">
+                    <span class="en">Software development<br> Blockchain + apps</span>
+                    <span class="cn">软件开发<br> 区块链 和 应用</span>
+                </div>
+
+                <div class="s12__t5__grafik__item t10 op1">
+                    <span class="en">Aircraft Development<br> and Manufacturing</span>
+                    <span class="cn">飞机开发和制造</span>
+                </div>
+                <div class="s12__t5__grafik__item t11 op1">4%</div>
+                <div class="s12__t5__grafik__item t12 op1">5%</div>
+                <div class="s12__t5__grafik__item t13 op1">5%</div>
+                <div class="s12__t5__grafik__item t14 op1">6%</div>
+                <div class="s12__t5__grafik__item t15 op1">9%</div>
+                <div class="s12__t5__grafik__item t16 op1">13%</div>
+                <div class="s12__t5__grafik__item t17 op1">10%</div>
+                <div class="s12__t5__grafik__item t18 op1">8%</div>
+                <div class="s12__t5__grafik__item t19 op1">10%</div>
+                <div class="s12__t5__grafik__item t20 op1">30%</div>
+
+                <div class="s12__t5__grafik__item t21 op2">
+                    <span class="en">Token distribution</span>
+                    <span class="cn">代币分配</span>
+                </div>
+                <div class="s12__t5__grafik__item t22 op2">
+                    <span class="en">Token program</span>
+                    <span class="cn">代币规划</span>
+                </div>
+                <div class="s12__t5__grafik__item t23 op2">
+                    <span class="en">Bartini total flight</span>
+                    <span class="cn">巴尔季尼总飞行</span>
+                </div>
+
+                <div class="s12__t5__grafik__item t24 op">
+                    <span class="en">Bilateral agreements, <br>    large token holders</span>
+                    <span class="cn">双边协议，<br> 大量代币的持有者</span>
+                </div>
+                <div class="s12__t5__grafik__item t25 op">
+                    <span class="en">Reserve</span>
+                    <span class="cn">储备</span>
+                </div>
+                <div class="s12__t5__grafik__item t26 op">
+                    <span class="en">Team</span>
+                    <span class="cn">团队</span>
+                </div>
+                <div class="s12__t5__grafik__item t27 op">
+                    <span class="en">Bounty</span>
+                    <span class="cn">赏金</span>
+                </div>
+                <div class="s12__t5__grafik__item t28 op">
+                    <span class="en">Advisors</span>
+                    <span class="cn">顾问</span>
+                </div>
+
+                <div class="s12__t5__grafik__item t29 op1">55%</div>
+                <div class="s12__t5__grafik__item t30 op1">
+                    <span class="en">Crowdsale</span>
+                    <span class="cn">代币众售</span>
+                </div>
+                <div class="s12__t5__grafik__item t31 op1">15%</div>
+                <div class="s12__t5__grafik__item t32 op1">10%</div>
+                <div class="s12__t5__grafik__item t33 op1">10%</div>
+                <div class="s12__t5__grafik__item t34 op1">5%</div>
+                <div class="s12__t5__grafik__item t35 op1">5%</div>
+                <div class="s12__t5__grafik__item t36 op">
+                    <span class="en">Tokenization of <br>total flight for<br> 3000 Bartini</span>
+                    <span class="cn">3000辆巴尔季<br>尼总飞行代币化</span>
+                </div>
+                <div class="s12__t5__grafik__item t37 op1">94%</div>
+                <div class="s12__t5__grafik__item t38 op">
+                    <span class="en">Tokenization of<br> total flight of 47000 <br> Bartini vehicles</span>
+                    <span class="cn">4700辆巴尔季尼<br>总飞行代币化</span>
+                </div>
+                <div class="s12__t5__grafik__item t39 op1">1/3</div>
+                <div class="s12__t5__grafik__item t40 op1">1/3</div>
+                <div class="s12__t5__grafik__item t41 op1">1/3</div>
+                <div class="s12__t5__grafik__item t42 op">
+                    <span class="en">Third year of<br> Bartini's mass<br> production</span>
+                    <span class="cn">第三年巴尔季<br>尼大量生产</span>
+                </div>
+                <div class="s12__t5__grafik__item t43 op">
+                    <span class="en">First year of<br> Bartini's mass<br> production</span>
+                    <span class="cn">第一年巴<br>尔季尼大<br>量生产</span>
+                </div>
+                <div class="s12__t5__grafik__item t44 op">
+                    <span class="en">Second year of<br> Bartini's mass<br> production</span>
+                    <span class="cn">第二年巴尔季<br> 尼大量生产</span>
+                </div>
+            </div>
+            <div class="s12__t5__t2">*other AV manufacturers may introduce additional programs</div>
+            <div class="s12__t5__t3">
+                <span class="en">Road Map</span>
+                <span class="cn">路线图</span>
+            </div>
+            <div class="s12__t5__t4">
+                <span class="en">The core success metric of the blockchain.aero consortium is amount of vehicles and their “flight-minutes” recorded on the blockchain. <span>Blockchain.aero’s community and consortium has therefore identified the following goalposts.</span></span>
+                <span class="cn">Blockchain. Aero财团成功的核心单位是车量和在区块链上记录的“飞行-分钟”<br> 因此Blockchain. Aero的社区和财团确定了下面的目标。</span>
+            </div>
+            <div class="s12__t5__t5">
+                <div class="s12__t5__t5__item">
+                   <div class="s12__t5__t5__item__t1">
+                        <span class="en">Launch</span>
+                        <span class="cn">开展</span>
+                   </div>
+                   <div class="s12__t5__t5__item__t2">
+                        2017
+                   </div>
+                   <div class="s12__t5__t5__item__t3">
+                            <p>
+                                <span class="en">3,000 of Bartini vehicles are tokenized by McFly tokens</span>
+                                <span class="cn">3000辆Bartini飞行车是于McFly代币化的。</span>
+                            </p>
+                            <p>
+                                <span class="en">Aircraft manufacturers, infrastructure providers become members to the blockchain.aero consortium</span>
+                                <span class="cn">飞行器生产者，基础设施的提供者成为blockchain.aero财团的参与者</span>
+                            </p>
+                            <p>
+                                <span class="en">Cross-industrial workgroup for the business and technological requirements for the blockchain.aero core blockchain established</span>
+                                <span class="cn">blockchain. aero 核心区块链商业和技术要求的跨行业工作组是建立的。</span>
+                            </p>
+                            <p>
+                                <span class="en">First cities agree to participate in the development and deployment of the blockchain.aero grid</span>
+                                <span class="cn">城市赞成参与blockchain.aero系统的发展和利用</span>
+                            </p>
+                   </div>
+                </div>
+                <div class="s12__t5__t5__item">
+                   <div class="s12__t5__t5__item__t1">
+                           <span class="en">First Flight</span>
+                            <span class="cn">第一个飞行</span>
+                   </div>
+                   <div class="s12__t5__t5__item__t2">
+                        2018
+                   </div>
+                   <div class="s12__t5__t5__item__t3">
+                             <p>
+                                <span class="en">10,000 of Bartini vehicles are tokenized by McFly tokens</span>
+                                <span class="cn">10000辆Bartini汽车是于McFly代币代币化的</span>
+                            </p>
+                            <p>
+                                <span class="en">Alpha version of the blockchain.aero’s custom blockchain for the urban mass aviation</span>
+                                <span class="cn">发行对大众城市航空的blockchain.aero定制区块链的初版</span>
+                            </p>
+                            <p>
+                                <span class="en">Application layer and APIs become available, first mobile apps are tested</span>
+                                <span class="cn">应用层和API是可用的，首次的手机应用投入实验</span>
+                            </p>
+                            <p>
+                                <span class="en">2-seater Bartini and other vehicles become available for test flights, first real flight-blocks are recorded on the blockchain</span>
+                                <span class="cn">2座的飞行汽车和其他的是试验的，首真的飞行区块是在区块链记录的。</span>
+                            </p>
+                   </div>
+                </div>
+                <div class="s12__t5__t5__item">
+                   <div class="s12__t5__t5__item__t1">
+                          <span class="en">Manufacturing</span>
+                            <span class="cn">生产</span>
+                   </div>
+                   <div class="s12__t5__t5__item__t2">
+                        2019
+                   </div>
+                   <div class="s12__t5__t5__item__t3">
+                            <p>
+                                <span class="en">30,000 of Bartini vehicles are tokenized by McFly tokens</span>
+                                <span class="cn">30000 Bartini飞行车是于 McFly 代币代币化的</span>
+                            </p>
+                            <p>
+                                <span class="en">Key cities (markets and communities) are determined</span>
+                                <span class="cn">关键的城市（市场和社区）是确定的</span>
+                            </p>
+                            <p>
+                                <span class="en">Mass production manufacturing facility construction is started (to provide 50,000 Bartini vehicles throughout 2021-2022)</span>
+                                <span class="cn">设施大众生产开始 （在2021-2022期间提供50000 Bartini 车）</span>
+                            </p>
+                            <p>
+                                <span class="en">4-seater Bartini and other vehicles become available for test flights</span>
+                                <span class="cn">四座的 Bartini 和其他的车投入试飞</span>
+                            </p>
+                   </div>
+                </div>
+                <div class="s12__t5__t5__item">
+                   <div class="s12__t5__t5__item__t1">
+                         <span class="en">Deployment</span>
+                        <span class="cn">利用</span>
+                   </div>
+                   <div class="s12__t5__t5__item__t2">
+                        2020
+                   </div>
+                   <div class="s12__t5__t5__item__t3">
+                            <p>
+                                <span class="en">7,000 of Bartini vehicles are tokenized by McFly tokens</span>
+                                <span class="cn">7000 Bartini飞行车是于 McFly 代币代币化的</span>
+                            </p>
+                            <p>
+                                <span class="en">While Uber starts flights in Dallas, Abu Dhabi and Dubai, Blockchain.aero introduces flights in the first cities — its community members</span>
+                                <span class="cn">Uber 在达拉斯，阿布扎比和迪拜开展飞行的时候，Blockchain. Aero 推出在社区参与者城市的飞行</span>
+                            </p>
+                            <p>
+                                <span class="en">Entire fleets are operated through blockchain</span>
+                                <span class="cn">全车队通过区块链运作。</span>
+                            </p>
+                            <p>
+                                <span class="en">Mass urban traffic organizers are adopting the decentralized technologies of the blockchain.aero consortium</span>
+                                <span class="cn">大众城市交通的组织者采用blockchain.aero财团的去中心化技术。</span>
+                            </p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s13 bfff blue" id="scroll_5">
+    <div class="wrap">
+        <div class="s13__title">
+            <span class="en">Core Members</span>
+            <span class="cn">管理团队</span>
+        </div>
+        <div class="s13__wr">
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img1.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Vladimir Andreev</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Awarded marketing manager, ex-automotive industry business developer.</span>
+                    <span class="cn">已授予资格的营销经理，汽车行业前商业开发者</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img2.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Sergey Borisov</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Hero of the Russian Federation, test pilot, member of the Supervisory Board of Bartini.</span>
+                    <span class="cn">俄罗斯联邦的英雄，试飞员，Bartini 监督董事会成员</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img3.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Vladimir Salatov</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Test pilot and engineer with over a decade's worth experience in developing experimental jets</span>
+                    <span class="cn">试飞员和工程师，有长达十多年开发实验飞机的经验</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img4.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Val Jerdes</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">International lecturer, head of the Silicon Valley Insiders program, ex-Apple and Lockheed Martin Aerospace.</span>
+                    <span class="cn">商业联盟会长，俄罗斯国家公共关系研究院</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img5.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Ilya Khanykov</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Financial sector executive turned high-tech entrepreneur with experience in internet, agtech, biotech and aviation.</span>
+                    <span class="cn">首席工程师，软件的管理（发展和试验发动机，车架和培训软件的专家</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img6.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Kirill Elagin</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Digital Marketing and analytics.</span>
+                    <span class="cn">国际的讲演者，硅谷知情人计划的经理，苹果和洛克希德·马丁的前成员</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img7.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Nikolay Fonurin</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Aeronautics engineer overseeing on-ground and in-flight tests of experimental aircraft.</span>
+                    <span class="cn">监督在地面上和飞行中试验实验飞行器的航空工程师</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img8.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Alexey Maltsev</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Pilot, captain of aircraft on long-haul routes.</span>
+                    <span class="cn">飞行员，长途飞行的的机长</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img9.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Stan Polozov</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Emercoin co-founder, Blockchain implementation specialist.</span>
+                    <span class="cn">Emercoin合创始人，实施区块链的专家</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img10.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Andrey Manolov</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">3d visualizations, head of Riftman.</span>
+                    <span class="cn">制作立体形象，Riftman长</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img11.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Mikhail Sorokin</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Lead Engineer, Electricity Circuits (exp: in-flight program design for powersystems, aircraft ground tests).</span>
+                    <span class="cn">首席工程师，电路（对电力系统的飞行中程序计划，飞行器地面试验的专家）</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img12.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Ivan Kosov</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Ideologist, PR, communications, video production.</span>
+                    <span class="cn">意识形态倡导者，公共关系，视频制作</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img13.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Oleg Tsyganov</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Microsoft business development executive turned IT entrepreneur, angel investor and mentor for startups.</span>
+                    <span class="cn">微软商业发展经理，信息技术企业家，天使投资者和新企业的导师</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img14.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Valeri Lavrischev</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Software Engineer (exp: developed flight control systems and training software).</span>
+                    <span class="cn">软件工程师（有开发飞行控制系统和培训软件的经验）</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img15.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Igor Opotskiy</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Pilot and instructing pilot for Boeing 777 et al, expert for the International Aviation Committee</span>
+                    <span class="cn">波音777飞机等等的飞行员和训练飞行员，州际航空委员会的专家</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img16.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Vladimir Sysoev</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Head of Aerodynamics, Calculations & Data (exp: in-flight tests and aircraft shell materials analysis).</span>
+                    <span class="cn">空气动力学，计算和数据的经理（有飞行中试验和飞行器框架材料分析的经验）</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img17.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Artyom Zhivilov</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Lead Engineer, Software Product Management (exp: tests and development of engines, shells, training software).</span>
+                    <span class="cn">金融部经理。有网络，农业技术，生物技术和航空的经验。高科技的企业家</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img18.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Igor Ovsyannikov</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Lead Engineer, Engines (exp: in-flight and ground engines development and tests).</span>
+                    <span class="cn">首席工程师，发动机（有地面上和飞行中开发和试验的经验）</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img19.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Stanislav Lobanov</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Engineer (exp: ground tests, engines).</span>
+                    <span class="cn">工程师（有地面试验和发动机的经验）</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img20.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Maxim Kiselev</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Yale alumni and lecturer, Skoltech professor of psychology, mentor to high-technological startups</span>
+                    <span class="cn">耶鲁大学毕业生和讲演者，在Skolkovo心理学教授，高科技新企业的导师</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img21.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Andrey Murygin</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Lead Engineer, Engines (exp: in-flight and ground engines development and tests).</span>
+                    <span class="cn">首席工程师，发动机 （有地面上和飞行中开发和试验的经验）</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img22.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Sergey Kirichkov</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Certification Program Mgr (exp: certification ground and inflight tests).</span>
+                    <span class="cn">Certification Program Mgr
+(exp: certification ground and inflight tests).</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img23.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Nik Bezhko</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">CreativeRussia founder, community building, creative direction, web-design and development.</span>
+                    <span class="cn">CreativeRussia创始人，社区的创立，创造性经理，互联网设计和发展。</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img24.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Vitaliy Rasnitsin</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">President of the Business League, Russian National Public Relations Academy.</span>
+                    <span class="cn">数字营销和分析</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img25.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Olga Bolkunova</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Community Evangelist in China, CEO at China Insiders.</span>
+                    <span class="cn">Community Evangelist
+in China, CEO at China Insiders.</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img26.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Dmitry Onyschuk</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Engineer (exp: ground tests, engines).</span>
+                    <span class="cn">工程师（有地面试验和发动机的经验）</span>
+                </div>
+            </div>
+            <div class="s13__wr__item">
+                <div class="s13__wr__item__img">
+                    <img src="img/s13__img27.jpg" alt="" class="s13__wr__item__img__img">
+                </div>
+                <div class="s13__wr__item__img__name">Pierre Marc Emile Louis Roger Bogaerts</div>
+                <div class="s13__wr__item__img__description">
+                    <span class="en">Entrepreneur, Canary Islands Spain.</span>
+                    <span class="cn">Entrepreneur, Canary Islands Spain.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="wrap">
+        <div class="s1__header">
+            <a href="http://blockchain.aero/" class="header__logo">
+                <img src="img/logo.png" alt="" class="header__logo__img">
+            </a>
+            <div class="header__soc">
+                <a href="https://publicslack.com/slacks/blockchainaero/invites/new" class="header__soc__item"><img src="img/slack.png" alt="" class="header__soc__item__img"></a>
+                <a href="https://www.facebook.com/Blockchainaero-1010791549057886/" class="header__soc__item"><img src="img/facebook.png" alt="" class="header__soc__item__img"></a>
+                <a href="https://t.me/blockchainaero" class="header__soc__item"><img src="img/telegramm.png" alt="" class="header__soc__item__img"></a>
+                <a href="https://twitter.com/blockchainaero" class="header__soc__item"><img src="img/twitter.png" alt="" class="header__soc__item__img"></a>
+                <a href="https://www.youtube.com/channel/UCxZKKVzitGqYAQwefDMqNrw" class="header__soc__item"><img src="img/youtube.png" alt="" class="header__soc__item__img"></a>
+            </div>
+        </div>
+        <a href="mailto:info@blockchain.aero" class="footer__email">info@blockchain.aero</a>
+    </div>
+</footer>
+</body>
+</html>

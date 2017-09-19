@@ -1,0 +1,98 @@
+/*header white*/
+/*header white*/
+/*header white*/
+/*header white*/
+header {
+    background-color: #20265e;
+    border-bottom-color: rgba(255,255,255,.1)
+}
+/*//////////////////////////////////////////*/
+/*//////////////////////////////////////////*/
+/*//////////////////////////////////////////*/
+.your__welcome {
+    background-image: url(../img/your-welcome__bg__t-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 30px 23px 38px;
+    box-sizing: border-box;
+}
+.your__welcome__t1 {
+      font-size: 24px;
+  line-height: 1.08;
+      font-weight: 300;
+    box-sizing:border-box;
+    width: 100%;
+    text-align:center;
+    margin-bottom: 16px;
+    padding:0px 20px;
+}
+.your__welcome__t2 {
+      font-size: 16px;
+  font-weight: 300;
+  line-height: 1.25;
+    box-sizing:border-box;
+    width: 100%;
+    text-align:center;
+    margin-bottom: 25px;
+    padding:0px 20px;
+}
+.your__welcome .btn_t_2 {
+    margin-bottom: 6px;
+}
+.your__welcome .btn_t_2:last-child {
+    margin-bottom: 0px;
+}
+
+/*//////////////////////////////////////////*/
+/*//////////////////////////////////////////*/
+/*//////////////////////////////////////////*/
+.vakansii__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.slider__item {
+    margin-bottom: 20px;
+}
+@media screen and (min-width:480px){
+    .vakansii__wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .vakansii__wrapper > * {
+        width: 50%;
+    }
+}
+/*//////////////////////////////////////////*/
+/*//////////////////////////////////////////*/
+/*//////////////////////////////////////////*/
+.registration__salon {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+      width: 276px;
+  height: 50px;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-left: -138px;
+    z-index: 1;
+}
+/*//////////////////////////////////////////*/
+/*//////////////////////////////////////////*/
+/*//////////////////////////////////////////*/
+.slider__item__params {
+margin: 16px 0px;
+}
+
+.slider__item__params__item {
+  font-size: 14px;
+  text-align: left;
+  color: #3c3c3b;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+.slider__item__params__item span{
+  font-weight: 600;
+}

@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+        <!--        common css-->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <!--        page css-->
+        <link rel="stylesheet" href="css/page_2.css">
+        <!--        jq-->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <!--        noui-->
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/wnumb.js"></script>
+        <script src="js/noui.js"></script>
+        <link rel="stylesheet" href="css/noui.css">
+        <!--        slickslider-->
+        <script src="js/slick.js"></script>
+        <link rel="stylesheet" href="css/slick.css">
+        <!--       commons script and page script-->
+        <script src="js/common.js"></script>
+        <script src="js/page_2.js"></script>
+    </head>
+    <body>  <img src="img/up-button.svg" alt="" class="up_button">
+        <header>
+            <div class="wrapper header__wrapper">
+                <div class="header__top-line">
+                    <div class="header__menu-button-and-tel-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 50 50" class="header__menu-button" id="header__menu-button">
+                            <path style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;-inkscape-font-specification:Bitstream Vera Sans" d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 L 0 7.5 z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 L 0 22.5 z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 L 0 37.5 z" overflow="visible" enable-background="accumulate" font-family="Bitstream Vera Sans"/>
+                        </svg>
+                        <a href="tel:+7 495 555-55-55" class="header__tel">+7 495 555-55-55</a>
+                    </div>
+                    <a href="#" class="header__logo">
+                        <img src="img/logo.svg" alt="" class="header__logo__img">
+                        <span class="header__logo__span">баня<span>под</span>ключ</span>
+                    </a>
+                    <a href="#" class="header__submit-application-button">Оставить заявку</a>
+                </div>
+                <img src="img/header__close-button.png" class="header__close-button" id="header__close-button">
+                <ul class="header__menu">
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Главная</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Контакты</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">О производстве</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Города</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Цены на бани</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Готовые бани</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Бани из бруса</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Деревянные бани</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Каркасные бани</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Купить баню</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Строительство бань</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Баня на дачу</a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="first-screen p1">
+            <div class="breadcubs-and-top-panel-wrapper wrapper">
+                <ul class="breadcubms">
+                    <li class="breadcubms__li"><a href="#" class="breadcubms__li__a link_t_1">Главная</a></li>
+                    <li class="breadcubms__li">—  Вы на главной</li>
+                </ul>
+                <ul class="top__tools">
+                    <li class="top__tools__li">
+                        <img src="img/icon__discount.svg" alt="" class="top__tools__li__img">
+                        <div class="top__tools__wr-text">
+                            <div class="top__tools__title">Калькулятор</div>
+                            <div class="top__tools__description">цен на бани</div>
+                        </div>
+                    </li>
+                    <li class="top__tools__li">
+                        <img src="img/icon__marker.svg" alt="" class="top__tools__li__img">
+                        <div class="top__tools__wr-text">
+                            <div class="top__tools__title select-city">Москва</div>
+                            <div class="top__tools__description">ваш город</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="wrapper first-screen__body">
+                <h1 class="first-screen__t1">Цена бани<br> под ключ
+                </h1>
+                <p class="first-screen__t2">Рассчитайте точную цену бани под ключ с теми услугами и функциями, которые вам нужны.</p>
+                <a href="#" class="btn_t_1 first-screen__t4">Начать расчет цены<img src="img/btn_t_1.svg" alt=""></a>
+                <p class="first-screen__t5"><span>1 августа</span> цены повышаются — успейте!</p>
+            </div>
+            <div class="first-screen__arrow-botom__wr" id="first-screen__arrow-botom"><img src="img/icon__arrow_bottom.svg" alt="" class="first-screen__arrow-botom"></div>
+        </section>
+        <section class="p2_s1 white" data-step_wrapper="step_1">
+            <div class="wrapper p2_s1__wrapper">
+                <h2 class="p2_s1_t1">Шаг 1 - Выберите тип бани</h2>
+                <div class="p2_s1__step__status">
+                    <span class="p2_s1__step__status__title">Статус:</span>
+                    <span class="p2_s1__step__status__this dont_was_select">Не выбрано</span>
+                </div>
+                <div class="p2_s1__toggle_bath">
+                    <div class="p2_s1__toggle_bath__item active">Дешёвые</div>
+                    <div class="p2_s1__toggle_bath__item">Дорогие</div>
+                </div>
+                <div class="p2_s1__list_bath ">
+                    <div class="p2_s1__list_bath__item leader cheap">
+                        <img src="img/page_1/p1_b5__item__img__1.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня эконом</div>
+                            <div class="p2_s1__list_bath__price">от 199 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item cheap ">
+                        <img src="img/page_1/p1_b5__item__img__2.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня с верандой</div>
+                            <div class="p2_s1__list_bath__price">от 240 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item cheap">
+                        <img src="img/page_1/p1_b5__item__img__3.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня с навесом</div>
+                            <div class="p2_s1__list_bath__price">от 290 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item cheap">
+                        <img src="img/page_1/p1_b5__item__img__4.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня с верандой и навесом</div>
+                            <div class="p2_s1__list_bath__price">от 269 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item cheap">
+                        <img src="img/page_1/p1_b5__item__img__5.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня с угловой верандой</div>
+                            <div class="p2_s1__list_bath__price">от 331 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item expensive" data-d="11.5" data-sh="5" data-common-p="49.3 кв.м.">
+                        <img src="img/page_1/p1_b5__item__img__6.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня “Кантри”</div>
+                            <div class="p2_s1__list_bath__price">от 1 390 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item expensive" data-d="10.5" data-sh="6" data-common-p="63.4 кв.м. ">
+                        <img src="img/page_1/p1_b5__item__img__7.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня “Классик”</div>
+                            <div class="p2_s1__list_bath__price">от 1 679 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item expensive " data-d="11.6" data-sh="5" data-common-p="49.2 кв.м. ">
+                        <img src="img/page_1/p1_b5__item__img__8.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня “Модерн”</div>
+                            <div class="p2_s1__list_bath__price">от 1 467 301 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item expensive" data-d="10.5" data-sh="5" data-common-p="45 кв.м.">
+                        <img src="img/page_1/p1_b5__item__img__9.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня “Финская”</div>
+                            <div class="p2_s1__list_bath__price">от 1 260 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item expensive" data-d="10.5" data-sh="5.27" data-common-p="45 кв.м.">
+                        <img src="img/page_1/p1_b5__item__img__10.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня “Шале”</div>
+                            <div class="p2_s1__list_bath__price">от 1 318 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item leader cheap">
+                        <img src="img/page_1/p1_b5__item__img__1.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня эконом</div>
+                            <div class="p2_s1__list_bath__price">от 199 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item cheap ">
+                        <img src="img/page_1/p1_b5__item__img__2.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня с верандой</div>
+                            <div class="p2_s1__list_bath__price">от 240 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item cheap">
+                        <img src="img/page_1/p1_b5__item__img__3.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня с навесом</div>
+                            <div class="p2_s1__list_bath__price">от 290 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item cheap">
+                        <img src="img/page_1/p1_b5__item__img__4.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня с верандой и навесом</div>
+                            <div class="p2_s1__list_bath__price">от 269 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item cheap">
+                        <img src="img/page_1/p1_b5__item__img__5.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня с угловой верандой</div>
+                            <div class="p2_s1__list_bath__price">от 331 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item expensive" data-d="11.5" data-sh="5" data-common-p="49.3 кв.м.">
+                        <img src="img/page_1/p1_b5__item__img__6.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня “Кантри”</div>
+                            <div class="p2_s1__list_bath__price">от 1 390 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item expensive" data-d="10.5" data-sh="6" data-common-p="63.4 кв.м.">
+                        <img src="img/page_1/p1_b5__item__img__7.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня “Классик”</div>
+                            <div class="p2_s1__list_bath__price">от 1 679 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item expensive " data-d="11.6" data-sh="5" data-common-p="49.2 кв.м.">
+                        <img src="img/page_1/p1_b5__item__img__8.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня “Модерн”</div>
+                            <div class="p2_s1__list_bath__price">от 1 467 301 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item expensive" data-d="10.5" data-sh="6" data-common-p="45 кв.м. ">
+                        <img src="img/page_1/p1_b5__item__img__9.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня “Финская”</div>
+                            <div class="p2_s1__list_bath__price">от 1 260 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="p2_s1__list_bath__item expensive" data-d="10.5" data-sh="5.27" data-common-p="45 кв.м. ">
+                        <img src="img/page_1/p1_b5__item__img__10.png" alt="" class="p2_s1__list_bath__img">
+                        <div class="p2_s1__list_bath__title_and_price_wr">
+                            <div class="p2_s1__list_bath__title">Баня “Шале”</div>
+                            <div class="p2_s1__list_bath__price">от 1 318 000 руб.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p2_s2 gray_and_shadow" data-step_wrapper="step_2">
+            <div class="wrapper p2_s2__wrapper">
+                <h2 class="p2_s2_t1">Шаг 2 - Укажите размеры стен</h2>
+                <div class="p2_s1__step__status">
+                    <span class="p2_s1__step__status__title">Статус:</span>
+                    <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                        Не выбрано
+                    </span>
+                </div>
+                <div class="p2_s2__wrapper__left_part">
+                    <div class="p2_s2__cheap_bath">
+                        <div class="p2_s2_t3">
+                            <div class="p2_s2_t5">
+                                <span class="p2_s2_t7">Длина (метры):</span>
+                                <div class="p2_s2_t9" id="p2_s2_t9"></div>
+                            </div>
+                            <div class="p2_s2_t6">
+                                <span class="p2_s2_t8">Ширина (метры):</span>
+                                <div class="p2_s2_t10" id="p2_s2_t10"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p2_s2__expensive_bath">
+                        <div class="p2_s2__expensive_bath__item fix_size">
+                            <div class="p2_s2__expensive_bath__item__name">
+                                Фиксированные размеры:
+                            </div>
+                            <div class="p2_s2__expensive_bath__item__name__count"></div>
+                        </div>
+                        <div class="p2_s2__expensive_bath__item common_ploshad">
+                            <div class="p2_s2__expensive_bath__item__name">
+                                Общая площать бани:
+                            </div>
+                            <div class="p2_s2__expensive_bath__item__name__count"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p2_s2__wrapper__right_part">
+                    <div class="p2_s2__right_part__notification cheap_notificztion">
+                        <p>Если Вы не уверены в размерах либо хотите получить консультацию профессионального инженера, заполните <a href="#">форму обратного звонка.</a></p>
+                    </div>
+                    <div class="p2_s2__right_part__notification expensive_notificztion">
+                        <p>Данная баня имеет фиксированные размеры и продуманную планировку. Для консультации заполните <a href="#">форму обратного звонка.</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p2_s3 white" data-step_wrapper="step_3">
+            <div class="wrapper p2_s3__wrapper">
+                <h2 class="p2_s2_t1">Шаг 3 - Выберите толщину стен</h2>
+                <div class="p2_s1__step__status">
+                    <span class="p2_s1__step__status__title">Статус:</span>
+                    <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                        Не выбрано
+                    </span>
+                </div>
+                <div class="steps__wrapper">
+                    <ul class="steps__wrapper__left_part">
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_3__icon_1.svg" alt="" class="steps__wrapper__left_part__item__img item__img_1">
+                            <p class="steps__wrapper__left_part__item__title">
+                                <span class="cheap">70 мм</span>
+                                <span class="expensive">300 мм</span>
+                            </p>
+                        </li>
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_3__icon_2.svg" alt="" class="steps__wrapper__left_part__item__img item__img_2">
+                            <p class="steps__wrapper__left_part__item__title">
+                                <span class="cheap">45 мм</span>
+                                <span class="expensive">250 мм</span>
+                            </p>
+                        </li>
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_3__icon_3.svg" alt="" class="steps__wrapper__left_part__item__img item__img_3">
+                            <p class="steps__wrapper__left_part__item__title">
+                                <span class="cheap">30 мм</span>
+                                <span class="expensive">200 мм</span>
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="steps__wrapper__right_part">
+                        <p>
+                            Чем толще брус, тем лучше тепловые и конструктивные характеристики бани. Соответственно, цена бани под ключ также будет чуть выше при более толстом брусе.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p2_s4 gray_and_shadow" data-step_wrapper="step_4">
+            <div class="wrapper p2_s3__wrapper">
+                <h2 class="p2_s2_t1">Шаг 4 - Выберите фундамент</h2>
+                <div class="p2_s1__step__status">
+                    <span class="p2_s1__step__status__title">Статус:</span>
+                    <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                        Не выбрано
+                    </span>
+                </div>
+                <div class="steps__wrapper">
+                    <ul class="steps__wrapper__left_part">
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_4__icon_1.svg" alt="" class="steps__wrapper__left_part__item__img item__img_1">
+                            <p class="steps__wrapper__left_part__item__title">
+                                Блочный
+                            </p>
+                        </li>
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_4__icon_2.svg" alt="" class="steps__wrapper__left_part__item__img item__img_2">
+                            <p class="steps__wrapper__left_part__item__title">
+                                На сваях
+                            </p>
+                        </li>
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_4__icon_3.svg" alt="" class="steps__wrapper__left_part__item__img item__img_3">
+                            <p class="steps__wrapper__left_part__item__title">
+                                Не требуется
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="steps__wrapper__right_part">
+                        <p>
+                            Фундамент на сваях позволяет закрепить лопасти ниже глубины промерзания почвы (длина свай - 2 метра). Блочный фундамент состоит из бетона и имеет размеры 20 см в высоту и 30 см в ширину и глубину. Крепится по верхнему слою почвы.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p2_s5 white" data-step_wrapper="step_5">
+            <div class="wrapper p2_s3__wrapper">
+                <h2 class="p2_s2_t1">Шаг 5 - Выберите тип обвязки</h2>
+                <div class="p2_s1__step__status">
+                    <span class="p2_s1__step__status__title">Статус:</span>
+                    <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                        Не выбрано
+                    </span>
+                </div>
+                <div class="steps__wrapper">
+                    <ul class="steps__wrapper__left_part">
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_5__icon_1.svg" alt="" class="steps__wrapper__left_part__item__img item__img_1">
+                            <p class="steps__wrapper__left_part__item__title">
+                                По периметру
+                            </p>
+                        </li>
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_5__icon_2.svg" alt="" class="steps__wrapper__left_part__item__img item__img_2">
+                            <p class="steps__wrapper__left_part__item__title">
+                                Полная
+                            </p>
+                        </li>
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_5__icon_3.svg" alt="" class="steps__wrapper__left_part__item__img item__img_3">
+                            <p class="steps__wrapper__left_part__item__title">
+                                Не требуется
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="steps__wrapper__right_part">
+                        <p>
+                            Обвязка является важным элементом бани. Устанавливается поверх фундамента, и уже на неё будут крепиться стены. Качество обвязки напрямую влияет на срок службы бани.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p2_s6 gray_and_shadow" data-step_wrapper="step_6">
+            <div class="wrapper p2_s3__wrapper">
+                <h2 class="p2_s2_t1">Шаг 6 - Нужны ли доски на пол?</h2>
+                <div class="p2_s1__step__status">
+                    <span class="p2_s1__step__status__title">Статус:</span>
+                    <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                        Не выбрано
+                    </span>
+                </div>
+                <div class="steps__wrapper">
+                    <ul class="steps__wrapper__left_part">
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_6__icon_1.svg" alt="" class="steps__wrapper__left_part__item__img item__img_3">
+                            <p class="steps__wrapper__left_part__item__title">
+                                Да, нужна
+                            </p>
+                        </li>
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_6__icon_2.svg" alt="" class="steps__wrapper__left_part__item__img item__img_3">
+                            <p class="steps__wrapper__left_part__item__title">
+                                Не требуется
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="steps__wrapper__right_part">
+                        <p>
+                            Мы используем экологически чистые доски из сосны, идеально отшлифованные и (по желанию) с дополнительной обработкой от термического воздействия.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p2_s7 white" data-step_wrapper="step_7">
+            <div class="wrapper p2_s3__wrapper">
+                <h2 class="p2_s2_t1">Шаг 7 - Нужны ли доски на крышу?</h2>
+                <div class="p2_s1__step__status">
+                    <span class="p2_s1__step__status__title">Статус:</span>
+                    <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                        Не выбрано
+                    </span>
+                </div>
+                <div class="steps__wrapper">
+                    <ul class="steps__wrapper__left_part">
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_7__icon_1.svg" alt="" class="steps__wrapper__left_part__item__img item__img_1">
+                            <p class="steps__wrapper__left_part__item__title">
+                                Да, доски нужны
+                            </p>
+                        </li>
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_7__icon_2.svg" alt="" class="steps__wrapper__left_part__item__img item__img_2">
+                            <p class="steps__wrapper__left_part__item__title">
+                                Не требуется
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="steps__wrapper__right_part">
+                        <p>
+                            Доски на крышу бани нужны для того, чтобы поверх них уложить утеплитель и кровельный материал. Вы можете заказать доски на крышу как у нас, так и использовать свой материал.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p2_s8 gray_and_shadow" data-step_wrapper="step_8">
+            <div class="wrapper p2_s3__wrapper">
+                <h2 class="p2_s2_t1">Шаг 8 - Выберите тип кровли</h2>
+                <div class="p2_s1__step__status">
+                    <span class="p2_s1__step__status__title">Статус:</span>
+                    <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                        Не выбрано
+                    </span>
+                </div>
+                <div class="steps__wrapper">
+                    <ul class="steps__wrapper__left_part">
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_8__icon_1.svg" alt="" class="steps__wrapper__left_part__item__img item__img_1">
+                            <p class="steps__wrapper__left_part__item__title">
+                                Гибкая черепица
+                            </p>
+                        </li>
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_8__icon_2.svg" alt="" class="steps__wrapper__left_part__item__img item__img_2">
+                            <p class="steps__wrapper__left_part__item__title">
+                                Металло- черепица
+                            </p>
+                        </li>
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_8__icon_3.svg" alt="" class="steps__wrapper__left_part__item__img item__img_3">
+                            <p class="steps__wrapper__left_part__item__title">
+                                Ондулин
+                            </p>
+                        </li>
+                        <li class="steps__wrapper__left_part__item">
+                            <img src="img/page_2/step_8__icon_4.svg" alt="" class="steps__wrapper__left_part__item__img item__img_4">
+                            <p class="steps__wrapper__left_part__item__title">
+                                Не требуется
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="steps__wrapper__right_part">
+                        <p>
+                            Не уверены в материале или хотите мнение профи? <a href="#">Оставьте заявку</a> на консультацию эксперта!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="p2_s9 white" data-step_wrapper="step_8">
+            <div class="wrapper p2_s3__wrapper">
+                <h2 class="p2_s2_t1">Шаг 9 - Дополнительные услуги</h2>
+                <div data-step_wrapper="step_9_a">
+                   <div class="p2_s9__title">а — Нужна ли покраска бруса?</div>
+                    <div class="p2_s1__step__status">
+                        <span class="p2_s1__step__status__title">Статус:</span>
+                        <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                            Не выбрано
+                        </span>
+                    </div>
+                    <div class="steps__wrapper">
+                        <ul class="steps__wrapper__left_part">
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__a_icon_1.svg" alt="" class="steps__wrapper__left_part__item__img item__img_1">
+                                <p class="steps__wrapper__left_part__item__title">
+                                   Покраска
+с 1 стороны
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__a_icon_2.svg" alt="" class="steps__wrapper__left_part__item__img item__img_2">
+                                <p class="steps__wrapper__left_part__item__title">
+                                   Покраска с
+2 сторон
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__a_icon_3.svg" alt="" class="steps__wrapper__left_part__item__img item__img_3">
+                                <p class="steps__wrapper__left_part__item__title">
+                                    Не
+требуется
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="steps__wrapper__right_part">
+                            <p>
+                               За счет покраски стен, баня преобразится. Эффектно
+смотрится, когда баня выкрашена в 2 контрастных
+цвета одной цветовой гаммы (например, хит этого
+года: темно-коричневый и бежевый цвета).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div data-step_wrapper="step_9_b">
+                   <div class="p2_s9__title">б — Нужна ли обработка бруса антисептиком от грибков?</div>
+                    <div class="p2_s1__step__status">
+                        <span class="p2_s1__step__status__title">Статус:</span>
+                        <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                            Не выбрано
+                        </span>
+                    </div>
+                    <div class="steps__wrapper">
+                        <ul class="steps__wrapper__left_part">
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__b_icon_1.svg" alt="" class="steps__wrapper__left_part__item__img item__img_1">
+                                <p class="steps__wrapper__left_part__item__title">
+                                   Обработка
+пола
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__b_icon_2.svg" alt="" class="steps__wrapper__left_part__item__img item__img_2">
+                                <p class="steps__wrapper__left_part__item__title">
+                                   Обработка
+крыши
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__b_icon_3.svg" alt="" class="steps__wrapper__left_part__item__img item__img_3">
+                                <p class="steps__wrapper__left_part__item__title">
+                                   Обработка 
+пола и крыши
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__b_icon_4.svg" alt="" class="steps__wrapper__left_part__item__img item__img_4">
+                                <p class="steps__wrapper__left_part__item__title">
+                                    Обработка 
+не требуется
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="steps__wrapper__right_part">
+                            <p>
+                               Обработка антисептиком от
+грибков позволяет значительно
+продлить срок службы бани.
+Является стандартом в Европе.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div data-step_wrapper="step_9_v">
+                   <div class="p2_s9__title">в — Требуется ли утепление бани?</div>
+                    <div class="p2_s1__step__status">
+                        <span class="p2_s1__step__status__title">Статус:</span>
+                        <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                            Не выбрано
+                        </span>
+                    </div>
+                    <div class="steps__wrapper">
+                        <ul class="steps__wrapper__left_part">
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__v_icon_1.svg" alt="" class="steps__wrapper__left_part__item__img item__img_1">
+                                <p class="steps__wrapper__left_part__item__title">
+                                  Утепление
+пола
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__v_icon_2.svg" alt="" class="steps__wrapper__left_part__item__img item__img_2">
+                                <p class="steps__wrapper__left_part__item__title">
+                                   Обработка
+крыши
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__v_icon_3.svg" alt="" class="steps__wrapper__left_part__item__img item__img_3">
+                                <p class="steps__wrapper__left_part__item__title">
+                                   Утепление
+пола и крыши
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__v_icon_4.svg" alt="" class="steps__wrapper__left_part__item__img item__img_4">
+                                <p class="steps__wrapper__left_part__item__title">
+                                    Утепление
+не требуется
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="steps__wrapper__right_part">
+                            <p>
+                               Утепление бани позволяет в
+зимний период эффективнее
+удерживать тепло внутри бани
+и способствует быстрому
+протапливанию в лютые морозы.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div data-step_wrapper="step_9_g">
+                   <div class="p2_s9__title">г — Нужен ли цокольный сайдинг к бане?</div>
+                    <div class="p2_s1__step__status">
+                        <span class="p2_s1__step__status__title">Статус:</span>
+                        <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                            Не выбрано
+                        </span>
+                    </div>
+                    <div class="steps__wrapper">
+                        <ul class="steps__wrapper__left_part">
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__g_icon_1.svg" alt="" class="steps__wrapper__left_part__item__img item__img_1">
+                                <p class="steps__wrapper__left_part__item__title">
+                                 Сайдинг 
+требуется
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__g_icon_2.svg" alt="" class="steps__wrapper__left_part__item__img item__img_2">
+                                <p class="steps__wrapper__left_part__item__title">
+                                  Сайдинг 
+не требуется
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="steps__wrapper__right_part">
+                            <p>
+                               Цокольный сайдинг защищает брус с внешней
+стороны бани. Также используется в декоративных
+целях, если необходимо стилизовать баню.
+Доступны различные варианты по цветам.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div data-step_wrapper="step_9_d">
+                   <div class="p2_s9__title">д — Нужен ли водосток к бане?</div>
+                    <div class="p2_s1__step__status">
+                        <span class="p2_s1__step__status__title">Статус:</span>
+                        <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                            Не выбрано
+                        </span>
+                    </div>
+                    <div class="steps__wrapper">
+                        <ul class="steps__wrapper__left_part">
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__d_icon_1.svg" alt="" class="steps__wrapper__left_part__item__img item__img_1">
+                                <p class="steps__wrapper__left_part__item__title">
+                                Водосток
+требуется
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__d_icon_2.svg" alt="" class="steps__wrapper__left_part__item__img item__img_2">
+                                <p class="steps__wrapper__left_part__item__title">
+                                  Водосток
+не требуется
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="steps__wrapper__right_part">
+                            <p>
+                               Цокольный сайдинг защищает брус с внешней
+стороны бани. Также используется в декоративных
+целях, если необходимо стилизовать баню.
+Доступны различные варианты по цветам.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div data-step_wrapper="step_9_e">
+                   <div class="p2_s9__title">е — Нужна ли ветровая планка?</div>
+                    <div class="p2_s1__step__status">
+                        <span class="p2_s1__step__status__title">Статус:</span>
+                        <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                            Не выбрано
+                        </span>
+                    </div>
+                    <div class="steps__wrapper">
+                        <ul class="steps__wrapper__left_part">
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__e_icon_1.svg" alt="" class="steps__wrapper__left_part__item__img item__img_1">
+                                <p class="steps__wrapper__left_part__item__title">
+                                Да, ветровая
+планка требуется
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <img src="img/page_2/step_9__e_icon_2.svg" alt="" class="steps__wrapper__left_part__item__img item__img_2">
+                                <p class="steps__wrapper__left_part__item__title">
+                                  Ветровая планка 
+не требуется
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="steps__wrapper__right_part">
+                            <p>
+                              Ветровая планка крепится сбоку крыши бани
+и защищает кровлю от продувания и выдувания
+утеплителя и изоляции, а также от проникновения
+осадков под кровлю.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div data-step_wrapper="step_9_zg">
+                   <div class="p2_s9__title">ж — Нужна ли начинка бани?</div>
+                    <div class="p2_s1__step__status">
+                        <span class="p2_s1__step__status__title">Статус:</span>
+                        <span class="p2_s1__step__status__this dont_was_select" id="p2_s2__status_label">
+                            Не выбрано
+                        </span>
+                    </div>
+                    <div class="steps__wrapper">
+                        <ul class="steps__wrapper__left_part">
+                            <li class="steps__wrapper__left_part__item">
+                                <p class="steps__wrapper__left_part__item__title">
+                                       Только котел Ферингер по оптовой цене
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <p class="steps__wrapper__left_part__item__title">
+                                      Котел Ферингер, дверь внутренняя и внешняя, окно
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <p class="steps__wrapper__left_part__item__title">
+                                      Парилка “под ключ”, с котлом Ферингер и отделкой
+                                </p>
+                            </li>
+                            <li class="steps__wrapper__left_part__item">
+                                <p class="steps__wrapper__left_part__item__title">
+                                      Начинка для бани не требуется
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="steps__wrapper__right_part">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p2_s10 white">
+            <div class="wrapper p2_s10__wrapper">
+                <h2 class="p2_s2_t1">Проверьте параметры расчета</h2>
+                <div class="wrapper_final">
+                    <div class="wrapper_final__left_part">
+                        <div class="wrapper_final__left_part__description">
+                            Пожалуйста, укажите параметры, чтобы мы могли точно
+рассчитать цену бани под ключ.
+                        </div>
+                        <div class="wrapper_final__left_part__description_2">
+                            ВЫ ЕЩЁ НЕ УКАЗАЛИ:
+                        </div>
+                        <div class="wrapper_final__left_part__list_steps">
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_1">Тип бани<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_2">Размеры стен<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_3">Толщина стен<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_4">Фундамент<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_5">Тип обвязки<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_6">Доски на пол<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_7">Доски на крышу<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_8">Тип кровли<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_9_a">Покраска бруса<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_9_b">Обработка бруса<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_9_v">Утепление бани<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_9_g">Цокольный сайдинг<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_9_d">Водосток<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_9_e">Ветровая планка<span></span></div>
+                            <div class="wrapper_final__left_part__list_steps__item" data-link="step_9_zg">Начинка<span></span></div>
+                        </div>
+                        
+                    </div>
+                    <form class="wrapper_final__right_part footer_form">
+                            <p class="footer_form__title">Расчет цены</p>
+                            <p class="footer_form__description">Ваш выбор сохранен. Осталось отправить его на рачет. Наш эксперт подготовит смету и перезвонит.</p>
+                            <label class="footer_form__label">
+                               <span class="footer_form__span_1">Как вас зовут?</span>
+                                <input type="text" class="footer_form__input" required>
+                                <span class="footer_form__span">Введите имя</span>
+                            </label>
+                            <label class="footer_form__label">
+                               <span class="footer_form__span_1">Номер мобильного телефона</span>
+                                <input type="text" placeholder="+7 (___) ___-__-__" class="footer_form__input footer_form__input__tel" required>
+                                <span class="footer_form__span">Введите номер</span>
+                            </label>
+                            <button class="btn_t_1 disabled" >Отправить<img src="img/btn_t_1.svg" alt=""></button>
+                            <label class="footer_form__label privacy_agreement">
+                                <input type="checkbox" class="footer_form__label__checkbox" checked required>
+                                <span class="footer_form__span">Принимаю <a href="#">Соглашение о конфиденциальности</a></span>
+                            </label>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <ul class="footer__menu">
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Баня под ключ</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Бани из бруса</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Купить баню</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Контакты</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Цены на бани</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Деревянные бани</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Строительство бань</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">О производстве</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Готовые бани</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Каркасные бани</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Баня на дачу</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Доставка и оплата</a></li>
+                </ul>
+                <div class="footer__callback_button">
+                    <span class="footer__callback_button__span">+7 (495) 505-28-02</span>
+                    <a href="tel:+7 (495) 505-28-02" class="footer__callback_button__a to_footer">Вам перезвонить?</a>
+                </div>
+                <div class="footer__adress">
+                    г. Москва, Краснопресненская набережная, д. 12  |  <a href="#" class="footer__adress__all_sity">Все города</a>
+                </div>
+                <div class="footer__soc">
+                    <a href="#" class="footer__soc__item">
+                        <img src="img/icon__vk.png" alt="">
+                    </a>
+                    <a href="#" class="footer__soc__item">
+                        <img src="img/icon__yt.png" alt="">
+                    </a>
+                    <a href="#" class="footer__soc__item">
+                        <img src="img/icon__in.png" alt="">
+                    </a>
+                </div>
+                <div class="footer__copy_right">
+                    <p class="footer__copy_right__item">© ООО “Баня под ключ”. Не является публичной офертой.</p>
+                    <a href="#" class="footer__copy_right__item">Соглашение о конфиденциальности</a>
+                    <a href="#" class="footer__copy_right__item">Карта сайта</a>
+                    <a href="#" class="footer__copy_right__item">О сайте</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

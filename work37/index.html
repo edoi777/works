@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+    
+    <link rel="stylesheet" href="css/common.css">
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js"></script>
+    
+    <script src="js/common.js"></script>
+</head>
+<body>
+<div class="popup">
+    <div class="popup__wr">
+       <img src="img/cancel.svg" alt="" class="popup__wr__cancel" width="30">
+        <div class="popup__wr__t1">У вас остались вопросы?</div>
+        <form  class="popup__wr__form">
+            <input type="text" class="popup__wr__form__input" placeholder="Ваше имя">
+            <input type="text" class="popup__wr__form__input" placeholder="Email">
+            <input type="text" class="popup__wr__form__input" placeholder="Номер телефона">
+            <textarea name="" id="" cols="30" rows="10" class="popup__wr__form__textarea" placeholder="Ваш вопрос"></textarea>
+            <div class="popup__wr__form__t1">
+                <label class="popup__wr__form__t1__label"> <input type="checkbox" class="popup__wr__form__t1__input"> <span class="popup__wr__form__t1__span">Согласен на обработку персональных данных</span></label>
+                <a href="#" class="popup__wr__form__t1__link">Соглашение о конфиденцильности</a>
+            </div>
+            <button class="popup__wr__form__button btn_t_2">Отправить</button>
+        </form>
+    </div>
+</div>
+ <section class="s1">
+     <div class="wrap s1__wrap">
+         <header>
+             <ul class="s1__nav">
+                 <li class="s1__nav__close"><img src="img/close.svg" alt="" width="20"></li>
+                 <li class="s1__nav__item"><a href="#" class="s1__nav__item__link">Тренеры</a></li>
+                 <li class="s1__nav__item"><a href="#" class="s1__nav__item__link">Цены</a></li>
+                 <li class="s1__nav__item"><a href="#" class="s1__nav__item__link">Фотогалерея</a></li>
+                 <li class="s1__nav__item"><a href="#" class="s1__nav__item__link">Статьи</a></li>
+                 <li class="s1__nav__item"><a href="#" class="s1__nav__item__link">Контакты</a></li>
+             </ul>
+             <a href="tel:+70000000000" class="s1__tel">+ 7 (000) 000-00-00</a>
+             <div class="s1__menu_button"></div>
+         </header>
+         <div class="s1__wr">
+            <div class="s1__wr_left-part">
+                <h1 class="s1__t1">EMS/EMA</h1>
+                <p class="s1__t2">тренировки</p>
+                <p class="s1__t3">Технология, изменившая все представления о тренинге</p>
+                <div class="s1__t4">
+                <div class="s1__t4__t1"><span>Построй</span> тело своей мечты!</div>
+                <a href="#" class="s1__t4__t2 btn_t_1 popup__go__show">Записаться на пробную тренировку</a>
+                </div>
+            </div>
+            <img src="img/s1__img2.jpg" alt="" class="s1__wr__right-part-img">
+         </div>
+     </div>
+ </section>
+ <section class="s2">
+     <div class="wrap s2__wrap">
+      <p class="s2__t1">Выбрать количество тренировок - стоимость абонемента</p>
+      <p class="s2__t2"><span>В стоимость абонемента входит:</span> использование специального костюма для тренировок, консультация и сопровождение по вопросам правильного питания, антропометрия (замеры пропорций фигуры) и биоимпедансометрия (определение состава тела в процентном соотношении - жировая масса, вода, мышцы).</p>
+     <div class="s2__wr">
+         <div class="s2__wr__left-part">
+             <div class="s2__wr__left-part__t1">1</div>
+             <div class="s2__wr__left-part__t2">пробная тренировка</div>
+             <div class="s2__wr__left-part__t3">500 <span>руб.</span></div>
+             <div class="s2__wr__left-part__t4 btn_t_1 btn_t_1__white popup__go__show">забронировать тренировку</div>
+         </div>
+         <div class="s2__wr__right-part">
+             <label class="s2__wr__right-part__label">
+                 <input type="radio" name="tren1" class="s2__wr__right-part__input" checked>
+                 <p class="s2__wr__right-part__p">1 тренировка <span> - 1 990 руб.</span></p>
+             </label>
+             <label class="s2__wr__right-part__label">
+                 <input type="radio" name="tren1" class="s2__wr__right-part__input">
+                 <p class="s2__wr__right-part__p">1 тренировка <span> - 13 700руб.</span></p>
+             </label>
+             <label class="s2__wr__right-part__label">
+                 <input type="radio" name="tren1" class="s2__wr__right-part__input">
+                 <p class="s2__wr__right-part__p">10 тренировок <span> - 24 300 руб.</span></p>
+             </label>
+             <label class="s2__wr__right-part__label ">
+                 <input type="radio" name="tren1" class="s2__wr__right-part__input">
+                 <div class="s2__wr__right-part__p s2__wr__right-part__p_t1"><span class="this__text__change">Другие варианты</span><span class="s2_arrow_input"></span>
+                         <div class="s2__wr__right-part__p__label">
+                             <div class="s2__wr__right-part__p__label__popup">
+                                 <p class="s2__wr__right-part__p__label__popup__p">20 тренировок <span>- 44 300 руб.</span></p>
+                                 <p class="s2__wr__right-part__p__label__popup__p">30 тренировок <span>- 62 300 руб.</span></p>
+                                 <p class="s2__wr__right-part__p__label__popup__p">40 тренировок <span>- 78 300 руб.</span></p>
+                                 <p class="s2__wr__right-part__p__label__popup__p">50 тренировок <span>- 92 300 руб.</span></p>
+                             </div>
+                         </div>
+                 </div>
+             </label>
+             <div class="s2__wr__right-part__button btn_t_2 popup__go__show">Оформить абонемент</div>
+             <div class="s2__wr__right-part__button__t1 popup__go__show">Задать вопрос, если не понятно</div>
+         </div>
+     </div>
+     </div>
+ </section>
+ <section class="s3">
+     <div class="wrap s3__wrap">
+        <div class="s3__t1">
+            <span>Чтобы приблизить вас к мечте, классическая форма силового тренинга отнимет у вас несколько лет.</span>
+            <b class="s3__t1__razdelitel"></b>
+            <span>Вам придётся вести жизнь по строгому графику, подстроенному «под спортзал».</span>
+        </div>
+        <div class="s3__t2">
+            <img src="img/s3__t2.svg" alt="" class="s3__t2__img">
+            <p class="s3__t2__t1">EMS / EMA -технология сделает вашу фигуру красивой быстрее и проще.</p>
+        </div>
+        <div class="s3__t3">EMS / EMA-тренировки.<br> Технология для тех, кому нужен результат</div>
+        <div class="s3__t4">EMS / EMA-тренировки обеспечивают результаты, сопоставимые с традиционным силовым тренингом.</div>
+        <div class="s3__t5">
+            <div class="s3__t5__t1">
+                <div class="s3__t5__t1__imgwr"><img src="img/s3__t5__t1__img1.svg" alt="" class="s3__t5__t1__img"></div>
+                <div class="s3__t5__t1__text">Коррекция проблемных зон</div>
+            </div>
+            <div class="s3__t5__t1">
+                <div class="s3__t5__t1__imgwr"><img src="img/s3__t5__t1__img2.svg" alt="" class="s3__t5__t1__img"></div>
+                <div class="s3__t5__t1__text">Формирование атлетической фигуры</div>
+            </div>
+            <div class="s3__t5__t1">
+                <div class="s3__t5__t1__imgwr"><img src="img/s3__t5__t1__img3.svg" alt="" class="s3__t5__t1__img"></div>
+                <div class="s3__t5__t1__text">Набор мышечной массы</div>
+            </div>
+            <div class="s3__t5__t1">
+                <div class="s3__t5__t1__imgwr"><img src="img/s3__t5__t1__img4.svg" alt="" class="s3__t5__t1__img"></div>
+                <div class="s3__t5__t1__text">Сжигание подкожного жира</div>
+            </div>
+            <div class="s3__t5__t1">
+                <div class="s3__t5__t1__imgwr"><img src="img/s3__t5__t1__img5.svg" alt="" class="s3__t5__t1__img"></div>
+                <div class="s3__t5__t1__text">Повышение мышечного тонуса</div>
+            </div>
+        </div>
+     </div>
+ </section>
+ <section class="s4">
+     <div class="wrap s4__wrap">
+        <div class="s4__t1"> Важные отличия <br>EMS / EMA-тренировок </div>
+        <div class="s4__t2">Используемая технология мышечной стимуляции сокращает продолжительность тренировки, повышает её эффективность и приводит к хорошо выраженному результату.</div>
+        <div class="s4__wr">
+            <div class="s4__wr__item">
+                <span>Короткие тренировки</span>
+                <div class="s4__wr__item__popup">
+                    <div class="s4__wr__item__popup__t1">Короткие тренировки</div>
+                    <p>3 раза в неделю по 20 минут достаточно, чтобы качественно проработать все группы мышц. Технология EMS / EMA позволяет в короткий срок создать условия, необходимые для мышечного роста и активного липолиза. Традиционным методам силового тренинга для этого нужно больше времени.</p>
+                    <p>Если вы хотите тренироваться реже, тренер составит программу, учитывающую это обстоятельство.</p>
+                </div>
+            </div>
+            <div class="s4__wr__item">
+               <span>Повышенная эффективность</span>
+               <div class="s4__wr__item__popup">
+                    <div class="s4__wr__item__popup__t1">Повышенная эффективность</div>
+                    <p>Используемая технология обеспечивает специфическую нагрузку на мышцы. По сравнению с традиционным силовым тренингом такая нагрузка отличается высокой интенсивностью при сохранении полной безопасности. В условиях обычного тренажерного зала такой эффект без ущерба для здоровья недостижим.</p>
+                    <p>Эффективность повышается благодаря разработанному комплексу упражнений. Такой комплекс имитирует обычные упражнения со снарядами, но нагрузка создаётся действием электрических импульсов. Выполнение этого комплекса упражнений позволяет акцентированно прорабатывать нужные группы мышц, не травмируя их большими весами.</p>
+                </div>
+            </div>
+            <div class="s4__wr__item">
+              <span>Выраженный результат</span>
+               <div class="s4__wr__item__popup">
+                    <div class="s4__wr__item__popup__t1">Выраженный результат</div>
+                    <p>Высокая интенсивность нагрузки, которую обеспечивает технология EMS / EMA, в сочетании с комплексом упражнений вынуждает организм максимально задействовать собственные адаптационные механизмы. Каждая EMS / EMA-тренировка - это стрессовая ситуация для мышц. Ответная реакция на такие ситуации запрограммирована природой - мышцы становятся больше, повышается их тонус, сила и выносливость.</p>
+                </div>
+            </div>
+        </div>
+     </div>
+ </section>
+ <section class="s5">
+     <div class="wrap s5__wrap">
+        <div class="s5__left-part">
+            <div class="s5__left-part__t1">EMS / EMA. Естественная работа мышц под контролем современной технологии
+</div>
+       <iframe class="s5__left-part__t2" width="600" height="339" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="s5__right-part">
+           
+        <p><span>EMS</span> – это электромышечная стимуляция. Метод, полностью копирующий работу центральной нервной системы.</p>
+
+        <p><span>В обычных условиях</span> мышцы сокращаются по сигналу, поступившему из мозга. Такой сигнал передаётся к нужным мышцам по цепи нервных клеток.</p>
+
+        <p><span>Технология EMS</span> позволяет сгенерировать аналогичную команду и по нервной сети подать её на нужные группы мышц. В результате мышечные волокна естественным образом сократятся.</p>
+
+        <p><span>EMS позволяет</span> регулировать частоту и силу сокращения мышц, подбирая необходимую интенсивность нагрузки. Это дает возможность тренеру разработать полностью индивидуальный тренировочный план под задачи клиента.</p>
+
+        <p><span>EMA - электромышечная активация.</span> Следующий шаг в развитии технологии EMS. Импульсы подаются непосредственно на мышечные волокна, минуя нервные цепи. Это снижает нагрузку на центральную нервную систему и позволяет точнее управлять тренировочным процессом. EMA делает тренинг более акцентированным, предоставляя возможность сосредоточиться на детальной проработке проблемных мест.</p>
+
+        </div>
+     </div>
+ </section>
+ <section class="s6">
+     <div class="wrap s6__wrap">
+        <div class="s6__t1">Эффективность EMS / EMA-тренировок </div>
+        <div class="s6__t2">подтверждена научными исследованиями</div>
+        <div class="s6__wr">
+            <div class="s6__wr__left-part">
+                <p class="s6__wr__left-part__p">
+                  <span>Немецкая компания</span> Amplitrain GmbH, представляющая EMS / EMA-технологию, провела собственное исследование.
+                </p>
+                <p class="s6__wr__left-part__p">
+                  <span>Его целью</span>  было подтвердить или опровергнуть эффективность данного метода воздействия на мышечную ткань.
+                </p>
+                <p class="s6__wr__left-part__p">
+                  <span>Результаты исследования</span>  показали, что метод EMS / EMA может с успехом применяться как в спортивных, так и в медицинских целях. Например, эта технология используется в космонавтике для реабилитации астронавтов, проведших длительное время в невесомости.
+                </p>
+                <p class="s6__wr__left-part__p2 popup__go__show">Задать вопрос, если не понятно</p>
+            </div>
+            <img src="img/s6__wr__img.png" alt="" class="s6__wr__img">
+            <div class="s6__wr__right-part">
+                <p class="s6__wr__right-part__t1"><span>Аппарат AmpliTrain,</span> разработанный компанией на основе этой технологии, сертифицирован в Германии</p>
+                <img src="img/s6__wr__right-part__img.png" alt="" class="s6__wr__right-part__img">
+                <p class="s6__wr__right-part__t2 popup__go__show">Просмотреть<br>
+результаты исследования</p>
+            </div>
+        </div>
+     </div>
+ </section>
+ <section class="s7">
+     <div class="wrap s7__wrap">
+        <div class="s7__t1">
+            EMS / EMA – это безопасно. Никаких травм и повреждений
+        </div>
+        <div class="s7__wr">
+            <div class="s7__wr__item">
+                <span>Связки</span>
+                <div class="s7__wr__item__popup">
+                    <div class="s7__wr__item__popup__t1">Короткие тренировки</div>
+                    <p>В отличие от традиционного силового тренинга связки спортсмена, занимающегося EMS / EMA, не испытывают экстремальных нагрузок. Это исключает их повреждение, растяжение или разрыв. В классическом силовом тренинге отрыв связки под действием экстремального усилия является распространенной травмой.</p>
+                    <p>В EMS / EMA-тренировках подобное полностью исключено.</p>
+                </div>
+            </div>
+            <div class="s7__wr__item">
+               <span>Суставы</span>
+               <div class="s7__wr__item__popup">
+                    <div class="s7__wr__item__popup__t1">Суставы</div>
+                    <p>В классическом силовом тренинге работа с тяжёлыми весами влияет на состояние суставов. В результате постепенно разрушается хрящевой слой, сустав подвергается патологической деформации. Проблемы с суставами характерны для большинства спортсменов-тяжелоатлетов.</p>
+                    <p>EMS / EMA-тренинг не подразумевает использования больших весов. Это исключает травмирование суставов.</p>
+                </div>
+            </div>
+            <div class="s7__wr__item">
+              <span>Позвоночник</span>
+               <div class="s7__wr__item__popup">
+                    <div class="s7__wr__item__popup__t1">Короткие тренировки</div>
+                    <p>Традиционный силовой тренинг подразумевает упражнения со сложной техникой и большой вертикальной нагрузкой на позвоночник. Например, приседания и различные виды тяг. Неправильная техника исполнения в сочетании с большим весом снаряда приводит к нарушениям позвоночника. Многие классические спортсмены-тяжеловесы страдают от различных патологий, вызванных воздействием экстремальных весов на позвоночный столб.</p>
+                    <p>EMS / EMA-тренировки исключают большие веса и технически сложные упражнения. Позвоночник остается здоровым.</p>
+                </div>
+            </div>
+        </div>
+     </div>
+ </section>
+ <section class="s8">
+     <div class="wrap s8__wrap">
+         <div class="s8__t1">EMS / EMA-тренировка. 20 минут достаточно для проработки всех групп мышц</div>
+         <div class="s8__t2">20-минутная EMS / EMA-тренировка эквивалента полноценной 
+3-часовой тренировке по системе «фулбади».</div>
+        <div class="s8__wr">
+            <div class="s8__wr__item">
+                <div class="s8__wr__item__title">Костюм</div>
+                <div class="s8__wr__item__text">
+                    <p>Спортивная форма не нужна.</p>
+                    <p>Перед началом тренировки вы наденете специальный костюм с электродами.</p>
+                    <p>Электроды подключены к тренажёру Amplitrain, который генерирует электрические импульсы.</p>
+                </div>
+            </div>
+            <div class="s8__wr__item">
+                <div class="s8__wr__item__title">Разминка</div>
+                <div class="s8__wr__item__text">
+                    <p>Разминка это набор разогревающих и растягивающих упражнений. В это время на ваши мышцы будут подаваться слабые импульсы, позволяющие подготовить мышечные волокна к основной работе.</p>
+
+                     <p>В зависимости от индивидуальной программы, тренер может варьировать порядок разминки.</p>
+                </div>
+            </div>
+            <div class="s8__wr__item">
+                <div class="s8__wr__item__title">Тренировка</div>
+                <div class="s8__wr__item__text">
+                    <p>Основная часть тренировки – это выполнение специального комплекса упражнений. Упражнения имитируют классический силовой тренинг и позволяют сконцентрироваться на прорабатываемой группе мышц. Всю силовую работу мышцы выполняют самостоятельно под действием электрических импульсов.</p>
+
+ <p>ОВ зависимости от индивидуальной программы, тренер может варьировать порядок тренировки.</p>
+                </div>
+            </div>
+            <div class="s8__wr__item">
+                <div class="s8__wr__item__title">Заминка</div>
+                <div class="s8__wr__item__text">
+                    <p>Заминка сглаживает переход от высокоинтенсивной работы к состоянию покоя. Комплекс упражнений позволяет снизить нагрузку на сердечно-сосудистую систему и успокаивает центральную нервную систему.</p>
+
+<p>В зависимости от индивидуальной программы, тренер может варьировать порядок заминки.</p>
+                </div>
+            </div>
+        </div>
+     </div>
+ </section>
+ <section class="s9">
+     <div class="wrap s9__wrap">
+         <div class="s9__t1">Дополнительные эффекты от EMS / EMA-тренировок</div>
+        <div class="s9__wr2">
+            <div class="s9__wr2__left-part">
+                         <div class="s9__wr">
+                    <div class="s9__wr__item">
+                        <span>Восстановление после травм</span>
+                        <div class="s9__wr__item__popup">
+                            <div class="s9__wr__item__popup__t1">Восстановление после травм</div>
+                            <p>Метод EMS / EMA позволяет быстро восстановиться после травм или заболеваний, связанных с нарушением двигательной активности. Именно для этих целей метод активно применяется в медицине.</p>
+                        </div>
+                    </div>
+                    <div class="s9__wr__item">
+                       <span>Улучшение обменных процессов</span>
+                       <div class="s9__wr__item__popup">
+                            <div class="s9__wr__item__popup__t1">Улучшение обменных процессов</div>
+                            <p>Интенсивная работа мышечных волокон под действием электрических импульсов активизирует обменные процессы. Кровь в большем объеме поступает в ткани, лучше снабжая их кислородом и микроэлементами. В результате возникают необходимые условия для мышечного роста. Ускорение процессов обмена стимулирует липолиз – расщепление подкожного жира.</p>
+                        </div>
+                    </div>
+                    <div class="s9__wr__item">
+                      <span>Детоксикация организма</span>
+                       <div class="s9__wr__item__popup">
+                            <div class="s9__wr__item__popup__t1">Детоксикация организма</div>
+                            <p>Ускорение обменных процессов означает активизацию лимфотока. Возникает сильный лимфодренажный эффект. Из тканей выводится излишняя жидкость, в которой растворены продукты обмена и токсины, скопившиеся в межклеточном пространстве. Процесс детоксикации восстанавливает функциональность клеток, что приводит к естественному омоложению организма</p>
+                        </div>
+                    </div>
+                    <div class="s9__wr__item">
+                      <span>Повышение иммунитета</span>
+                       <div class="s9__wr__item__popup">
+                            <div class="s9__wr__item__popup__t1">Повышение иммунитета</div>
+                            <p>Улучшение процессов обмена в сочетании с детоксикационным эффектом повышают иммунитет. Восстанавливается функция самооздоровления. Риск заболеваний снижается.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="img/s9__wr2__right-part.jpg" alt="" class="s9__wr2__right-part">
+        </div>
+     </div>
+ </section>
+ <section class="s10">
+     <div class="s10__title">Галерея результатов, которые обеспечила технология EMS / EMA</div>
+     <div class="s10__slider">
+                 <div class="s10__slider__item full swiper-slide"></div>
+                 <div class="s10__slider__item half swiper-slide">
+                     <div></div>
+                     <div></div>
+                 </div>
+                 <div class="s10__slider__item full swiper-slide"></div>
+                 <div class="s10__slider__item half swiper-slide">
+                     <div></div>
+                     <div></div>
+                 </div>
+                 <div class="s10__slider__item full swiper-slide"></div>
+                 <div class="s10__slider__item half swiper-slide">
+                     <div></div>
+                     <div></div>
+                 </div>
+                 <div class="s10__slider__item full swiper-slide"></div>
+                 <div class="s10__slider__item half swiper-slide">
+                     <div></div>
+                     <div></div>
+                 </div>
+                 <div class="s10__slider__item full swiper-slide"></div>
+                 <div class="s10__slider__item half swiper-slide">
+                     <div></div>
+                     <div></div>
+                 </div>
+                 <div class="s10__slider__item full swiper-slide"></div>
+                 <div class="s10__slider__item half swiper-slide">
+                     <div></div>
+                     <div></div>
+                 </div>
+     </div>
+ </section>
+ <section class="s2">
+     <div class="wrap s2__wrap">
+      <p class="s2__t1">Выбрать количество тренировок - стоимость абонемента</p>
+      <p class="s2__t2"><span>В стоимость абонемента входит:</span> использование специального костюма для тренировок, консультация и сопровождение по вопросам правильного питания, антропометрия (замеры пропорций фигуры) и биоимпедансометрия (определение состава тела в процентном соотношении - жировая масса, вода, мышцы).</p>
+     <div class="s2__wr">
+         <div class="s2__wr__left-part">
+             <div class="s2__wr__left-part__t1">1</div>
+             <div class="s2__wr__left-part__t2">пробная тренировка</div>
+             <div class="s2__wr__left-part__t3">500 <span>руб.</span></div>
+             <div class="s2__wr__left-part__t4 btn_t_1 btn_t_1__white popup__go__show">забронировать тренировку</div>
+         </div>
+         <div class="s2__wr__right-part">
+             <label class="s2__wr__right-part__label">
+                 <input type="radio" name="tren1" class="s2__wr__right-part__input" checked>
+                 <p class="s2__wr__right-part__p">1 тренировка <span> - 1 990 руб.</span></p>
+             </label>
+             <label class="s2__wr__right-part__label">
+                 <input type="radio" name="tren1" class="s2__wr__right-part__input">
+                 <p class="s2__wr__right-part__p">1 тренировка <span> - 13 700руб.</span></p>
+             </label>
+             <label class="s2__wr__right-part__label">
+                 <input type="radio" name="tren1" class="s2__wr__right-part__input">
+                 <p class="s2__wr__right-part__p">10 тренировок <span> - 24 300 руб.</span></p>
+             </label>
+             <label class="s2__wr__right-part__label ">
+                 <input type="radio" name="tren1" class="s2__wr__right-part__input">
+                 <div class="s2__wr__right-part__p s2__wr__right-part__p_t1"><span class="this__text__change">Другие варианты</span><span class="s2_arrow_input"></span>
+                         <div class="s2__wr__right-part__p__label">
+                             <div class="s2__wr__right-part__p__label__popup">
+                                 <p class="s2__wr__right-part__p__label__popup__p">20 тренировок <span>- 44 300 руб.</span></p>
+                                 <p class="s2__wr__right-part__p__label__popup__p">30 тренировок <span>- 62 300 руб.</span></p>
+                                 <p class="s2__wr__right-part__p__label__popup__p">40 тренировок <span>- 78 300 руб.</span></p>
+                                 <p class="s2__wr__right-part__p__label__popup__p">50 тренировок <span>- 92 300 руб.</span></p>
+                             </div>
+                         </div>
+                 </div>
+             </label>
+             <div class="s2__wr__right-part__button btn_t_2 popup__go__show">Оформить абонемент</div>
+             <div class="s2__wr__right-part__button__t1 popup__go__show">Задать вопрос, если не понятно</div>
+         </div>
+     </div>
+     </div>
+ </section>
+ <footer>
+     <div class="wrap footer__wrap">
+         <ul class="footer__nav">
+             <li class="footer__nav__li"><a href="#" class="footer__nav__li__link">Тренеры</a></li>
+             <li class="footer__nav__li"><a href="#" class="footer__nav__li__link">Цены</a></li>
+             <li class="footer__nav__li"><a href="#" class="footer__nav__li__link">Фотогалерея</a></li>
+             <li class="footer__nav__li"><a href="#" class="footer__nav__li__link">Статьи</a></li>
+             <li class="footer__nav__li"><a href="#" class="footer__nav__li__link">Контакты</a></li>
+         </ul>
+         <div class="footer__soc">
+             <a href="#" class="footer__soc__link"></a>
+             <a href="#" class="footer__soc__link"></a>
+             <a href="#" class="footer__soc__link"></a>
+         </div>
+         <div class="footer__tel">
+                 <a href="tel:8-800-707-55-31" class="footer__tel__link">8-800-707-55-31</a>
+                 <a href="tel:+7 (499) 322-24-75" class="footer__tel__link">+7 (499) 322-24-75</a>
+         </div>
+         <div class="footer__adress">
+             <div class="footer__adress__text">123610, Москва, Краснопре сненская наб., д.12, стр.1</div>
+         </div>
+     </div>
+    <div class="footer__copyright">
+             <div class="wrap footer__copyright__wrap">
+             ©2015-2017 ООО "СэйфКроу", номер государственной регистрации 1157746493365
+         </div>
+    </div>
+ </footer>
+</body>
+</html>
+
+
+
+
+
+                                                              

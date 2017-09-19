@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+        <!--        common css-->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <!--        page css-->
+        <link rel="stylesheet" href="css/page_9.css">
+        <!--        jq-->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <!--        noui-->
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/wnumb.js"></script>
+        <script src="js/noui.js"></script>
+        <link rel="stylesheet" href="css/noui.css">
+        <!--        slickslider-->
+        <script src="js/slick.js"></script>
+        <link rel="stylesheet" href="css/slick.css">
+        <!--       commons script and page script-->
+        <script src="js/common.js"></script>
+<!--        <script src="js/page_4.js"></script>-->
+        <script src="js/footer__callback_form.js"></script>
+    </head>
+    <body>  <img src="img/up-button.svg" alt="" class="up_button">
+        <header>
+            <div class="wrapper header__wrapper">
+                <div class="header__top-line">
+                    <div class="header__menu-button-and-tel-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 50 50" class="header__menu-button" id="header__menu-button">
+                            <path style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;-inkscape-font-specification:Bitstream Vera Sans" d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 L 0 7.5 z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 L 0 22.5 z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 L 0 37.5 z" overflow="visible" enable-background="accumulate" font-family="Bitstream Vera Sans"/>
+                        </svg>
+                        <a href="tel:+7 495 555-55-55" class="header__tel">+7 495 555-55-55</a>
+                    </div>
+                    <a href="#" class="header__logo">
+                        <img src="img/logo.svg" alt="" class="header__logo__img">
+                        <span class="header__logo__span">баня<span>под</span>ключ</span>
+                    </a>
+                    <a href="#" class="header__submit-application-button">Оставить заявку</a>
+                </div>
+                <img src="img/header__close-button.png" class="header__close-button" id="header__close-button">
+                <ul class="header__menu">
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Главная</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Контакты</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">О производстве</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Города</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Цены на бани</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Готовые бани</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Бани из бруса</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Деревянные бани</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Каркасные бани</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Купить баню</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Строительство бань</a></li>
+                    <li class="header__menu__li"><a href="#" class="header__menu__li__a">Баня на дачу</a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="first-screen p1">
+            <div class="breadcubs-and-top-panel-wrapper wrapper">
+                <ul class="breadcubms">
+                    <li class="breadcubms__li"><a href="#" class="breadcubms__li__a link_t_1">Главная</a></li>
+                    <li class="breadcubms__li">—  Готовые бани</li>
+                </ul>
+                <ul class="top__tools">
+                    <li class="top__tools__li">
+                        <img src="img/icon__discount.svg" alt="" class="top__tools__li__img">
+                        <div class="top__tools__wr-text">
+                            <div class="top__tools__title">Калькулятор</div>
+                            <div class="top__tools__description">цен на бани</div>
+                        </div>
+                    </li>
+                    <li class="top__tools__li">
+                        <img src="img/icon__marker.svg" alt="" class="top__tools__li__img">
+                        <div class="top__tools__wr-text">
+                            <div class="top__tools__title select-city">Москва</div>
+                            <div class="top__tools__description">ваш город</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="wrapper first-screen__body">
+                <h1 class="first-screen__t1">Контакты в <br>
+Москве</h1>
+                <div class="first-screen__t2 text"><p>Работаем не только в Москве и Московской области, но 
+и в других регионах.</p> 
+<p>
+Чтобы поменять город, перейдите на <a href="#" class="blue_link">страницу 
+выбора города</a>.</p>
+<p>
+Прием в офисе: по пропуску, <a href="#" class="blue_link to_footer">заказать пропуск</a></p></div>
+               
+            </div>
+            <div class="first-screen__arrow-botom__wr" id="first-screen__arrow-botom"><img src="img/icon__arrow_bottom.svg" alt="" class="first-screen__arrow-botom"></div>
+        </section>
+     <section class="p9_b2 white">
+            <div class="wrapper p9_b2_wrapper">
+                <h2 class="p9_b2_t1">Хорошая баня 
+начинается со звонка</h2>
+                <div class="p9_b2_t2">
+                   <img src="img/page_9/p9_b2_t2__left_part.png" alt="" class="p9_b2_t2__left_part">
+                    <div class="p9_b2_t2__right_part">
+                       <div class="p9_b2_t2__right_part__i_1">
+                           Наши операторы — настоящие профи. Они детально разбираются в продукте и мечтают помочь вам с подбором идеальной <a href="#" class="blue_link">бани под ключ</a>! 
+                       </div>
+                        <ul class="common_ul">
+                            <li class="common_ul__item">
+                                <p>Телефон: +7 495 333-33-33</p>
+                            </li>
+                            <li class="common_ul__item">
+                                <p>График обработки звонков: с 09:00 до 20:00, ежедневно</p>
+                            </li>
+                            <li class="common_ul__item">
+                                <p>Прием в офисе: в нашем офисе работаем пропускная система; чтобы попасть на приём, пожалуйста, оформите пропуск заранее через <a href="#" class="blue_link to_footer">форму ниже</a></p>
+                            </li>
+                            <li class="common_ul__item">
+                                <p>Адрес офиса: г. Москва. Краснопресненская наб., 12. <a href="#" class="blue_link">Ещё города</a></p>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            
+               
+        <div class="footer__callback">
+            <form class="footer_form">
+                <p class="footer_form__title">Закажите пропуск
+в офис</p>
+                <p class="footer_form__title2">В офисе установлена пропускная система. Мы сможем принять
+вас после утверждения пропуска с охраной бизнес-центра. Для этого отправьте
+данные как минимум за 1 час до визита через эту форму:</p>
+                <label class="footer_form__label">
+                   <span class="footer_form__span_1">ФИО как в паспорте</span>
+                    <input type="text"  class="footer_form__input" required>
+                    <span class="footer_form__span">Введите ФИО</span>
+                </label>
+                <label class="footer_form__label">
+                   <span class="footer_form__span_1">Номер мобильного телефона</span>
+                    <input type="text" placeholder="+7 (___) ___-__-__" class="footer_form__input footer_form__input__tel" required>
+                    <span class="footer_form__span">Введите номер</span>
+                </label>
+                <label class="footer_form__label">
+                   <span class="footer_form__span_1">Ваш комментарий:</span>
+                    <textarea id="" cols="30" rows="10" class="footer_form__textarea"></textarea>
+                </label>
+                <label class="footer_form__label_add_file">
+                    <p class="footer_form__label_add_file__title">Приложить файл</p>
+                    <p class="footer_form__label_add_file__file">Загружен файл: <span class="footer_form__label_add_file__file__name">Passport.png</span>   <span class="footer_form__label_add_file__file__delete">Удалить файл</span></p>
+                    <p class="footer_form__label_add_file__file">Загружен файл: <span class="footer_form__label_add_file__file__name">Passport.png</span>   <span class="footer_form__label_add_file__file__delete">Удалить файл</span></p>
+                    <p class="footer_form__label_add_file__download_file">Загрузить</p>
+                </label>
+                <button class="btn_t_1 disabled" >Отправить<img src="img/btn_t_1.svg" alt=""></button>
+                <label class="footer_form__label privacy_agreement">
+                    <input type="checkbox" class="footer_form__label__checkbox" checked required>
+                    <span class="footer_form__span">Согласен на обработку персональных данных и
+                        принимаю <a href="#">Соглашение о конфиденциальности</a></span>
+                </label>
+
+            </form>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <ul class="footer__menu">
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Баня под ключ</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Бани из бруса</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Купить баню</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Контакты</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Цены на бани</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Деревянные бани</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Строительство бань</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">О производстве</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Готовые бани</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Каркасные бани</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Баня на дачу</a></li>
+                    <li class="footer__menu__li"><a href="#" class="footer__menu__li__a">Доставка и оплата</a></li>
+                </ul>
+                <div class="footer__callback_button">
+                    <span class="footer__callback_button__span">+7 (495) 505-28-02</span>
+                    <a href="tel:+7 (495) 505-28-02" class="footer__callback_button__a to_footer">Вам перезвонить?</a>
+                </div>
+                <div class="footer__adress">
+                    г. Москва, Краснопресненская набережная, д. 12  |  <a href="#" class="footer__adress__all_sity">Все города</a>
+                </div>
+                <div class="footer__soc">
+                    <a href="#" class="footer__soc__item">
+                        <img src="img/icon__vk.png" alt="">
+                    </a>
+                    <a href="#" class="footer__soc__item">
+                        <img src="img/icon__yt.png" alt="">
+                    </a>
+                    <a href="#" class="footer__soc__item">
+                        <img src="img/icon__in.png" alt="">
+                    </a>
+                </div>
+                <div class="footer__copy_right">
+                    <p class="footer__copy_right__item">© ООО “Баня под ключ”. Не является публичной офертой.</p>
+                    <a href="#" class="footer__copy_right__item">Соглашение о конфиденциальности</a>
+                    <a href="#" class="footer__copy_right__item">Карта сайта</a>
+                    <a href="#" class="footer__copy_right__item">О сайте</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,117 @@
+.first-screen {
+    background-color: #f7f3f3;
+  box-shadow: inset 0px -5px 29px 0 rgba(224, 220, 220, 0.75);
+}  
+.first-screen__body {
+    justify-content: flex-start;
+}
+.privacy_agreement {
+    border-bottom: 2px solid #000; 
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 45px 50px 53px 45px;
+    max-width: 789px;
+    width: 100%;
+    margin: 159px auto 77px auto;
+}
+.privacy_agreement .btn_t_1{
+margin: 0px auto;
+}
+.privacy_agreement:before {
+    content: '';
+    display: block;
+    width: 20%;
+    height: 100%;
+    max-width: 64px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border:2px solid #000;
+    border-bottom: none;
+    border-right: none;
+}
+.first-screen__body {
+    display: block !important;
+    height: auto !important;
+}
+.privacy_agreement:after {
+    content: '';
+    display: block;
+    width: 20%;
+    height: 100%;
+    max-width: 64px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border:2px solid #000;
+    border-bottom: none;
+    border-left: none;
+}
+.privacy_agreement__t1 {
+    margin-top: -79px;
+    margin-bottom: 65px;
+      font-size: 60px;
+    text-align: center;
+  font-weight: bold;
+    width: 100%;
+}
+.privacy_agreement__title {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 43px;
+}
+
+.privacy_agreement__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.privacy_agreement__list__item {
+    width: 33%;
+      font-size: 13px;
+  font-weight: 600;
+    margin-bottom: 12px;
+}
+.privacy_agreement__list__item__a:hover {
+  color: #4469b2;
+}
+.privacy_agreement__list.c1 {
+    flex-direction: column;
+}
+.privacy_agreement__list.c1 .privacy_agreement__list__item{
+ width: 100%;
+}
+.privacy_agreement__list.c2 .privacy_agreement__list__item {
+    width: 50%;
+}
+@media screen and (max-width:850px) {
+    .privacy_agreement__t1 {
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .privacy_agreement__list {
+        flex-direction: column;
+        width: 100%;
+    }
+    .privacy_agreement__list__item {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:600px) {
+    .privacy_agreement {
+        padding: 15px;
+    }
+        .privacy_agreement__t1 {
+        font-size: 20px;
+    }
+    .privacy_agreement {
+        margin-bottom: 20px;
+    }
+    
+}

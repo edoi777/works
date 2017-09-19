@@ -1,0 +1,80 @@
+
+/*///////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+.footer__link {
+    background-color: #f6f6f6;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+    color: #5e35b1;
+    display: block;
+}
+/*///////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+.footer__pagination {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.footer__pagination__item {
+    display: inline-block;
+    font-size: 13px;
+    text-align: left;
+    color: #5e35b1;
+}
+.footer__pagination a:last-child {
+    color: #3c3c3b;
+}
+.footer__pagination__item:after {
+    content: url(../img/icon__footer_pagination__right.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 3px;
+}
+.footer__pagination a:last-child:after {
+    display: none;
+}
+.footer__pagination__item:hover {
+    text-decoration: underline;
+}
+footer {
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.footer__mail {
+    font-size: 14px;
+    color: #5e35b1;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.footer__mail:before {
+    content: url(../img/icon__footer_mail.svg);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 9px;
+}
+.footer__description {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.24;
+    color: #3c3c3b;
+    max-width: 246px;
+    text-align: center;
+    margin: 0px auto;
+    padding-bottom: 35px;
+}
+.footer__description a {
+    color: #5e35b1;
+}
+.footer__description a:hover {
+    text-decoration: underline;
+}
