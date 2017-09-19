@@ -1,0 +1,7 @@
+main {
+    position: relative;
+    padding-top: 40px;
+    z-index: 0;
+    padding-bottom: 150px;
+    overflow: hidden;
+}

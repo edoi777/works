@@ -1,0 +1,75 @@
+
+.slide {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    z-index: -3999;
+    background-size: cover;
+    display: none;
+    color: #fff;
+    padding-top: 270px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all 1s;
+        min-height: 1000px;
+}
+.slide_1 { background: url(../../img/royal/slide_1.jpg);  display: block;}
+.slide_2 { background: url(../../img/royal/slide_2.jpg);  display: block;}
+.slide_3 { background: url(../../img/royal/slide_3.jpg);  display: block;}
+.slide_4 { background: url(../../img/royal/slide_4.jpg);  display: block;}
+main .active {
+    opacity: 1;
+    z-index: 1;
+}
+.slide h2 {
+    font-size: 52px;
+    text-transform: uppercase;
+    max-width: 600px;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+.slide h2 span {
+    font-size: 24px;
+    display: block;
+    margin-top: 35px;
+     max-width: 550px;
+}
+.slide p {
+    font-size: 17px;
+     max-width: 550px;
+    line-height: 130%;
+}
+@media screen and (max-width:1000px) {
+        header menu .content {
+        flex-direction: column;
+            align-items: center
+    }
+
+    header menu ul li:last-child:before {
+        display: none !important;
+    }
+    .slide {
+        position: relative;
+        opacity: 1;
+    }
+    .slide {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    header {
+        height: auto;
+    }
+}
+@media screen and (max-width:650px) {
+    header menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    header menu ul > li {
+        margin: 10px 0px;
+    }
+}

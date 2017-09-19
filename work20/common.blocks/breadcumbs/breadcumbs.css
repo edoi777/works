@@ -1,0 +1,24 @@
+.breadcumbs {
+padding-bottom: 15px;
+    margin-top: -10px;
+}
+.breadcumbs__item {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.breadcumbs__item:after {
+    content: '>';
+    display: inline-block;
+    margin: 0px 8px 0px 7px;
+}
+
+.breadcumbs .breadcumbs__item:last-child {
+    color: #b0b0b0;
+    text-decoration: none;
+}
+
+.breadcumbs .breadcumbs__item:last-child:after {
+    display: none;
+
+}

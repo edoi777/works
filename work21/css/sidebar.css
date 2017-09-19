@@ -1,0 +1,201 @@
+.sidebar {
+    background: #f7f7f7;
+    width: 220px;
+    margin-right: 30px;
+    padding: 18px 10px 15px 10px;
+    box-sizing: border-box;
+    color: #101010;
+    margin-bottom: 30px;
+}
+.sidebar > p {
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+.sidebar__title {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.sidebar .selectric {
+    background: #fff;
+    width: 100%;
+    border:none;
+    height: 32px;
+    margin-bottom: 6px;
+}
+.sidebar .selectric .label, .sidebar .selectric-items li{
+    color: #000;
+    font-size: 15px;
+}
+.ckecked_wrapper {
+    background: #fff;
+    padding: 10px 7px 15px 7px;
+    margin-bottom: 8px;
+}
+.ckecked_wrapper__title {
+    padding-left: 8px;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.ckecked_wrapper label {
+    width: 100%;
+    display: block;
+    margin-bottom: 3px;
+    position: relative;
+    padding-left: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.ckecked_wrapper label input {
+display: none;
+}
+.ckecked_wrapper label span {
+font-size: 12px;
+}
+.ckecked_wrapper label span:before {
+content: '';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -3px;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 1px #6b6b6b;
+    transition: all 0.3s;
+}
+.ckecked_wrapper label input:checked + span:before {
+    background: #fd926d;
+}
+.slider_values {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #6b6b6b;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.sidebar .noUi-target {
+    border: none;
+    box-shadow: none;
+    background: #000;
+    border-radius: 0px;
+    height: 1px;
+}
+.sidebar .noUi-handle:after, .sidebar .noUi-handle:before {display: none;}
+
+.sidebar .noUi-handle {
+    width: 7px !important;
+    height: 14px !important;
+    background-image: url(../img/icons/handle_left.png);
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    border:none;
+    box-shadow: none;
+    cursor: pointer;
+    background-color: none !Important;
+}
+.sidebar .noUi-handle-lower {
+    left: 0px !important;
+    margin-left: -7px;
+}
+.sidebar .noUi-handle-upper {
+    background-image: url(../img/icons/handle_right.png);
+    left: -7px !important;
+    margin-left: 7px;
+}
+.products_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.after_sidebar_wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+.after_sidebar_wrapper > .product_cart_v_1 {
+    margin-bottom: 30px;
+}
+.bottom_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_wrapper .pagination {
+   margin: 0px 0px 30px 0px;   
+}
+.products_size {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #6b6b6b;
+    height: 32px;
+}
+.products_size p {
+    margin-right: 10px;
+}
+.products_size .selectric-wrapper {
+width: 42px;
+    height: 32px;
+}
+.products_size .selectric {
+width: 42px;
+    height: 32px;
+    border: 1px solid #000;
+    background: #f7f7f7;
+    color: #000;
+}
+.products_size .selectric .button {
+    top: -3px;
+    right: -8px;
+}
+.products_size .selectric .label {
+    padding-left: 4px;
+    color: #000;
+    width: 14px;
+    padding: 0px 0px 0px 8px;
+    margin: 0px;
+    height: 100%;
+    line-height: 35px;
+
+}
+@media screen and (max-width:750px) {
+    .products_wrapper {
+        flex-direction: column;
+    }
+    .products_wrapper > * {
+        width: 100%;
+    }
+    .after_sidebar_wrapper {
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+    .bottom_wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .title_page.pagination {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0px;
+    }
+    .title_page.pagination .sortirovka {
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .title_page.pagination .sortirovka > * {
+    margin: 5px 0px;
+    }
+}

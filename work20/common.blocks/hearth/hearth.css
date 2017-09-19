@@ -1,0 +1,8 @@
+.hearth {
+        margin-right: auto;
+    margin-left: 15px;
+    align-self: center;
+}
+.hearth__input {
+    display: none;
+}

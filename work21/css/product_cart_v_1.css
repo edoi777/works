@@ -1,0 +1,93 @@
+.product_cart_v_1 {
+    width: 220px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f7;
+}
+.product_cart_v_1__img {
+    height: 165px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/product_cart_v_1_fon.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 15px;
+}
+.product_cart_v_1 table {
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: #373737;
+}
+.product_cart_v_1 table span {
+    font-size: 14px;
+    color: #9b2d30;
+}
+.product_cart_v_1 table tbody tr:first-child td:last-child p {
+    padding-left: 8px;
+}
+.product_cart_v_1 table tbody tr:first-child td  {
+padding-bottom: 9px;
+}
+.product_cart_v_1 table tbody tr:nth-child(2) span  {
+color: #dd6b44;
+    font-size: 12px;
+}
+.product_cart_v_1 table tbody tr:nth-child(2) td p:last-child  {
+padding-top: 7px;
+}
+.product_cart_v_1__button {
+    width: 100px;
+    height: 32px;
+    display: flex;
+    background: #fd926d;
+    color: #fff;
+    line-height: 31px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #dd6b44;
+    justify-content: center;
+    margin-left: 14px;
+    margin-top: -4px;
+    font-size: 12px;
+}
+.product_cart_v_1__add_to_favite {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    padding-left: 9px;
+    margin-top: 2px;
+    color: #373737;
+}
+.product_cart_v_1__add_to_favite__icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+        background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    background-image: url(../img/icons/heart_v_3.svg);
+}
+.product_cart_v_1__add_to_favite__icon2 {
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+        background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    background-image: url(../img/icons/heart_v_4.svg);
+}
+.lot_number {
+    max-width: 53px;
+    overflow: hidden;
+    display: inline-block;
+}
+.product_cart_v_1 .title {
+padding: 0px 13px;
+color: #373737;
+}

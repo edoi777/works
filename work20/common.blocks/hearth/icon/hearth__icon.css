@@ -1,0 +1,15 @@
+.hearth__icon svg {
+    height: 18.2px;
+    width: 18px;
+    cursor: pointer;
+}
+.cls-1 {
+    transition: all 0.5s;
+}
+.hearth:hover .hearth__icon .cls-1{
+    fill:#e5e5e4;
+}
+.hearth:active .hearth__icon .cls-1{
+    fill:#22ba3e;
+    stroke: #22ba3e;
+}

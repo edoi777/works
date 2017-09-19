@@ -1,0 +1,96 @@
+.search_order_block {
+	background: #f7f7f7;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 94px;
+	padding: 0px 12px 0px 34px;
+	box-sizing: border-box;
+}
+.search_order_block input{
+    width: 300px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #fd926d;
+    padding-left: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    max-width: 90%;
+}
+.search_order_block button{
+    width: 202px;
+    border: none;
+    box-sizing: border-box;
+    height: 33px;
+    background: #fd926d;
+    color: #fff;
+    line-height: 33px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #dd6b44;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.search_order_block input::-webkit-input-placeholder {color: #e6e6e6; font-size:12px; font-family:'helvetica'; font-weight:300;} 
+.search_order_block input::-moz-placeholder          {color: #e6e6e6; font-size:12px; font-family:'helvetica'; font-weight:300;} 
+.search_order_block input:-moz-placeholder           {color: #e6e6e6; font-size:12px; font-family:'helvetica'; font-weight:300;} 
+.search_order_block input:-ms-input-placeholder      {color: #e6e6e6; font-size:12px; font-family:'helvetica'; font-weight:300;}
+
+.sortirovka__order {
+	height: 73px;
+	display: flex;
+	padding: 0px 33px;
+	box-sizing: border-box;
+	align-items: center;
+}
+.sortirovka__order a {
+	margin-right: 90px;
+}
+.sortirovka__order a:after {
+	content:'';
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border: 3px solid transparent;
+	border-top-color: #000;
+	margin-left: 5px;
+}
+.sortirovka__order a.active:after {
+transform: rotate(180deg);
+    margin-bottom: 2px;
+}
+@media screen and (max-width:970px) {
+    .sortirovka__order > * {
+        height: 73px;
+    }
+    .sortirovka__order {
+        height: auto;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .search_order_block {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0px;
+    }
+    .search_order_block > * {
+        margin: 5px 0px 5px 0px;
+    }
+    .title_page.pagination {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0px;
+    }
+    .title_page__starus_wprapper {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .title_page__starus_wprapper > * {
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+    .sortirovka__order a {
+        margin-right: 0px;
+        width: 100%;
+    }
+}

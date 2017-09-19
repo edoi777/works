@@ -1,0 +1,120 @@
+* {margin: 0px; padding: 0px; line-height: 100%; list-style: none; outline: none;}
+a {color: inherit; text-decoration: inherit;}
+textarea {font-family: inherit;}  
+body { 
+   font-family: 'helvetica', sans-serif; 
+   font-size: 14px; 
+    color: #101010; 
+   overflow-x: hidden; 
+}
+.wrapper { width: 95%; max-width: 970px; margin: 0px auto;}
+.bcolor {background-color: #ededed;}
+.arrow_list {
+    width: 6px;
+    height: 3px;
+    display: inline-block;
+    background-image: url(../img/icons/arrow_bottom.svg);
+    background-size: cover;
+    background-position: center;
+}
+main {
+    overflow-x:hidden;
+}
+.sidebar_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+input {color: #808080; font-size:12px; font-family:'helvetica'; font-weight:300;}
+input::-webkit-input-placeholder {color: #808080; font-size:12px; font-family:'helvetica'; font-weight:300;} 
+input:-moz-placeholder          {color: #808080; font-size:12px; font-family:'helvetica'; font-weight:300;} 
+input:-ms-input-placeholder      {color: #808080; font-size:12px; font-family:'helvetica'; font-weight:300;}
+
+.placeholder::-webkit-input-placeholder  {  font-size: 15px; color: #e6e6e6;}
+.placeholder::-moz-placeholder           {  font-size: 15px; color: #e6e6e6;}
+.placeholder:-ms-input-placeholder       {  font-size: 15px; color: #e6e6e6;}
+
+.btn_orange {
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    background: #fd926d;
+    color: #fff;
+    box-sizing: border-box;
+    border-bottom: 3px solid #dd6b44;
+    cursor: pointer;
+    text-align: center;
+}
+@font-face {
+    font-family:'Helvetica';
+    src:url(../font/helveticaneuecyr-ultralightitalic.otf);
+    font-weight:100;
+    font-style:italic;
+} 
+@font-face {
+    font-family:'Helvetica';
+    src:url(../font/helveticaneuecyr-ultralight_0.otf);
+    font-weight:100;
+    font-style:normal;
+} 
+@font-face {
+    font-family:'Helvetica';
+    src:url(../font/helveticaneuecyr-thinitalic.otf);
+    font-weight:200;
+    font-style:italic;
+} 
+@font-face {
+    font-family:'Helvetica';
+    src:url(../font/helveticaneuecyr-thin.otf);
+    font-weight:200;
+    font-style:normal;
+} 
+@font-face {
+    font-family:'Helvetica';
+    src:url(../font/helveticaneuecyr-lightitalic.otf);
+    font-weight:300;
+    font-style:italic;
+} 
+@font-face {
+    font-family:'Helvetica';
+    src:url(../font/helveticaneuecyr-light.otf);
+    font-weight:300;
+    font-style:normal;
+}
+@font-face {
+    font-family:'Helvetica';
+    src:url(../font/helveticaneuecyr-medium.otf);
+    font-weight:400;
+    font-style:normal;
+}
+@font-face {
+    font-family:'Helvetica';
+    src:url(../font/helveticaneuecyr-italic.otf);
+    font-weight:400;
+    font-style:italic;
+}
+@font-face {
+    font-family:'Helvetica';
+    src:url(../font/helveticaneuecyr-bolditalic.otf);
+    font-weight:700;
+    font-style:italic;
+}
+@font-face {
+    font-family:'Helvetica';
+    src:url(../font/helveticaneuecyr-bold.otf);
+    font-weight:700;
+    font-style:normal;
+}
+@font-face {
+    font-family:'Helvetica';
+    src:url(../font/helveticaneuecyr-blackitalic.otf);
+    font-weight:800;
+    font-style:italic;
+}
+@font-face {
+    font-family:'Helvetica';
+    src:url(../font/helveticaneuecyr-black.otf);
+    font-weight:800;
+    font-style:normal;
+}

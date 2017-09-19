@@ -1,0 +1,5 @@
+.item_product_v1_wrapper_align_left .item_product_v1_wrapper__items{
+justify-content: flex-start;
+}.item_product_v1_wrapper_align_left .item_product_v1{
+margin-right: 19px;
+}

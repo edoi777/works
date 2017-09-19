@@ -1,0 +1,106 @@
+.video_home_page {
+	background-color: #e6e6e6;
+}
+.video_home_page__wrapper {
+	width: 100%;
+	max-width: 1334px;
+	margin: 0px auto;
+	height: 835px;
+	display: flex;
+	justify-content: space-between;
+}
+.video_home_page__wrapper > div {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.video_home_page__wrapper > div > a{
+display: block;
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+z-index: 1;
+text-align: center;
+}
+.video_home_page__wrapper > div > a > h2{
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #26206a;
+  transition: all 0.3s;
+  padding-top: 58px;
+  /*background-color: #e6e6e6;*/
+}
+.video_home_page__wrapper > div > a:hover > h2{
+  color: #f7323f;
+}
+.right_video video {
+	height: 100%;
+    position: absolute;
+    right: -50%;
+    z-index: 0;
+}
+.right_video .perekrivashka {
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: 1;
+background-image: url(../img/tec.png);
+background-repeat: no-repeat;
+background-position: bottom left;
+    background-size: 115%;
+}
+.left_video video {
+	height: 100%;
+    position: absolute;
+    right: -50%;
+    z-index: 0;
+    bottom: -80px;
+}
+.left_video .perekrivashka {
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: 1;
+background-image: url(../img/fiz.png);
+background-repeat: no-repeat;
+background-position: bottom right;
+    background-size: 115%;
+}
+@media screen and (max-width:1200px){
+	.video_home_page__wrapper {
+		height: 700px;
+	}
+}
+@media screen and (max-width:850px){
+	.video_home_page__wrapper {
+		height: 500px;
+	}
+	.video_home_page__wrapper > div > a  {
+		display: flex;
+		justify-content: center;
+	}
+	.video_home_page__wrapper > div > a > h2 {
+		width: 250px;
+		display: block;
+		text-align: left;
+	}
+}
+@media screen and (max-width:600px){
+	.video_home_page__wrapper {
+		    height: 66.5vw;
+	}
+	.video_home_page__wrapper > div > a > h2 {
+		font-size: 20px;
+		width: 150px;
+		padding-top: 40px;
+	}
+}

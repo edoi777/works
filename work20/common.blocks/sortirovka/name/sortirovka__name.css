@@ -1,0 +1,14 @@
+.sortirovka__name {
+    cursor: pointer;
+}
+.sortirovka__name svg {
+    width: 7px;
+    height: 7px;
+    margin-right: 5px;
+}
+.sortirovka__button:checked + .sortirovka__name .cls-1 {
+        fill: #22ba3e;
+}
+.sortirovka__button + .sortirovka__name .cls-1 {
+        fill: #b0b0b0;
+}

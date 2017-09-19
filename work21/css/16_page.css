@@ -1,0 +1,59 @@
+.title_lots_page {
+	margin-top: 25px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.title_lots_page p {
+  font-size: 12px;
+  width: 100%;
+  color: #101010;
+}
+.time_block {
+	    display: flex;
+    color: #6b6b6b;
+    font-size: 12px;
+    opacity: 0.5;
+    height: 32px;
+    align-items: center;
+}
+.time_block .user {
+    color: #463e80;
+    margin-left: 5px;
+    line-height: 19px;
+    text-decoration: underline;
+}
+.time_block .time:before {
+    content: url(../img/icons/clock.jpg);
+    display: inline-block;
+    vertical-align: middle;
+    height: 21px;
+    margin-right: 5px;
+}
+.arrows_lots_page {
+	width: 71px;
+	display: flex;
+	justify-content: space-between;
+}
+.arrows_lots_page > div {
+	  width: 32px;
+  height: 32px;
+  background-color: #767676;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrows_lots_page  .active {background-color: #fd926d;}
+.arrows_lots_page > div.arrow_left:before {
+content: '<';
+display: block;
+color:#fff;
+  font-size: 12px;
+}
+.arrows_lots_page > div.arrow_right:before {
+content: '>';
+display: block;
+color:#fff;
+  font-size: 12px;
+}

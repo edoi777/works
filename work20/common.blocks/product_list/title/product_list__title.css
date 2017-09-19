@@ -1,0 +1,9 @@
+.product_list__title {
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'futura-pt';
+    margin-bottom: 16px;
+    margin-top: 5px;
+    letter-spacing: 0.6px;
+    margin-left: 1px;
+}

@@ -1,0 +1,9 @@
+.sortirovka__block_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+}
+.sortirovka__block_1 .sortirovka__name {
+    text-decoration: underline;
+    color: #b0b0b0;
+}

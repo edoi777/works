@@ -1,0 +1,78 @@
+main .content > h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+main .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px;
+}
+main .content > div {
+display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+            padding: 0px 40px;
+    box-sizing: border-box;
+
+}
+main .content > div > div {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 205px;
+    text-align: center;
+    margin-bottom: 35px;
+    
+}
+main .content > div > div img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+main .content > div > div .aftor{
+color: #a1185b;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+main .content > div > div .dolgnost{
+color: #818181;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+main .content > div > div .otziv{
+color: #818181;
+padding: 20px;
+    box-sizing: border-box;
+    border:1px solid #ededed;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+main .content > div > div .otziv:after,
+main .content > div > div .otziv:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+main .content > div > div .otziv:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #fff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+main .content > div > div .otziv:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #ededed;
+	border-width: 12px;
+	margin-left: -12px;
+}

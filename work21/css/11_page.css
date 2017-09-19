@@ -1,0 +1,9 @@
+.blog_item__title_blog__name {
+	display: none;
+}
+.blog_item__title_blog {
+	justify-content: flex-end !important;
+}
+main .wrapper .blog_item:nth-child(odd):after {
+	display: none;
+}

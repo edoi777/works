@@ -1,0 +1,68 @@
+.blog_item__title_blog__name {
+    color: #000;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+    height: 22px;
+}
+.blog_item__title_blog {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.blog_item__title_blog__time_block {
+    display: flex;
+    color: #6b6b6b;
+    font-size: 12px;
+    opacity: 0.5;
+}
+.blog_item__title_blog__time_block .user {
+    color: #463e80;
+    margin-left: 5px;
+    line-height: 19px;
+    text-decoration: underline;
+}
+.blog_item__title_blog__time_block .time:before {
+ content: url(../img/icons/clock.jpg);
+    display: inline-block;
+    vertical-align: middle;
+    height: 21px;
+margin-right: 5px;
+}
+.blog_item > p {
+    font-size: 15px;
+    color: #767676;
+    line-height: 20px;
+}
+.blog_item {
+    padding-top: 35px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.blog_item__more_link {
+    color: #fd926d;
+    text-decoration: underline;
+    text-align: right;
+    margin-left: auto;
+    display: block;
+    font-size: 15px;
+}
+main .wrapper .blog_item:nth-child(odd):after {
+    content: '';
+    position: absolute;
+    width: 500%;
+    height: 100%;
+    z-index: -1;
+    background: #ededed;
+    top: 0px;
+    left: -250%;
+}
+@media screen and (max-width:500px) {
+    .blog_item__title_blog {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog_item__title_blog > * {
+        margin-bottom: 10px;
+    }
+}

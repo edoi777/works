@@ -1,0 +1,112 @@
+.personal_page_wrapper {
+	background: #f7f7f7;
+	padding: 25px 89px 26px 35px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.personal_page_wrapper table {
+	max-width: 285px;
+	font-size: 15px;
+}
+.personal_page_wrapper table tr td:first-child{
+	width: 106px;
+	color: #101010;
+	padding-bottom:27px;
+}
+.personal_page_wrapper table tr td:last-child{
+	width: 190px;
+	max-width: 190px;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #9b2d30;
+	padding-bottom:27px;
+}
+.personal_page_wrapper table tr td[colspan="2"]{
+width: 100%;
+}
+.personal_page_wrapper table button{
+width: 201px;
+    border: none;
+    box-sizing: border-box;
+    height: 36px;
+    background: #fd926d;
+    color: #fff;
+    line-height: 37px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #dd6b44;
+ 	text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.personal_page_wrapper__change_password {
+	display: flex;
+	flex-direction: column;
+}
+.personal_page_wrapper__change_password input {
+    width: 230px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #fd926d;
+    padding-left: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+.personal_page_wrapper__change_password input::-webkit-input-placeholder {color: #e6e6e6; font-size:15px; font-family:'helvetica'; font-weight:300;} 
+.personal_page_wrapper__change_password input::-moz-placeholder          {color: #e6e6e6; font-size:15px; font-family:'helvetica'; font-weight:300;} 
+.personal_page_wrapper__change_password input:-moz-placeholder           {color: #e6e6e6; font-size:15px; font-family:'helvetica'; font-weight:300;} 
+.personal_page_wrapper__change_password input:-ms-input-placeholder      {color: #e6e6e6; font-size:15px; font-family:'helvetica'; font-weight:300;}
+
+.personal_page_wrapper__change_password button {
+     width: 201px;
+    border: none;
+    box-sizing: border-box;
+    height: 36px;
+    background: #fd926d;
+    color: #fff;
+    line-height: 37px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #dd6b44;
+    font-size: 12px;
+    cursor: pointer;
+}
+.personal_page_wrapper__pages {
+	flex-grow: 1;
+	padding-left: 90px;
+	box-sizing: border-box;
+}
+.personal_page_wrapper__pages div {
+	display: flex;
+	font-size: 15px;
+	margin-bottom: 15px;
+	color: #101010;
+	align-items: center;
+}
+.personal_page_wrapper__pages div .size {
+margin-left: 10px;
+color: #9b2d30;
+}
+.personal_page_wrapper__pages div .icon {
+	width: 24px;
+	height: 24px;
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 7px;
+}
+.personal_page_wrapper__pages div:nth-child(1) .icon {background-image: url(../img/personal_page/1.png);}
+.personal_page_wrapper__pages div:nth-child(2) .icon {background-image: url(../img/personal_page/2.png);}
+.personal_page_wrapper__pages div:nth-child(3) .icon {background-image: url(../img/personal_page/3.png);}
+.personal_page_wrapper__pages div:nth-child(4) .icon {background-image: url(../img/personal_page/4.png);}
+
+@media screen and (max-width:970px) {
+	.personal_page_wrapper {
+		flex-direction: column;
+		padding: 30px 15px;
+		align-items: flex-start;
+	}
+	.personal_page_wrapper__pages {
+		padding-left: 0px;
+	}
+}

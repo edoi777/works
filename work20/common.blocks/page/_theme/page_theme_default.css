@@ -1,0 +1,29 @@
+* {margin:0px; padding: 0px; outline: none;}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.content {
+    margin: 0px auto;
+    max-width: 1160px;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul li {
+    list-style: none;
+}
+.rubl:after {
+content: 'c';
+font-family: 'rubl';
+font-weight: 300;
+}
+
+@font-face {
+  font-family: 'rubl';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../font/rouble.woff) format('woff');
+}

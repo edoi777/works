@@ -1,0 +1,100 @@
+footer {
+    padding: 145px 0px 125px 0px;
+}
+footer .content {
+    border: 1px solid #f5f3f3;
+    background: #fff;
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+        border-radius: 5px;
+}
+
+footer .logo {
+    margin-right: 18px;
+}
+.name_logo > div  {
+    display: flex;
+    margin-bottom: 30px;
+}
+.name_logo > div p {
+font-size: 16px;
+    font-family: 'Magnolia';
+    color: #a1185b;
+    line-height: 153%;
+
+}
+.name_logo > i {
+text-transform: uppercase;
+    margin-bottom: 15px;
+    font-style: normal;
+    display: block;
+}
+.name_logo > a {
+    display: block;
+    color: #818181;
+    line-height: 140%;
+}
+footer .content > div > p {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.mapsite ul {
+    color: #818181;
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+    justify-content: space-between;
+}
+.mapsite ul li {
+width: 50%;
+    margin-bottom: 12px;
+}
+.soc_links ul li {
+ margin-bottom: 20px;
+    padding-left: 35px;
+    position: relative;
+       color: #818181;
+}
+.soc_links ul li a:before {
+position: absolute;
+    left: 0px;
+    color: #a1185b;
+}
+.soc_links ul li:nth-child(1) a:before {font-size: 21px;}
+.soc_links ul li:nth-child(2) a:before {font-size: 12px;}
+.soc_links ul li:nth-child(3) a:before {font-size: 16px;}
+.soc_links ul li:nth-child(4) a:before {font-size: 13px;}
+.soc_links ul li:nth-child(5) a:before {font-size: 19px;}
+.item_cont {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.item_cont > div > p:first-child {
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+.item_cont > div > p:last-child {
+display: flex;
+    flex-direction: column;
+}
+.item_cont > div > p:last-child span {
+    color: #818181;
+    line-height: 130%;
+}
+.footer_contacts > div:last-child a  {
+    color: #a1185b;
+    text-decoration: underline;
+}
+.footer_contacts > div:last-child  {
+display: flex;
+    justify-content: space-between;
+}
+.footer_contacts {
+    width: 100%;
+   max-width: 375px;
+}

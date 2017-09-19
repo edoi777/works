@@ -1,0 +1,164 @@
+
+#map_page_contacts {
+	height: 778px;
+	margin-bottom: -778px;
+}
+.map_page_contacts {
+  height: 778px;
+}
+.map_page_contacts__text {
+	height: 778px;
+	display: flex;
+	justify-content: flex-end;
+}
+.map_page_contacts__text__content {
+ width: 100%;
+ max-width: 650px;
+ position: relative;
+ 	padding-top: 180px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: flex-start;
+ 	box-sizing: border-box;
+}
+.map_page_contacts__text__content button {
+     width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: transparent;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 0.83;
+    border: solid 1px #f7323f;
+    box-sizing: border-box;
+    color: #f7323f;
+    cursor: pointer;
+}
+.map_page_contacts__text__content button:hover {
+background-color: #f7323f;
+    color: #fff;
+}
+.map_page_contacts__text__content .number {
+  height: 40px;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 0.57;
+  color: #f7323f;
+  margin-bottom: 40px;
+}
+.number span {
+	font-size: 40px;
+}
+.map_page_contacts__text__content .adress {
+  font-size: 20px;
+  font-weight: 500;
+  color: #26206a;
+  max-width: 347px;
+  margin-bottom: 30px;
+  line-height: 23px;
+}
+.map_page_contacts__text__content .time_work {
+	  font-size: 20px;
+  color: #26206a;
+  max-width: 198px;
+	font-weight: 400;
+ line-height: 23px;
+ margin-bottom: 30px;
+}
+.map_page_contacts__text__content .mail {
+	  width: 277px;
+  height: 23px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #26206a;
+  margin-bottom: 50px;
+}
+.map_page_contacts__text__content .arrow_bottom {
+	margin-top: auto;
+	margin-bottom: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: italic;
+  color: #222944;
+  cursor: pointer;
+}
+.map_page_contacts__text__content .arrow_bottom span:before {
+	content: url(../img/arrow_down.svg);
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+main > .wrapper{
+		padding-top: 77px;
+	padding-bottom: 238px;
+	margin-top: 76px;
+	background-image: url(../img/ohrannik_contacts.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 42%;
+	background-repeat: no-repeat;
+}
+main > .wrapper h1{
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  color: #f7323f;
+  margin-bottom: 80px;
+}
+
+main .wrapper .decor_line {
+  width: 265px;
+  height: 25px;
+  margin-bottom: 48px;
+}
+main .wrapper .decor_line:after {
+top:0px;
+}
+
+main .wrapper .p1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f7323f;
+  margin-bottom: 10px;
+}
+
+main .wrapper .p_tel {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #26206a;
+  margin-bottom: 11px;
+}
+
+
+main .wrapper .p_mail {
+  font-size: 20px;
+  font-weight: 500;
+  color: #26206a;
+    font-weight: 500;
+  line-height: 1.2;
+}
+@media screen and (max-width:1100px) {
+  .map_page_contacts__text__content {
+    width: 480px;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width:850px) {
+.map_page_contacts__text__content .number {
+  font-size: 40px;
+  margin-bottom: 36px;
+}
+.map_page_contacts__text__content .number span {
+  font-size: 20px;
+}
+.map_page_contacts__text__content {
+  padding-top: 340px;
+  position: static;
+}
+.map_page_contacts__text__content > * {
+  position: relative;
+}
+}

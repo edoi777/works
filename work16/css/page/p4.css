@@ -1,0 +1,78 @@
+.change_table_company > p {
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.info_tables_change {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    font-size: 16px;
+}
+.info_tables_change table tr td:first-child{
+padding-right: 30px;
+    box-sizing: border-box;
+}
+.info_tables_change table tr td{
+height: 30px;
+    padding-bottom: 10px;
+}
+.info_tables_change input[type="text"] {
+    height: 30px;
+    border: 1px solid #464b53;
+    width: 260px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.info_tables_change select {
+    height: 30px;
+    border: 1px solid #464b53;
+    width: 260px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.info_tables_change input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+margin-left: 15px;
+    vertical-align: middle;
+}
+.info_tables_change label input[type="checkbox"] + span {
+    color: #000;
+    font-size: 16px;
+}
+.controls {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:1100px) {
+    .info_tables_change {
+        flex-direction: column;
+        align-items: center;
+    } 
+    .info_tables_change table{
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 600px;
+    }
+    .info_tables_change table td {
+        width: 50%;
+    }
+}
+@media screen and (max-width:600px) {
+ .info_tables_change table tr {
+       display: flex;
+     flex-direction: column;
+    }
+    .info_tables_change table td {
+        width: 100%;
+    }
+    .controls {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,109 @@
+main .content h1 {
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 45px;
+}
+.map_this {
+    width: 50%;
+    flex-grow: 1;
+    background: url(../../img/map.jpg) no-repeat;
+    background-size: cover;
+}
+main .content > ul {
+display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 19px;
+}
+.map .list {
+    padding-top: 25px;
+    width: 100%;
+    max-width: 466px;
+    box-sizing: border-box;
+    max-height: 530px;
+    overflow-y: scroll;
+}
+.map {
+    border-bottom: 1px solid #d4d4d4;
+    display: flex;
+    justify-content: space-between;
+}
+.map .list > div > p {
+display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.map .list > div {
+margin-bottom: 30px;
+}
+.map .list > div > p span:last-child {
+color: #808080;
+    text-transform: none;
+    font-size: 16px;
+}
+.map .list > div > ul li {
+display: flex;
+    justify-content: flex-start;;
+    padding-bottom: 10px;
+        padding-left: 27px;
+        padding-right: 27px;
+    padding-top:10px;
+    cursor: pointer;
+}
+.map .list > div > ul li:hover {
+background: #f1f5f6;
+}
+.map .list > div > ul li.icon-diamond-1:before {
+color: #50b849;
+    margin-right:12px;
+    margin-top:5px;
+}
+.map .list > div > ul li.icon-crown:before {
+color: #f2aa3b;
+    margin-right:12px;
+    margin-top:5px;
+}
+.map .list > div > ul > li > p {
+display: flex;
+    flex-direction: column;
+}
+.map .list > div > ul > li > p:first-child span:first-child{
+font-size: 17px;
+}
+.map .list > div > ul > li > p:last-child {
+font-size: 17px;
+    margin-left: auto;
+}
+.map .list > div > ul > li > p:first-child span:last-child{
+font-size: 16px;
+    color: #818181;
+}
+@media screen and (max-width:1300px) {
+    .map {
+        flex-direction: column;
+    }
+    .map > * {
+        width: 100% ;
+        max-width: 100% !important;
+    }
+    .map_this {
+        height: 400px;
+    }
+}
+@media screen and (max-width:1000px) {
+    main .content > ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    main .content > ul li {
+       margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,41 @@
+.order_item__body__desc {
+	margin-left: 60px;
+	    width: 160px !important;
+}
+.order_item__body {
+	padding: 26px 15px 30px 15px
+}
+.order_item__body__bl3 {
+	justify-content: flex-start !important;
+}
+.order_item__body__bl3 .more{
+display: none
+}
+.order_item  {
+	margin-bottom: 30px;
+}
+.product_cart_v_1 {
+	margin-bottom: 30px;
+}
+.wrapper_lots {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.show_more_lots {
+	border:2px solid #fd926d;
+	width: 200px;
+	height: 35px;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	background: none;
+	color: #fd926d;
+	margin: 30px auto;
+	cursor: pointer;
+}
+@media screen and (max-width:970px) {
+	.order_item__body__desc {
+	margin-left: 0px;
+}
+}

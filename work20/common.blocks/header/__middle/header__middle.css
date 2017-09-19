@@ -1,0 +1,124 @@
+.header__middle {
+	padding: 5px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.header__logo {
+	display: block;
+	margin-right: auto;
+	width: 72px;
+	height: 72px;
+	background: url(logo.svg);	
+}
+.header__nav_middle {
+	color: #07bc28;
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-top: auto;
+	margin-bottom: 3px;
+	margin-right: -0.3px;
+	letter-spacing: 0.7px;	
+}
+.nav_middle__link {
+    font-family: 'futura-pt';
+    font-weight: 500;
+    margin-left: 23px;
+    transition: all 0.3s;
+    word-spacing: -1px;
+}   
+.header__nav_middle .nav_middle__link:first-child  {
+    margin-right: 5px;
+}
+.nav_middle__link:hover {
+    text-decoration: underline;
+}   
+.nav_middle__link:active {
+   color: #1b8c36;
+}
+
+.header__working_hours {
+    display: flex;
+    margin-left: 57px;
+}
+.header__icon_work {
+	    height: 36px;
+    width: 36px;
+    margin-right: 18px;
+        margin-top: -1px;
+}
+.header__text_time {
+    font-size: 10px;
+    color: #07bc28;
+    margin-top: 6px;
+    margin-left: 3px;
+    position: relative;
+       margin-top: 5px;
+}
+.header__text_time:before {
+     content: url(../../img/map.svg);
+    width: 9.307px;
+    height: 12.861px;
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 1px;
+}
+.header__time {
+    font-size: 17px;
+    line-height: 135%;
+    color: #07bc28;
+    margin-top: 0px;
+    margin-right: 0px;
+    display: block;
+}
+.header__time span{
+	margin-top: -2px;
+	display: block;
+	font-size: 15px;
+	margin-left: 0px;
+}
+.header__callback {
+    display: flex;
+            margin-left: 56px;
+    margin-right: 1px;
+    height: 64px;
+}
+.header__text_callback {
+    color: #989898;
+    font-size: 11px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+.header__phone_block {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.header__number {
+    color: #07bc28;
+    font-size: 22px;
+    font-family: 'futura-pt';
+    font-weight: 400;
+    margin-top: -2px;
+}
+.header__icon_call {
+    height: 36px;
+    width: 36px;
+    margin-right: 14px;
+    margin-top: 1px;
+}
+.header__text_callback {
+	
+}
+.header__button {
+    color: #07bc28;
+    display: block;
+    border-bottom: 1px dashed #07bc28;
+    width: auto;
+    font-size: 11px;
+    margin-left: 4px;
+    margin-top: 1px;
+    height: 14px;
+}

@@ -1,0 +1,164 @@
+.registration_product {
+    
+}
+.registration_product__title {
+    font-family: 'Co Text';
+    font-size: 30px;
+    margin-top: 0px;
+}
+.registration_product__title_2 {
+    font-size: 18px;
+    font-family: 'futura-pt';
+    font-weight: 300;
+    margin-top: 49px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.registration_product__table_products {
+        width: 100%;
+    margin-top: 17px;
+}
+.registration_product__title_dostavka {
+    margin-top: 16px;
+    font-family: 'futura-pt';
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+        margin-bottom: 36px;
+}
+.registration_product__item_switch {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    margin-right: 27px;
+    padding-bottom: 11px;
+    cursor: pointer;
+    position: relative;
+}
+.registration_product__item_switch.active:before {
+    content: '';
+    height: 3px;
+    background: #21b23a;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    display: block;
+    left: 0px;
+}
+.registration_product__switch {
+    display: flex;
+    font-family: 'futura-pt';
+    padding-top: 4px;
+    position: relative;
+}
+.registration_product__switch:before {
+    content: '';
+    display: block;
+    top: 100%;
+    position: absolute;
+    left: 0px;
+    height: 10px;
+    width: 100%;
+    background: #f2f2f2;
+}
+.registration_product__delet_product {
+width: 20px;
+    float: right;
+    cursor: pointer;
+}
+.registration_product__img {
+    margin-right: 14px;
+}
+.td2 {
+    vertical-align: top;
+}
+.registration_product__th {
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;  
+}
+.t4 {
+    width: 141px;
+}
+
+.t5 {
+  width: 102px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;  
+}
+.t3 {
+    width: 85px;
+}
+.t2 {
+        width: 134px;
+    text-align: left;
+}
+.registration_product__desc_product {
+    font-size: 14px;
+}
+.registration_product__input {
+    width: 78px;
+    height: 36px;
+    margin: 12px 0px 0px -1px;
+    display: block;
+    padding: 0px 0px 0px 8px;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+.td3,.td4 {
+    vertical-align: top;
+}
+.td4 {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 2px;
+}
+.td5 {
+        vertical-align: top;
+    text-align: right;
+    padding-right: 46px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.td6 {
+    vertical-align: top;
+    padding-top: 19px;
+}
+.td1 {
+        height: 83px;
+    padding-bottom: 14px;
+}
+body .rubl:after{
+content: 'q';
+}
+.registration_product__itogo_stoimost {
+    margin-top: 1px;
+    text-align: right;
+    font-family: 'futura-pt';
+    font-size: 16px;
+    margin-right: 5px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+}
+.registration_product__itogo {
+        float: left;
+}
+.choise-delivery {
+    margin-top: 17px;
+}
+.kontact-info {
+    margin-top: -18px;
+}
+.kontact-info .switch-part__title {
+margin-bottom: 19px;
+}
+.promo-kod {
+        margin-top: -9px;
+}
+.promo-kod .switch-part__title {
+    margin-bottom: 22px;
+}

@@ -1,0 +1,192 @@
+.switch-part {
+
+}
+.switch-part__title {
+	    margin-top: 16px;
+    font-family: 'futura-pt';
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    margin-bottom: 38px;
+}
+.switch-part__buttons-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'futura-pt';
+    padding-top: 4px;
+    position: relative;
+    margin-bottom: 32px;
+}
+.switch-part__buttons-wrapper:before {
+    content: '';
+    display: block;
+    top: 100%;
+    position: absolute;
+    left: 0px;
+    height: 10px;
+    width: 100%;
+    background: #f2f2f2;
+}
+.switch-part__button {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.85px;
+    margin-right: 28px;
+    padding-bottom: 11px;
+    cursor: pointer;
+    position: relative;
+    font-family: 'futura-pt';
+    color: #666;
+}
+.switch-part__button.active {
+    color: #000;
+    font-weight: 700
+}
+.switch-part__button.active:before {
+    content: '';
+    height: 3px;
+    background: #21b23a;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    display: block;
+    left: 0px;
+}
+.switch-part__title-input {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.switch-part__select-selectize .selectize-input {
+    background: #fff;
+    box-shadow: none;
+    border-radius: 0px;
+    border-color: #e4e4e4;
+    width: 275px;
+    height: 37px;
+}
+.selectize-control.single .selectize-input:after {
+	content: '';
+	display: block;
+	width: 11px;
+	height: 6px;
+	background: url(../../img/arrow_select_input.svg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -5.5px;
+	transition: all 0.3s;
+	border: none !important;
+}
+.selectize-control.single .selectize-input.dropdown-active:after {
+transform: rotate(180deg);
+}
+.switch-part__input-wrapper {
+	margin-bottom: 9px;
+}
+.switch-part__exactly-input {
+    width: 275px;
+    height: 37px;
+    border: 1px solid #e4e4e4;
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    font-size: 14px
+}
+.exactly-input_s_full {
+    width: 100%;
+}
+.switch-part__input-wrapper-wrapper {
+	display: flex;
+    justify-content: space-between;
+}
+.switch-part__left-part {
+	width: 570px;
+}
+.switch-part__input-wrapper-wrapper .switch-part__exactly-input  {
+width: 128px;
+}
+.kurer {
+	display: flex;
+	justify-content: space-between;
+}
+.switch-part__right-part {
+    width: 545px;
+}
+.switch-part__title_description {
+	    font-size: 14px;
+    font-weight: 700;
+    margin-top: -2px;
+    margin-bottom: 2px;
+}
+.switch-part__text_description {
+	font-size: 11px;
+    color: #666;
+    line-height: 20px;
+}
+.switch-part__result_price {
+	text-align: right;
+    margin-top: 38px;
+    font-size: 16px;
+    font-family: 'futura-pt';
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+.switch-part__items-input-wrappers {
+	display: flex;
+    flex-wrap: wrap;
+}
+.switch-part__items-input-wrappers .switch-part__input-wrapper {
+width: 275px;
+margin-right: 20px;
+}
+.switch-part__items-input-wrappers .switch-part__input-wrapper:nth-child(3) {
+margin-right: 275px;
+}
+.switch-part__description-input-wrapper {
+	font-size: 10px;
+	color: #cbcbcb
+}
+.promo-kod {
+	width: 275px;
+}
+.result_price_end {
+	    text-align: right;
+    font-family: 'futura-pt';
+    font-weight: 500;
+    font-size: 16px;
+        margin-top: 52px;
+}
+.result_price_end__result {
+	font-size: 24px;
+	    margin-top: 8px;
+}
+.result_price_end > div span:nth-child(2) {
+	width: 73px;
+	display: inline-block;
+}
+.result_price_end > div:last-child span:nth-child(2) {
+	width: auto;
+}
+.oformit {
+background: #e4c033;
+    color: #fff;
+    font-family: 'futura-pt';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin: 71px auto 0px auto;
+    width: 570px;
+    height: 72px;
+    text-transform: uppercase;
+    line-height: 72px;
+    letter-spacing: 1.2px;
+}
+.not-important .switch-part__title-input {
+    font-weight: 400;
+}

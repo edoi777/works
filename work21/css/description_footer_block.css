@@ -1,0 +1,15 @@
+.description_footer_block {
+    padding: 4px 0px 24px 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.description_footer_block__title {
+    font-size: 22px;
+    letter-spacing: 0.3px;
+    margin-bottom: 14px;
+    color: #414141;
+}
+.description_footer_block__text {
+    line-height: 18px;
+    color: #999999;
+}

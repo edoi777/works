@@ -1,0 +1,91 @@
+.slider_personal_page {
+position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.2);
+    justify-content: center;
+    align-items: center;
+    z-index: -9999;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+}
+.personal_product_page__show {
+        z-index: 9999;
+    opacity: 1;
+    visibility: visible;
+}
+.slider_personal_page__wrapper, .slider_personal_page__wrapper_lvl_2  {
+    background: #fff;
+    width: 766px;
+    height: 692px;
+    border-radius: 7px;
+    overflow: hidden !important;
+    padding-top: 24px;
+    position: relative;
+}
+.slider_personal_page__wrapper_lvl_2 .slick-slide img{
+    width: 568px;
+    height: 568px;
+}
+.slider_personal_page__wrapper_lvl_2 .slick-slide {
+        overflow: hidden !important;
+        border-radius: 7px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.slider_personal_page__wrapper_lvl_2 .slick-dots img {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+.slider_personal_page__wrapper_lvl_2 .slick-dots {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 25px;
+    margin: 00px 25px 20px 25px;
+    box-sizing: border-box;
+    border-top: 1px solid #f2f2f2;
+}
+.slider_personal_page__wrapper .prev {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -100px;
+    width: 28px;
+    height: 117px;
+    z-index: 9999;
+    border-left: 2px solid #fff;
+    cursor: pointer;
+}
+.cls-3 {
+    transition:  all 0.5s;
+}
+.slider_personal_page__wrapper .next:hover .cls-3, .slider_personal_page__wrapper .prev:hover   .cls-3{
+    fill: rgba(0, 0, 0, 0.57);
+}
+.slider_personal_page__wrapper .next {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -100px;
+    width: 28px;
+    height: 117px;
+    z-index: 9999;
+    border-right: 2px solid #fff;
+    cursor: pointer;
+}
+.slick-arrow {
+    position: absolute;
+}
+.slider_personal_page__close {
+        position: absolute;
+    width: 20px;
+    z-index: 9999;
+    cursor: pointer;
+    right: 20px;
+    top: 20px;
+}

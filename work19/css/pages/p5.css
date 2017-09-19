@@ -1,0 +1,113 @@
+main .content {
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}main .content h1 {
+font-size: 30px;
+    font-weight: 400;margin-bottom: 50px;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1070px;
+    margin-bottom: 60px;
+}
+.contacts > div {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 30px;
+    width: 100%;
+    max-width: 330px;
+    box-sizing: border-box;
+}
+.contacts > div p:first-child {
+color: #a1185b;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+.contacts > div > img {
+    border: 1px solid #ededed;
+        border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.contacts > div > p:nth-child(3) {
+font-size: 18px;
+    margin-bottom: 15px;
+
+}
+.contacts > div > div {
+display: flex;
+    flex-direction: column;
+color: #818181;
+}
+.contacts > div > div > a {
+margin-bottom: 20px;
+        max-width: 230px;
+    display:flex;
+    align-items: center;
+}
+.contacts > div > div a img {
+margin-right: 15px;
+    vertical-align: middle;
+}
+.callback_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.callback_form .text_type_1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.callback_form form {
+    background: url(../../img/p5/form_top.png) repeat-x;
+    background-position: 15px top;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.5);
+    padding: 30px 44px 40px;
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+    
+}
+.callback_form form span{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #818181;
+}
+.callback_form form input{
+background: #f8f8f8;
+    border: 1px solid #dadada;
+    width: 330px;
+    max-width: 100%;
+    height: 35px;
+    font-size: 18px;
+    margin-bottom: 22px;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+.callback_form form textarea{
+background: #f8f8f8;
+    border: 1px solid #dadada;
+    width: 330px;
+    max-width: 100%;
+    height: 80px;
+    font-size: 18px;
+    margin-bottom: 22px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-bottom: 34px;
+}

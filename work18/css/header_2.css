@@ -1,0 +1,184 @@
+header {
+    color: #fff;
+         background: url(../img/royal/top_shadow.png) repeat-x;
+     background-position: top;
+     position: relative;
+     z-index: 45;
+    height: 175px;
+}
+header .logo {
+    width: 175px;
+    height: 46px;
+    align-self:baseline;
+    margin-right: 62px;
+}
+header > .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px 0px 0px;
+    align-items: center;
+}
+header > .content .phone_header .tel {
+font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 4px;
+}
+header > .content .phone_header .zakazt {
+font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+header menu > .content {
+    width: 100%;
+    min-height: 5px;
+    background: url(../img/royal/menu_top_line.png) no-repeat;
+    background-position: top left;
+    background-size: contain;;
+}
+header .header_adress  {
+    align-self:flex-start;
+}
+header .header_adress p {
+    font-size: 14px;
+    font-weight: 400;
+display: block;
+    line-height: 120%;
+    text-align: right;
+    letter-spacing: 1.5px;
+}
+header menu .content  {
+display: flex;
+    justify-content: center;
+    position: relative;
+}
+header menu ul {
+display: flex;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 611px;
+    justify-content: space-around;
+    padding-top: 16px;
+    position: relative;
+    letter-spacing: 1px;
+}
+header menu ul li{
+flex-grow: 1;
+    text-align: center;
+}
+header menu ul li:last-child:before {
+content: '';
+    display: block;
+    position: absolute;
+    top: -1.5px;
+    left: 43px;
+    width: 17px;
+    height: 11px;
+    background: url(../img/royal/almaz.svg);
+    transition: all 0.5s;
+}
+header menu ul li:nth-child(2):hover ~ li:last-child:before { left: 155px;}
+header menu ul li:nth-child(3):hover ~ li:last-child:before { left: 263px;}
+header menu ul li:nth-child(4):hover ~ li:last-child:before { left: 351px;}
+header menu ul li:nth-child(5):hover ~ li:last-child:before { left: 445px;}
+header menu ul li:nth-child(6):hover:before { left: 545px;}
+
+header menu ul li.active:nth-child(1) ~ li:last-child:before { left: 43px;}
+header menu ul li.active:nth-child(2) ~ li:last-child:before { left: 155px;}
+header menu ul li.active:nth-child(3) ~ li:last-child:before { left: 263px;}
+header menu ul li.active:nth-child(4) ~ li:last-child:before { left: 351px;}
+header menu ul li.active:nth-child(5) ~ li:last-child:before { left: 445px;}
+header menu ul li.active:nth-child(6):before { left: 545px;}
+
+
+
+header menu .search {
+width: 183px;
+    height: 21px;
+    border: 1px solid #fff;
+    display: flex;
+    position: absolute;
+   right: 0px;
+    box-sizing: border-box;
+    top: 11px;
+}
+header menu .search input{
+background: transparent;
+    border: none;
+    width: 100%;
+    padding: 0px 25px 0px 7px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Carmorant';
+    display: block;
+}
+header menu .search .icon-search{
+position: absolute;
+    right: 3px;
+    font-size: 17px;
+    top: 2px;
+    cursor: pointer;
+}
+header menu .search input::-webkit-input-placeholder {color: #fff; font-size:14px; font-family:'Carmorant';} 
+ header menu .search input::-moz-placeholder          {color: #fff; font-size:14px; font-family:'Carmorant';} 
+ header menu .search input:-moz-placeholder           {color: #fff; font-size:14px; font-family:'Carmorant';} 
+ header menu .search input:-ms-input-placeholder      {color: #fff; font-size:14px; font-family:'Carmorant';}
+
+@media screen and (max-width:1000px) {
+    header .content {
+    flex-wrap: wrap;
+    }
+    header {
+        height: auto;
+    }
+       header  .logo {
+        width: 100%;
+           order: -1;
+           display: flex;
+           justify-content: center;
+           margin-right: 0px;
+           
+    }
+    header menu ul li:last-child:before {
+        display: none;
+    }
+        header menu .search {
+        position: relative;
+        order: -1;
+        margin: 20px 0px;
+    }
+.slide {
+    padding-top: 50px !Important;
+    padding-bottom: 50px !Important;
+        position: relative !important;
+    opacity: 1 !important;
+}
+    header menu ul {
+        width: 100%;
+        flex-direction: column;
+    }   
+    
+    header menu ul li{
+     padding: 30px 0px;
+    }
+    main {
+        margin-top: 0px !important;
+    }
+}@media screen and (max-width:600px) {
+    header .content {
+    flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    header .content > * {
+        margin: 15px auto;
+        text-align: center !Important;
+    }
+    header .header_adress p {
+        text-align: center;
+    }
+
+}

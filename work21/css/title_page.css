@@ -1,0 +1,132 @@
+.title_page {
+    background: #fd926d;
+    color: #fff;
+    height: 51px;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 55px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    margin-bottom: 26px;
+    margin-top: -1px;
+    width: 100%;
+}
+.title_page.pagination {
+font-size: 12px;
+    text-transform: none;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+.title_page.pagination a:after {
+content: ' >'
+}
+.title_page.pagination > div a:last-child:after {
+content: ''
+}
+.sortirovka {
+    width: 720px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sortirovka__selected_params {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.sortirovka__selected_params__item {
+    background: #fff;
+    height: 22px;
+    color: #6b6b6b;
+    font-size: 12px;
+    line-height: 22px;
+    margin-right: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.sortirovka__selected_params__item p:first-child {
+    padding-left: 7px;
+    line-height: 22px;
+    margin-right: 10px;
+    max-width: 300px;
+    overflow: hidden;
+}
+.sortirovka__selected_params__item .close {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer;
+    margin: 0px;
+}
+.sortirovka__selected_params__item .close:hover {
+color: #fff;
+background: #656565;
+}
+.sortirovka__selected_params__item .close:after {
+content: 'x'
+}
+.title_page .selectric {
+    background: #fff;
+    height: 22px;
+    border-color: #fff;
+}
+.title_page .selectric-open .selectric-items {
+width: 100% !important;
+    border: none;
+}
+.title_page .selectric .button {
+    height: 22px;
+    border-left: 1px solid #b5b5b5;
+    width: 22px;
+    right: 5px;
+}
+
+.title_page .selectric-items li {
+    height: 22px;
+    box-sizing: border-box;
+    line-height: 22px;
+    padding-top: 0px;
+}
+
+.title_page .selectric-sortirovka__select {
+margin-right: 25px;
+}
+.sortirovka .line {
+   width: 22px;
+    height: 22px;
+    background-image: url(../img/icons/line.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+.sortirovka .kube {
+   width: 22px;
+    height: 22px;
+    background: url(../img/icons/kube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    margin-left: 6px;
+    margin-right: 5px;
+}
+.title_page__starus_wprapper {
+    display: flex;
+    width: 720px;
+    margin-left: auto;
+}
+.title_page__starus_wprapper__item_status {
+    margin-right: 35px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.title_page__starus_wprapper__item_status:after {
+    display: none;
+}
+.selectric-sortirovka__select .selectric .label {
+    height: 100%;
+    line-height: 25px;
+}

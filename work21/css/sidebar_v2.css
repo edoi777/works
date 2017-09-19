@@ -1,0 +1,73 @@
+.sidebar__buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 6px;
+}
+.sidebar__buttons__create {
+	border:none;
+    width: 75px;
+    height: 32px;
+    background: #7efd6d;
+    color: #fff;
+    line-height: 31px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #16b601;
+	text-align: center;
+    font-size: 13px;
+    cursor:pointer;	
+}
+.sidebar__buttons__all_categories {
+	border:none;
+    width: 120px;
+    height: 32px;
+    background: #fd926d;
+    color: #fff;
+    line-height: 31px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #dd6b44;
+   text-align: center;
+    font-size: 13px;
+    cursor:pointer;	
+}
+.sidebar__categories_select {
+	display: flex;
+	justify-content: space-between;
+	background: #fff;
+	height: 32px;
+	padding-left: 15px;
+	padding-right: 13px;
+	box-sizing: border-box;
+	align-items: center;
+	margin-bottom: 6px;
+}
+.sidebar__categories_select__title {
+	margin-right: auto;
+	font-size: 12px;
+	white-space: nowrap;
+	max-width: 135px;
+	overflow: hidden;
+}
+.sidebar__categories_select__close {
+	color: #767676;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+    display: none;
+}
+.sidebar__categories_select__close.close_show {
+    display: block;
+}
+.sidebar__categories_select__edit {
+	width: 13px;
+	height: 15px;
+	background: url(../img/icons/change.png) no-repeat;
+	background-size: cover;
+	border:none;
+	cursor: pointer;
+	display: none;
+}
+.sidebar__categories_select__edit.edit_show {
+	display: block;
+}

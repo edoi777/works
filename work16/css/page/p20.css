@@ -1,0 +1,26 @@
+.tikets {
+    margin-top: 80px;
+}
+.tikets .item {
+    border: 1px solid #a6a6a6;
+    padding-bottom: 35px;
+margin-bottom: 50px;
+}
+.tikets .item .body {
+display: flex;justify-content: space-around;
+        font-size: 18px;
+}
+.tikets .item .body > a{
+font-size: 18px;
+    text-decoration: underline;
+}
+.status_close {
+    background: #cb0000;
+    color: #fff;
+    padding: 5px 10px;
+}
+.status_open {
+    background: #4a7df1;
+    color: #fff;
+    padding: 5px 10px;
+}

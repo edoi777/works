@@ -1,0 +1,42 @@
+.department_sales {
+    
+}
+.department-sales__title {
+    font-size: 19px;
+    font-family: 'futura-pt';
+    font-weight: 700;
+    margin-bottom: 35px;
+    letter-spacing: -0.2px;
+    margin-left: -1px;
+}
+.department-sales__description {
+    color: #666666;
+    font-size: 12px;
+    line-height: 20px;
+}
+.department-sales__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        margin-bottom: 34px;
+        
+}
+.department-sales__img {
+        margin-bottom: 24px;
+}
+.department-sales__name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.department-sales__position {
+      font-size: 13px;
+    color: #666666;
+    margin-bottom: 3px;
+}
+.department-sales__tel,.department-sales__mail,.department-sales__skype {
+    font-size: 12px;
+    color: #363636;
+    margin-bottom: 3px;
+}
+

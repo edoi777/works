@@ -1,0 +1,232 @@
+.sell_lots_page{
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 100%;
+}
+.sell_lots_page__body {
+    display: flex;
+    justify-content: space-between;
+}
+.sell_lots_page__title {
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.this_gallery .slick-slide {
+	width: 400px ; 
+	height: 340px ; 
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+.sell_lots_page__galery {
+	width: 400px;
+    margin-right: 10px;
+}
+.this_gallery  {
+	background: url(../img/product_cart_v_1_fon.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+    margin-bottom: 10px;
+}
+.sell_lots_page__galery_nav .slick-slide {
+display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.sell_lots_page__galery_nav .slick-slide > div{
+	width: 123px;
+	height: 106px;
+		display: flex !important;
+	justify-content: center;
+	align-items: center;
+		background: url(../img/product_cart_v_1_fon.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+}
+.sell_lots_page__galery_nav .slick-next{
+width: 12px;
+height: 47px;
+color:transparent;
+background: rgba(253, 146, 109, 0.5);
+border:none;
+cursor: pointer;
+position: relative;
+    transition: all 0.3s;
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    z-index: 9;
+    margin-top: -23.5px;
+}
+.sell_lots_page__galery_nav .slick-next:hover{
+background: rgba(253, 146, 109, 1);
+}
+.sell_lots_page__galery_nav .slick-next:before{
+    content: '>';
+    color: #fff !important;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -6.5px;
+    margin-left: -3px;
+}
+.sell_lots_page__galery_nav .slick-prev{
+width: 12px;
+height: 47px;
+color:transparent;
+background: rgba(253, 146, 109, 0.5);
+    border:none;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s;
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    z-index: 9;
+    margin-top: -23.5px;
+}
+.sell_lots_page__galery_nav .slick-prev:hover{
+background: rgba(253, 146, 109, 1);
+}
+.sell_lots_page__galery_nav .slick-prev:before{
+    content: '<';
+    color: #fff !important;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -6.5px;
+    margin-left: -3px;
+}
+.sell_lots_page__galery_nav  {
+    margin: 0px -8px;
+}
+.sell_lots_page__description {
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 320px;
+}
+.sell_lots_page__description table{
+   width: 100%;
+padding: 15px 20px;
+}
+.sell_lots_page__description table p{
+font-size: 15p;
+    color: #101010;
+}
+.sell_lots_page__description table tr:first-child p{
+padding-bottom: 15px;
+}
+.sell_lots_page__description .red{
+    color: #9b2d30;
+}
+.sell_lots_page__description .gray{
+    color: #6b6b6b;
+}
+.sell_lots_page__description .orange{
+    color: #dd6b44;
+}
+.sell_lots_page__description .underline{
+    text-decoration: underline;
+}
+.sell_lots_page__description .bl2 p{
+    background: #ededed;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    width: 40%;
+    flex-grow: 1;
+    height: 32px;
+    font-size: 12px;
+    color: #767676;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sell_lots_page__description .bl2{
+display: flex;
+    flex-wrap: wrap;
+}
+.sell_lots_page__description .bl2 p:nth-child(2),.sell_lots_page__description .bl2 p:nth-child(4){
+    margin-right: 0px;
+}
+.bl3 {
+    margin-top: 19px;
+padding: 0px 20px;
+    height: 214px;
+    margin-bottom: 20px;
+}
+.bl3_item {
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    height: 49px;
+    margin-bottom: 6px;
+    font-size: 12px;
+    padding: 0px 48px 0px 13px;
+}
+.bl3 .bl3_item:last-child {
+margin-bottom: 0px;
+}
+.bl3_item p:first-child {
+    line-height: 18px;
+}
+.bl3_item p:last-child {
+    padding-left: 30px;
+    border-left: 1px solid #767676;
+    height: 42px;
+    line-height: 42px;
+}
+.bl3 .custom-scroll_bar-y {
+    width: 5px;
+    background: rgb(118, 118, 118);
+}
+.bl3 .custom-scroll-advanced_track-y {
+    right: 3px !Important;
+    width: 5px !Important;
+}
+.bl4 {
+    padding: 0px 20px;
+}
+.bl4_title {
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 11px;
+}
+.bl4_body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+.bl4_body a {
+    width: 24%;
+}
+.bl4_body a img{
+  width: 100%;
+}
+@media screen and (max-width:970px) {
+    .sell_lots_page__body {
+        flex-direction: column;
+    }
+    .sell_lots_page__body > * {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:500px) {
+    .bl3_item {
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    .bl3_item p:last-child {
+        padding-left: 7px;
+    }
+    .bl3_item p:first-child {
+
+    }
+}

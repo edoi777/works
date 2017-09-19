@@ -1,0 +1,188 @@
+.product_cart_v_2 {
+    min-height: 138px;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    background: #f7f7f7;
+    margin-bottom: 30px;
+}
+.product_cart_v_2__img {
+    display: flex;
+    width: 180px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/product_cart_v_1_fon.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.product_cart_v_2__body {
+    padding-top: 15px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    color: #373737;
+    font-size: 12px;
+}
+.product_cart_v_2__title {
+    font-size: 15px;
+    margin-bottom: 13px;
+    padding-left: 15px;
+}
+.product_cart_v_2__body table {
+    width: 100%;
+    padding-left: 15px;
+}
+.product_cart_v_2__body  .orange{
+    color: #fd926d;
+}
+.product_cart_v_2__body  .red{
+    color: #9b2d30;
+}
+.product_cart_v_2__body  .green{
+    color: #16b601;
+}
+.product_cart_v_2__body  .underline{
+   text-transform: underline;
+}
+.product_cart_v_2__body  .big{
+    font-size: 15px;
+}
+.product_cart_v_2__body  .user{
+   color: #de3900;
+    text-decoration: underline;
+}
+.product_cart_v_2__body table td{
+padding-bottom: 12px;
+}
+.product_cart_v_2__body table tr:last-child td{
+padding-bottom: 0px;
+}
+.product_cart_v_2__categories_block {
+    display: flex;
+    margin-top: auto;
+    background: #ededed;
+    color: #767676;
+    height: 35px;
+    margin-top: 20px;
+}
+.product_cart_v_2__categories_block p {
+    flex-grow: 1;
+    line-height: 35px;
+    text-align: center;
+    border-right: 1px solid #fff;
+    font-size: 12px;
+}
+.product_cart_v_2__categories_block p:last-child {
+    border-right:none;
+}
+.product_cart_v_2 .parts {
+    display: flex;
+    justify-content: space-between;
+}
+.product_cart_v_2 .parts .product_cart_v_2__title {
+max-width: 200px;
+}
+.product_cart_v_2 .parts .right_part {
+width: 200px;
+    margin-right: 10px;
+}
+.product_cart_v_2 .parts .right_part table{
+width: 100%;
+    padding: 0px;
+}
+.more_button {
+    width: 100%;
+    box-sizing: border-box;;
+    height: 40px;
+    display: flex;
+    background: #fd926d;
+    color: #fff;
+    line-height: 40px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #dd6b44;
+    justify-content: center;
+    margin-top: -6px;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+.select {
+    width: 157px;
+    border: none;
+    box-sizing: border-box;
+    height: 40px;
+    display: flex;
+    background: #fd926d;
+    color: #fff;
+    line-height: 40px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #dd6b44;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+td[rowspan="2"] {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12px;
+}
+@media screen and (max-width:970px) {
+    .product_cart_v_2 {
+        flex-direction: column;
+    }
+    .product_cart_v_2__img {
+        height: 135px;
+        align-self: center;
+        width: 100%;
+    }
+    .product_cart_v_2__categories_block {
+        flex-wrap: wrap;
+        height: auto;
+        white-space: nowrap;
+  
+    }
+    .product_cart_v_2__body >  table{
+        margin-bottom: 10px;
+    }
+    .product_cart_v_2__body > table tr {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .product_cart_v_2__body > table tr:first-child td:last-child {
+        width: 100%;
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .product_cart_v_2__body > table tr:last-child td:last-child {
+        width: 100%;
+        text-align: center;
+        order: -1;
+        margin-bottom: 15px;
+        flex-basis: 100%;
+    }
+    .product_cart_v_2__body table td {
+        flex-basis: 160px;
+    }
+    .parts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .parts > * {
+        width: 100% !important;
+    }
+    .product_cart_v_2__body .parts .right_part {
+        margin-right: 0px;
+    }
+    .product_cart_v_2__body .parts {
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    .product_cart_v_2__body .parts table {
+        padding-left: 0px;
+    }
+
+}

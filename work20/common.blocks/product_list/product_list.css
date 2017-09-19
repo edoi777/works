@@ -1,0 +1,4 @@
+.product_list {
+        float: right;
+ width: calc(((100% - 11*20px)/12)*9 + 8 * 20px);
+}

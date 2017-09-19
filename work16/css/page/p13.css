@@ -1,0 +1,100 @@
+.list_horizontal .item {
+    border: 1px solid #a6a6a6;
+}
+.list_horizontal .item .body {
+        padding: 10px 30px 20px 50px;  
+      color: #221e1f;
+    font-size: 16px;
+    overflow: hidden;
+}
+.list_horizontal .item .body .img {
+        width: 74px;
+  height: 74px;
+  border: solid 1px #a6a6a6; 
+}
+.list_horizontal .item .body .info_body {
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-right: 150px;
+}
+.list_horizontal .item .body .name_faq {
+  font-size: 18px;
+}
+.list_horizontal .item .body .param_dds {
+  font-size: 16px;
+}
+.list_horizontal .item .body .summa {
+ font-weight: bold;
+}
+
+.list_horizontal .item .body table {
+margin-left: 170px;
+}
+.list_horizontal .item .body table td[colspan="2"] {
+font-weight: bold;
+    padding-bottom: 29px;
+}
+.list_horizontal .item .body table td {
+    padding-bottom: 20px;
+}
+.list_horizontal .item .body table td:first-child {
+    padding-right: 180px;
+}
+.list_horizontal .item .body .btn_t_1{
+    font-weight: bold;
+    float: right;
+}
+.faktura_doc {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.faktura_doc img {
+    max-width: 100%;
+    width: 100%;
+    margin: 0px auto;
+    max-width: 1000px;
+    display: block;
+}
+.control_fakrura {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 130px;
+    box-sizing: border-box;
+}
+.control_fakrura > .btn_t_4 {
+    margin-right: 50px;
+}
+@media screen and (max-width:900px) {
+    .info_body {
+        flex-direction: column;
+        padding-right: 0px !important;
+    }
+    .info_body > * {
+        margin-bottom: 30px;
+    }
+    .list_horizontal .item .body table {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .list_horizontal .item .body table tr {
+      display: flex;
+        flex-direction: column;
+    }
+    .list_horizontal .item .body table td {
+      padding-right: 0px !important;
+        text-align: center
+    }
+}
+@media screen and (max-width:800px) {
+    .control_fakrura {
+        padding-right: 0px;
+        flex-direction: column;
+    }
+    .control_fakrura > .btn_t_4 {
+    margin-right: 0px;
+        margin-bottom: 40px;
+}
+}

@@ -1,0 +1,118 @@
+.name_page .btn_t_2 {
+    color: #131212;
+}
+.sort select {
+    margin-right: 30px;
+}
+.items_fakturi {
+    margin-top: 38px;
+}
+
+
+.item {
+        width: 100%;
+    border: 1px solid #a6a6a6;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.item .body {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+.item .body table {
+width: 100%;
+    font-size: 16px;
+}
+.item .body table * {
+padding:0px;
+}
+.item .body table tr td:nth-child(2) {
+text-align: center;
+}
+.item .body table tr td:last-child {
+text-align: right;
+}
+.links_menu {
+    margin-bottom: 60px;
+}
+@media screen and (max-width:1000px) {
+    .item .body {
+        flex-direction: column;
+    }
+    .item .body > * {
+        margin-bottom: 30px;
+    }
+    .sort {
+    display: flex;
+    flex-direction: column;
+}
+.sort > * {
+    margin-bottom: 30px;
+}
+}
+.vistavlennnie_fakturi {
+    display: flex;
+
+}
+.vistavlennnie_fakturi div:first-child {
+margin-right: 20px;
+}
+.vistavlennnie_fakturi div:nth-child(2) {
+    flex-grow: 1;
+}
+.filtr {
+    font-size: 16px;
+    width: 350px;
+}
+.filtr > p {
+    height: 46px;
+    width: 100%;
+    line-height: 46px;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 38px;
+}
+.filtr > div {
+border:1px solid #a6a6a6;
+    padding: 35px 25px;
+    min-height: 690px;
+    box-sizing: border-box;
+}
+.filtr > div >  p{
+    padding: 55px 0px 15px 0px;
+}
+
+.filtr > div >  p:first-child{
+    padding-top: 0px;
+}
+.filtr > div >  select {
+    height: 30px;
+    width: 100%;
+    border-color:  #000;
+}
+.filtr > div >  ul li {
+margin-bottom: 15px;
+}
+@media screen and (max-width:1000px) {
+    .vistavlennnie_fakturi {
+        flex-direction: column;
+    }
+    .vistavlennnie_fakturi > * {
+        width: 100%
+    }
+    .vistavlennnie_fakturi > div:first-child {
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:600px) {
+    .item .body table tr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+    .item .body table td {
+        padding-bottom: 20px;
+    }  
+}

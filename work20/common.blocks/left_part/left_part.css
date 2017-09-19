@@ -1,0 +1,6 @@
+.left_part {
+    float: left;
+    width: 100%;
+    width: calc(((100% - 11*20px)/12)*3 + 2 * 20px);
+    margin-right: 20px;
+}

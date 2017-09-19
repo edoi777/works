@@ -1,0 +1,97 @@
+.tiket_description {
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 60px;
+    border: 1px solid #a6a6a6;
+}
+.tiket_description p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.tiket_description p span {
+    font-weight: 400;
+}
+.tiket_description p:first-child  {
+  margin-bottom: 50px;
+}
+.tiket_description div p {
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 0px !important;
+}
+.obsugdenie {
+       border: 1px solid #a6a6a6;
+    padding: 30px;
+}
+.obsugdenie > p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.obsugdenie .body > div {
+    border: 1px solid #c7c7c7;
+    border-radius: 15px;
+    padding: 20px 20px 50px 20px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+.obsugdenie .body {
+    display: flex;
+    flex-direction: column;
+}
+.obsugdenie .body .otv {
+    align-self: flex-start;
+    width: 100%;
+    max-width: 620px;
+    background: #ebebeb;
+}
+.obsugdenie .body .vopr {
+    align-self: flex-end;
+    width: 100%;
+    max-width: 620px;
+}
+.obsugdenie .body .description {
+font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.obsugdenie .body .message {
+padding-left: 30px;
+    font-size: 16px;
+}
+
+.otpr_mess textarea{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin-bottom: 25px;
+}
+.otpr_mess {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+.add_file {
+    text-decoration: underline;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.btn_t_3 {
+    margin-left: 20px;
+}
+@media screen and (max-width:600px) {
+    .description {
+        flex-direction: column;
+        display: flex;
+    }
+    .description > * {
+        margin-bottom: 15px;
+    }
+}

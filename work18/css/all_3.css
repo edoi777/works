@@ -1,0 +1,117 @@
+* {margin: 0px; padding: 0px; line-height: 100%; list-style: none; outline: none;}
+ a {color: inherit; text-decoration: inherit;}
+.content { width: 95%; max-width: 1180px; margin: 0px auto;}
+ textarea {font-family: inherit;}  
+ body { 
+     font-family: 'Carmorant', sans-serif; 
+     font-size: 14px; 
+     color: #000; 
+     overflow-x: hidden; 
+ } 
+ @font-face {
+    font-family:'Carmorant';src:url(../fonts/cormorant-bold.otf);
+    font-weight:700;
+    font-style:normal;
+}
+@font-face {
+    font-family:'Carmorant';
+    src:url(../fonts/cormorant-medium.otf);
+    font-weight:400;
+    font-style:normal;
+}
+@font-face {
+    font-family:'Carmorant';
+    src:url(../fonts/cormorant-mediumitalic.otf);
+    font-weight:400;
+    font-style:italic;
+}
+@font-face {
+    font-family:'Carmorant';
+    src:url(../fonts/cormorant-semibold.otf);
+    font-weight:600;
+    font-style:normal;
+}
+@font-face {
+    font-family:'fontello';
+    src: url('../fonts/fontello.woff?62770134') format('woff');
+}
+ body { 
+     font-family: 'Carmorant', sans-serif; 
+}
+::-webkit-input-placeholder {color: #808080; font-size:14px; font-family:'Carmorant';} 
+ ::-moz-placeholder          {color: #808080; font-size:14px; font-family:'Carmorant';} 
+ :-moz-placeholder           {color: #808080; font-size:14px; font-family:'Carmorant';} 
+ :-ms-input-placeholder      {color: #808080; font-size:14px; font-family:'Carmorant';}
+
+ 
+.icon-map:before { content: '\e800'; font-family:'fontello'; } /* '' */
+.icon-search:before { content: '\e801'; font-family:'fontello'; } /* '' */
+.icon-exit:before { content: '\e802'; font-family:'fontello';  } /* '' */
+.icon-star:before { content: '\e803'; font-family:'fontello'; } /* '' */
+.icon-arrow-left:before { content: '\e804'; font-family:'fontello';  } /* '' */
+.icon-arrow-bottom:before { content: '\e805'; font-family:'fontello'; } /* '' */
+.icon-minus:before { content: '\e806'; font-family:'fontello'; } /* '' */
+.icon-plus:before { content: '\e807'; font-family:'fontello'; } /* '' */
+.icon-info:before { content: '\e808'; font-family:'fontello'; } /* '' */
+.icon-crown:before { content: '\e809'; font-family:'fontello'; } /* '' */
+.icon-diamond-1:before { content: '\e80a'; font-family:'fontello'; } /* '' */
+.icon-arrow-left-1:before { content: '\e80b'; font-family:'fontello'; } /* '' */
+.icon-icon-1:before { content: '\e80c'; font-family:'fontello'; } /* '' */
+.icon-arrow-right-1:before { content: '\e80d'; font-family:'fontello'; } /* '' */
+.icon-arrow-left-2:before { content: '\e80e'; font-family:'fontello'; } /* '' */
+.icon-arrow-right-2:before { content: '\e80f'; font-family:'fontello'; } /* '' */
+.icon-arrow-left-3:before { content: '\e810'; font-family:'fontello'; } /* '' */
+.icon-arrow-right-3:before { content: '\e811'; font-family:'fontello'; } /* '' */
+.icon-diamond-2:before { content: '\e816'; font-family:'fontello'; } /* '' */
+.icon-gift:before { content: '\e817'; font-family:'fontello'; } /* '' */
+.icon-diamond-3:before { content: '\e819'; font-family:'fontello'; } /* '' */
+.icon-letter:before { content: '\e81a'; font-family:'fontello'; } /* '' */
+.icon-circle-arrow:before { content: '\e81b'; font-family:'fontello'; } /* '' */
+.icon-tools:before { content: '\e81c'; font-family:'fontello'; } /* '' */
+.icon-rubl:before { content: '\e81d'; font-family:'fontello'; } /* '' */
+.icon-arrow-right-4:before { content: '\e81e'; font-family:'fontello'; } /* '' */
+
+
+/*////////////////FOOTER*/
+.footer_logo {
+    width: 176px;
+    height: 64px;
+    margin-right: auto;
+}
+footer .content {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+      border-top: 1px solid #c8c8c8;
+    justify-content: space-between;
+}
+footer .content ul {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 30px;
+}
+footer .content ul li p {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+footer .content ul li  {
+margin-bottom: 10px;
+}
+@media screen and (max-width:1000px) {
+    footer .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .content > * {
+        margin-bottom:  50px ;
+    }
+    footer .content > ul {
+       align-self: flex-start;
+    }
+    .footer_logo {
+        margin: 0px auto;
+    }
+}

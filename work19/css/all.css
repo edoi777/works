@@ -1,0 +1,72 @@
+* {margin: 0px; padding: 0px; line-height: 100%; list-style: none; outline: none;}
+ a {color: inherit; text-decoration: inherit;}
+.content { width: 95%; max-width: 1170px; margin: 0px auto; font-size: 14px;}
+input, textarea {font-family: inherit;}
+body {
+    background: url(../img/background.jpg) repeat-y;
+    background-size: cover;
+    font-family: 'Ubuntu';
+}
+main .content {
+    border: 4px solid #f5f3f3;
+    box-sizing: border-box;
+    background: #fdfdfd;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Magnolia';
+  src: url('../fonts/magnolia_script.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.button_type_1 {
+    background: #fde3c8;
+    color: #818181;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    border-radius: 5px;
+    text-align: center;
+    display:inline-block;
+    box-sizing:border-box;
+}
+.button_type_2 {
+    background: #a1185b;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    border-radius: 5px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing:border-box;
+}
+.text_type_1 {
+    color: #a1185b;
+    font-family: 'Magnolia';
+}
+.icon-facebook:before { content: '\e800'; font-family:'fontello'; } /* '' */
+.icon-arrow-left-3:before { content: '\e810'; font-family:'fontello'; } /* '' */
+.icon-arrow-right-3:before { content: '\e811'; font-family:'fontello'; } /* '' */
+.icon-shop:before { content: '\e81b'; font-family:'fontello'; } /* '' */
+.icon-youtube:before { content: '\e81c'; font-family:'fontello'; } /* '' */
+.icon-insta:before { content: '\e81d'; font-family:'fontello'; } /* '' */
+.icon-vk:before { content: '\e81e'; font-family:'fontello'; } /* '' */
+.icon-twitter:before { content: '\e81f'; font-family:'fontello'; } /* '' */
+/*
+ textarea {font-family: inherit;}  
+
+::-webkit-input-placeholder {color: #808080; font-size:14px; font-family:'Carmorant';} 
+ ::-moz-placeholder          {color: #808080; font-size:14px; font-family:'Carmorant';} 
+ :-moz-placeholder           {color: #808080; font-size:14px; font-family:'Carmorant';} 
+ :-ms-input-placeholder      {color: #808080; font-size:14px; font-family:'Carmorant';}
+*/

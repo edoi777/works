@@ -1,0 +1,38 @@
+main .content > h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+main .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px;
+}
+main .content > div {
+display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+            padding: 0px 40px;
+    box-sizing: border-box;
+}
+main .content > div > div {
+width: 330px;
+    height: 350px;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+main .content > div > div > img{
+width: 100%;
+    margin-bottom: 25px;
+}
+main .content > div > div > p{
+text-align: center;
+    font-size: 18px;
+    padding: 0px 25px;
+    box-sizing: border-box;
+}

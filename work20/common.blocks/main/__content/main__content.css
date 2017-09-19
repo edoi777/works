@@ -1,0 +1,21 @@
+.main__content {
+max-width:1160px; 
+width: 100%;
+    margin: 0px auto;
+}
+.ten {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+    z-index: 9;
+}
+.ten_show {
+ visibility: visible;
+    opacity:1;
+}

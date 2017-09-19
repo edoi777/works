@@ -1,0 +1,61 @@
+.item_name {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0px;
+    padding: 0px 15px;
+}
+main .content .item {
+    border: 1px solid #a6a6a6;
+    padding-bottom: 25px;
+    width: 100%;
+    max-width: 380px;
+    margin-bottom: 20px;
+}
+main > .content {
+display: flex;
+flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img_item {
+   
+    height: 220px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.name_company {
+    padding: 0px 15px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+main .content .item table {
+    width: 100%;
+    padding: 0px 17px 0px 19px;
+    box-sizing: border-box;
+}
+main .content .item table tbody tr td:first-child {
+width: 32px;
+    vertical-align: top;
+}
+main .content .item table tbody tr td:last-child {
+    text-align: right;
+    font-size: 17px;
+}
+main .content .item table tbody tr td:nth-child(2) {
+font-size: 16px;
+}
+main .content .item table tbody tr td:nth-child(2) p:first-child {
+font-weight: bold;
+    margin-bottom: 8px;
+}
+main .content .item table tbody tr td {
+padding-bottom: 26px;
+}
+main .content .item table tbody tr:last-child td {
+padding-bottom: 0px;
+}
+
+@media screen and (max-width:1200px) {
+    main > .content {
+        justify-content: space-around;
+    }
+}

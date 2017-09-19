@@ -1,0 +1,67 @@
+.add_question {
+    margin-top: 50px;
+    border: 1px solid #a6a6a6;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.add_question form input,  select {
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.add_question form table tr td:first-child{
+    text-align: right;
+    padding-right: 25px;
+    box-sizing: border-box;
+    max-width: 100px;
+}
+.add_question form table tr td {
+    padding-bottom: 25px;
+}
+.pr {
+    vertical-align: top;
+}
+.add_question textarea {
+       width: 100%;
+    box-sizing: border-box;
+    height: 220px;
+}
+.add_question form,.add_question table {
+    width: 100%;
+    max-width: 698px;
+}
+td[colspan="2"] {
+    padding-right: 0px !important;
+}
+.description_slugbi {
+    border: 1px solid #a6a6a6;
+    border-radius: 10px;
+    height: 380px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 5px 4px 7px 0px rgba(0, 0, 0, 0.46);
+}
+@media screen and (max-width:1000px) {
+    .add_question {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:600px) {
+.add_question form table tr  {
+   display: flex;
+    flex-direction: column;
+}
+    .add_question form table tr td { 
+       width: 100% !important;
+        max-width: 100% !important;
+    }
+}

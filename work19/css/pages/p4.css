@@ -1,0 +1,234 @@
+main .content > div {
+    padding: 35px 0px;
+}
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px 35px;
+}
+.book .text_type_1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #a1185b;
+}
+.book img {
+    margin-bottom: 35px;
+}
+.book h1 {
+  font-size: 18px;
+    margin-bottom: 25px;
+}
+.book p {
+  font-size: 14px;
+    margin-bottom: 20px;
+    color: #818181;
+    width: 95%;
+    max-width: 960px;
+    text-align: center;
+}
+main .content > div:nth-child(even) {
+    background-color: #fde3c8;
+}
+
+.video {
+    padding: 35px 0px 40px;
+    background: url(../../img/p4/video_background.jpg) no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video p {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+/*//////////////////*/
+/*//////////////////*//*//////////////////*/
+/*//////////////////*//*//////////////////*/
+/*//////////////////*/
+
+#slider_quote .slick-list {
+    background: url(../../img/p2/background_slider.jpg) no-repeat;
+    background-position: center center;
+    width: 422px;
+    height: 202px;
+}
+.quote > p {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote .slick-slide {
+    padding: 50px 20px 0px;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+.quote .slick-slide > p {
+ margin-bottom: 30px;
+    text-align: center;
+    line-height: 110%;
+}
+.quote .slick-slide > a {
+border: 1px solid #a1185b;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #a1185b;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0px 8px;
+}
+.quote #slider_quote {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 482px;
+}
+.slick-dots {
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    margin-top: 20px;
+}
+.slick-dots button{
+display: none;
+}
+.slick-dots li{
+width: 8px;
+    height: 8px;
+    background: #000;
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 0px 12.5px;
+}
+.slick-dots li.slick-active{
+background: #c8456a;
+}
+ .slick-arrow {
+    color: transparent;
+     width: 10px;
+     height: 18px;
+     border: none;
+     background:none;
+     overflow: hidden;
+}
+.slick-arrow:before {
+      font-family: 'fontello';
+     color: #000;
+     display: block;
+     cursor: pointer;
+     font-size: 13px;
+    font-weight: bold;
+    transform: all 0.3s;
+}
+.slick-arrow:hover:before {
+    color: #ca4c70;
+}
+ .slick-prev:before {
+    content: '\e810';
+
+}
+ .slick-next:before {
+    content: '\e811';
+}
+/*//////////////////*/
+/*//////////////////*//*//////////////////*/
+/*//////////////////*//*//////////////////*/
+/*//////////////////*/
+.process {
+    background: url(../../img/p4/process_background.jpg) no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.process .text_type_1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.process > div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 857px;
+    width: 100%;
+}
+.process > div div {
+background: #fff;
+    width: 100%;
+    max-width: 330px;
+    border:1px solid #ededed;
+    border-radius: 6px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.process > div div p {
+font-size: 18px;
+    margin-bottom: 23px;
+    margin-top: 25px;
+}
+.process > div div span {
+padding: 0px 23px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #818181;
+    margin-bottom: 25px;
+}
+.process > div div .button_type_2 {
+width: 100%;
+    max-width: 260px;
+}
+
+
+
+.callback_div > p {
+    font-size: 30px;
+    font-family: 'Magnolia';
+    color: #a1185b;
+    margin-bottom: 20px;
+}
+.callback_div > span {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.callback_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.callback_div div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 970px;
+    justify-content: space-between;
+}
+.callback_div div input{
+border:1px solid #dadada;
+    height: 35px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 18px; 
+}
+.callback_div div > *{
+margin: 0px 12px;
+}
+.callback_div div > a{
+flex-grow: 1;
+}

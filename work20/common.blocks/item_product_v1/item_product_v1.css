@@ -1,0 +1,159 @@
+
+.item_product_v1__title {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'futura-pt';
+    color: #4e4e4e;
+    margin-top: 14px;
+    align-self: flex-start;
+}.item_product_v1 {
+    height: 362px;
+    width: calc(((100% - 11*20px)/12)*3 + 2 * 20px);
+    padding: 12px 9px 0px 9px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s;
+}
+.item_product_v1:hover {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.5);
+}
+.item_product_v1__title {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'futura-pt';
+    color: #4e4e4e;
+    margin-top: 14px;
+    align-self: flex-start;
+}
+.item_product_v1__price p {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.item_product_v1__price{
+    width: 120px;
+}
+.price__old_price {
+    font-size: 10px;
+    color: #c11616;
+    display: none;
+    font-weight: 400;
+}
+.price__old_price span {
+    text-decoration: line-through;
+}
+.item_product_v1__params {
+    border-top: 1px solid #eaeaea;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+       height: 63px;
+       box-sizing: border-box;
+
+}
+.item_product_v1__icon_znachek {
+    display: none;
+}
+
+
+.item_product_v1__kod {
+   color: #989898;
+    font-size: 12px;
+        margin-top: 16px;
+    align-self: flex-start;
+    display: none;
+}
+.item_product_v1__kod span {
+   color: #07a728;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'futura-pt';
+}
+img.item_product_v1__item_icon , .item_product_v1__item_icon img, .item_product_v1__item_icon span {
+    max-height: 16px;
+    margin-right: 8px;
+    font-size: 10px;
+    color: #cbcbcb;
+    white-space: nowrap;
+}
+.item_product_v1__item_icon {
+    display: flex;
+}
+.item_product_v1__icons {
+        margin-top: 15px;
+        width: 152px;
+        display: flex;
+        max-width: 50%;
+
+}
+.item_product_v1__item_icon {
+    display: none;
+}
+.item_product_v1__text_icon {
+    width: 110px;
+}
+
+/*///////////////////////////MODS/////////////////////*/
+/*///////////////////////////MODS/////////////////////*/
+/*///////////////////////////MODS/////////////////////*/
+/*///////////////////////////MODS/////////////////////*/
+/*///////////////////////////MODS/////////////////////*/
+/*///////////////////////////MODS/////////////////////*/
+/*///////////////////////////MODS/////////////////////*/
+
+.item_product_v1_section_super_price .item_product_v1__icon_znachek {
+    width: 77.32px;
+    height: 20px;
+    background: url(../../img/super_price.svg) no-repeat;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    display: block;
+}
+.item_product_v1_section_new .item_product_v1__icon_znachek {
+    display: block;
+    width: 72.783px;
+    height: 20px;
+    background: url(../../img/novinka.svg) no-repeat;
+    position: absolute;
+    left: 9px;
+    top: 32px;
+}
+.item_product_v1_old_price_show .price__old_price {
+    display: block;
+}
+.item_product_v1_kod_show .item_product_v1__kod {
+    display: block;
+}
+.item_product_v1_icons_show .item_product_v1__item_icon  {
+    display: flex;
+}
+.item_product_v1_icons_show .item_product_v1__icons  {
+    display: flex;
+}
+.item_product_v1_percent_show .percent  {
+    display: block;
+}
+.item_product_v1_dostavka_show .dostavka  {
+    display: flex;
+    width: 126px;
+}
+.percent {
+    width: 16px;
+    height: 16px;
+}
+.item_product_v1__dostavka {
+    width: 19px;
+    height: 16px;
+}

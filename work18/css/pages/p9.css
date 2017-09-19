@@ -1,0 +1,217 @@
+.product_card {
+    display: flex;
+    justify-content: space-between;
+}
+.description_item {
+    width: 100%;
+    max-width: 390px;
+    padding-top: 40px;
+    margin-right: 10px;
+}
+.postavshik {
+    font-size: 19px;
+    color: #929292;
+    margin-bottom: 30px;
+}
+.name_product {
+    font-size: 37px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.opisanie, .sostav {
+    font-size: 19px;
+    margin-bottom: 55px;
+}
+.parametri {
+    display: flex;
+    flex-direction: column;
+    color: #666;
+    font-size: 15px;
+}
+.parametri span {
+    margin-bottom:5px;
+}
+.slick-dots a img {
+    max-width: 50px;
+}
+.gallery_item {
+    width: 580px;
+    height: 580px;
+    border: 2px solid #e3e3e3;
+    box-sizing: border-box;
+}
+.gallery_item .item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 595px;
+}
+.slick-dots li.slick-active {
+    border: 1px solid #7f7f7f;
+}
+.slick-dots  {
+position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.slick-dots li {
+    width: 82px;
+    height: 82px;
+    border: 1px solid #c8c8c8;
+    cursor: pointer;
+    margin-bottom: 7px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slick-dots li a img{
+max-height: 75px;
+max-width: 75px;
+}
+.buy_item {
+    margin-left: 15px;
+    width: 190px;
+}
+.buy_item .price {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    padding-top: 80px;
+}
+.buy_item .nalichie {
+    font-size: 20px;
+    color: #929292;
+    margin-bottom: 45px;
+}
+.oformit {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    display: block;
+    border: 1px solid #000;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.oformit:before {
+    content: '';
+        display: block;
+    right: 0px;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    margin-right: -14px;
+width: 26px;
+height: 4px;
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAECAYAAACQli8lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAO0lEQVQY07XQAQ3AMAzEQLsajxVCIQRCIQx6mPxQ5AhYskmYou4kDbCY9amt3ketwdAGXuA4vK6ATtI/8MgRS91KZwkAAAAASUVORK5CYII=);
+}
+.add_to_favorites, .question, .vstrecha {
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: #666666;
+    text-transform: uppercase;
+}
+.add_to_favorites:before{
+    content: '';
+    display: inline-block;
+    margin-right: 4px;
+width: 14px;
+height: 9px;
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAJCAYAAAACTR1pAAAACXBIWXMAAAsSAAALEgHS3X78AAABY0lEQVQoz22QsWrCcByEL6mJUINIjODQpUS6FUs3cYmTlOLWdxACDk4uQshQJL6AdejmCyid3Go7dCoIdUkCGRyCIlXyVwJq+XVStPab77uD44gIO5rNZnW1WmXj8bgsCIIIAEEQfG82mzXP88+GYbztw0QEIkK9Xn/vdrs0Ho/pkPl8Tp7nUavVCizLqu7yZ77vJ0aj0VexWMyqqgpFUSAIwr5YFEUwxqCqanQ2m2n9fv8yn8/3ONM0e4qilDKZDAAglUqB4zgcEoYhGGMAgMFgQLFY7J4jIliW9SlJ0k06neZkWUY0Gj0Sfd/HdruFbds/yWTyUdd1gweAWq12u1wun2zbxmKxOFkLwxCO46wjkUhJ13UDALjDVxuNxh1j7EXTNF6SJACA67pwXXc1mUwu2u32vvVIBIBOp3Pted5HoVA4n06nGA6HjmmaV/jDiQgA5XI5kcvlHMbYa6VSecA//ALoL7eSyB+oBQAAAABJRU5ErkJggg==);
+}
+.question:before {
+       content: '';
+    display: inline-block;
+    margin-right: 7px;
+    width: 12px;
+    margin-bottom: -2px;
+height: 13px;
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAYAAACdKY9CAAAACXBIWXMAAAsSAAALEgHS3X78AAABtElEQVQoz1WRsavaUBTGv3cT7/WCCVLss2MQB4cMXXRtm79AHOrbzFCaxX/AISAOBQfB0Quduwhd7BAzFOG5CA7lDXZwebr6MEWMAaPYJQl5ZzqX8/vuOd85d7fbDemwLOs9gHz0/COE+Jeu38UCy7LqAOoAZgCeAUDTNMfzvGdFUT7btv2UCCzLMgHkhRDD9G+O48wkSfqwXC73QRDUe73eoxyNoAkhulGnbsTnq9VqTdd1GIbxxnXdnwDeEgAmgGEEawAghOg2m82h7/scAFRVRa1WK4xGo+8kAmJjWuQBjLEu5xxRDl3Xcb1eP8kAki0IIWYAMJ/PTd/3W57noVAogFIKSikURZHk1Arhum6ecz4khLQWiwUajQYYY4ngfD7LsiRJ95PJxKSUfsxmsy3GGI7HIwzDgKqqCbzdbiHLskM45z/W6/WIMdZijIExhiAIcDqdEjiTyWA6nb6YpvmFDAaDX/v9/ttmswni9qVSCeVyGZRSXC4XjMfjlzAMG68ubdv211wu16tUKsXY6G63w2q1+huGodXpdB5fCeLo9/sPxWLxHSEEh8Phd7vdfkrX/wNFwKkqyrAnwgAAAABJRU5ErkJggg==);
+}
+.vstrecha:before {
+           content: '';
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-right: 9px;
+    width: 9px;
+height: 12px;
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMCAYAAACwXJejAAAACXBIWXMAAAsSAAALEgHS3X78AAABW0lEQVQY012QsWsacRTHP5radwonGTo4ZAicXClkOB2LS7eOTkeHDFk8IVIQ/AduKh2LdHlQSNaAQhAX/wA5yGLIUMmQ4CK3yd3iJRD9dagR2gcPHt/vl+/7vpczxtButw+BLtAEEuAQCFX1GiDP3/oBLFTVA86Apuu6Yb/f/wVwEMexBzwBt+Px+DtwLCKnvu9/WiwWJ47j/MzvVlzvHLqqGtZqtZM0TalWq28Hg8HHPICqJq9Zoii63G6378vlMoVCgdlsts4FQXAGJI1G4yWO44tSqfTOcRzq9Tqj0WjZarWO3qjqZRiGvyuVygfXdbFtG9u22Ww2pGn6sL8uy7KbLMuwLAvLshARptPpc7FY/LoXJUnSjaLoXkQQEdbrNcvl8rbT6dztRaqarFarL5PJ5FFEGA6H6Xw+/7z7ITljzOtMr9c7F5Fvnue1fd+/2hPGmH86CILj/7E/OlqYbcUa+VQAAAAASUVORK5CYII=);
+}
+.more_in_this_collection .content {
+    border-top: 1px solid #c6c6c6;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.more_in_this_collection .content > p {
+    margin: 15px 0px;
+    text-transform: uppercase;
+}
+.more_in_this_collection .content > div  {
+    display: flex;
+}
+.more_in_this_collection .content > div > div {
+width:180px;
+    height: 180px;
+    background: #f0f4f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.more_in_this_collection .content > div > div > img {
+max-width: 90%;
+    max-height: 90%;
+}
+@media screen and (max-width:1000px) {
+    header menu .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .slider > .content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .slick-initialized .slick-slide {
+        display: flex !important;
+        justify-content: center
+    }
+    
+    .product_card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery_item {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .pomenu .content ul {
+        flex-direction: column;
+    }
+    .pomenu .content ul li:last-child:before {
+        display: none !Important;
+    }
+    .slick-slide img {
+        max-width: 320px;
+        max-height: 320px;
+    }
+}
+@media screen and (max-width:700px) {
+    header menu ul li:last-child:before {
+        display: none
+    }
+    header menu ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .gallery_item {
+        margin: 50px 0px;
+    }
+}

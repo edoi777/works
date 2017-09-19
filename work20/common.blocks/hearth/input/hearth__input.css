@@ -1,0 +1,4 @@
+.hearth__input:checked + .hearth__icon .cls-1{
+       fill:#22ba3e !important;
+    stroke: #22ba3e !important;
+}

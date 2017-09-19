@@ -1,0 +1,56 @@
+block('pagination')(
+    content()(function () {
+        return [
+                {
+                    elem:'prev disable',
+                    tag:'a',
+                    attrs:{href:'#'},
+                    content:'назад'
+                },
+                {
+                    elem:'item',
+                    tag:'a',
+                    attrs:{href:'#'},
+                    content:'1'
+                },
+                {
+                    elem:'item',
+                    tag:'a',
+                    attrs:{href:'#'},
+                    content:'2'
+                },
+                {
+                    elem:'item',
+                    tag:'a',
+                    attrs:{href:'#'},
+                    content:'3'
+                },
+                {
+                    elem:'item',
+                    tag:'a',
+                    attrs:{href:'#'},
+                    content:'4'
+                },
+                {
+                    elem:'dots',
+                    tag:'a',
+                    attrs:{href:'#'},
+                    content:'...'
+                },
+                {
+                    elem:'item',
+                    tag:'a',
+                    attrs:{href:'#'},
+                    content:'999'
+                },
+                {
+                    elem:'next',
+                    tag:'a',
+                    attrs:{href:'#'},
+                    content:'вперед'
+                }
+           ,
+            applyNext()
+        ];
+    })
+);
