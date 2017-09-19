@@ -1,0 +1,104 @@
+
+.screen_three {
+        background-image: url(../images/screen_three/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+     background-color: #000;
+    min-height: 100vh;
+    padding: 5vw 0px 5vw 0px;
+    box-sizing: border-box;
+        position: relative;
+}
+.screen_three h2 {
+font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 0px 4vw 0px;
+    position: relative;
+}
+@media screen and (max-width:435px) {
+    .screen_three h2 {
+      font-size: 7.5vw;
+    }
+}
+.screen_three h3 {
+font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 50px 0px 20px 0px;
+}
+.screen_three p {
+font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+.screen_three .text {
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.screen_three .text div {
+width: 34%;
+    min-width: 320px;
+    padding: 0px 0px 0px 6vw;
+    box-sizing: border-box;
+}
+.screen_three .text div:nth-child(odd) {
+text-align: right;
+padding: 0px 6vw 0px 0px;
+}
+.white_fon {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: 0;
+    margin: -5vw 0px 0px 0px;
+}
+/*-------------*/
+@media screen and (max-width:1435px) {
+.screen_three h3 {
+padding: 5px;
+}
+.screen_three p {
+
+    padding: 5px;
+    
+}
+    .screen_three .text div {
+width: 34%;
+    min-width: 320px;
+    padding: 0px 0px 0px 0vw !important;
+    box-sizing: border-box;
+        
+}
+    .white_fon {
+background: rgba(255,255,255,.5);
+}
+}
+
+/*-------*/
+@media screen and (max-width:670px) {
+
+    .screen_three .text div {
+width: 90%;
+    min-width: 320px;
+    padding: 0px 0px 0px 0vw;
+    box-sizing: border-box;
+        text-align: center !important;    
+}
+    .screen_three .text div:nth-child(odd) {
+text-align: center;
+padding: 0px 0vw 0px 0px;
+        
+}
+    
+}
+
+
+

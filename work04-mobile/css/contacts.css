@@ -1,0 +1,103 @@
+
+.contacts_block {
+    width: 100%;
+}
+
+
+.contacts_block form {
+    box-sizing: border-box;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.content div h2 {
+    padding: 0px 0px 0px 20px;
+}
+
+.contacts_block form input, textarea{
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+    margin-bottom: 20px;
+    padding: 13px 0px 10px 16px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 2px 1px 0px rgba(0,0,0,.4);
+}
+.contacts_block form input[type="button"] {
+    background: #cc181e;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    box-shadow: none;
+    cursor: pointer;
+}
+.table {
+    box-sizing: border-box;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    box-sizing: border-box;
+}
+.table tr {
+    border-bottom: 1px solid #424242;
+    display: block;
+    padding: 15px 0px 15px 0px;
+    box-sizing: border-box;
+        width: 100%;
+    overflow: hidden;
+}
+.table tbody {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.table td {
+width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+        float: left;
+    margin-top: 10px;
+}
+.table tbody tr:last-child {
+    border-bottom: 1px solid transparent;
+    display: block;
+}
+.table tbody tr td:first-child {
+font-weight: bold;
+}
+.table tbody tr td:last-child {
+color: #858585;
+}
+.table tbody tr td:last-child span a {
+text-decoration: underline;
+}
+.table tbody tr td:last-child span a {
+text-decoration: underline;
+}
+.table tbody tr td:last-child > a {
+text-decoration: underline;
+    color: #cc181e
+}
+.table tbody tr td:last-child span {
+color: #fff;
+}
+textarea {
+    font-size: 16px;
+}

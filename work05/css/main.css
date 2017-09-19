@@ -1,0 +1,324 @@
+/*Первый блок!!!!!!!!!!!!!!!!!!!*/
+main {
+    background: #fff;
+    min-height: 500px;
+    display: block;
+    position: relative;
+    padding: 60px 0px 20px 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+main > h2:first-child {
+        color: #272c2d;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0px auto 50px auto;
+}
+main:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #fff;
+	border-width: 25px;
+	margin-left: -25px;
+}
+
+.info_blocks {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #272c2d;
+}
+.info_blocks > div{
+width: 240px;
+    margin: 0px auto 50px auto;
+    cursor: pointer;
+}
+.info_blocks > div:hover > img{
+opacity: 0.5;
+}
+.info_blocks > div > img{
+transition: opacity 0.4s;
+}
+.info_blocks > div > h3{
+font-size: 16px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+.info_blocks > div > p{
+font-size: 14px;
+}
+/*Конец первого блока!!!!!!!!!!!!!!!!!!!*/
+/*Второй блок!!!!!!!!!!!!!!!!!!!*/
+.phone_block {
+    padding: 70px 0px 50px 0px;
+}
+.phone_block img {
+float: right;
+    width: 60%;
+}
+.phone_block p {
+width: 39%;
+    text-align: left;
+    float: left;
+    color: #666666;
+}
+.phone_block h2 {
+color: #272c2d;
+    font-size: 36px;
+    font-weight: 300;  
+    padding: 0px 0px 2vw 0px;
+    float: left;
+   width: 39%;
+}
+.phone_block h2 > span {
+color: #02aee5;
+    font-weight: bold;
+ 
+}
+/*Второй блок!!!!!!!!!!!!!!!!!!!//////////////////////*/
+.tarifi {
+    padding: 50px 0px 0px 0px;
+    background: #e9e9e9;
+    position: relative;
+}
+.tarifi_fons{
+position: relative;
+     display: flex;
+    flex-wrap: wrap;
+}
+.tarifi_fons:before{
+ content: url('../images/kot1.png');
+    position: absolute;
+    bottom: -31px;
+    left: -160px;
+}
+
+.tarifi_fons > div{
+min-height: 440px;
+    width: 30%;
+    padding: 120px 40px 20px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: url(../images/phone2.png) no-repeat;
+    background-size: 100% 100%;
+    color: #565d61;
+    min-width: 288px;
+    margin-top: 20px;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    overflow: hidden;
+}
+.tarifi_fons > div:after{
+content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    box-shadow: 0px 4px 7px 3px rgba(0,0,0,.5);
+}
+.tarifi_fons > div:hover{
+    background: url(../images/phone.png) no-repeat;
+    background-size: 100% 100%
+}
+.tarifi_fons div h3 {
+font-size: 24px;
+    font-weight: 600;
+    padding: 0px 0px 16px 0px;
+    border-bottom: 1px solid #bababa;
+    margin-bottom: 16px;
+}
+.tarifi_fons div a {
+font-size: 16px;
+    text-decoration: none;
+    color: #50585c;
+    text-transform: uppercase;
+    padding: 10px 0px 10px 0px;
+    border: 2px solid #5ebe78;
+    box-shadow: inset 1px 1px 5px 0px rgba(0,0,0,.3);
+}
+.tarifi > h2 {
+color: #272c2d;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 0px 0px 45px 0px;
+}
+
+
+
+.prise {
+       margin: 20px 0px 30px 0px;
+
+    
+}
+.prise span {
+    font-size: 15px;
+
+    
+}
+.prise span > span {
+   font-size: 30px;
+    position: relative;
+}
+.prise span > span:before {
+content: 'руб.';
+    font-size: 15px;
+    position: absolute;
+    right: -35px;
+    top: 2px;
+}
+.prise span > span:after {
+content: 'мес.';
+    font-size: 15px;
+    position: absolute;
+    right: -37px;
+    top: 17px;
+}
+
+.otzivi {
+    padding: 70px 0px 80px 0px;
+    position: relative;
+}
+
+.otzivi_block {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+}
+.otzivi_block input {
+display: none;
+}
+.otzivi_block input:checked + label {
+background: #8cc849;
+}
+.otzivi_block #o1:checked ~ .otz1 {
+opacity: 1;
+display:flex;
+}
+.otzivi_block #o2:checked ~ .otz2 {
+opacity: 1;
+display:flex;
+}
+.otzivi_block #o3:checked ~ .otz3 {
+opacity: 1;
+display:flex;
+}
+.otzivi_block #o4:checked ~ .otz4 {
+opacity: 1;
+display:flex;
+}
+.otzivi_block label {
+width: 11px;
+    height: 11px;
+    background: #02aee5;
+    border-radius: 50%;
+    display:block;
+    cursor: pointer;
+    margin: 20px 5px 0px 5px;
+}
+.otzivi_block label:nth-child(2) {
+    margin: 20px 5px 0px 189px;
+}
+.otzivi_block > div {
+    display: flex;
+    width: 100%;
+    clear: both;
+    display: none;
+    order: -1;
+    opacity: 0;
+    transition: all 1s;
+}
+.otzivi_block > div > div  {
+    width: 170px;
+    color: #4e565a;
+}
+.otzivi_block > div > p  {
+    width: calc(100% - 170px);
+     text-align: justify;
+    padding: 0px 20px 0px 11px;
+    box-sizing: border-box;
+}
+.otzivi_block > div > div > img {
+border-radius: 50%;
+    margin: 0px 0px 10px 0px;
+}
+.otzivi_block > div > div > p {
+font-size: 16px;
+    line-height: 24px;
+}
+.otzivi_block > div > div > p:last-child {
+font-style: italic;
+}
+.otzivi_block > div > div > p > span {
+font-weight: bold;
+}
+.arrow {
+    height: calc(100% - 70px - 50px);
+    position: absolute;
+    width: 5vw;
+left: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #24b9e8;
+    z-index:1;
+    cursor: pointer;
+    margin: 0px 0px 0px -4vw;
+    transition: background 0.3s;
+}
+.arrow:hover {
+background: rgba(0,0,0,.1);
+}
+.arrow2 {
+    height: calc(100% - 70px - 50px);
+    position: absolute;
+    width: 5vw;
+    right: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #24b9e8;
+    z-index:1;
+    cursor: pointer;
+    margin: 0px -4vw 0px 0px;
+    transition: background 0.3s;
+}
+.arrow2:hover {
+background: rgba(0,0,0,.1);
+}
+@media screen and (max-width:900px) {
+    .phone_block h2 {
+        width: 100%;
+        margin-top: 20px;
+    }  
+    .phone_block p {
+        width: 100%;
+    }
+    .phone_block img {
+        width: 100%
+    }
+}
+@media screen and (max-width:600px) {
+    .otzivi_block > div {
+        flex-wrap: wrap;
+    }
+    .otzivi_block > div > p {
+        width: 100%;
+        margin-top: 20px;
+        padding: 0px 30px 0px 30px
+    }
+}
+

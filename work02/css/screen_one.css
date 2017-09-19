@@ -1,0 +1,31 @@
+
+.screen_one {
+    height: 700px;
+    max-height: 70vh;
+    background: url(../images/screen_one/bg.jpg) scroll center no-repeat;
+    position: relative;
+    display: flex;
+    padding: 5vw;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.screen_one img {
+ margin: auto;
+    display: block;
+}
+@media screen and (max-width:800px) {
+.screen_one img {
+width: 150%;
+    margin: 10% auto auto auto;
+}
+}
+.screen_one:after {
+content: '';
+    border: solid transparent;
+    border-width: 10px;
+    border-bottom-color: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    margin: 0px 0px 0px -10px;
+}

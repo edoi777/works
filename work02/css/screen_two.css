@@ -1,0 +1,73 @@
+
+.screen_two {
+ padding: 70px 0px 45px 0px;   
+}
+.screen_two h1 {
+    font-size: 48px;
+    font-family: 'Times New Roman';
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px 0px 65px 0px;
+}
+@media screen and (max-width:800px) {
+    .screen_two h1 {
+    font-size: 6vw;
+}
+}
+.screen_two .mail {
+text-align: center;
+    font-family: 'Tahoma';
+    color: #008dd2;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    line-height: 30px;
+    margin: 0px auto 42px auto;
+}
+.screen_two .mail:hover {
+text-decoration: underline;
+}
+.screen_two .social  {
+display: flex;
+    justify-content:center;
+    
+}
+.screen_two .social div {
+width: 46px;
+    height: 46px;
+    background: url('../images/screen_two/social.png') no-repeat;
+    margin: 0px 10px 0px 10px;
+      -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+     -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+    cursor: pointer;
+}
+.screen_two .social div:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+}
+.screen_two .social div:nth-child(2) {
+background-position: -66px 0px;
+}
+.screen_two .social div:nth-child(3) {
+background-position: -133px 0px;
+}
+.screen_two .social div:nth-child(4) {
+background-position: -197px 0px;
+}
+.screen_two .social div:nth-child(5) {
+background-position: -263px 0px;
+}
+

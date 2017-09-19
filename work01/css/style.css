@@ -1,0 +1,614 @@
+
+header {
+    width: 100%;
+    height: 500px;
+    background: url(..//css/images/header_podlogka.jpg) no-repeat;
+    background-size: contain;
+    background-position: center center;
+    
+}
+
+@media screen and (max-width:920px) {
+    header {
+    background-size: cover;
+    }
+}
+@media screen and (max-height:500px) {
+    header {
+    background-size: cover;
+    }
+    .logo {
+    width: auto !important;
+    height: 20%;
+    margin: -3% 0px 0px 0px !important;
+    }
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-width: 855px;
+}
+
+body {
+        width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.header {
+    width: 90%;
+    height: 430px;
+    max-width: 1000px;
+    padding: 10px 0px 0px 50px;
+    background:url(..//css/images/uzor_header.png) no-repeat ;
+    background-size:contain;
+    background-position: left center;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 100%;
+    float: left;
+    width: 50%;
+}
+
+.akciia {
+    font-size: 100%;
+    float: right;
+    height: 100%;
+    width: 50%;
+    text-align: right;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin: -73px 0px 0px 0px;
+    width: 20%;
+
+}
+
+.spisok_akcii li p {
+    font-family: 'Arial';
+    font-weight: 500;
+    line-height: 100%;
+    text-align: left;
+    font-size: 15px;
+
+}
+.spisok_akcii li p b{
+    font-family: 'Arial';
+    font-weight: 600;
+    text-decoration: underline;
+    line-height: 1px;
+}
+
+.spisok_akcii {
+    margin: 40px 0px 0px auto;
+    width: 70%;
+}
+
+.spisok_akcii li {
+    display: block;
+    position: relative;
+    margin: 25px 0px 0px 0px;
+}
+.spisok_akcii li:nth-child(1):after {
+    content: "01";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(..//css/images/li.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: left;
+    font-size:24px;
+    line-height: 50px;
+    text-align: center;
+    left: 0;
+    top: 0;
+    margin: -17px 0px 0px -66px;
+    padding: 0px 0px 0px 3px;
+}
+.spisok_akcii li:nth-child(2):after {
+    content: "02";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(..//css/images/li.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: left;
+    font-size:24px;
+    line-height: 50px;
+    text-align: center;
+    left: 0;
+    top: 0;
+    margin: -17px 0px 0px -66px;
+    padding: 0px 0px 0px 3px;
+}
+.spisok_akcii li:nth-child(3):after {
+    content: "03";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(..//css/images/li.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: left;
+    font-size:24px;
+    line-height: 50px;
+    text-align: center;
+    left: 0;
+    top: 0;
+    margin: -17px 0px 0px -66px;
+    padding: 0px 0px 0px 3px;
+}
+
+.nomer {
+font-size: 30px;
+    font-weight: 500;
+    margin: 62px 0px 0px 0px;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+}
+
+nav ul li {
+    float: left;
+        width: 171px;
+    height: 59px;
+    display: table;
+    margin:auto;
+}
+
+nav ul {
+    width: 95%;
+    max-width: 855px;
+    height: 100%;
+    display: flex;
+}
+
+nav ul li a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 28px;
+    text-decoration: none;
+    color: #000;
+    background: url(..//css/images/nav_ul_li.png) no-repeat;
+    background-size: 100%
+}
+nav ul li a:hover {
+    background: url(..//css/images/nav_ul_li_hover.png) no-repeat;
+    background-size: 100%
+}
+
+.screen_two {
+    background: #ede8dc;
+    height: 600px;
+    position: relative;
+    padding: 20px 0px 0px 0px;
+}
+
+.name {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    display: table;
+    position: relative;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+.name a {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    font-weight: 400;
+}
+.screen_two .name a {
+    background: url(..//css/images/one_screen_h1.png) no-repeat;
+    background-position: center center;
+}
+
+.services {
+    box-sizing: inherit;
+    width: 95%;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.services_div {
+    height: 400px;
+    width: 23%;
+    float: left;
+    margin: 20px 1% 0px 1%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0px 10px 10px 10px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ede8dc+0,3b3b3a+62,3b3b3a+100 */
+background: rgb(237,232,220); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(237,232,220) 0%, rgb(59,59,58) 62%, rgb(59,59,58) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgb(237,232,220) 0%,rgb(59,59,58) 62%,rgb(59,59,58) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgb(237,232,220) 0%,rgb(59,59,58) 62%,rgb(59,59,58) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ede8dc', endColorstr='#3b3b3a',GradientType=0 ); /* IE6-9 */
+
+}
+.services_div p {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 12px;
+}
+.services_div div {
+    height: 80%;
+    background: #ede8dc;
+    padding: 10px;
+    position: relative;
+
+}
+
+.description_services {
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+}
+.description_services:hover > img {
+    opacity: 0;
+}
+.description_services:hover > .perechen {
+    opacity: 1;
+}
+
+
+
+.description_services img {
+    max-width: 100%;
+    margin: auto;
+}
+
+.perechen {
+    width: 100%;
+    height: 100%;
+    padding: 20px 4px 0px 4px;
+    display: block;
+    position: absolute;
+    opacity: 0;
+    left: 0;
+}
+.perechen li {
+    display: block;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+}
+
+.screen_three {
+    height: 600px;
+    position: relative;
+    padding: 20px 0px 0px 0px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f5d4e5+15,fffcfc+26,f5d4e5+36,fffcfc+47,f5d4e5+57,fffcfc+73,fffcfc+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-radial-gradient(circle farthest-side,  rgb(255,255,255) 0%, rgb(245,212,229) 15%, rgb(255,252,252) 26%, rgb(245,212,229) 36%, rgb(255,252,252) 47%, rgb(245,212,229) 57%, rgb(255,252,252) 73%, rgb(255,252,252) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(circle farthest-side,  rgb(255,255,255) 0%,rgb(245,212,229) 15%,rgb(255,252,252) 26%,rgb(245,212,229) 36%,rgb(255,252,252) 47%,rgb(245,212,229) 57%,rgb(255,252,252) 73%,rgb(255,252,252) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(circle farthest-side,  rgb(255,255,255) 0%,rgb(245,212,229) 15%,rgb(255,252,252) 26%,rgb(245,212,229) 36%,rgb(255,252,252) 47%,rgb(245,212,229) 57%,rgb(255,252,252) 73%,rgb(255,252,252) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fffcfc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.screen_four {
+        background: #333333;
+    height: 600px;
+    position: relative;
+    padding: 20px 0px 0px 0px;
+}
+
+.screen_five {
+    background: #ede8dc;
+    height: 600px;
+    position: relative;
+    padding: 20px 0px 0px 0px;  
+}
+
+.screen_six {
+        background: url(..//css/images/uzor.jpg);
+    height: 600px;
+    position: relative;
+    padding: 20px 0px 0px 0px;  
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    max-width: 1000px;
+}
+
+.screen_three .name a {
+        background: url(..//css/images/three_screen_h1.png) no-repeat;
+    background-position: center center;
+}
+
+.preimyshestva {
+    width: 95%;
+    max-width: 1000px;
+    overflow: hidden;
+    height: 415px;
+}
+
+.preimyshestva_div {
+    width: 15%;
+    float: left;
+    height: 197px;
+    margin: 40px 0.83% 0px 0.83%;
+    border-bottom: 2px solid #a18878;
+    cursor: pointer;
+    position: relative;
+}
+
+.preimyshestva_div:hover > .description_preimyshestva{
+    height: 100%;
+    background-position: bottom center;
+}
+.preimyshestva_div:hover > .description_preimyshestva .treygolnik{
+-webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+    bottom: 0px;
+    top: auto;
+}
+
+.preimyshestva_div p {
+    font-size: 27px;
+    text-align: center;
+    height: 65px;
+}
+/* GALERY*/
+
+.galery {
+    width: 80%;
+    max-width: 1000px;
+    height: 100%;
+    max-height: 400px;
+    position: relative;
+}
+
+.galery div {
+    float: left;
+    height: 100%;
+}
+.back {
+    width: 10%;
+    background: url(..//css/images/galery/next.png) no-repeat;
+    background-position: left center;
+    cursor:pointer;
+    opacity: 0.8;
+    float: left;
+    max-width: 75px;
+    position: absolute;
+    z-index: 10;
+}
+
+.slides {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.next {
+    width: 10%;
+    float: right !important;
+    position: absolute;
+    right: 0px;
+    z-index: 10;
+ 
+}
+
+.back:hover {
+    opacity:1;   
+}
+
+
+
+.img_slides {
+width: 100%;
+    height: 100%;
+position: absolute;
+    opacity: 0;
+    box-sizing: border-box;
+    padding: 0px 10%;
+    display: flex;
+}
+
+.img_slides img {
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.knopka_next {
+    float: right !important;
+       background: url(..//css/images/galery/next.png) no-repeat;
+    background-position: left center;
+    transform: scale(-1, 1);
+    cursor:pointer;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    max-width: 75px;  
+}
+.knopka_next:hover {
+    opacity:1;
+}
+.prev {
+    opacity:1;
+    z-index:9;
+}
+/* GALERY*/
+.menu_galery {
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.menu_galery div{
+    float: left;
+    width: 25%;
+    text-align: center;
+    display: table;
+}
+.menu_galery div p {
+    display: table-cell;
+    vertical-align: middle;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 800;
+    background: url(..//css/images/galery/galery_kat.png) no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+
+.map {
+    width: 95%;
+    max-width: 1000px;
+    height: 100%;
+}
+
+.map div:nth-child(1){
+    width: 20%;
+}
+.map div:nth-child(2){
+    width: 60%;
+}
+.map div:nth-child(3){
+    width: 20%;
+}
+.map div {
+    float: left;
+    font-size: 30px;
+    text-align: center;
+        margin-top: 37px;
+}
+.map div p {
+    font-size: 30px;
+        font-weight: 800;
+    margin-top: 50px
+}
+
+.map_spisok {
+        width: 100%;
+    height: 100%;
+    padding: 20px 4px 0px 4px;
+    display: block;
+    list-style: none;
+}
+
+.map_spisok li{
+    font-size: 25px;
+        font-weight: 800;
+}
+
+footer div {
+    float: left;
+    height: 100%;
+    position: relative;
+}
+footer div:nth-child(1) {
+    width: 30%;
+    display: flex;
+}
+footer div:nth-child(1) img {
+   width: 20%; 
+    margin: auto;
+}
+footer div:nth-child(2) {
+    width: 40%;
+}
+footer div:nth-child(2) p {
+ font-size: 58px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: center;
+}
+footer div:nth-child(3) {
+    width: 30%;
+    position: relative;
+    display:flex;
+}
+footer div:nth-child(3) img {
+    float: left; 
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    width: 50%;
+}
+
+
+
+.description_preimyshestva {
+    height: 10px;
+    margin: 8px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    overflow: hidden;
+      -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.treygolnik {
+    height: 10px;
+    background: url(..//css/images/galochka.png) no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 9;
+      -webkit-transition: bottom 1s ease-in-out, top 1s ease-in-out;
+  -moz-transition: bottom 1s ease-in-out, top 1s ease-in-out;
+  -o-transition: bottom 1s ease-in-out, top 1s ease-in-out;
+  transition: bottom 1s ease-in-out, top 1s ease-in-out;
+}
+
+.mini_icon_galery {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    height: 100px;
+}
+
+.icon_galery {
+    float: left;
+    width: 8%;
+    margin: auto;
+    cursor: pointer;
+}
+* {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Konkord';
+    box-sizing: border-box;
+}
+.screen_five .name a {
+            background: url(..//css/images/price_h1.png) no-repeat;
+    background-position: center center;
+}

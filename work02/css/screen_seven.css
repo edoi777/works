@@ -1,0 +1,56 @@
+
+.screen_seven {
+            background: url(../images/screen_seven/bg.jpg) no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 5vw 0px 5vw 0px;
+    box-sizing: border-box;
+}
+.screen_seven h2 {
+font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 0px 5vw 0px;
+}
+
+.opisanie {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.number {
+     font-family: 'Roboto Slab', serif;
+    font-size: 72px;
+    color: #fff;
+}
+
+.shema {
+    display: flex;
+    width: 95%;
+    max-width: 1250px;
+        background: url('../images/line.png') no-repeat;
+    background-position: 0% 65%;
+    background-size: 100%;
+    min-height: 222px;
+    flex-wrap: wrap;
+}
+.shema > div{
+width: 320px;
+
+}
+.screen_seven .shema:nth-child(3) {
+            background: url('../images/line2.png') no-repeat;
+    background-position: 0% 80%;
+    background-size: 100%;
+}
+@media screen and (max-width:1150px){
+    .shema {
+        background: none !important;
+    }
+}

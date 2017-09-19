@@ -1,0 +1,113 @@
+
+.item_video {
+    width: 300px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 5px 0px 5px 0px;
+}
+.img_video {
+    width: 120px;
+    height: 70px;
+    background: url(../images/statia_img.jpg) no-repeat;
+    background-size: cover; 
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+}
+.item_video h3{
+font-size: 14px;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+}
+.item_video p{
+display: inline;
+}
+.img_video span {
+display: block;
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    background: rgba(0,0,0,.6);
+    padding: 3px;
+    border-radius: 3px;
+}
+.comments_video {
+    position: relative;
+    z-index: 1;
+    font-size: 13px;
+    margin-left:10px;
+}
+.comments_video:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: -6px;
+    top: -1px;
+width: 29px;
+height: 24px;
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPJJREFUeNpi/P//P0OxgAg7AwNDHRAnALEUA23AMyBeAMRNLEALGUEMIC5joC0AeaYKiFmYgAQIJzHQDyTBLBWho6UiIAsZGegMmBgGAAyYpWyjwTvsLP01ooL3DR3tfAOy9D8QL6ajpYuZej+8+Q1kNAPxNCB+RUPLXkHtaGYE1ae4ALDawyYJcmQMEO+BhhJBAPTYe2Q+C4muBVkYBcTbgQZ9JdfLLCRaGA3E24AWfqNHlgFZGAfEOym1kFhLQRYmA/E+oIWf6FE4gCysAOIrQAuplrIJxWkxEB8FWnieqpkHlGVw4SJ+YRF88uRigAADAERhlYgMYkWRAAAAAElFTkSuQmCC)
+}
+
+.active_item_video {
+    background: #220506;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.navigate_video {
+    text-align: center;
+    cursor: pointer;
+}
+
+.pages_left_right {
+    color: #fff;
+    padding: 2px 8px 3px 8px;
+    background: rgba(0,0,0,.5);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 5px;
+    font-size: 19px;
+}
+
+.pages {
+    color: #fff;
+    text-decoration: underline;
+    margin: 5px;
+    font-size: 16px;
+}
+.active_page {
+    color: #cc181e;
+    text-decoration: none;
+}
+
+.video_group {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.video_group h2{
+    margin-top: 0px;
+}
+
+.video_play {
+    width: 100%;
+}
+.video_play p {
+    float: right;
+    font-size: 14px;
+    margin: 0px;
+}
+.video_play h2 {
+   display: inline;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.vedeos {
+    margin-right: 50px;
+}

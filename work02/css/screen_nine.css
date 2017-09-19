@@ -1,0 +1,61 @@
+
+.screen_nine {
+    padding: 3vw 0px 2vw 0px;
+    box-sizing: border-box;
+}
+.screen_nine h2 {
+font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 0px 1vw 0px;
+}
+@media screen and (max-width:650px) {
+    .screen_nine h2 {
+    font-size: 5vw;
+}
+}
+.screen_nine p {
+font-family: 'Roboto Slab',sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px 0px 1vw 0px;
+}
+.screen_nine img {
+display: block;
+    max-width: 95%;
+}
+.screen_nine .final_image {
+display: block;
+    max-width: 1200px;
+    width: 95%;
+}
+
+.link_perehod {
+   color: #a36e73;
+    border: 3px solid #a36e73;
+    padding: 25px 0px 25px 0px;
+    width: 354px;
+    max-width: 90%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto',serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 35px auto 0px auto;
+    transition: all 0.3s;
+}
+.link_perehod:hover {
+color: #fff;
+    background: #a36e73;
+}
+
+@media screen and (max-width:450px){
+    .qr {
+ display: none !important;   
+}
+}

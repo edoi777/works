@@ -1,0 +1,138 @@
+
+.gl_screen {
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    color: #02aee5;
+}
+.gl_screen h1 {
+    font-size: 45px;
+    text-align: center;
+    margin: 0px auto 13px auto;
+}
+.gl_screen h1 span {
+color: #000;
+    font-weight: 300;
+}
+
+.button_gl {
+    width: 90%;
+    max-width: 730px;
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 35px 0px 0px 0px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.button_gl a {
+height: 54px !important;
+    box-sizing: border-box;
+}
+.button_gl a:nth-child(2) {
+height: 56px !important;
+    box-sizing: border-box;
+}
+.button_gl a:nth-child(2) img {
+height: 57px !important;
+    box-sizing: border-box;
+}
+.button_gl img {
+border-left: 2px solid #02b1e6;
+border-right: 2px solid #02b1e6;
+border-top: 2px solid #0195da;
+border-bottom: 2px solid #0195da;
+    padding: 10px 30px;
+    border-radius: 2px;
+}
+.button_gl .button_link_gl_screen  {
+    height: 57px !important;
+    padding: 0px 45px 0px 45px;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    align-items: center;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 1px rgba(0,0,0,.26);
+        border-bottom: 3px solid #4a9619 !important;
+      border-left: 3px solid transparent;
+  background: -moz-linear-gradient(1deg, #7cbd3c 20%, #9CD05D 100%) !important;/* FF3.6+ */
+background: -webkit-gradient(linear, 1deg, color-stop(20%, 7cbd3c), color-stop(100%, 9CD05D)) !important;/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(1deg, #7cbd3c 20%, #9CD05D 100%) !important;/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(1deg, #7cbd3c 20%, #9CD05D 100%) !important;/* Opera 11.10+ */
+background: -ms-linear-gradient(1deg, #7cbd3c 20%, #9CD05D 100%) !important;/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1') !important; /* for IE */
+background: linear-gradient(1deg, #7cbd3c 20%, #9CD05D 100%) !important;/* W3C */
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
+}
+.button_gl .button_link_gl_screen:hover {
+    border-bottom: 3px solid #0172c9 !important;
+background: -moz-linear-gradient(1deg, #04BAE9 20%, #02A1E0 100%) !important;/* FF3.6+ */
+background: -webkit-gradient(linear, 1deg, color-stop(20%, 04BAE9), color-stop(100%, 02A1E0)) !important;/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(1deg, #04BAE9 20%, #02A1E0 100%) !important;/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(1deg, #04BAE9 20%, #02A1E0 100%) !important;/* Opera 11.10+ */
+background: -ms-linear-gradient(1deg, #04BAE9 20%, #02A1E0 100%) !important;/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1') !important; /* for IE */
+background: linear-gradient(1deg, #04BAE9 20%, #02A1E0 100%) !important;/* W3C */
+}
+.button_gl .button_link_gl_screen:active {
+    box-shadow: none;
+    border-bottom: none !important;
+        border-top: 3px solid #4a9619 !important;
+        border-left: 3px solid #4a9619 !important;
+  background: -moz-linear-gradient(1deg, #7cbd3c 20%, #9CD05D 100%) !important;/* FF3.6+ */
+background: -webkit-gradient(linear, 1deg, color-stop(20%, 7cbd3c), color-stop(100%, 9CD05D)) !important;/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(1deg, #7cbd3c 20%, #9CD05D 100%) !important;/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(1deg, #7cbd3c 20%, #9CD05D 100%) !important;/* Opera 11.10+ */
+background: -ms-linear-gradient(1deg, #7cbd3c 20%, #9CD05D 100%) !important;/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1') !important; /* for IE */
+background: linear-gradient(1deg, #7cbd3c 20%, #9CD05D 100%) !important;/* W3C */
+}
+
+.animate_numbers div {
+    display: table-cell;
+    margin: 0px 40px 0px 0px;
+    
+}
+.animate_numbers div .number {
+    color: #02aee5;
+    font-size: 45px;
+    display: inline;
+    margin: 0px 16px 0px 0px;
+    vertical-align: middle;
+    font-weight: 300;
+}
+.animate_numbers div p:last-child {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 2px 0px 0px 0px;
+    box-sizing: border-box;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.animate_numbers {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 70px;
+    box-sizing: border-box;
+    min-height: 115px;
+}
+
+@media screen and (max-width:700px) {
+    .gl_screen h1 {font-size: 7vw;}
+    .gl_screen {height: 45vw;}
+
+.animate_numbers {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    .animate_numbers > div {
+   margin: 20px;
+        
+        display: block;
+}
+}

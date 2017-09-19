@@ -1,0 +1,17 @@
+
+.screen_six {
+            background: url(../images/screen_six/bg.jpg) no-repeat;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    padding: 5vw 0px 5vw 0px;
+    box-sizing: border-box;
+}
+.screen_six h2 {
+font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 0px 5vw 0px;
+}

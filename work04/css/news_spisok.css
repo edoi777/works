@@ -1,0 +1,18 @@
+
+.news_item_spisok {
+    margin-bottom: 60px;
+}
+
+.show_more_news {
+    display: block;
+    margin: 0px auto;
+    font-size: 16px;
+    color: #fff;
+    background: none;
+    font-weight: normal;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+}

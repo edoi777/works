@@ -1,0 +1,117 @@
+
+footer {
+    color: #fff;
+    background: url(../images/footer_center.png) 46% bottom no-repeat, url(../images/footer_left.png) left bottom no-repeat, url(../images/footer_right.png) right bottom no-repeat ;
+    text-align: center;
+        margin-top: 13px;
+    display: block;
+}
+footer p {
+    color: #fff;
+    margin: 20px auto;
+}
+footer nav {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+                -ms-grid-row-align: flex-end;
+            align-items: flex-end;
+
+}
+footer nav select {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 60px;
+    height: 27px;
+    color: #fff;
+    padding: 0px 0px 0px 5px;
+}
+footer nav select option {
+    background: white;
+    color: #000;
+    border: none;
+}
+
+.socicons {
+    width: 100%;
+    background: #000;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    text-align: justify;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.socicons_album {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    background: none;
+}
+.socicons_album .socicons a {
+    width: 30%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.socicons_album .socicons p {
+width: 100%;
+}
+.socicons_album .socicons  {
+   width: calc(100% + 10vw);
+    margin: 0px 0px 0px -5vw;
+    padding: 0px 5% 15px 5%;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.socicons a {
+    font-family: 'fontello';
+    font-size: 15px;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 30px;height: 30px;
+    text-align: center;
+    line-height: 32px;
+    margin: 0px 4%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+.socicons a[data-type="sk"] {
+line-height: 31px;
+}.socicons a[data-type="yt"] {
+line-height: 31px;
+}.socicons a[data-type="vk"] {
+line-height: 30px;
+}.socicons a[data-type="fb"] {
+line-height: 32px;
+}.socicons a[data-type="tw"] {
+line-height: 31px;
+}
+.socicons a[data-type="sk"]:hover {
+background: #f88c00;
+    border-color: #f88c00;
+}.socicons a[data-type="yt"]:hover {
+background: #b02929;
+    border-color:#b02929;
+}.socicons a[data-type="vk"]:hover {
+background: #537599;
+    border-color: #537599;
+}.socicons a[data-type="fb"]:hover {
+background: #15508f;
+    border-color: #15508f;
+}.socicons a[data-type="tw"]:hover {
+background: #54aaea;
+    border-color: #54aaea;
+}

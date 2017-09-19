@@ -1,0 +1,32 @@
+
+footer {
+    height: 190px;
+    color: #fff;
+        padding-bottom: 38px;
+    background: url(../images/footer_center.png) 50% bottom no-repeat, url(../images/footer_left.png) left bottom no-repeat, url(../images/footer_right.png) right bottom no-repeat ;
+    text-align: center;
+}
+footer p {
+    color: #fff;
+}
+footer nav {
+    align-items: flex-end;
+
+}
+footer nav select {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: 60px;
+    height: 27px;
+    color: #fff;
+    padding: 0px 0px 0px 5px;
+}
+footer nav select option {
+    background: white;
+    color: #000;
+    border: none;
+}
+footer .copyright {
+        padding-left: 30px;
+}

@@ -1,0 +1,36 @@
+
+
+
+.music_and_video_wall {
+    width: 60%;
+}
+.item {
+    margin-bottom: 70px;
+}
+.item iframe {
+width: 100%;
+}
+.item h2 span {
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    color: #858585;
+}
+.item h2 span span{
+    color: #fff;
+}
+.news_mini_wall {
+    width: 30%;
+}
+.item_news img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.readmore{
+color: #cc181e !important ;
+    text-decoration: underline !important;
+}
+
+.item_news {
+    margin-bottom:70px;
+}

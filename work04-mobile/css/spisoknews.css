@@ -1,0 +1,8 @@
+.readmore {
+    float: right;
+    text-decoration: none !important;
+    border-bottom: 1px dashed red;
+}
+.date {
+    margin: 0px;
+}
