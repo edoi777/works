@@ -1,0 +1,55 @@
+.menu_left {
+    width: 240px;
+    min-height: 100px;
+    border: 6px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,.3);
+    background: url(../images/menu_left_texture.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 6px 10px 6px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menu_left a {
+    color: #fff;
+    font-size: 13px;
+    display: flex;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding: 10px 0px 10px 4px;
+    justify-content: space-between;
+}
+.menu_left a:after {
+content: '\e800';
+    font-family: 'fontello';
+    font-size: 18px;
+    padding: 0px 10px 0px 0px;
+}
+.menu_left a:hover {
+background: rgba(0,0,0,0.1);
+}
+.menu_left ul li:last-child a {
+  border-bottom: none;
+}
+.menu_left:after {
+    content: url(../images/hyinia_dlia_babla_moi_pahan_v_devianostih_bablo_takoi_hiynei_krepil.png);
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    margin-left: -15.5px;
+    z-index: 1;
+}
+.menu_left:before {
+    content: url(../images/list2.png);
+    position: absolute;
+    top: 30%;
+    left: -49px;
+    margin-top: -19px;
+    z-index: 1;
+}
+@media screen and (max-width: 800px) {
+    .menu_left {width: 100%;}
+}

@@ -1,0 +1,39 @@
+
+footer {
+    min-height: 120px;
+    border-bottom: 4px solid #ffb300;
+    background: url(../images/footer_texture.png) no-repeat;
+    background-size: cover;
+    padding: 0px 0px 20px 0px;
+}
+footer > div {
+    width: 90%;
+    max-width: 1250px;
+    display: flex;
+    min-height: 120px;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 13px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+footer .callback_button_1 {
+    width: 250px;
+}
+footer .phone {
+    width: 196px;
+    margin: 0px;
+}
+footer .logo_link {
+    width: 280px;
+    min-height: 0px;
+}
+footer > div > * {margin: 10px 0px;}
+footer .logo_link {
+    align-items: flex-start;
+}
+footer > div > p {
+    width: 292px;
+}

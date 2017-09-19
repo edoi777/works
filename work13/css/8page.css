@@ -1,0 +1,66 @@
+
+.uzor {
+    background: #fff;
+    position: relative;
+    border-radius: 10px;   
+    border-bottom-right-radius: 0px;   
+    border-bottom-left-radius: 0px;   
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5);
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 3px solid #087108;
+    margin-bottom: 20px;
+}
+.uzur_name {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    font-weight: bold;
+    color: #fff;
+    line-height: 31px;
+}
+.uzur_name:after {
+content: '';
+    position: absolute;
+    border: 66px solid transparent;
+    border-bottom-color: #107218;
+    bottom: 0px;
+    margin-left: -66px;
+    left: 50%;
+    z-index: -1;
+    
+}
+.resul_uzor div:nth-child(3n) {
+    border-bottom-color: #ffb300;
+    color: #6a3232;
+}
+.resul_uzor div:nth-child(3n) > .uzur_name {
+   color: #6a3232;
+}
+.resul_uzor div:nth-child(3n) > .uzur_name:after {
+   border-bottom-color: #ffb300;
+}
+.resul_kamni > h2 {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    color: #cc6633;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+.resul_kamni > h2:before, .resul_kamni > h2:after {
+display: none;
+}
+.zaiavka {
+    margin-top: 82px;
+}

@@ -1,0 +1,72 @@
+input[name="kamni"] {
+    display: none;
+}
+input[name="kamni"]:checked + label {
+ color: #fff;
+    border: none;
+  text-shadow: 0.5px 0.866px 0px rgba( 0, 0, 0,.5 );
+    border: 2px solid transparent;
+}
+input[name="kamni"]:checked + label:after {
+content: '';
+    width: calc(100% + 12px);
+    height: 103%;
+    background: url(../images/button4.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    z-index: -1;
+    position: absolute;
+    right: -6px;
+    top: -1px;
+}
+input[name="kamni"]:checked + label:before {
+content: '';
+}
+input[name="kamni"] + label{
+border-top: 2px solid #cc6633;
+border-bottom: 2px solid #cc6633;
+    padding: 10px 20px;
+    color: #cc6633;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    margin: 0px 20px;
+    z-index: 2;
+}
+input[name="kamni"] + label:before {
+content: url(../images/arrow_left2.png);
+    position: absolute;
+    left: -12px;
+    top: -2px;
+}
+input[name="kamni"] + label:after {
+content: url(../images/arrow_left2.png);
+    position: absolute;
+    right: -12px;
+    top: -2px;
+    transform: scaleX(-1);
+}
+
+
+.navigation_sttii {
+    margin: 15px auto 115px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navigation_sttii > * {
+margin: 5px;
+}
+.navigation_sttii a{
+color: #cc6633;
+    text-decoration: underline;
+}
+.navigation_sttii a:nth-child(2){
+background: #66cc00;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+}

@@ -1,0 +1,97 @@
+footer {
+    background: #fff;
+}
+.logo_svg_header {
+    width: 207px;
+    height: 75px;
+}
+.logo_svg_header + p {
+    color: #565656;
+    font-family: 'Arial';
+    font-size: 18px;
+    text-align: right;
+    margin-top: -17px;
+}
+footer .content {
+    padding: 8px 0px 14px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer nav {
+    background: transparent;
+    padding-top: 8px;
+
+}
+footer nav .content ul li .active {
+    background: transparent;
+    color: #fff;
+}
+footer nav .content {
+        border-bottom: 1px solid #707070;
+    padding: 0px;
+}
+footer {
+    background:#545454;
+}
+footer .content {
+    padding: 23px 0px 20px 0px;
+}
+.logo_svg_footer {
+    width: 207px;
+    height: 75px;
+}
+.logo_svg_footer .fil0 {fill:#767676}
+.logo_svg_footer .fil1 {fill:#767676}
+.logo_svg_footer .fil2 {fill:#767676; fill-rule:nonzero}
+.logo_svg_footer + p {
+    color: #ffffff;
+    font-family: 'Arial';
+    font-size: 18px;
+    text-align: right;
+    margin-top: -17px;
+    opacity: .27;
+}
+footer .map_and_adress p {
+    color: #f7f8f7;
+}
+footer .map_and_adress p:first-child {
+    margin-bottom: 20px;
+}
+footer .map_and_adress p:last-child {
+   font-size: 12px;
+}
+footer .callback_header > p {
+    color: #fff;
+}
+footer .callback_header .button_type_1 {
+    color: #fff;
+    border-color: #fff;
+}
+@media screen and (max-width:1000px) {
+    .logo_svg_footer + p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:768px) {
+
+    footer nav .content ul {
+        flex-wrap: wrap;
+    }
+    footer nav .content ul li a {
+        padding: 0px 20px;
+    }
+    footer .map_and_adress {
+        text-align: center;
+    }
+    footer .content {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    footer .content > *{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:480px) {
+
+}

@@ -1,0 +1,130 @@
+
+.menu {
+    min-height: 65px;
+    display: block;
+    max-width: 1050px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 45px;
+}
+.menu > ul {
+display: table;
+    min-height: 65px;
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 65px;
+}
+.menu > ul > li > a {
+color: #fff;
+  text-shadow: 0.5px 0.866px 0px rgb( 0, 0, 0 );
+}
+.menu > ul > li {
+position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.menu > ul > li:after {
+content: '';
+    display: block;
+    width: 1px;
+    height: 23px;
+    background: #fff;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -11.5px;
+    opacity: 0.75;
+    transform: rotate(15deg);
+}
+.menu > ul > li:first-child:after {
+display: none;
+}
+.menu > ul > li > a:hover {
+text-decoration: underline;
+}
+.menu:after {
+	left: 100%;
+	top: 0%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: rgba(19, 115, 19, 0.75);
+	border-width: 32.5px;
+    margin-left: -15.25px;
+    transform: scaleX(0.5);
+}
+.menu:before {
+    content: '';
+    position: absolute;
+    width: 4000px;
+    height: 100%;
+    background: rgba(19, 115, 19, 0.75);
+    right: 0px;
+}
+#ad_menu {
+    display: none;
+}
+#ad_menu:checked ~ #ad_menu_label {
+      background: rgba(255, 255, 255, 0.75);
+    color: #333;
+}
+#ad_menu_label {
+    display: none;
+    font-family: 'fontello';
+        color: #fff;
+    font-size: 40px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    text-shadow: 0.5px 0.866px 0px rgb( 0, 0, 0 );
+    background: rgba(19, 115, 19, 0.75);
+    width: 37px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0px;
+    cursor: pointer;
+    position: relative;
+}
+#ad_menu_label:hover {
+    background: rgba(255, 255, 255, 0.75);
+    color: #333;
+}
+@media screen and (max-width:1050px) {
+.menu > ul > li:after {
+display: none;
+}
+}
+@media screen and (max-width:800px) {
+#ad_menu_label {
+    display: block;
+    font-family: 'fontello';
+}
+    .menu > ul {display: none; height: auto;}
+    .menu:before {
+    background: rgba(19, 115, 19, 0);
+}
+    #ad_menu:checked ~ ul {
+    display: flex;
+        flex-direction: column;
+         background: rgba(19, 115, 19, 0.75);
+        font-size: 20px;
+        text-align: left;
+} 
+    #ad_menu:checked ~ ul > li {
+    width: 100%;
+        text-align: left;
+        display: block;
+        padding: 10px 0px 10px 20px;
+            box-sizing: border-box;
+} 
+    .menu:after {
+display: none;
+}
+}
+

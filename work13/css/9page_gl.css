@@ -1,0 +1,732 @@
+.content:after {
+    height: 65px;
+    top: -65px;
+}
+.s1 {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.s1 > * {
+    margin: 0px;
+}
+.special {
+    min-width: 660px;
+    max-width: 850px;
+    background: #fff;
+    margin-top: -44px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,.4);
+    border: 5px solid #fff;
+    box-sizing: border-box;
+    background: url(../images/glpage/spec.jpg) no-repeat;
+    background-size: cover;
+    height: 340px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    z-index: 2;
+    margin-bottom: 80px;
+}
+.special:before {
+    content: url(../images/hyinia_dlia_babla_moi_pahan_v_devianostih_bablo_takoi_hiynei_krepil.png);
+    position: absolute;
+    top: -35px;
+    left: 20px;
+    z-index: 1;
+}
+.special:after {
+    content: url(../images/hyinia_dlia_babla_moi_pahan_v_devianostih_bablo_takoi_hiynei_krepil.png);
+    position: absolute;
+    top: -35px;
+    right: 20px;
+    z-index: 1;
+}
+.info {
+    height: 125px;
+    background: rgba(255,255,255,.8);
+    box-sizing: border-box;
+    padding: 10px 30px 10px 20px;
+    position: relative;
+}
+.info:after {
+    content: url(../images/glpage/aroow_whote.png);
+    left: -78px;
+    top: 0px;
+    position: absolute;
+}
+.info h4 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #cc6633;
+    text-transform: uppercase;
+}
+.info > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info > div p {
+  width: 285px;
+      border-left:2px solid #2a8628;
+    padding-left: 15px;
+}
+
+.serivisi_gl {
+    width: 460px;
+    text-align: center;
+    margin-left: 30px;
+margin-top: -44px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+.eshemenu {
+       display: flex;
+    flex-wrap: wrap;
+    background: rgba(255,255,255,.3);
+}
+.eshemenu div {
+    padding: 10px 0px 0px 89px;
+    box-sizing: border-box;
+    height: 80px;
+    width: 220px;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 16px;
+    color: #cc6633;
+    font-weight: bold;
+}
+.eshemenu div:nth-child(1) {
+  background: url(../images/glpage/sprite_menu.png) no-repeat;
+}.eshemenu div:nth-child(2) {
+  background: url(../images/glpage/sprite_menu.png) no-repeat;
+    background-position: -241px 0px;
+}.eshemenu div:nth-child(3) {
+  background: url(../images/glpage/sprite_menu.png) no-repeat;
+    background-position: 0px -103px;
+}.eshemenu div:nth-child(4) {
+  background: url(../images/glpage/sprite_menu.png) no-repeat;
+    background-position: -245px -103px;
+}.eshemenu div:nth-child(5) {
+  background: url(../images/glpage/sprite_menu.png) no-repeat;
+    background-position: -69px -188px;
+}
+
+.obrazci {
+    background: url(../images/glpage/bg_obrazci.png) no-repeat;
+    background-position: center top;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.obrazci:before {
+    content: url('../images/list.png');
+    position: absolute;
+    top: -31px;
+    left: 9vw;
+    z-index: 1;
+}
+.obrazci > h3 {
+color: #666666;
+    font-size: 29px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-bottom: 8vw;
+}
+.obrazci > h3:after {
+content: '';
+    width: 7px;
+    height: 7px;
+    background: #007000;
+    position: absolute;
+    left: -2vw;
+    top: 50%;
+    margin-top: -3.5px;
+    transform: rotate(45deg);
+}
+.obrazci > h3:before {
+content: '';
+    width: 7px;
+    height: 7px;
+    background: #007000;
+    position: absolute;
+    right: -2vw;
+    top: 50%;
+    margin-top: -3.5px;
+    transform: rotate(45deg);
+}
+.obrazci > h3 span {
+font-size: 44px;
+    color: #007000;
+    line-height: 35px;
+}
+@media screen  and (max-width:1200px){
+    .obrazci > h3 {
+        font-size: 2vw;
+    }
+    .obrazci > h3 > span {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+}
+.pred_slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.slider {
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+.prise_tovar span {
+    font-size: 18px;
+    font-weight: bold;
+    color: chocolate
+}
+.slider_this {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tovar {
+    width: 235px;
+    height: 330px;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5);
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 3px solid #087108;
+    margin-bottom: 20px;
+}
+.tovar:nth-child(even) {
+     border-bottom: 3px solid #f7b308;
+}
+.tovar > .name {color: #007000; font-size: 18px; text-decoration: underline;}
+.zakazat_button_tovar {
+    background: url(../images/button3.png) no-repeat;
+    background-size: cover;
+    height: 42px;
+    line-height: 43px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #6a3232;
+    width: 100%;
+}
+.tovar > img {
+width: 100%;
+}
+.podbor_cveta {
+    background: url(../images/result_block_texture.png) no-repeat;
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.podbor_cveta:before {
+    content: url('../images/list.png');
+    position: absolute;
+    top: 4px;
+    left: 9vw;
+    z-index: 1;
+
+}
+.description_podbor_cveta {
+    display: flex;
+    flex-direction: column;
+    max-width: 466px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.description_podbor_cveta h2 {
+    color: chocolate !important;
+    border:none !important;
+    margin: 0px auto !important;
+    font-size: 30px !important;
+}
+.description_podbor_cveta h2:after,.description_podbor_cveta h2:before {
+    display: none;
+}
+.podbor_cveta_galery {
+    width: 100%;
+    max-width: 900px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,.1);
+    position: relative;
+    box-sizing: border-box;
+}
+.after:after {
+    content: url(../images/glpage/after.png);
+    left: -200px;
+    position: absolute;
+}
+.after:before {
+    content: url(../images/glpage/before.png);
+    right: -169px;
+    position: absolute;
+}
+.podbor_cveta_galery:after {
+   content: url(../images/hyinia_dlia_babla_moi_pahan_v_devianostih_bablo_takoi_hiynei_krepil.png);
+    top: -36px;
+    left: 24px;
+    position: absolute;
+
+}
+.podbor_cveta_galery:before {
+   content: url(../images/hyinia_dlia_babla_moi_pahan_v_devianostih_bablo_takoi_hiynei_krepil.png);
+    top: -36px;
+    right: 24px;
+    position: absolute;
+}
+.podbor_cveta_galery > img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.mini_icon {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.arrow_galery_left {
+    height: 86px;
+    width: 30px;
+    background: url(../images/glpage/1.png) no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.arrow_galery_right {
+      height: 100%;
+    width: 30px;
+    background: url(../images/glpage/2.png) no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    background-color: #fff;
+    height: 86px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.mini_icon_this {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto !important;
+    display: flex;
+    width: 5000px;
+    position: absolute;
+    left: 48px;
+    background: #fff;
+}
+.mini_icon_this > *{
+ margin: 0px 10px;
+}
+
+.pochemy_vibiraiyt_nas {
+    background: url(../images/bg_kak_zakazat.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 30px 0px;
+    position: relative;
+}
+.pochemy_vibiraiyt_nas:before {
+    content: url('../images/list.png');
+    position: absolute;
+    top: -18px;
+    right: 9vw;
+    z-index: 1;
+}
+.pochemy_vibiraiyt_nas > h2 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: -3px;
+}
+.bloki_s_info{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    flex-wrap: wrap;
+
+}
+.bloki_s_info > div {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 50px 0px 50px;
+}
+.bloki_s_info > div:nth-child(2) > .img_info_s_block {
+background-position: -440px 0px;
+}.bloki_s_info > div:nth-child(3) > .img_info_s_block {
+background-position: -871px 0px;
+}.bloki_s_info > div:nth-child(4) > .img_info_s_block {
+background-position: -665px -140px;
+}.bloki_s_info > div:nth-child(5) > .img_info_s_block {
+background-position: -218px -153px;
+}
+.bloki_s_info > div > p {
+font-size: 17px;
+    font-weight: bold;
+    color: #6e3504;
+}
+.img_info_s_block {
+    width: 90px;
+    height: 90px;
+    background: url(../images/glpage/sprite_1.png) no-repeat;
+}
+.text_bloki_s_info {
+    background: rgba(0,0,0,.3);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+    position: relative;
+}
+.text_bloki_s_info:before {
+content: '';
+    position: absolute;
+    border: 36px solid transparent;
+    border-left-color: rgba(0,0,0,.3);
+    right: -54px;
+    top: 0px;
+    transform: scaleX(0.5)
+}
+.text_bloki_s_info:after {
+content: '';
+    position: absolute;
+    border: 36px solid transparent;
+    border-right-color: rgba(0,0,0,.3);
+    left: -54px;
+    top: 0px;
+    transform: scaleX(0.5)
+}
+.sortirovka {
+width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #b9c8cf;
+    padding: 0px 0px 5px 0px;
+    margin-top: 70px;
+}
+.description_statii > * {
+margin: 0px;
+}
+.sortirovka > * {
+        margin: 0px 15px;
+}
+
+.sortirovka > div {
+display: inline-block;
+position: relative;
+
+}
+.sortirovka > div:before {
+    content: url(../images/arrow_right.png);
+    position: absolute;
+    right: -11px;
+    top: 0;
+}
+.sortirovka > div:after {
+    content: url(../images/arrow_left.png);
+    position: absolute;
+    left: -11px;
+    top: 0;
+}
+input[name="kamni"] {
+    display: none;
+}
+input[name="kamni"]:checked + label {
+ color: #fff;
+    border: none;
+  text-shadow: 0.5px 0.866px 0px rgba( 0, 0, 0,.5 );
+    border: 2px solid transparent;
+}
+input[name="kamni"]:checked + label:after {
+content: '';
+    width: calc(100% + 12px);
+    height: 103%;
+    background: url(../images/button4.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    z-index: -1;
+    position: absolute;
+    right: -6px;
+    top: -1px;
+}
+input[name="kamni"]:checked + label:before {
+content: '';
+}
+input[name="kamni"] + label{
+border-top: 2px solid #cc6633;
+border-bottom: 2px solid #cc6633;
+    padding: 10px 20px;
+    color: #cc6633;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    margin: 0px 20px;
+    z-index: 2;
+}
+input[name="kamni"] + label:before {
+content: url(../images/arrow_left2.png);
+    position: absolute;
+    left: -12px;
+    top: -2px;
+}
+input[name="kamni"] + label:after {
+content: url(../images/arrow_left2.png);
+    position: absolute;
+    right: -12px;
+    top: -2px;
+    transform: scaleX(-1);
+}
+.kak_mi_rabotaem {
+    background: url(../images/glpage/ebaniifon.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 25px 0px;
+    position: relative;
+}
+.kak_mi_rabotaem:before {
+    content: url('../images/list.png');
+    position: absolute;
+    top: -18px;
+    left: 9vw;
+    z-index: 1;
+    transform: scaleX(-1);
+}
+.kak_mi_rabotaem h2 {
+      color: chocolate !important;
+    border:none !important;
+    margin: 0px auto !important;
+    font-size: 30px !important;
+}
+.diagramm {
+    width: 100%;
+    max-width: 1200px;
+}
+.diagramm > div {
+    display: flex;
+}
+.den {
+    display: flex;
+    align-items: center;
+    width: 367px;
+    text-align: left;
+    justify-content: space-between;
+    position: relative;
+}
+.kartika {
+    width: 95px;
+    min-width: 95px;
+    height: 95px;
+    background: url(../images/glpage/dni.png) no-repeat;
+    background-position: 0px -6px;
+    display: block;
+}
+.dni_p {
+    color: #cc6633;
+    font-weight: bold;
+    font-size: 23px;
+    border-bottom: 3px solid #cc6633;
+    padding: 7px;
+    margin: 15px;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.d3 .dni_p {
+    color: #ffbf00;
+    border-bottom-color: #ffbf00;
+}
+.d3 .kartika {
+    background-position: -421px -6px;
+}
+.d5 .dni_p {
+    color: #007000;
+    border-bottom-color: #007000;
+}
+.d5 .kartika {
+    background-position: -829px -1px;
+}
+.zmeia {
+    width: 87%;
+    margin: 20px 0px 3px 0px;
+}
+.do {
+    margin: 20px 20px 5px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.posle {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 786px;
+}
+.posle .dni_p {
+    border-bottom: none;
+}
+.d2 .dni_p {
+    color: #ff7f00;
+    border-top: 3px solid  #ff7f00;
+}
+.d2 .kartika {
+    background-position: -222px -179px;
+}.d4 .dni_p {
+    color: #007000;
+    border-top: 3px solid  #66cc00;
+}
+.d4 .kartika {
+    background-position: -618px -180px;
+}
+
+.kak_nas_naiti {
+    background: url(../images/glpage/kak_nas_naiti_bg.png) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    color: #fff;
+    display: flex;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+    position: relative;
+}
+.kak_nas_naiti h2{
+color: #fff;
+}
+.kak_nas_naiti:before {
+    content: url('../images/list.png');
+    position: absolute;
+    top: -55px;
+    right: 9vw;
+    z-index: 1;
+    transform: scale(-1,-1);
+}
+.kak_nas_naiti div img {
+ margin-right: 10px;
+}
+.kak_nas_naiti h2 {
+font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 5px #000;
+}
+.kak_nas_naiti div {
+    display: flex;
+    align-items: center;
+    width: 202px;
+    justify-content: space-between;
+}
+.map2 {
+    max-width: 100%;
+    width: 100%;
+}
+.nashi_sertifikati {
+    padding: 50px;
+    background: url(../images/result_block_texture.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.nashi_sertifikati:before {
+    content: url('../images/list.png');
+    position: absolute;
+    top: -34px;
+    left: 9vw;
+    z-index: 1;
+    transform: scaleX(-1) rotate(-125deg);
+}
+.nashi_sertifikati h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #cc6633;
+    text-shadow: 1.5px 2.598px 0px rgba( 255, 255, 255,0.7 );
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    }
+.gal_lic {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+.slide {
+    position: relative;
+}
+.gal_lic > .slide:before {
+    content: url(../images/hyinia_dlia_babla_moi_pahan_v_devianostih_bablo_takoi_hiynei_krepil.png);
+    position: absolute;
+    top: -26px;
+    left: 50%;
+    margin-left: -16px;
+}
+
+.d1:after {
+    content: url(../images/glpage/palka.png);
+    position: absolute;
+    bottom: -35px;
+    left: 41%;
+}.d2:after {
+    content: url(../images/glpage/palka.png);
+    position: absolute;
+    top: -35px;
+    left: 41%;
+    transform: scaleY(-1);
+}.d3:after {
+    content: url(../images/glpage/palka.png);
+    position: absolute;
+    bottom: -35px;
+    left: 41%;
+}.d4:after {
+    content: url(../images/glpage/palka.png);
+    position: absolute;
+   top: -35px;
+    left: 41%;
+    transform: scaleY(-1);
+}.d5:after {
+    content: url(../images/glpage/palka.png);
+    position: absolute;
+    bottom: -35px;
+    left: 41%;
+}
+@media screen and (max-width:800px){
+    .d1:after, .d2:after, .d3:after, .d4:after, .d5:after {
+        display: none;
+    }
+}

@@ -1,0 +1,85 @@
+
+.statia_full {
+    width: 100%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    box-sizing: border-box;
+}
+.statia_full > .date {
+ float: right;
+}
+.statia_full > h3 {
+    font-size: 21px;
+    font-family: 'Arial';
+    text-decoration: underline;
+    color: #007000;
+    font-weight: normal; 
+}
+.statia_full > p:nth-child(2){
+    font-size: 14px;
+    color: #4c4c4c;
+    text-decoration: underline;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.statia_img {
+    width: 100%;
+    border: 9px solid #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 40px 0px 20px 0px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,.5);
+    box-sizing: border-box;
+}
+.statia_img ~ p {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.parametri_stati > div > p {margin-right: 5px;}
+.parametri_stati {
+    display: flex;
+    font-size: 13px;
+    font-family: "Arial";
+    justify-content: space-between;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.3);     
+}
+.comments {color: #ef7a04;}
+.comments > span {color: #007000; text-decoration: underline; cursor: pointer;}
+.parametri_stati > * {margin: 5px; display: flex; flex-wrap: wrap; align-items: center;}
+.obsugdenie > p:first-child{font-family: 'Arial'; font-size: 21px; color: #007000; margin-bottom: 20px;}
+.user { font-family: 'Arial'; font-size: 12px; color: #007000;text-align: center;margin-right: 2vw;}
+.date_comment {
+    font-family: 'Arial';
+    font-style: italic;
+    color: #cf6e3e;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.otvetit {font-size: 12px; font-family: 'Arial'; color: #007000; text-decoration: underline;margin-top: 10px;}
+.comment {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+.multi {
+       display: flex;
+    justify-content: space-between;
+}
+.comment > .comment {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 63px;
+    border-bottom: none;
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+.obsugdenie > .comment:last-child {
+    border-bottom: none;
+}

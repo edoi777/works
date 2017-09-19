@@ -1,0 +1,140 @@
+.nazad {
+    width: 100%;
+    padding-left: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #ce6e3f;
+    font-weight: bold;
+}
+.nazad a {
+    color: #ce6e3f;
+}
+.nazad:before {
+content: '';
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #026102;
+    border-left: 2px solid #026102;
+    display: inline-block;
+    vertical-align: middle;
+    transform: rotate(-45deg);
+    margin-top: -3px;
+}
+.galery {
+    width: 95%;
+    margin-top: 50px;
+    background: #fff;
+    padding: 11px 15px 15px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,.3);
+    position: relative;
+    box-sizing: border-box;
+}
+.galery:before {
+content: url(../images/hyinia_dlia_babla_moi_pahan_v_devianostih_bablo_takoi_hiynei_krepil.png);
+    position: absolute;
+    top: -28px;
+    left: 20px;
+}
+.galery:after {
+content: url(../images/hyinia_dlia_babla_moi_pahan_v_devianostih_bablo_takoi_hiynei_krepil.png);
+    position: absolute;
+    top: -28px;
+    right: 20px;
+}
+.show {
+    width: 100%;
+}
+.show img {
+    width: 100%;
+border-radius: 5px;
+}
+.mini_icon_galerty {
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mini_icon_galerty:before {
+content: '';
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid #026102;
+    border-left: 2px solid #026102;
+    display: inline-block;
+    vertical-align: middle;
+    transform: rotate(-45deg);
+    margin-top: 36px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.mini_icon_galerty:after {
+content: '';
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px solid #026102;
+    border-right: 2px solid #026102;
+    display: inline-block;
+    vertical-align: middle;
+    transform: rotate(-45deg);
+    margin-top: 36px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.mini_icon_galerty img {
+  width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+.description_galery {
+    margin-top: 20px;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.description_galery > *{
+
+    box-sizing: border-box;
+}
+.description_galery h2 {
+text-align: center;
+    width: 100%;
+    font-size: 18px;
+    color: #cc6633;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.table_opisanie {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 50px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+}
+.table_opisanie td{
+padding: 15px;
+}
+.table_opisanie tr td:first-of-type {
+background: #fedbb8;
+}
+.table_opisanie tr td:last-of-type {
+background: #fef5ec;
+}
+.table_opisanie tr:nth-child(even) td:last-of-type {
+background: #fff;
+}
+.table_opisanie tr:nth-child(even) td:first-of-type {
+background: #ffe3c7;
+}
+.table_opisanie thead tr th {
+background: #f8850c;
+    color: #fff;
+    font-weight: normal;
+    padding: 15px;
+}

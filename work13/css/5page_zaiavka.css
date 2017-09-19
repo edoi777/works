@@ -1,0 +1,217 @@
+
+.zaiavka {
+    width: 100%;
+    background: url(../images/zaiavka_bg.png) no-repeat;
+    background-size: cover;
+    padding: 60px 0px 30px 0px;
+    color: #43403c;
+}
+.zaiavka > .description_zaiavka > h2:first-child {
+text-align: center;
+    font-size: 30px;
+    color: #cc6633;
+  text-shadow: 1.5px 2.598px 0px rgba( 255, 255, 255,0.7 );
+    margin-bottom: 20px;
+    margin-top: -28px;
+}
+.zaiavka > .description_zaiavka > h2:first-child + p{
+text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+
+.description_zaiavka {position: relative;width: 325px; z-index: 1}
+.description_zaiavka:before {
+    content: '';
+    position: absolute;
+    border: 250px solid transparent;
+    left: -87px;
+    top: -60px;
+    z-index: -1;
+    border-top-color:rgba(255,255,255,.5);
+
+}
+.description_zaiavka {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.shag {
+    display: flex;
+    font-size: 16px;
+    color: #7a4313;
+    font-weight: bold;
+    align-items: center;
+}
+.etap {
+        width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.number {
+    background: url(../images/zaiavka/number.png) no-repeat;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 6px 0px 0px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.zapolnenie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+}
+.et1 .zapolnenie input, .et3 .zapolnenie input, .et4 .zapolnenie input {
+    width: 25px;
+    height: 25px;
+position: relative;
+    display: none;
+}
+.forma .etap:first-child .zapolnenie input {
+    margin: 41px;
+}
+.zapolnenie input + span:before {
+content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 1px solid #d5c8bf;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 3px 0px rgba(0,0,0,.5);
+}
+.imglabel label {
+    width: 108px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.imglabel span {
+    z-index: 0;
+    margin: 0px auto !important;
+}
+.et1 .zapolnenie span, .et3 .zapolnenie span, .et4 .zapolnenie span {
+display: block;
+    width: 20px;
+    height: 20px;
+   margin: 0px 22px 0px 0px;
+}
+
+.zapolnenie input:checked + span:after {
+content: url(../images/zaiavka/checked_input.png);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: -7px;
+}
+.zapolnenie label {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+.zapolnenie #z1 {
+background: url(../images/zaiavka/vid_kuhni.png) no-repeat;
+}
+.zapolnenie #z2 {
+background: url(../images/zaiavka/vid_kuhni.png) no-repeat;
+    background-position: -133px 0px;
+}.zapolnenie #z3 {
+background: url(../images/zaiavka/vid_kuhni.png) no-repeat;
+    background-position: 0px -109px;
+}.zapolnenie #z4 {
+background: url(../images/zaiavka/vid_kuhni.png) no-repeat;
+    background-position: -133px -109px;
+}
+.forma {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+#slider-range {
+    width: 100%;
+}
+#slider-range * {
+margin: 0px;
+}
+.vertikal_range {
+    height: 300px;
+    width: 100%;
+}
+#slider-vertikal_1 {
+    height: 150px;
+    float: right;
+    width: 28px;
+     border-top: 2px solid #6a3232;
+        border-bottom: 2px solid #6a3232;
+}
+#slider-vertikal_2 {
+    height: 150px;
+    float: left;
+    width: 28px;
+      border-top: 2px solid #6a3232;
+        border-bottom: 2px solid #6a3232;
+}
+#slider-vertikal_value_2 {left: 88px;}
+#slider-vertikal_value_1 {left: 171px;}
+
+#slider-vertikal_value_2, #slider-vertikal_value_1 {
+       border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    position: relative;
+    width: 27px;
+    position: absolute;
+}
+.et3 input {
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.et3 label {
+    vertical-align: middle;
+    line-height: 43px;
+}.et4 input {
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.et4 label {
+    vertical-align: middle;
+    line-height: 43px;
+}
+.et5 input {
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 5px 5px 5px 15px;
+    height: 35px;
+    border-radius: 5px;
+    border:none;
+    box-shadow: inset 1px 1px 5px 0px rgba(0,0,0,.5), 0px 2px 5px 0px rgba(0,0,0,.5);
+}
+.et6 textarea {
+    margin: 10px;
+}

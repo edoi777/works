@@ -1,0 +1,188 @@
+.contats_page {
+	width: 100%;
+}
+
+input[name="goroda"] {
+	display: none;
+}
+
+input[name="goroda"]:checked+label {
+	color: #fff;
+	border: none;
+	text-shadow: 0.5px 0.866px 0px rgba( 0, 0, 0, .5);
+	border: 2px solid transparent;
+}
+
+input[name="goroda"]:checked+label:after {
+	content: '';
+	width: calc(100% + 12px);
+	height: 103%;
+	background: url(../images/button4.png) no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	z-index: -1;
+	position: absolute;
+	right: -6px;
+	top: -1px;
+}
+
+input[name="goroda"]:checked+label:before {
+	content: '';
+}
+
+input[name="goroda"]+label {
+	border-top: 2px solid #cc6633;
+	border-bottom: 2px solid #cc6633;
+	padding: 10px 20px;
+	color: #cc6633;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	cursor: pointer;
+	margin: 0px 20px;
+	z-index: 2;
+}
+
+input[name="goroda"]+label:before {
+	content: url(../images/arrow_left2.png);
+	position: absolute;
+	left: -12px;
+	top: -2px;
+}
+
+input[name="goroda"]+label:after {
+	content: url(../images/arrow_left2.png);
+	position: absolute;
+	right: -12px;
+	top: -2px;
+	transform: scaleX(-1);
+}
+
+.sortirovka_button {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.gorod1 {
+	width: 100%;
+	align-content: center;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.gorod1>h2 {
+	text-align: center;
+	margin: 20px auto;
+}
+
+.gorod_contacts {
+	width: 100%;
+	max-width: 600px;
+	padding: 15px 15px 0px 35px;
+	box-sizing: border-box;
+	border-radius: 15px;
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .5);
+	background: url(../images/background_logo.png) no-repeat;
+	background-color: #fff;
+	background-position: 96% 91%;
+}
+
+.gorod_contacts>h3 {
+	color: #cc6633;
+	font-size: 21px;
+	font-weight: normal;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.gorod_contacts>p {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.gorod_contacts>h3:after {
+	content: '';
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: #007000;
+	left: -19px;
+	top: 50%;
+	margin-top: -3.5px;
+	transform: rotate(45deg);
+}
+
+#show_all_goroda {
+	display: none;
+}
+
+label[for="show_all_goroda"] {
+	border-top: 2px solid #cc6633;
+	border-bottom: 2px solid #cc6633;
+	padding: 10px 20px;
+	color: #cc6633;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	cursor: pointer;
+	margin: 15px auto;
+	z-index: 2;
+	width: 110px;
+	text-align: center;
+}
+
+label[for="show_all_goroda"]:before {
+	content: url(../images/arrow_left2.png);
+	position: absolute;
+	left: -12px;
+	top: -2px;
+}
+
+label[for="show_all_goroda"]:after {
+	content: url(../images/arrow_left2.png);
+	position: absolute;
+	right: -12px;
+	top: -2px;
+	transform: scaleX(-1);
+}
+
+#show_all_goroda:checked+label {
+	color: #fff;
+	border: 2px solid transparent;
+	text-shadow: 0.5px 0.866px 0px rgba( 0, 0, 0, .5);
+}
+
+#show_all_goroda:checked+label:after {
+	content: '';
+	width: calc(100% + 12px);
+	height: 103%;
+	background: url(../images/button4.png) no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	z-index: -1;
+	position: absolute;
+	right: -6px;
+	top: -1px;
+}
+
+#show_all_goroda:checked+label:before {
+	content: '';
+}
+
+.map {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.map>img {
+	width: 100%;
+}
+
+.map>h2 {
+	margin: 20px auto;
+}

@@ -1,0 +1,125 @@
+
+.sortirovka {
+width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #b9c8cf;
+    padding: 0px 0px 19px 0px;
+}
+.description_statii > * {
+margin: 0px;
+}
+.sortirovka > * {
+        margin: 0px 15px;
+}
+.sortirovka select {
+    padding: 7px 10px 7px 0px;
+    color: #003d4b;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    border-top: 1px solid #d2d3d3;
+    border-bottom: 1px solid #d2d3d3;
+    background: #fff;
+    text-align: left;
+}
+.sortirovka > div {
+display: inline-block;
+position: relative;
+
+}
+.sortirovka > div:before {
+    content: url(../images/arrow_right.png);
+    position: absolute;
+    right: -11px;
+    top: 0;
+}
+.sortirovka > div:after {
+    content: url(../images/arrow_left.png);
+    position: absolute;
+    left: -11px;
+    top: 0;
+}
+.resul_gorizont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+}
+.resul_gorizont > * {
+margin: 0px;
+}
+.statia {
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid #b9c8cf;
+    width: 100%;
+    display: flex;
+}
+.statia > * {
+margin: 0px;
+}
+.statia > img {
+display: block;
+    position: relative;
+    z-index: 1;
+}
+.description_statii > .date {margin: 0px 10px 0px -11px;}
+
+.text_statie {width: 100%}
+.text_statie > p {width: 95%; line-height: 24px;}
+.description_statii {
+    display: flex;
+    width: 100%;
+    padding: 15px 0px 0px 0px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.name_stati {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.name_stati > * {
+margin: 0px;
+    font-family: 'Arial';
+}
+.name_stati > a:first-child {
+color: #007000;
+    font-size: 21px;
+    text-decoration: underline;
+}
+.name_stati > a:last-child {
+color: #4c4c4c;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.navigation_sttii {
+    margin: 15px auto 115px auto;
+}
+.navigation_sttii a{
+color: #cc6633;
+    text-decoration: underline;
+}
+.navigation_sttii a:nth-child(2){
+background: #66cc00;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+}
+@media screen and (max-width:800px) {
+    .statia {
+        flex-direction: column;
+    }
+    .statia > img {
+max-width: 100%;
+        margin: 0px auto;
+}
+}

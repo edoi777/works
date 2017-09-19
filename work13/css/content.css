@@ -1,0 +1,194 @@
+
+.content {
+    min-height: 200px;
+    width: 100%;
+    background: url(../images/bg_texture.png) no-repeat;
+    background-size: contain;
+    background-color: #fff;
+    position: relative;
+}
+.content:after {
+content: '';
+    height: 25px;
+    width: 100%;
+    display: block;
+    background: rgba(255,255,255,.5);
+    position: absolute;
+    top: -25px;
+}
+.content:before {
+content: url('../images/list.png') ;
+    position: absolute;
+    top: -50px;
+    right: 17px;
+    z-index: 1;
+}
+.katalog {
+    width: 100%;
+    max-width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.katalog > * {margin: 0px;}
+
+.rusult {
+   min-height: 100px;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #4c4c4c;
+    font-size: 16px;
+}
+.rusult > p {
+padding: 0px 40px 40px 40px;
+}
+
+.content > div > div >h2{
+    font-size: 23px;
+    color: #007000;
+    padding: 0px 0px 15px 0px;
+    border-bottom: 1px solid #ff7f00;
+    position: relative;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.content > h2{
+ text-align: center;
+    max-width: 330px;
+   padding-top: 30px;
+}
+.content h2:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #ff7f00;
+	border-width: 7px;
+	margin-left: -3.5px;
+}
+.resul_kamni {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    min-height: 200px;
+    padding: 35px 0px 28px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.resul_kamni > * {margin: 0px;}
+.resul_uzor {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    min-height: 200px;
+    padding: 35px 0px 28px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.resul_uzor > * {margin: 0px;}
+
+.tovar {
+    width: 235px;
+    height: 330px;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5);
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 3px solid #087108;
+    margin-bottom: 20px;
+}
+.tovar:nth-child(even) {
+     border-bottom: 3px solid #f7b308;
+}
+.tovar > .name {color: #007000; font-size: 18px; text-decoration: underline;}
+.zakazat_button_tovar {
+    background: url(../images/button3.png) no-repeat;
+    background-size: cover;
+    height: 42px;
+    line-height: 43px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #6a3232;
+    width: 100%;
+}
+.tovar > img {
+width: 100%;
+}
+
+#more_materials {
+    position: relative;
+    font-size: 16px;
+    color: #cc6633;
+    font-weight: bold;
+    height: 45px;
+    border-top: 2px solid #cc6633;
+    border-bottom: 2px solid #cc6633;
+    line-height: 45px;
+    padding: 0px 15px;
+    margin: 0px auto 90px auto;
+    clear: both;
+}
+#more_materials:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -17px;
+    top: 5px;
+    width: 33px;height: 33px;
+    position: absolute;
+    border-right: 2px solid #cc6633;
+    border-bottom: 2px solid #cc6633;
+    transform: rotate(-45deg);
+}
+#more_materials:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -17px;
+    top: 5px;
+    width: 33px;height: 33px;
+    position: absolute;
+    border-left: 2px solid #cc6633;
+    border-bottom: 2px solid #cc6633;
+    transform: rotate(45deg);
+}
+
+.fon_texture:before {
+content: '';
+
+}
+#fon_texture {
+ width: 100vw;
+    display: block;
+    position: absolute;
+    right: 0px;
+    background: url('../images/result_block_texture.png') no-repeat;
+    background-color: #fff;
+    background-size: cover;
+    z-index: 0;
+    margin: -35px 0px 0px 0px;
+    box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,.3);
+    box-sizing: border-box;
+}
+@media screen and (max-width: 800px) {
+        .katalog {
+        flex-direction: column;
+        align-items: center;}
+}
