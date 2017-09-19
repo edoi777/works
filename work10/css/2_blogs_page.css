@@ -1,0 +1,77 @@
+
+.conteiner_page .content {
+    display: flex;
+}
+
+@media screen and (max-width:960px) {
+    .conteiner_page .content {
+    flex-direction: column;
+}
+
+}
+
+.previu_post {
+    width: 290px;  
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 85px;
+}
+.previu_post img {
+    margin-bottom: 20px;
+}
+.previu_post h3 {
+    font-size: 18px;
+    font-weight: 400 !important;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.previu_post p {
+font-size: 14px;
+    font-weight: 300;
+    color: #858585;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+.readmore {
+  color: #d6b477;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.readmore .icon {
+    font-weight: 300;
+    margin-left: 7px;
+    font-size: 14px;
+}
+.date_post {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 12px 20px;
+    line-height: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    z-index: 1;
+}
+.date_post:before {
+content: '';
+    display: block;
+    background: #b99556;
+    width: 150%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: -57px;
+    top: 0px;
+    transform: skewX(-30deg);
+}
+
+.blogs_page {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+

@@ -1,0 +1,197 @@
+
+.plus18 {
+    height: 50px;
+    border-bottom: 1px solid rgba(255,255,255,.13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.plus18 p {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.plus18 p span {
+    font-size: 14px;
+    display: inline-block;
+    background: #1e1f1f;
+    padding: 4px 10px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+
+
+
+.head_contacts {
+    display: inline-block;
+    color: #fefefe;
+    text-align: right;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.tel_head {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ecca8c;
+        vertical-align: middle;
+}
+.tel_head > span {
+    font-weight: 300;
+    color: #fefefe;
+}
+.metro {
+       font-size: 20px;
+    font-weight: bold;
+    color: #ecca8c; 
+    display: inline;
+    margin-top: 15px;
+
+    
+}
+.clock_icon:before {
+    content: '\e804';
+    color: #ecca8c;
+    display: inline;
+    font-size: 20px;
+    margin: 0px 9px 0px 10px;
+        vertical-align: middle;
+}
+.map_icon:before {
+    content: '\e805';
+    color: #ecca8c;
+    display: inline;
+    font-size: 20px;
+    margin: 0px 12px 0px 10px;
+        vertical-align: middle;
+}
+header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo_head {
+    cursor: pointer;
+}
+
+header {
+    margin-bottom: 110px;
+}
+
+.menu {
+    width: 100%;
+    margin-top: 35px;
+    display: table;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu > * {
+text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.menu > * > a {
+transition: color 0.3s;
+}
+
+.menu > * > a:hover {
+color: #ecca8c;
+}
+.menu > li.active {
+    color: #ecca8c;
+}
+.menu_icon {
+    font-size: 19px;
+    display: none;
+    padding: 10px;
+}
+.menu_icon:hover {
+    color: #ecca8c;
+}
+.close_menu_header {display: none;}
+#menu_input {
+    display: none;
+}
+@media screen and (max-width:768px) {
+        .plus18 p {
+     font-size: 10px;   
+    }.plus18 p span {
+     font-size: 10px;   
+    }
+    .plus18 {height: 37px;}
+    
+    .logo_head {
+        width: 228px;
+    }
+    .metro,.tel_head {
+        font-size: 18px;
+    }
+    .metro {
+        margin-left: 18px;
+    }
+    .head_contacts {
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+        .clock_icon:before {
+    margin: 0px 5px 0px 5px;
+}
+    .map_icon:before {
+    margin: 0px 5px 0px 5px;
+}
+    .menu_icon {
+    display: block;
+        cursor: pointer;
+}
+    .menu {
+        display: none;
+    }
+    .close_menu_header {display: block;}
+    #menu_input:checked + label {
+color: #ecca8c
+}
+#menu_input:checked ~ .menu  {
+display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0px;padding: 5%;
+    background: #000;
+    height: 100%;
+    justify-content: flex-start;
+    margin: 0px;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+#menu_input:checked ~ .menu > li  {
+font-size: 25px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+.close_menu_header { 
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+.close_menu_header:hover {
+    color: #ecca8c;
+}
+    header {
+        margin-bottom: 70px;
+    }
+}
+
+
+
+

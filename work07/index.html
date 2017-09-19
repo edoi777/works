@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <!-- <link rel="stylesheet" href="scss/fonts.css"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+       $('header').innerHeight();
+       $('footer').innerHeight();
+        var a = 0;
+        setTimeout(function(){
+
+             a = $('header').innerHeight() + $('.main').innerHeight() + $('footer').innerHeight();
+            console.log(a);
+            console.log($(window).innerHeight());
+           if(a < $(window).innerHeight()) {
+               $('.main').css({'min-height':($(window).innerHeight() - ($('header').innerHeight() + $('footer').innerHeight()))+'px'});
+            } else {
+              $('.main').css({'min-height':($(window).innerHeight() - ($('header').innerHeight() + $('footer').innerHeight()))+'px'});
+            }
+            $(window).resize(function(){
+                  if(a < $(window).innerHeight()) {
+               $('.main').css({'min-height':($(window).innerHeight() - ($('header').innerHeight() + $('footer').innerHeight()))+'px'});
+            } else {
+              $('.main').css({'min-height':($(window).innerHeight() - ($('header').innerHeight() + $('footer').innerHeight()))+'px'});
+            }
+            });
+
+
+        },1);
+
+    });
+    </script>
+</head>
+<body>
+  <header>
+      <div class="content">
+          <a href="#" class="logo">
+              <img src="images/logo.png" alt="">
+             <span>Ярославский завод <br>
+строительных материалов</span>
+          </a>
+          <div class="header_contacts">
+              <p class="tel_head">+7 (4852) <span>33-75-35</span></p>
+              <p class="mail_head">info@yzsm.ru</p>
+          </div>
+      </div>
+  </header>
+  <div class="main">
+      <div class="content">
+              <h1>ФУНДАМЕНТНЫЕ БЛОКИ ОТ ЗАВОДА ЖБИ
+    ПО МИНИМАЛЬНЫМ ЦЕНАМ В РЕГИОНЕ
+         <span>Высокопрочные ФБС с доставкой в день обращения и оплатой по факту</span>
+             </h1>
+             <p class="tel_main">
+                <span> Звоните! +7 (4852) 33-75-35</span>
+             </p>
+             <div class="info_main">
+                 <div class="item">
+                    <div class="number">
+                        1
+                    </div>
+                     <p><span>Продукция в наличии</span><br>
+Собственный цех по <br>
+производству ФБС <br>
+до 80 штук в день</p>
+                 </div>
+
+                   <div class="item">
+                    <div class="number">
+                        2
+                    </div>
+                     <p><span>Качество строго ГОСТ</span><br>
+
+Продукция сертифицированна.<br>
+Собственная лаборатория<br>
+для испытаний
+</p>
+                 </div>
+
+                   <div class="item">
+                    <div class="number">
+                        3
+                    </div>
+                     <p><span>Срочная доставка</span><br>
+Свои бортовые а/м и<br>
+кран манипулятор.<br>
+Штатный отдел логистики
+</p>
+                 </div>
+             </div>
+      </div>
+  </div>
+  <footer>
+       <div class="gegrafy">
+              <div class="content">
+                  <p>География поставок: </p>
+                               <p>Ярославль</p>                     <p>Иваново  </p>                    <p>Кострома </p>                     <p>Вологда</p>
+              </div>
+          </div>
+        <div class="content footer_copyright">
+         <a href="#" class="logo_footer">
+             <img src="images/logo_black.png" alt="">
+             <span>г. Ярославль, ул. Старая Костромская 1а<br>
+2008-2016 © «Ярославский завод строительных материалов» </span>
+         </a>
+         <div class="header_contacts">
+              <p class="tel_head">+7 (4852) <span>33-75-35</span></p>
+              <p class="mail_head">info@yzsm.ru</p>
+          </div>
+          </div>
+  </footer>
+</body>
+</html>

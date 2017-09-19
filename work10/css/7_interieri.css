@@ -1,0 +1,114 @@
+
+.conteiner_page {
+overflow: hidden;
+    background: url(..../images/7pagebg.jpg) no-repeat;
+    background-position: center 38%;
+    background-size: contain;
+}
+.conteiner_page > .content > img:first-child {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.conteiner_page > .content > p {
+font-size: 16px;
+    font-weight: 300;
+    color: #d8d8d8;
+}
+blockquote {
+  font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: #d1d0cf;
+    display: block;
+    text-align: center;
+    clear: both;
+    margin-top: 130px;
+    margin-bottom: 380px;
+}
+blockquote:before {
+content: '\e802';
+    display:block;
+    font-family: 'fontello';
+    margin-bottom: 45px;
+    font-size: 20px;
+    color: #c9a668;
+    opacity: 1;
+}
+blockquote:after {
+content: '\e800';
+    display:block;
+    font-family: 'fontello';
+    margin-top: 45px;
+    font-size: 20px;
+    color: #c9a668;
+    opacity: 1;
+}
+.aventagers_us h4 {
+    font-size: 35px;
+    font-weight: 300;
+    color: #fefefe;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.slider {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 115px;
+}
+
+.aventagers_us {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.aventagers_us div {
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 25px;
+}
+.aventagers_us div:nth-child(even) {
+   margin-right: 30px;
+}
+.aventagers_us div img {
+float: left;
+    margin-right: 20px;
+}
+.aventagers_us div h5 {
+font-size: 18px;
+    font-weight: bold;
+    color: #fefefe;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.aventagers_us div p {
+font-size: 16px;
+    font-weight: 400;
+    color: #fefefe;
+}
+@media screen and (max-width:960px){
+ .aventagers_us div {
+    max-width: 340px;
+}
+    .aventagers_us div h5 {
+font-size: 14px;
+}
+    .aventagers_us div p {
+font-size: 12px;
+    font-weight: 400;
+    color: #fefefe;
+}
+}
+@media screen and (max-width:768px){
+    .aventagers_us {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .aventagers_us div:nth-child(even) {
+   margin-right: 0px;
+}
+}

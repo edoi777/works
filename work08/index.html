@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title lang="ru">iTravely
+Аудиогид-Путеводитель</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href=" /favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <style>
+   @font-face {
+  font-family: 'fontello';
+  src: url('data:application/octet-stream;base64,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') format('woff'),
+       url('data:application/octet-stream;base64,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I7AEQ2CwASuwBSVhsAUlsAJiILAAUFiwQGBZZrABY7AEJmEgsAQlYGQjsAMlYGRQWCEbIyFZIyAgsAQmI0ZhOFktsDcssAAWICAgsAUmIC5HI0cjYSM8OC2wOCywABYgsAgjQiAgIEYjR7ABKyNhOC2wOSywABawAyWwAiVHI0cjYbAAVFguIDwjIRuwAiWwAiVHI0cjYSCwBSWwBCVHI0cjYbAGJbAFJUmwAiVhuQgACABjYyMgWGIbIVljuAQAYiCwAFBYsEBgWWawAWNgIy4jICA8ijgjIVktsDossAAWILAIQyAuRyNHI2EgYLAgYGawAmIgsABQWLBAYFlmsAFjIyAgPIo4LbA7LCMgLkawAiVGUlggPFkusSsBFCstsDwsIyAuRrACJUZQWCA8WS6xKwEUKy2wPSwjIC5GsAIlRlJYIDxZIyAuRrACJUZQWCA8WS6xKwEUKy2wPiywNSsjIC5GsAIlRlJYIDxZLrErARQrLbA/LLA2K4ogIDywBCNCijgjIC5GsAIlRlJYIDxZLrErARQrsARDLrArKy2wQCywABawBCWwBCYgLkcjRyNhsAlDKyMgPCAuIzixKwEUKy2wQSyxCAQlQrAAFrAEJbAEJSAuRyNHI2EgsAQjQrAJQysgsGBQWCCwQFFYswIgAyAbswImAxpZQkIjIEewBEOwAmIgsABQWLBAYFlmsAFjYCCwASsgiophILACQ2BkI7ADQ2FkUFiwAkNhG7ADQ2BZsAMlsAJiILAAUFiwQGBZZrABY2GwAiVGYTgjIDwjOBshICBGI0ewASsjYTghWbErARQrLbBCLLA1Ky6xKwEUKy2wQyywNishIyAgPLAEI0IjOLErARQrsARDLrArKy2wRCywABUgR7AAI0KyAAEBFRQTLrAxKi2wRSywABUgR7AAI0KyAAEBFRQTLrAxKi2wRiyxAAEUE7AyKi2wRyywNCotsEgssAAWRSMgLiBGiiNhOLErARQrLbBJLLAII0KwSCstsEossgAAQSstsEsssgABQSstsEwssgEAQSstsE0ssgEBQSstsE4ssgAAQistsE8ssgABQistsFAssgEAQistsFEssgEBQistsFIssgAAPistsFMssgABPistsFQssgEAPistsFUssgEBPistsFYssgAAQCstsFcssgABQCstsFgssgEAQCstsFkssgEBQCstsFossgAAQystsFsssgABQystsFwssgEAQystsF0ssgEBQystsF4ssgAAPystsF8ssgABPystsGAssgEAPystsGEssgEBPystsGIssDcrLrErARQrLbBjLLA3K7A7Ky2wZCywNyuwPCstsGUssAAWsDcrsD0rLbBmLLA4Ky6xKwEUKy2wZyywOCuwOystsGgssDgrsDwrLbBpLLA4K7A9Ky2waiywOSsusSsBFCstsGsssDkrsDsrLbBsLLA5K7A8Ky2wbSywOSuwPSstsG4ssDorLrErARQrLbBvLLA6K7A7Ky2wcCywOiuwPCstsHEssDorsD0rLbByLLMJBAIDRVghGyMhWUIrsAhlsAMkUHiwARUwLQBLuADIUlixAQGOWbABuQgACABjcLEABUKyAAEAKrEABUKzCgIBCCqxAAVCsw4AAQgqsQAGQroCwAABAAkqsQAHQroAQAABAAkqsQMARLEkAYhRWLBAiFixA2REsSYBiFFYugiAAAEEQIhjVFixAwBEWVlZWbMMAgEMKrgB/4WwBI2xAgBEAAA=') format('truetype');
+}
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src=" js/scripts.js"></script>
+
+    <link rel="stylesheet" href=" css/all.css">
+    <link rel="stylesheet" href=" css/main.css">
+    <link rel="stylesheet" href=" css/section.css">
+    <link rel="stylesheet" href=" css/lang.css">
+
+</head>
+<body>
+    <menu>
+        <nav>
+          <div class="logo_box">
+               <a href="#" class="logo">
+               <img src=" images/logo.png" alt="" class="logo">
+               <p>iTravely</p>
+            </a>
+          </div>
+           <div class="menu_links">
+
+               <a href="#" lang="">Как это работает</a>
+               <a href="#" id="button_yslovia_akcii" lang="ru">Акция! Неделя в Барселоне Бесплатно! Жми!</a>
+               <span class="fontello" id='burger_menu'>&#xe806</span>
+           </div>
+
+        </nav>
+    </menu>
+    <main>
+
+      <a href="" class="arrow"><img src=" images/arrow.png" alt=""></a>
+
+
+
+
+       <div class="main_text">
+
+           <div class="languages">
+              <input type="radio" name="lang" id="en" checked><label for="en"><img src=" images/en_pack/en.jpg" alt=""></label>
+              <input type="radio" name="lang" id="ca"><label for="ca"><img src=" images/ca.jpg" alt=""></label>
+               <input type="radio" name="lang" id="ru"><label for="ru"><img src=" images/ru_pack/ru.jpg" alt=""></label>
+               <input type="radio" name="lang" id="es"><label for="es"><img src=" images/es_pack/es.jpg" alt=""></label>
+               <input type="radio" name="lang" id="fr"><label for="fr"><img src=" images/fr_pack/fr.jpg" alt=""></label>
+               <input type="radio" name="lang" id="it"><label for="it"><img src=" images/it_pack/it.jpg" alt=""></label>
+               <input type="radio" name="lang" id="de"><label for="de"><img src=" images/de_pack/de.jpg" alt=""></label>
+               <input type="" name="lang" id="ja"><label for="ja"><img src=" images/ja.jpg" alt=""></label>
+               <input type="" name="lang" id="zh"><label for="zh"><img src=" images/zh.jpg" alt=""></label>
+
+           </div>
+          <!--////////////////////////////////////////////////////////////////////--->
+           <h1 lang="ru"><span class="lobster">iTravely</span>  ВАШ БЕСПЛАТНЫЙ <br>АУДИОГИД-ПУТЕВОДИТЕЛЬ ПО БАРСЕЛОНЕ</h1>
+           <h2 lang="ru">Уникальное мобильное приложение, которое содержит всё нужное для того, чтобы Ваше путешествие было увлекательным, экономичным и незабываемым.</h2>
+
+           <h1 lang='es'><span class="lobster">iTravely</span> Tu completo y práctico AUDIO-GUÍA EN BARCELONA</h1>
+           <h2 lang='es'>Es un Aplicación Móvil única e imprescindible para el turista que viaja a Barcelona. iTravey hará que tu viaje sea divertido, económico e innolvidable. </h2>
+
+           <h1 lang='en'><span class="lobster">iTravely</span> YOUR FREE & COMPLETE AUDIO-GUIDE IN BARCELONA</h1>
+           <h2 lang='en'>Easy to use both on & off-line. iTravely is a unique and simple mobile application that contains everything you need for your trip to be fun, affordable and unforgettable.</h2>
+
+           <h1 lang='de'><span class="lobster">iTravely</span> Ihr vollständiger und praktischer Audioführer für BARCELONA.</h1>
+           <h2 lang='de'>Eine einmalige und einfache, mobile Anwendung, die alles enthält, was Sie für eine Reise brauchen, die Spaß macht, wirtschaftlich und unvergesslich ist.</h2>
+
+           <h1 lang='it'><span class="lobster">iTravely</span> La vostra completa e pratica AUDIO-GUIDA GRATUITA A BARCELLONA</h1>
+           <h2 lang='it'>Un’applicazione unica e semplice con tutto ciò che occorre per rendere il vostro viaggio divertente, economico e indimenticabile.</h2>
+
+           <h1 lang='fr'><span class="lobster">iTravely</span> VOTRE AUDIO-GUIDE GRATUIT, COMPLET ET PRATIQUE DE BARCELONE</h1>
+           <h2 lang='fr'>Une seule et simple application pour téléphones portables qui contient tout le nécessaire pour que votre voyage soit divertissant, économique et inoubliable.</h2>
+
+           <h1 lang='ca'><span class="lobster">iTravely</span> El teu complet i pràctic AUDIO-GUIA A BARCELONA</h1>
+           <h2 lang='ca'>És un Aplicació Mòbil única i imprescindible per al turista que viatja a Barcelona. iTravey farà que el teu viatge sigui divertit, econòmic i innolvidable.</h2>
+
+
+
+           <div class="apps">
+               <a href="#"><img src=" images/ios.png" alt=""></a>
+               <a href="https://play.google.com/store/apps/details?id=com.appsgroup.travelgid"><img src=" images/android.png" alt=""></a>
+           </div>
+
+       </div>
+
+        <div class="hand">
+          <!--LANG---------------------------------------------------------->
+           <img src=" images/ru_pack/ph_gl.png" alt="" lang="ru">
+           <img src=" images/en_pack/ph_gl.png" alt="" lang="en">
+           <img src=" images/de_pack/ph_gl.png" alt="" lang="de">
+           <img src=" images/es_pack/ph_gl.png" alt="" lang="es">
+           <img src=" images/es_pack/ph_gl.png" alt="" lang="ca">
+           <img src=" images/fr_pack/ph_gl.png" alt="" lang="fr">
+           <img src=" images/it_pack/ph_gl.png" alt="" lang="it">
+
+        </div>
+
+    </main>
+    <div class="animate">
+
+
+    <section id="one_screen">
+        <h2 lang="ru">ЧТО ЭТО И КАК РАБОТАЕТ</h2>
+        <h2 lang="es">¿QUÉ ES Y CÓMO FUNCIONA?</h2>
+        <h2 lang="en">WHAT IS AND HOW IT WORKS?</h2>
+        <h2 lang="de">WAS IST ER UND WIE FUNKTIONIERT ER ?</h2>
+        <h2 lang="it">COS'È E COME FUNZIONA?</h2>
+        <h2 lang="fr">QU’EST-CE QUE C’EST ET COMMENT ÇA FONCTIONNE ?</h2>
+        <h2 lang="ca">QUÈ ÉS I COM FUNCIONA?</h2>
+        <div class="section_conteiner">
+            <div>
+                <p class="fontello">
+                &#xe800
+                </p>
+                <p lang="ru">Бесплатные аудио-экскурсии <br>по Барселоне</p>
+                <p lang="es">Audio-Excursiones gratuitas por Barcelona</p>
+                <p lang="en">Free Audio-guides, available in 6 languages</p>
+                <p lang="de">Gratis: Audio-Führungen durch Barcelona</p>
+                <p lang="it">Audioguide di Barcellona gratuite</p>
+                <p lang="fr">Audio-guides gratuits de Barcelone.</p>
+                <p lang="ca">Audio-Excursions gratuïtes per Barcelona</p>
+            </div>
+               <div>
+                <p class="fontello">
+                &#xe801
+                </p>
+                <p lang="ru">Все достопримечательности<br> Барселоны</p>
+                <p lang="es">Todas las atracciones turísticas de Barcelona</p>
+                <p lang="en">Tourist Attractions of the city</p>
+                <p lang="de">Alle Touristenattraktionen von Barcelona</p>
+                <p lang="it">Tutte le attrazioni turistiche di Barcellona</p>
+                <p lang="fr">Toutes les attractions touristiques de Barcelone.</p>
+                <p lang="ca">Totes les atraccions turístiques de Barcelona</p>
+            </div>
+               <div>
+                <p class="fontello">
+                &#xe803
+                </p>
+                <p lang="ru">Карты города и метро<br> с геолокацией</p>
+                <p lang="es">Mapa del metro y de la ciudad con geolocalización</p>
+                <p lang="en">Map of the City & the Underground System.</p>
+                <p lang="de">U-Bahn-Plan und Geolokalisierung der Stadt</p>
+                <p lang="it">Mappa della Metro e della città con geolocalizzazione</p>
+                <p lang="fr">Plan du métro et de la ville avec géolocalisation.</p>
+                <p lang="ca">Mapa del metro i de la ciutat amb geolocalització</p>
+            </div><div>
+                <p class="fontello">
+                &#xe802
+                </p>
+                <p lang="ru">Музеи и театры<br> Барселоны</p>
+                <p lang="es">Museos y teatros de Barcelona</p>
+                <p lang="en">Museums & Theaters</p>
+                <p lang="de">Museen und Theater in Barcelona</p>
+                <p lang="it">Musei e teatri a Barcellona</p>
+                <p lang="fr">Musées et théâtres de Barcelone.</p>
+                <p lang="ca">Museus i teatres de Barcelona</p>
+            </div><div>
+                <p class="fontello">
+                &#xe805
+                </p>
+                <p lang="ru">Полезная информация<br> и советы</p>
+                <p lang="es">Tiendas, Restaurantes, Discotecas</p>
+                <p lang="en">Shops, Restaurants, Discotheques</p>
+                <p lang="de">Geschäfte, Restaurants, Nachtclubs </p>
+                <p lang="it">Negozi, ristoranti, discoteche</p>
+                <p lang="fr">Boutiques, Restaurants, Discothèques.</p>
+                <p lang="ca">Botigues, Restaurants, Discoteques</p>
+            </div>
+               <div>
+                <p class="fontello">
+                &#xe804
+                </p>
+                <p lang="ru">Магазины Рестораны<br> и Дискотеки</p>
+                <p lang="es">Información útil y consejos</p>
+                <p lang="en">Interesting & Useful tips</p>
+                <p lang="de">Praktische Informationen und Hinweise</p>
+                <p lang="it">Informazioni pratiche e suggerimenti </p>
+                <p lang="fr">Informations pratiques et conseils </p>
+                <p lang="ca">Informació útil i consells </p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- ЭКРАН------------------------------->
+    <div>
+    <section>
+           <div class="section_conteiner_img_text">
+            <div class="text_block">
+                <p class="number">
+                    01
+                </p>
+                <h3 lang="ru">БАРСЕЛОНА В ВАШЕМ КАРМАНЕ</h3>
+                <p lang="ru">Путешествуйте с iTravely в своем ритме.  Новые эмоции и впечатления Вам обеспечены. Получите полный доступ к истории Барселоны и насладитесь каждым уголком этого прекрасного города.
+
+Обязательно посетите:</p>
+<ul lang="ru">
+    <li>Ла Рамбла</li>
+    <li>Готический квартал</li>
+    <li>Собор Святого Семейства</li>
+    <li>Парк Гуэля</li>
+    <li>Пассео де Грация</li>
+    <li>Район Борн</li>
+    <li>Район Раваль</li>
+    <li>Район ЭйшАмпле </li>
+</ul>
+
+
+               <h3 lang="es">BARCELONA EN TU BOLSILLO</h3>
+                <p lang="es">Comienza tu aventura por Barcelona en tu propio ritmo con iTravely. Nuevas emociones e impresiones te están garantizadas. Obtén tu acceso completo a la historia de Barcelona y disfruta al máximo de cada rincón de esta magnífica ciudad.
+
+Visita sin falta:
+<ul lang="es">
+    <li>La Rambla</li>
+    <li>El Barrio Gótico</li>
+    <li>La Sagrada Familia</li>
+    <li>El Parque Güell</li>
+    <li>Paseo de Grácia</li>
+    <li>El Barrio Born</li>
+    <li>El Barrio Raval</li>
+    <li>El Barrio Eixample  </li>
+</ul>
+
+
+</p>
+               <h3 lang="en">BARCELONA IN YOUR POCKET</h3>
+                <p lang="en">Start your adventure in Barcelona at your own pace with iTravely. We guarantee an emotional, unforgettable experience. Get full access to the history of Barcelona and enjoy every corner of this magnificent city.
+
+Every visit to Barcelona should include:
+<ul lang="en">
+
+
+        <li>La Rambla</li>
+        <li>The Gothic Quarter</li>
+        <li>The Sagrada Familia</li>
+        <li>The Park Güell</li>
+        <li>The Passeig de Gràcia</li>
+        <li>The Born Quarter</li>
+        <li>The Raval Quarter</li>
+        <li>The Eixample Quarter</li>
+</ul>
+
+</p>
+               <h3 lang="de">BARCELONA IN DER TASCHE</h3>
+                <p lang="de">Beginnen Sie das Abenteuer von Barcelona in Ihrem eigenen Tempo mit iTravely. Neue Gefühle und Eindrücke sind garantiert. Holen Sie sich Ihren vollen Zugriff auf die Geschichte Barcelonas und machen Sie das Beste aus jeder Ecke dieser großartigen Stadt.
+Besuchen Sie unbedingt:
+    <ul lang="de">
+        <li>La Rambla</li>
+        <li>Das Viertel Gotico</li>
+        <li>Die Sagrada Familia</li>
+        <li>Den Park Güell</li>
+        <li>Paseo de Grácia</li>
+        <li>Das Viertel Born</li>
+        <li>Das Viertel Raval</li>
+        <li>Das Viertel Eixample</li> </li>
+    </ul>
+
+
+
+
+</p>
+               <h3 lang="it">BARCELLONA IN TASCA</h3>
+                <p lang="it">Inizia la tua avventura a Barcellona con iTravely. Nuove emozioni garantite. Ottieni l'accesso completo alla storia di Barcellona e sfrutta al meglio ogni angolo di questa splendida città.
+Visita a colpo sicuro:
+<ul lang="it">
+  <li>La Rambla</li>
+    <li>Il Barrio Gotico</li>
+    <li>La Sagrada Familia</li>
+    <li>Il Parc Güell</li>
+    <li>Il Paseo de Grácia</li>
+    <li>Il Quartiere Born</li>
+    <li>Il Quartiere Raval</li>
+    <li>Il Quartiere Eixample</li>
+</ul>
+
+
+</p>
+               <h3 lang="fr">BARCELONE DANS VOTRE POCHE</h3>
+                <p lang="fr">Commencez votre aventure à Barcelone à votre propre rythme avec iTravely. De nouvelles émotions et impressions vous sont garanties. Obtenez votre accès complet à l'histoire de Barcelone et profitez de tous les coins de cette ville magnifique.
+
+Visitez sans faute :
+<ul lang="fr">
+    <li>La Rambla.</li>
+    <li>Le Quartier Gothique.</li>
+    <li>La Sagrada Familia.</li>
+    <li>Le Parc Güell.</li>
+    <li>Le Paseo de Gracia.</li>
+    <li>Le Quartier du Born.</li>
+    <li>Le Quartier Raval.</li>
+    <li>Le Quartier de L’ensanche. </li>
+</ul>
+
+
+</p>
+               <h3 lang="ca">3.	BARCELONA A LA TEVA BUTXACA</h3>
+                <p lang="ca">Comença la teva aventura per Barcelona en el teu propi ritme amb iTravely. Noves emocions i impressions et estan garantides. Aconsegueix el teu accés complet a la història de Barcelona i gaudeix al màxim de cada racó d'aquesta magnífica ciutat.
+
+Visita sens falta:
+<ul lang="ca">
+    <li>La Rambla</li>
+    <li> El Barri Gòtic</li>
+    <li>La Sagrada Família</li>
+    <li>El Parc Güell</li>
+    <li>Passeig de Gràcia</li>
+    <li>El Barri Born</li>
+    <li>El Barri Raval</li>
+    <li>El Barri Eixample</li>
+</ul>
+
+
+
+</p>
+            </div>
+        <img src=" images/ru_pack/1.png" alt="" lang="ru">
+        <img src=" images/en_pack/1.png" alt="" lang="en">
+        <img src=" images/es_pack/1.png" alt="" lang="es">
+        <img src=" images/es_pack/1.png" alt="" lang="ca">
+        <img src=" images/fr_pack/1.png" alt="" lang="fr">
+        <img src=" images/it_pack/1.png" alt="" lang="it">
+        <img src=" images/de_pack/1.png" alt="" lang="de">
+        </div>
+    </section>
+</div>
+    <!-- ЭКРАН------------------------------->
+    <div>
+    <section>
+           <div class="section_conteiner_img_text">
+            <div class="text_block">
+                <p class="number">
+                    02
+                </p>
+                <h3 lang="ru">КАРТА ГОРОДА И МЕТРО ВСЕГДА С ВАМИ</h3>
+                <p lang="ru">В приложении Вы найдёте карту города и метро. Также узнаете, где находитесь в данный момент, благодаря нашей геолокации оффлайн, что предоставит Вам возможность не потеряться в новом городе.
+
+Помимо наших экскурсий, Вы можете создавать альтернативные маршруты, так как все интересные и туристические места города обозначены на карте.
+
+</p>
+               <h3 lang="es">EL MAPA DE LA CIUDAD Y DEL METRO SIEMPRE CONTIGO</h3>
+                <p lang="es">En la aplicación iTravely encontrarás un completo mapa de la ciudad de Barcelona y del metro. Además, sabrás en todo momento dónde te encuentras gracias a nuestra geolocalización offline, puedes “perderte” con completa tranquilidad por la ciudad.
+
+Además de nuestras audio-excursiones puedes realizar rutas alternativas. En el mapa de la ciudad podrás ver los sitios de interés más cercanos a tu ubicación.
+
+</p>
+               <h3 lang="en">THE MAP OF METRO AND THE CITY ALWAYS AT HAND</h3>
+                <p lang="en">In the application, you will find a complete map of the city of Barcelona and the underground system. In addition, you will know where you are at all times, thanks to our offline geo-location, allowing you to "lose yourself" in the city with complete tranquility.
+
+Furthermore, you can see the sites of interest closest to your location, should you wish to take different routes to the ones proposed.
+</p>
+               <h3 lang="de">EIN U-BAHN-PLAN UND EINE STADTKARTE SIND IMMER MIT IHNEN </h3>
+                <p lang="de">In der Anwendung finden Sie eine vollständige Karte der Stadt Barcelona und der U-Bahn. Darüber hinaus werden Sie Dank unserer offline Ortsbestimmung immer wissen, wo Sie sich befinden, damit Sie mit kompletter Seelenruhe  in der Stadt verloren gehen können.
+
+Auf der Karte der Stadt sehen Sie nächstgelegene Orte des Interesses nahe Ihres Standorts, wenn Sie alternative Routen abseits der Vorschläge gehen möchten.
+
+</p>
+               <h3 lang="it">LA MAPPA DELLA METRO E LA CITTÀ È SEMPRE CON TE </h3>
+                <p lang="it">Nell’applicazione troverai una mappa completa della città di Barcellona e una della metro. Inoltre, saprai sempre dove ti trovi grazie alla geo-localizzazione offline, per “perderti” in tutta tranquillità per la città.
+
+Nella cartina della città potrai vedere i punti d’interesse più vicini alla tua posizione, se desideri fare un altro percorso rispetto a quello proposto.
+
+
+</p>
+               <h3 lang="fr">LES PLANS DU METRO ET DE LA VILLE SERONT TOUJOURS AVEC VOUS</h3>
+                <p lang="fr">Dans l’application vous trouverez un plan complet de la ville de Barcelone, ainsi que le celui du métro. De plus, vous saurez à tout moment où vous vous trouvez, grâce à la géolocalisation offline, et vous pourrez ainsi “vous perdre” tranquillement dans la ville.
+
+Sur le plan de la ville vous trouverez tous les sites intéressants les plus proches de votre situation, ceci dans le cas où vous souhaitez faire des excursions différentes à celles proposées.
+
+</p>
+               <h3 lang="ca">EL MAPA DE LA CIUTAT I DEL METRO SEMPRE AMB TU</h3>
+                <p lang="ca">En l'aplicació iTravely trobaràs un complet mapa de la ciutat de Barcelona i del metro. A més, sabràs en tot moment on et trobes gràcies a la nostra geolocalització offline, pots "perdre't" amb completa tranquil•litat per la ciutat.
+
+A més de les nostres àudio-excursions pots fer rutes alternatives. Al mapa de la ciutat podràs veure els llocs d'interès més propers a la teva ubicació.
+
+
+</p>
+            </div>
+        <img src=" images/ru_pack/2.png" alt="" lang="ru">
+        <img src=" images/en_pack/2.png" alt="" lang="en">
+        <img src=" images/es_pack/2.png" alt="" lang="es">
+        <img src=" images/es_pack/2.png" alt="" lang="ca">
+        <img src=" images/fr_pack/2.png" alt="" lang="fr">
+        <img src=" images/it_pack/2.png" alt="" lang="it">
+        <img src=" images/de_pack/2.png" alt="" lang="de">
+        </div>
+    </section>
+</div>
+    <!-- ЭКРАН------------------------------->
+    <div>
+    <section>
+           <div class="section_conteiner_img_text">
+            <div class="text_block">
+                <p class="number">
+                    03
+                </p>
+                <h3 lang="ru">ЧТО ПОСЕТИТЬ В БАРСЕЛОНЕ</h3>
+                <p lang="ru">Исследуйте Барселону в своём ритме и на своём языке
+                <ul lang="ru">
+                   <li> Ознакомьтесь с достопримечательностями без толпы туристов</li>
+                <li>Насладитесь атмосферой Барселоны</li>
+              <li>Исследуйте городские легенды и малоизвестные туристические места Барселоны</li>
+</ul>
+</p>
+               <h3 lang="es">¿QUÉ VER Y VISITAR EN BARCELONA?</h3>
+                <p lang="es">-	Explora la magnífica ciudad de Barcelona a tu ritmo y en tu idioma
+                <ul lang="es">
+                    <li>Conoce todas las atracciones de la ciudad evitando la multitud y aglomeración de turistas</li>
+                    <li>Disfruta del ambiente de Barcelona</li>
+                    <li>Explora las leyendas locales y los sitios menos turísticos de Barcelona</li>
+</ul>
+</p>
+               <h3 lang="en">WHAT TO SEE AND VISIT IN BARCELONA?</h3>
+                <p lang="en">-	Explore the magnificent city of Barcelona at your own pace and in your own language
+                <ul lang="en">
+                    <li>See all the attractions of the city and its surroundings avoiding the crowds of tourists</li>
+        <li>Enjoy the atmosphere of Barcelona</li>
+<li>Explore local legends and less known sites of Barcelona</li>
+</ul>
+</p>
+               <h3 lang="de">WAS ZU SEHEN UND ZU BESUCHEN IN BARCELONA?</h3>
+                <p lang="de">-	Entdecken Sie die herrliche Stadt Barcelona in Ihrem eigenen Tempo und in Ihrer Sprache
+                <ul lang="de">
+                    <li>Alle Sehenswürdigkeiten der Stadt und vermeiden Sie die Touristenmassen</li>
+                    <li>Genießen Sie die Atmosphäre von Barcelona</li>
+                    <li>Entdecken Sie lokale Legenden und weniger touristische Sehenswürdigkeiten in Barcelona</li>
+</ul>
+</p>
+                <h3 lang="it">COSA VEDERE E VISITARE A BARCELLONA?</h3>
+                <p lang="it">- Esplora la magnifica città di Barcellona secondo i tuoi tempi e nella tua lingua
+                <ul lang="it">
+                    <li>Visita tutte le attrazioni della città e evita la folla di turisti</li>
+                    <li>Goditi l'atmosfera di Barcellona</li>
+                    <li>Esplora le leggende locali e i siti meno turistici di Barcellona</li>
+</ul>
+</p>
+               <h3 lang="fr">QUE VOIR ET VISITER À BARCELONE ?</h3>
+                <p lang="fr">-	Explorez la magnifique ville de Barcelone à votre propre rythme et dans votre langue.
+                <ul lang="fr">
+                    <li>Visitez toutes les attractions de la ville et l'agglomération en évitant les foules de touristes.</li>
+                    <li>Profitez de l'ambiance de Barcelone.</li>
+                    <li>Explorez les légendes locales et les sites moins touristiques de Barcelone.</li>
+</ul>
+
+</p>
+               <h3 lang="ca">QUÈ VEURE I VISITAR A BARCELONA?</h3>
+                <p lang="ca">-	Explora la magnífica ciutat de Barcelona al teu ritme i en el teu idioma
+                <ul lang="ca">
+                    <li>Coneix totes les atraccions de la ciutat evitant la multitud i aglomeració de turistes</li>
+                    <li>Gaudeix de l'ambient de Barcelona</li>
+                    <li>Explora les llegendes locals i els llocs menys turístics de Barcelona</li>
+</ul>
+
+</p>
+            </div>
+        <img src=" images/ru_pack/3.png" alt="" lang="ru">
+        <img src=" images/en_pack/3.png" alt="" lang="en">
+        <img src=" images/es_pack/3.png" alt="" lang="es">
+        <img src=" images/es_pack/3.png" alt="" lang="ca">
+        <img src=" images/fr_pack/3.png" alt="" lang="fr">
+        <img src=" images/it_pack/3.png" alt="" lang="it">
+        <img src=" images/de_pack/3.png" alt="" lang="de">
+        </div>
+    </section>
+</div>
+    <!-- ЭКРАН------------------------------->
+    <div>
+    <section>
+           <div class="section_conteiner_img_text">
+            <div class="text_block">
+                <p class="number">
+                    04
+                </p>
+                <h3 lang="ru">ГДЕ ПОЕСТЬ? ГДЕ УСТРОИТЬ ШОПИНГ? ГДЕ ПОТАНЦЕВАТЬ?</h3>
+                <p lang="ru">С iTravely у Вас будет вся информация с фото, адресом, телефоном и остановкой метро для того, чтобы выбрать тот самый:
+<ul lang="ru">
+    <li>Ресторан </li>
+    <li>Бар</li>
+    <li>Магазин</li>
+    <li>Салон красоты </li>
+
+а также:
+</ul>
+
+
+<ul lang="ru">
+    <li>Дискотеку </li>
+    <li>Места, которые можно посетить с детьми</li>
+</ul>
+
+
+</p>
+               <h3 lang="es">¿DÓNDE COMER? ¿DÓNDE IR DE COMPRAS? ¿DONDE BAILAR O TOMAR ALGO? </h3>
+                <p lang="es">Con iTravely tendrás la información completa con fotos, dirección, teléfono y metro más cercano de los sitios de interés como:
+<ul lang="es">
+                    <li>Restaurantes</li>
+                    <li>Bares</li>
+                    <li>Tiendas</li>
+                    <li>Salones de belleza </li>
+                    <li>Peluquerías</li>
+                    Además:
+</ul>
+
+<ul lang="es">
+                        <li>Discotecas </li>
+                    <li>Sitios que visitar con niños</li>
+</ul>
+
+</p>
+               <h3 lang="en">WHERE TO EAT? WHERE TO SHOP? WHERE TO DANCE OR HAVE A DRINK?</h3>
+                <p lang="en">
+With iTravely you receive all the information you need with the address, telephone number and nearest underground station to:
+<ul lang="en">
+                   <li>Restaurants</li>
+<li>Bars</li><li> Shops</li>
+<li>Beauty salons</li>
+<li>Hairdressers</li>
+Also:
+</ul>
+
+<ul  lang="en">
+       <li> Clubs</li>
+        <li>Sites to visit with children</li></ul>
+</p>
+               <h3 lang="de">WO ESSEN GEHEN? WO EINKAUFEN GEHEN? WO TANZEN ODER TRINKEN?</h3>
+                <p lang="de">
+Sie erhalten alle Informationen, die Sie, mit Adresse, Kontakt-Telefonnummer und der nächstgelegenen Metro-Station, benötigen:
+<ul lang="de">
+    <li>Alle touristischen Attraktionen der Stadt</li>
+    <li>Alle Museen</li>
+    <li>Verschiedene Unterhaltungsmöglichkeiten</li>
+    <li>Barcelonische Restaurants und Bars</li>
+    <li>Die vorzeigbarsten Diskotheken</li>
+    <li>Verschiedene Geschäfte</li>
+    <li>Schönheitssalons und Friseure</li>
+    <li>Geschäfte und Orte, die Sie mit ihren Kindern besichtigen können</li>
+</ul>
+</p>
+               <h3 lang="it">	DOVE MANGIARE? DOVE ANDARE A FARE SHOPPING? DOVE BALLARE O BERE?
+</h3>
+                <p lang="it">Troverai tutte le informazioni di cui hai bisogno con indirizzi, numeri di telefono e fermate della metro più vicine per:
+<ul lang="it">
+    <li>Tutte le attrazioni turistiche della città</li>
+    <li>Tutti i musei</li>
+    <li>Diversi locali notturni</li>
+    <li>Ristoranti e bar di Barcellona </li>
+    <li>Le discoteche più importanti</li>
+    <li>Diversi negozi</li>
+    <li>Saloni di bellezza e di parrucchieri</li>
+    <li>Negozi e luoghi da visitare con i bambini  </li>
+</ul>
+
+
+</p>
+
+<h3 lang="fr">	OÙ MANGER ? OÙ ALLER FAIRE DES ACHATS ? OÙ DANSER OU BOIRE UN VERRE ?
+</h3>
+                <p lang="fr">Vous obtiendrez toute l’information dont vous aurez besoin, adresses, téléphones de contact et stations de métro les plus proches de :
+<ul lang="fr">
+    <li>Toutes les attractions touristiques de la ville. </li>
+    <li>Tous les musées. </li>
+    <li>Divers locaux de distraction.</li>
+    <li>Restaurants et Bars de Barcelone.</li>
+    <li>Discothèques les plus emblématiques.</li>
+    <li>Diverses boutiques.</li>
+    <li>Salons de beauté et de coiffure.</li>
+    <li>Boutiques et sites où vous pourrez aller avec vos enfants.</li>
+</ul>
+
+</p>
+<h3 lang="ca">	ON MENJAR? ON ANAR DE COMPRES? ON BALLAR O PRENDRE ALGUNA COSA?
+</h3>
+                <p lang="ca">Amb iTravely tindràs la informació completa amb fotos, adreça, telèfon i metro més proper dels llocs d'interès com:
+<ul lang="ca">
+                    <li>Restaurants</li>
+                    <li>Bars</li>
+                    <li>Botigues</li>
+                    <li>Salons de bellesa</li>
+                    <li>Perruqueries</li>
+                    A més:
+</ul>
+
+                  <ul lang="ca">
+                   <li> Discoteques</li><li> Llocs que visitar amb nens</li>
+</ul>
+
+
+</p>
+            </div>
+        <img src=" images/ru_pack/4.png" alt="" lang="ru">
+        <img src=" images/en_pack/4.png" alt="" lang="en">
+        <img src=" images/es_pack/4.png" alt="" lang="es">
+        <img src=" images/es_pack/4.png" alt="" lang="ca">
+        <img src=" images/fr_pack/4.png" alt="" lang="fr">
+        <img src=" images/it_pack/4.png" alt="" lang="it">
+        <img src=" images/de_pack/4.png" alt="" lang="de">
+        </div>
+    </section>
+</div>
+   <div>
+    <section class="transparent">
+         <div class="section_conteiner_img_text">
+      <a href="#"><img src=" images/ios.png" alt=""></a>
+               <a href="https://play.google.com/store/apps/details?id=com.appsgroup.travelgid"><img src=" images/android.png" alt=""></a>
+        </div>
+    </section>
+</div>
+    <!-- ЭКРАН------------------------------->
+    <div>
+    <section>
+           <div class="section_conteiner_img_text">
+            <div class="text_block">
+                <p class="number">
+                    05
+                </p>
+                <h3 lang="ru">КУЛЬТУРА БАРСЕЛОНЫ</h3>
+                <p lang="ru">iTravely предоставит Вам доступ ко всем музеям и театрам Барселоны. Проникнитесь культурой прекрасного каталонского города.
+</p>
+                 <h3 lang="es">CULTURA DE BARCELONA</h3>
+                <p lang="es">iTravely te da el acceso a todos los museos y teatros de la ciudad de Barcelona. Siente y experimenta la cultura de la magnífica capital catalana.
+</p>
+               <h3 lang="en">BARCELONA’S CULTURE</h3>
+                <p lang="en">iTravely gives you access to all the museums and theaters of the city of Barcelona. Feel and experience the culture of the magnificent Catalan capital.
+</p>
+               <h3 lang="de">BARCELONAS KULTUR</h3>
+                <p lang="de">iTravely gibt Ihnen Zugang zu allen Museen und Theatern der Stadt Barcelona. Fühlen Sie und erleben Sie die Kultur der prächtigen katalanischen Hauptstadt.
+</p>
+               <h3 lang="it">LA CULTURA DI BARCELLONA</h3>
+                <p lang="it">iTravely ti dà accesso a tutti i musei e teatri della città di Barcellona. Senti e sperimenta la cultura della splendida capitale catalana.
+</p>
+                         <h3 lang="fr">CULTURE DE BARCELONE</h3>
+                <p lang="fr">iTravely vous donne accès à tous les musées et théâtres de la ville de Barcelone. Appréciez et expérimentez la culture de la magnifique capitale Catalane.
+</p>
+               <h3 lang="ca">CULTURA DE BARCELONA</h3>
+                <p lang="ca">iTravely et dóna l'accés a tots els museus i teatres de la ciutat de Barcelona. Sent i experimenta la cultura de la magnífica capital Catalana.
+</p>
+            </div>
+        <img src=" images/ru_pack/5.png" alt="" lang="ru">
+        <img src=" images/en_pack/5.png" alt="" lang="en">
+        <img src=" images/es_pack/5.png" alt="" lang="es">
+        <img src=" images/es_pack/5.png" alt="" lang="ca">
+        <img src=" images/fr_pack/5.png" alt="" lang="fr">
+        <img src=" images/it_pack/5.png" alt="" lang="it">
+        <img src=" images/de_pack/5.png" alt="" lang="de">
+        </div>
+    </section>
+</div>
+    <!-- ЭКРАН------------------------------->
+    <div>
+    <section>
+           <div class="section_conteiner_img_text">
+            <div class="text_block">
+                <p class="number">
+                    06
+                </p>
+                <h3 lang="ru">ПЕРВЫЙ РАЗ В БАРСЕЛОНЕ?</h3>
+                <p lang="ru">Для тех, кто отправляется в Барселону впервые, мы приготовили список интересных советов, где ответили на часто задаваемые вопросы туристов. В этот список входит вся необходимая путешественнику информация, начиная с различных опций, при помощи которых Вы легко доберётесь до Барселоны из аэропорта, заканчивая телефонами всех экстренных служб.
+</p>             <h3 lang="es">¿TU PRIMERA VEZ EN BARCELONA?</h3>
+                <p lang="es">Para quienes viajen a Barcelona por primera vez, hemos preparado una lista de consejos útiles que incluyen preguntas frecuentas de los turistas. Empezando por las distintas opciones para llegar a Barcelona desde el Aeropuerto Prat de Llobregat hasta los teléfonos de emergencia de la ciudad.
+</p>
+               <h3 lang="en">IS IT YOUR FIRST TIME IN BARCELONA?</h3>
+                <p lang="en">For those traveling to Barcelona for the first time, we have prepared a list of helpful tips, including frequent questions from tourists. Starting with the different options to get to Barcelona from the Prat de Llobregat Airport to the City's emergency phone numbers.
+</p>
+               <h3 lang="de">SIND SIE ZUM ERSTEN MAL IN BARCELONA?</h3>
+                <p lang="de">Für diejenigen, die zum ersten Mal nach Barcelona reisen, haben wir eine Liste von nützlichen Tipps, einschließlich touristischer Fragen, vorbereitet. Beginnend mit den verschiedenen Optionen, wie man vom Flughafen Prat de Llobregat nach Barcelona kommt bis zur Notrufnummer der Stadt.
+</p>
+               <h3 lang="it">LA PRIMA VOLTA A BARCELLONA?</h3>
+                <p lang="it">Per chi visita Barcellona per la prima volta, abbiamo preparato una lista di consigli utili che includono le domande più frequenti dei turisti. A partire dalle diverse opzioni per arrivare a Barcellona dall’aeroporto Prat de Llobregat fino ai numeri di emergenza della città.
+</p>
+               <h3 lang="fr">VOTRE PREMIÈRE FOIS À BARCELONE ?</h3>
+                <p lang="fr">Pour ceux(celles) qui se rendent pour la première fois à Barcelone, nous avons préparé une liste de conseils utiles qui incluent les questions que se posent fréquemment les touristes, ainsi que les différentes options pour arriver à Barcelone depuis l’aéroport du Prat et les numéros de téléphone des services d’urgences de la ville.
+</p>
+                <h3 lang="ca">	TEU PRIMER COP A BARCELONA?</h3>
+                <p lang="ca">Per als que viatgen a Barcelona per primera vegada, hem preparat una llista de consells útils que inclouen preguntes freqüentes dels turistes. Començant per les diferents opcions per arribar a Barcelona des de l'Aeroport Prat de Llobregat fins als telèfons d'emergència de la ciutat.
+</p>
+            </div>
+        <img src=" images/ru_pack/6.png" alt="" lang="ru">
+        <img src=" images/en_pack/6.png" alt="" lang="en">
+        <img src=" images/es_pack/6.png" alt="" lang="es">
+        <img src=" images/es_pack/6.png" alt="" lang="ca">
+        <img src=" images/fr_pack/6.png" alt="" lang="fr">
+        <img src=" images/it_pack/6.png" alt="" lang="it">
+        <img src=" images/de_pack/6.png" alt="" lang="de">
+        </div>
+    </section>
+</div>
+   <div>
+    <section class="download_app">
+         <div class="section_conteiner_img_text">
+        <a href="#"><img src=" images/ios.png" alt=""></a>
+               <a href="https://play.google.com/store/apps/details?id=com.appsgroup.travelgid"><img src=" images/android.png" alt=""></a>
+        </div>
+    </section>
+</div>
+     </div>
+    <footer>
+<!--
+       <ul>
+           <a href="#">Как это работает</a>
+           <a href="#">Условия акции</a>
+       </ul>
+-->
+        <p> copyright © 2016 itravely</p>
+    </footer>
+
+
+
+<a href="#" class="scrollToTop">
+  <span class="fontello">&#xe807</span>
+</a>
+
+<div id="yslovia_akcii">
+    <div class="text_akcii">
+       <h3>Заголовок</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt tempora molestias, nobis debitis. Molestias, nesciunt. Sit ab esse perspiciatis minima officia nemo magni, voluptatum doloremque ullam optio asperiores nisi placeat.</span>
+        <span>Est vel adipisci distinctio accusantium recusandae atque molestiae quae perspiciatis placeat porro alias magnam dolore, velit ipsa dolorum rerum possimus, fugit perferendis maiores. Perferendis rerum quam magni dolorum quaerat facere.</span>
+        <span>Doloremque excepturi, velit delectus fugiat eum natus perferendis blanditiis, mollitia, error aliquid enim temporibus quo iure modi. Blanditiis nesciunt ad quam, perspiciatis facere neque! Quisquam eaque totam praesentium aperiam earum!</span>
+        <span>Facere repellat ullam dignissimos at adipisci. Exercitationem ex quasi molestiae suscipit ut saepe architecto iste fugiat dolorum, commodi, eaque delectus odit odio, magnam mollitia animi autem esse nisi, tempora natus.</span>
+        <span>Reprehenderit temporibus, consequuntur veritatis! Enim aspernatur corporis officiis quaerat, animi alias aliquam fugiat quod explicabo repellat! Amet tempore repellendus quo facere vero neque, non, odit quisquam officiis sapiente. Dolorem, reiciendis.</span>
+        <span>Voluptate rerum iusto laborum nemo esse iste commodi sint laudantium quas maiores, nam, nobis blanditiis saepe error, a minus molestias, hic accusamus. Consequatur dicta et iusto unde quis minus quasi!</span>
+        <span>Ipsam vitae molestias non facilis quae eligendi, saepe quos ducimus, et atque architecto soluta. Autem natus, nemo facere sint. Voluptatum qui, atque ratione quam suscipit ex blanditiis, libero saepe quae.</span>
+        <span>Accusamus in reiciendis, tenetur. Deleniti placeat ab maiores nesciunt numquam neque ullam odio quo sunt itaque optio voluptates esse iusto deserunt ipsa aperiam dolorem suscipit, dolorum eos eligendi! Architecto, asperiores?</span>
+        <span>Facilis ullam beatae optio alias animi tempore delectus, quae non sequi nisi atque dignissimos dolore omnis, natus labore ut velit ad nulla officiis modi, ipsum voluptate. Neque, dolorum! Natus, officiis.</span>
+        <span></p>
+        <!--Не трогать-->
+        <div id="close">
+            +
+        </div>
+        <!--Не трогать-->
+    </div>
+</div>
+</body>
+</html>

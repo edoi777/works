@@ -1,0 +1,504 @@
+
+.switch {
+    width: 100%;
+    max-width: 700px;
+    margin: 0px auto;
+    border: 2px solid #2d2d2d;
+    display: flex;
+     margin-bottom: 80px;
+    box-sizing: border-box;
+
+}
+.switch a {
+    width: 33.33%;
+    text-align: center;
+    padding: 20px 0px;
+    box-sizing: border-box;
+   font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    background: #000;
+}
+.switch a.active {
+    border: 2px solid #d6b477
+}
+.switch a:hover:after {
+    border-top-color: #d6b477 !important;
+}
+.switch a:hover {
+background: #d6b477;
+    color: #000;
+}
+.switch a.active:after,
+.switch a.active:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+    z-index: 99;
+}
+.switch a.active:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #000000;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.switch a.active:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #d6b477;
+	border-width: 13px;
+	margin-left: -13px;
+}
+@media screen and (max-width:768px){
+    .switch {
+        flex-direction: column;
+        align-items: center;
+        border-color: transparent;
+    }
+    .switch a {
+        border: 2px solid #2d2d2d;
+        width: 100%;
+    }
+}
+/*//////////////////////////*/
+.girl {
+    display: flex;
+    justify-content: space-between;
+        margin-bottom: 30px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.avatar {
+    width: 100%;
+    max-width: 300px;
+
+    margin-right: 25px;
+}
+.avatar .foto {
+    border: 2px solid #d6b477;
+    box-shadow: inset 2px 2px 0px 0px #000, inset -2px -2px 0px 0px #000;
+    position: relative;
+    height: 440px;
+    background: url(..../images/4_single_gerl/gerl.jpg) no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 25px;
+}
+.foto:before {
+    content: '\e80c';
+    display: block;
+    font-family: 'fontello';
+    width: 60px;
+    height: 60px;
+    color: #d6b477;
+    font-size: 25px;
+    text-align: center;
+    line-height: 60px;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.foto:after {
+    content: '';
+    display: block;
+    font-family: 'fontello';
+    background: rgba(0,0,0,.5);
+    width: 60px;
+    height: 60px;
+    color: #d6b477;
+    font-size: 25px;
+    text-align: center;
+    line-height: 60px;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.foto:hover:before {
+    transform: scale(1.5);
+}
+.work_today:before {
+    content: 'сегодня работает';
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+    background: #b99556;
+    vertical-align: middle;
+    margin-left: -10px;
+    position: absolute;
+    top: 70%;
+    left: 0px;
+}
+.foto_and_video {
+    background: rgba(0,0,0,.35);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #d6b477
+}
+.foto_and_video .icon {
+    font-size: 26px;
+    margin-right: 10px;
+    vertical-align: middle;
+    font-weight: 400;
+}
+.avatar .btn_t_1 {
+    width: 100%;
+    text-align: center;
+}
+
+.description_telki h2 {
+    font-weight: 300;
+    font-size: 35px;
+    color: #fff;
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+.description_telki {
+    min-width: 350px;
+    flex-grow: 1;
+}
+.description_telki > p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #6f7276;
+    margin-top: 10px;
+    max-width: 368px;
+    line-height: 140%;
+}
+
+.options {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.options tr:first-child td {
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+    text-transform: uppercase;
+}
+.options tr:last-child td {
+    font-weight: bold;
+    font-size: 26px;
+    color: #ffff;
+}
+.reviews_gerl {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7a7a7a;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+.settings_girl {
+    width: 50%;
+    flex-grow: 1;
+
+}
+.reviews_btn:before {
+    content: '\e80a';
+    font-family: 'fontello';
+    display: inline-block;
+    color: #b99556;
+    font-size: 19px;
+    margin-right: 17px;
+}
+.love_programms:before {
+    content: '\e801';
+    font-family: 'fontello';
+    display: inline-block;
+    color: #b99556;
+    font-size: 19px;
+    margin-right: 17px;
+}
+.reviews_btn {
+    margin-bottom: 8px;
+}
+/*РАСПИСАНИЕ НАЧАЛО*/
+.timetable {
+  background: #141617;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+     flex-direction: column;
+    position: relative;
+}
+.timetable > h5 {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #2b2e30;
+    width: 100%;
+    background: #b99556;
+    text-align: center;
+}
+.timetable > div {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.timetable > div:before {
+    font-family: 'fontello';
+    font-size: 30px;
+    vertical-align: middle;
+    margin-right: 15px;
+    display: inline-block;
+    color: #d6b477;
+}
+.timetable > div {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #2b2e30;
+    border-right: 1px solid #2b2e30;
+         border-right: none;
+        width: 100%;
+}
+.timetable > div:nth-child(odd) {
+    border-right: none;
+}
+.timetable > div:last-child(odd) {
+    border-right: none;
+}
+.timetable > div:last-child {
+    border-bottom: none;
+}
+.half:before {
+    content: '\e80e';
+}
+.full:before {
+    content: '\e80f';
+}
+.notw:before {
+    content: '\e810';
+}
+.day {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d4b276;
+    width: 100%;
+    display: inline-block;
+    line-height: 100%;
+    margin-bottom: -33px;
+}
+.pn .day:after {
+    content: ' ПН';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}
+.vt .day:after {
+    content: ' ВТ';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}.sr .day:after {
+    content: ' СР';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}.cht .day:after {
+    content: ' ЧТ';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}.pt .day:after {
+    content: ' ПТ';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}.sb .day:after {
+    content: ' СБ';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}.vs .day:after {
+    content: ' ВС';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}
+.time {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #707577;
+    line-height: 80%;
+}
+.full .time:before {
+    content: 'полные сутки';
+}
+.notw .time:before {
+    content: 'отдыхает';
+}
+.bron:after {
+    content: 'Бронь';
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    background: #b99556;
+    border-radius: 4px;
+    right: -9px;
+    position: absolute;
+}
+
+/*РАСПИСАНИЕ КОНЕЦ*/
+/*YSLUGI DEVUSKI*/
+.yslugi_devushki {
+    padding: 20px 20px 0px 20px;
+    background-color: #141617;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    flex-grow: 1;
+}
+.yslugi_devushki h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #313435;
+}
+.ysluga {
+    min-width: 33.33%;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.ysluga:before {
+    content: '\e80d';
+    font-family: 'fontello';
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 25px;
+    vertical-align: middle;
+    color: inherit;
+}
+.liveit {
+    color: #c6a76f;
+}
+.liveit:before {
+    content: '\e801';
+}
+.no {
+    color: #4e5153;
+}
+.no:before {
+    content: '\e812';
+}
+.description_yslugi {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #45494a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 30px 2vw;
+    border-top: 1px solid #313435;
+    box-sizing: border-box;
+}
+.description_yslugi .icon {
+    font-size: 25px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+@media screen and (max-width:768px) {
+
+    .yslugi_devushki {
+        flex-direction: column;
+    }
+    .description_yslugi {
+    font-size: 10px;
+    }
+    .description_yslugi .icon {
+        font-size: 20px;
+    }
+}
+/*YSLUGI DEVUSKI END*/
+
+@media screen and (max-width:960px) {
+    .timetable {
+        order: 2;
+        margin-top: 30px;
+    }
+    .yslugi_devushki {
+        max-width: 460px;
+    }
+    .ysluga {
+        width: 50%;
+    }
+}
+@media screen and (max-width:768px) {
+    .timetable,.yslugi_devushki {display: none;}
+    .girl {
+        flex-direction: column;
+        align-items: center;
+    }
+    .description_telki {
+        order: -1;
+        margin-bottom: 20px;
+        min-width: 100%;
+    }
+    .description_telki > * {display: none;}
+    .description_telki h2 {
+        display: block;
+    }
+    .reviews_gerl {display: flex;}
+    .options {
+        display: table;
+    }
+    .avatar {
+        margin-right: 0px;
+    }
+
+}
+.conteiner_page > .content {
+    padding-bottom: 110px;
+}
+.conteiner_page > .content > p {
+   font-size: 16px;
+    color: #797d81;
+    font-weight: 400;
+    line-height: 200%;
+}

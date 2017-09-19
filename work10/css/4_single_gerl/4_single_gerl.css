@@ -1,0 +1,563 @@
+
+.work_today:after {
+    content: 'сегодня работает';
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+    background: #b99556;
+    vertical-align: middle;
+    margin-left: 18px;
+}
+
+.foto_gerl {
+    width: 95%;
+    width: 223px;
+    height: 340px;
+    background: url(../..../images/4_single_gerl/gerl.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid #d6b477;
+    box-shadow: inset 2px 2px 0px 0px #000, inset -2px -2px 0px 0px #000;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 15px;
+}
+.foto_gerl:before {
+    content: '\e80c';
+    display: block;
+    font-family: 'fontello';
+    width: 60px;
+    height: 60px;
+    color: #d6b477;
+    font-size: 25px;
+    text-align: center;
+    line-height: 60px;
+    transition: all 0.3s;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+.foto_gerl:after {
+    content: '';
+    display: block;
+    font-family: 'fontello';
+    background: rgba(0,0,0,.5);
+    width: 60px;
+    height: 60px;
+    color: #d6b477;
+    font-size: 25px;
+    text-align: center;
+    line-height: 60px;
+    transition: all 0.3s;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.foto_gerl:hover:before {
+    transform: scale(1.5);
+}
+
+.pucchi_telki {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 54%;
+    margin-right: 20px;
+    align-content: flex-start;
+
+}
+
+.conteiner_page .content {
+    display: flex;
+  justify-content: space-between;
+}
+/**/
+.reviews_gerl {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7a7a7a;
+    text-decoration: underline;
+}
+.settings_girl {
+    width: 50%;
+    flex-grow: 1;
+
+}
+.reviews_btn:before {
+    content: '\e80a';
+    font-family: 'fontello';
+    display: inline-block;
+    color: #b99556;
+    font-size: 19px;
+    margin-right: 17px;
+}
+.love_programms:before {
+    content: '\e801';
+    font-family: 'fontello';
+    display: inline-block;
+    color: #b99556;
+    font-size: 19px;
+    margin-right: 17px;
+}
+.reviews_btn {
+    margin-bottom: 8px;
+}
+/*БЛОК С ПАРАМЕТРАМИ ТЕЛКИ*/
+.options {
+    width: 100%;
+    margin-top: 30px;
+}
+.options tr:first-child td {
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+    text-transform: uppercase;
+}
+.options tr:last-child td {
+    font-weight: bold;
+    font-size: 26px;
+    color: #ffff;
+}
+.settings_girl > p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #6f7276;
+    margin: 30px 0px;
+}
+/*БЛОК С ПАРАМЕТРАМИ ТЕЛКИ КОНЕЦ*/
+/*YSLUGI DEVUSKI*/
+.yslugi_devushki {
+    padding: 20px;
+    background-color: #141617;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.yslugi_devushki h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.ysluga {
+    min-width: 50%;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.ysluga:before {
+    content: '\e80d';
+    font-family: 'fontello';
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 25px;
+    vertical-align: middle;
+    color: inherit;
+}
+.liveit {
+    color: #c6a76f;
+}
+.liveit:before {
+    content: '\e801';
+}
+.no {
+    color: #4e5153;
+}
+.no:before {
+    content: '\e812';
+}
+.description_yslugi {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #45494a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.description_yslugi .icon {
+    font-size: 25px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+@media screen and (max-width:768px) {
+
+    .yslugi_devushki {
+        flex-direction: column;
+    }
+    .description_yslugi {
+    font-size: 10px;
+    }
+    .description_yslugi .icon {
+        font-size: 20px;
+    }
+}
+/*YSLUGI DEVUSKI END*/
+
+/*РАСПИСАНИЕ НАЧАЛО*/
+.timetable {
+  background: #141617;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.timetable > h5 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #2b2e30;
+    width: 100%;
+}
+.timetable > div {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.timetable > div:before {
+    font-family: 'fontello';
+    font-size: 30px;
+    vertical-align: middle;
+    margin-right: 15px;
+    display: inline-block;
+    color: #d6b477;
+}
+.timetable > div {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #2b2e30;
+    border-right: 1px solid #2b2e30;
+}
+.timetable > div:nth-child(odd) {
+    border-right: none;
+}
+.timetable > div:last-child(odd) {
+    border-right: none;
+}
+.timetable > div:last-child {
+    border-bottom: none;
+}
+.half:before {
+    content: '\e80e';
+}
+.full:before {
+    content: '\e80f';
+}
+.notw:before {
+    content: '\e810';
+}
+.day {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d4b276;
+    width: 100%;
+    display: inline-block;
+    line-height: 100%;
+    margin-bottom: -33px;
+}
+.pn .day:after {
+    content: ' ПН';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}
+.vt .day:after {
+    content: ' ВТ';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}.sr .day:after {
+    content: ' СР';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}.cht .day:after {
+    content: ' ЧТ';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}.pt .day:after {
+    content: ' ПТ';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}.sb .day:after {
+    content: ' СБ';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}.vs .day:after {
+    content: ' ВС';
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d4b276;
+}
+.time {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #707577;
+    line-height: 80%;
+}
+.full .time:before {
+    content: 'полные сутки';
+}
+.notw .time:before {
+    content: 'отдыхает';
+}
+@media screen and (max-width:768px) {
+    .timetable {
+        flex-direction: column;
+    }
+    .timetable > div {
+        border-right: none;
+        width: 100%;
+    }
+}
+/*РАСПИСАНИЕ КОНЕЦ*/
+
+.conteiner_page {
+    padding-bottom: 50px;
+}
+@media screen and (max-width:960px) {
+    .pucchi_telki {
+    width: 220px;
+}
+
+
+
+
+}
+@media screen and (max-width:768px) {
+   .settings_girl {
+        width: 100%;
+    }
+     .pucchi_telki .foto_gerl {
+        display: none;
+    }
+    .pucchi_telki .foto_gerl:first-child {
+        display: block;
+    }
+    .conteiner_page .content {
+    flex-direction: column;
+        align-items: center;
+}
+
+}
+.player {
+    padding: 100px 0px;
+}
+.player img {
+    width: 90%;
+    max-width: 768px;
+    margin: 0px auto;
+    display: block;
+}
+@media screen and (max-width:960px) {
+   .player {
+    padding: 50px 0px;
+}
+}
+@media screen and (max-width:768px) {
+   .player {
+    padding: 0px 0px;
+}
+}
+
+/*Блок ОТЗЫВОВ НАЧАЛО*/
+.reviews {
+ background: #fff;
+    padding: 40px 0px;
+}
+.reviews .content {
+    max-width: 826px;
+    text-align: center;
+}
+.reviews .content > h3 {
+    font-size: 35px;
+    color: #000;
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.reviews .content > .btn_t_3 {
+   margin-bottom: 50px;
+}
+.vipros {
+    width: 100%;
+    border: 1px solid #cecece;
+    border-radius: 4px;
+    padding: 35px 45px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #565759;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.vipros {
+	position: relative;
+	background: #FFFFFF;
+	border: 1px solid #cecece;
+    font-size: 16px;
+}
+.vipros:after,
+.vipros:before {
+	top: 100%;
+	right: 10%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.vipros:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #FFFFFF;
+	border-width: 15px;
+	margin-right: 0px;
+}
+.vipros:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #cecece;
+	border-width: 16px;
+	margin-right: -1px;
+}
+.vipros > p {
+    font-size: inherit;
+    font-style: italic;
+    line-height: 180%;
+}
+.date_and_name_question {
+  border-bottom: 1px solid #cecece;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.date_and_name_question .name {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #c9a668;
+}
+.date_and_name_question .date {
+ color: #aaabac;
+    font-size: 14px;
+    font-weight: 600;
+}
+.date_and_name_question .date:before {
+content: '\e807';
+    font-family: 'fontello';
+    font-size: 20px;
+    margin-right: 10px;
+    color: inherit;
+    font-weight: 300;
+}
+.otvet {
+    border-color: #c8b187;
+    max-width: 660px;
+    margin: 0px 0px 0px auto;
+    margin-bottom: 40px;
+}
+.otvet:before,.otvet:after {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .vipros {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .reviews .content > h3 {
+        font-size: 26px;
+    }
+
+}
+/*Блок ОТЗЫВОВ КОНЕЦ*/
+
+.callback_form {
+    background: #edeef0;
+    padding: 70px 0px 40px 0px;
+}
+.callback_form .content {
+    max-width: 550px;
+    width: 90%;
+}
+.callback_form .content h3 {
+    color: #0a0c0c;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.callback_form input, .callback_form textarea {
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid #dadbdd;
+    font-family: 'Open Sans';
+    outline: none;
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 15px;
+    width: 100%;
+    max-width: 460px;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 50px;
+    position: relative;
+}
+.opis {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #c49f5c;
+     width: 100%;
+    max-width: 460px;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.callback_form input:focus, .callback_form textarea:focus {
+border-bottom-color: #d8c7a8;
+}
+.callback_form .btn_t_3 {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    width: 220px;
+}
+.callback_form input::-webkit-input-placeholder {color:#5d6168;}
+.callback_form input::-moz-placeholder          {color:#5d6168;}/* Firefox 19+ */
+.callback_form input:-moz-placeholder           {color:#5d6168;}/* Firefox 18- */
+.callback_form input:-ms-input-placeholder      {color:#5d6168;}
+
+.callback_form textarea::-webkit-input-placeholder {color:#5d6168;}
+.callback_form textarea::-moz-placeholder          {color:#5d6168;}/* Firefox 19+ */
+.callback_form textarea:-moz-placeholder           {color:#5d6168;}/* Firefox 18- */
+.callback_form textarea:-ms-input-placeholder      {color:#5d6168;}
+@media screen and (max-width:768px) {
+  .callback_form .content h3 {
+        font-size: 26px;
+    }
+}

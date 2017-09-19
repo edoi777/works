@@ -1,0 +1,222 @@
+
+.conteiner_page .content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.rules {margin-right: 50px;}
+.rules h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fefefe;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    
+}
+.rules p  {
+    color: #878787;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+}
+.rules p a  {
+text-decoration: underline !important;
+}
+.popular_questions h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fefefe;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    
+}
+.popular_questions a {
+    font-size: 18px;
+    color:#d4b276;
+    font-weight: 600;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #362f21;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+@media screen and (max-width:768px) {
+    .conteiner_page .content {
+     flex-direction: column;
+    }
+    .rules {margin-bottom: 70px;}
+}
+/*Блок ОТЗЫВОВ НАЧАЛО*/
+.reviews {
+ background: #fff;  
+    padding: 40px 0px;
+}
+.reviews .content {
+    max-width: 826px;
+    text-align: center;
+}
+.reviews .content > h3 {
+    font-size: 35px;
+    color: #000;
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.reviews .content > .btn_t_3 {
+   margin-bottom: 50px;
+}
+.vipros {
+    width: 100%;
+    border: 1px solid #cecece;
+    border-radius: 4px;
+    padding: 35px 45px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #565759;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.vipros {
+	position: relative;
+	background: #FFFFFF;
+	border: 1px solid #cecece;
+    font-size: 16px;
+}
+.vipros:after,
+.vipros:before {
+	top: 100%;
+	right: 10%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.vipros:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #FFFFFF;
+	border-width: 15px;
+	margin-right: 0px;
+}
+.vipros:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #cecece;
+	border-width: 16px;
+	margin-right: -1px;
+}
+.vipros > p {
+    font-size: inherit;
+    font-style: italic;
+    line-height: 180%;
+}
+.date_and_name_question {
+  border-bottom: 1px solid #cecece;  
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.date_and_name_question .name {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #c9a668;
+}
+.date_and_name_question .date {
+ color: #aaabac;
+    font-size: 14px;
+    font-weight: 600;
+}
+.date_and_name_question .date:before {
+content: '\e807';
+    font-family: 'fontello';
+    font-size: 20px;
+    margin-right: 10px;
+    color: inherit;
+    font-weight: 300;
+}
+.otvet {
+    border-color: #c8b187;
+    max-width: 660px;
+    margin: 0px 0px 0px auto;
+    margin-bottom: 40px;
+}
+.otvet:before,.otvet:after {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .vipros {
+        padding: 10px;
+        font-size: 14px;
+    }  
+    .reviews .content > h3 {
+        font-size: 26px;
+    }
+   
+}
+/*Блок ОТЗЫВОВ КОНЕЦ*/
+
+.callback_form {
+    background: #edeef0;
+    padding: 70px 0px 40px 0px;
+}
+.callback_form .content {
+    max-width: 550px;
+    width: 90%;
+}
+.callback_form .content h3 {
+    color: #0a0c0c;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.callback_form input, .callback_form textarea {
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid #dadbdd;
+    font-family: 'Open Sans';
+    outline: none;
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 15px;
+    width: 100%;
+    max-width: 460px;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 50px;
+    position: relative;
+}
+.opis {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #c49f5c;
+     width: 100%;
+    max-width: 460px;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.callback_form input:focus, .callback_form textarea:focus {
+border-bottom-color: #d8c7a8; 
+}
+.callback_form .btn_t_3 {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    width: 220px;
+}
+.callback_form input::-webkit-input-placeholder {color:#5d6168;}
+.callback_form input::-moz-placeholder          {color:#5d6168;}/* Firefox 19+ */
+.callback_form input:-moz-placeholder           {color:#5d6168;}/* Firefox 18- */
+.callback_form input:-ms-input-placeholder      {color:#5d6168;}
+
+.callback_form textarea::-webkit-input-placeholder {color:#5d6168;}
+.callback_form textarea::-moz-placeholder          {color:#5d6168;}/* Firefox 19+ */
+.callback_form textarea:-moz-placeholder           {color:#5d6168;}/* Firefox 18- */
+.callback_form textarea:-ms-input-placeholder      {color:#5d6168;}
+@media screen and (max-width:768px) {
+  .callback_form .content h3 {
+        font-size: 26px;
+    }   
+}

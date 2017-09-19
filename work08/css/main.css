@@ -1,0 +1,216 @@
+/*NAVIGATIOn*/
+.scroll{ height: 50px; background: rgba(0,0,0,0.7);}
+.scroll img { height: 35px;}
+menu {
+    height: 84px;
+    width: 100%;
+    min-width: 320px;
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+menu nav {
+width: 90%;
+    max-width: 1200px;
+    min-width: 300px;
+    height: 100%;
+    position: relative;
+    z-index: 9999;
+}
+
+menu nav * {
+margin: auto 0px;
+    display: block;
+    text-decoration: none;
+
+}
+menu nav a {
+    font-size: 13px;
+    color: #fff;
+    padding: 10px;
+}
+menu nav a:hover {
+background: rgba(0,0,0,.1);
+}
+.logo {
+    display: flex;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    margin: auto 0px;
+    font-weight: normal;
+    position: relative;
+    padding: 0;
+}
+.logo img {
+margin: 5px 17px 0px 5px;
+    transition: all 1.2s ease;
+    display: block;
+    box-sizing: border-box;
+    max-height: 100%;
+
+}
+.logo:hover > img {
+  -moz-animation: povorot ease-in-out 1s infinite alternate;
+  -webkit-animation: povorot ease-in-out 1s infinite alternate;
+  -ms-animation: povorot ease-in-out 1s infinite alternate;
+}
+.logo:hover{
+background: none;
+}
+.logo_box {
+    float: left;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu_links {
+    float: right;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+
+
+#burger_menu {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+        padding: 5px;
+    display: none;
+}
+#burger_menu:hover {
+background: rgba(0,0,0,.1);
+
+}
+
+
+@keyframes povorot { 
+0% { -moz-transform: rotate(0deg);/* FF3.5+ */
+-webkit-transform: rotate(0deg);/*Saf3.1+, Chrome*/
+-o-transform: rotate(0deg);/* Opera 10.5 */
+-ms-transform: rotate(0deg);/* IE 9 */
+transform: rotate(0deg) } 
+50% { -moz-transform: rotate(10deg);/* FF3.5+ */
+-webkit-transform: rotate(10deg);/*Saf3.1+, Chrome*/
+-o-transform: rotate(10deg);/* Opera 10.5 */
+-ms-transform: rotate(10deg);/* IE 9 */
+transform: rotate(10deg)}
+100% { -moz-transform: rotate(0deg);/* FF3.5+ */
+-webkit-transform: rotate(0deg);/*Saf3.1+, Chrome*/
+-o-transform: rotate(0deg);/* Opera 10.5 */
+-ms-transform: rotate(0deg);/* IE 9 */
+transform: rotate(0deg)} } 
+/*MEDIA MENU--------------------------------------------------------------*/
+@media screen and (max-width:500px) {
+    .menu_links {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu_links > a {
+        display: none;
+    }
+    #burger_menu {display: inline;}
+}
+/*NAVIGATION END*/
+/*************************************************************1 SCREEN*/
+main {
+    padding: 110px 0px 0px 0px;
+    width: 95%;
+    max-width: 1200px;
+        display: flex;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    color: #fff;
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+main h1 {
+    font-size: 35px;
+    margin: 0px 0px 1vw 0px;
+}
+main h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.apps {
+    display: flex;
+    margin: 1vw 0px 0px 0px;
+    flex-wrap: wrap;
+}
+.apps a {
+height: 70px;
+margin: 10px auto 0px auto;
+}
+
+.hand {
+    width: 50%;
+    position: relative;
+    display: flex;
+    margin: 0px -5vw 0px 0px;
+}
+
+
+.arrow {
+    position: absolute;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-content: center;
+    transition: background 0.4s;
+    cursor: pointer;
+    bottom: 20px;
+    left: 50%;
+    margin: 0px 0px 0px -30px;
+    z-index: 5;
+}
+.arrow:hover {
+background: rgba(255,255,255,.5);
+}
+.arrow img{
+margin: 21px auto auto auto;
+}
+
+
+.main_text {
+    padding: 0px 5vw 0px 0px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:1050px) {
+    main h1 {
+    font-size: 20px;
+}
+main h2 {
+    font-size: 20px;
+    line-height: 110%;
+}
+}
+@media screen and (max-width:850px) {
+    main {
+        flex-direction: column;
+    }
+    .main_text {margin: 0px 0px 50px 0px;}
+    .arrow {display: none;}
+    .hand {width: 70%; margin: 0px auto; align-items: flex-start;}
+    .hand img {max-width: 100%; display: block; height: inherit;}
+}
+
+#button_yslovia_akcii {
+    text-transform: uppercase;
+    background: rgba(255, 69, 0, 0.81);
+    text-shadow: 0px 1px 0px #000;
+}
+#button_yslovia_akcii:hover {
+
+    background: rgba(255, 69, 0, 0.9);
+}

@@ -1,0 +1,138 @@
+        .conteiner_page .content  {
+padding-bottom: 50px;
+}
+
+.conteiner_page .content > img {
+    margin-right: 25px;
+    margin-bottom: 25px;
+    float: left;
+}
+.conteiner_page .content > h2 {
+  font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.conteiner_page .content > p {
+  font-weight: 400;
+    font-size: 18px;
+    color: #fefefe;
+    opacity: 0.5;
+    line-height: 150%;
+}
+
+.programms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+.programms > h3 {
+    font-weight: 300;
+    font-size: 35px;
+    color: #fefefe;
+    margin-bottom: 58px;
+}
+.prog {
+    border: 2px solid rgba(255,255,255,.10);
+    padding: 15px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.prog p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d6b477;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+}
+.prog p.time {
+font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    vertical-align: middle;
+    display: inline-block;
+}
+.prog p.time:before {
+content: '\e804';
+    font-family: 'fontello';
+    font-weight: 100 !important;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.hit {
+    border-color: #d6b477;
+}
+.hit:before {
+  content: 'хит';
+    display: block;
+    position: absolute;
+    left: -35px;
+    top: 50%;
+    font-size: 14px;
+    margin-top: -20px;
+    background: #d6b477;
+    padding: 13px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+@media screen and (max-width:960px) {
+        .conteiner_page .content  {
+max-width: 91%;
+}
+}
+@media screen and (max-width:768px) {
+
+    .prog {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+        padding-left: 7px;
+        padding-right: 7px;
+        
+    }
+    .prog p:first-child {
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .prog a {
+        position: absolute;
+        bottom: -22px;
+        left: 50%;
+        margin-left: -43px;
+    }
+    .hit:before {
+  content: 'хит';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -6px;
+    font-size: 14px;
+    margin-left: -22px;
+    background: #d6b477;
+    padding: 13px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+}
