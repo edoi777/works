@@ -1,0 +1,234 @@
+* {margin: 0px;padding: 0px;line-height: 100%;list-style: none;outline: none;}
+a {color: inherit;text-decoration: inherit;}
+h1,h2,h3,h4,h5,h6 {font-weight: inherit;}
+textarea {font-family: inherit;}
+button {border: none;color: inherit;background:inherit;cursor: pointer;}
+.wrapper {
+	width: 1170px;
+	margin:0px auto;
+	max-width: 90%;
+}
+body {font-family: 'muller', sans-serif;font-size: 14px;}
+
+.black {
+	color: #393833;
+}
+.white {
+	color: #fff;
+}
+.btn_t_1 {
+	  width: 260px;
+  height: 42px;
+  background-color: #9e9e9e;
+  border: solid 3px #ffffff;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  transition: background 0.3s;
+  display: block;
+}
+.btn_t_2 {
+	  width: 260px;
+  height: 42px;
+  background-color: #9e9e9e;
+    border: solid 3px #3f01a4;
+  background-color: rgba(255,255,255,0);
+  font-size: 16px;
+  font-weight: bold;
+  color: #3f01a4;
+  line-height: 1.5;
+  text-align: center;
+  transition: background 0.3s;
+}
+.btn_t_1:hover {
+    background: rgba(255,255,255,.1)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerheavy.otf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerheavyitalic.otf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerblack.otf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerblackitalic.otf);
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerbold.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerbolditalic.otf);
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerextrabold.otf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerextrabolditalic.otf);
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullermedium.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullermediumitalic.otf);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerregular.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerregularitalic.otf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerlight.otf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerlightitalic.otf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerultralight.otf);
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerultralightitalic.otf);
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerthin.otf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerthinitalic.otf);
+    font-weight: 100;
+    font-style: italic;
+}
+
+/*@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerhairline.otf);
+    font-weight: 000;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muller';
+    src: url(../font/fontfabric-mullerhairlineitalic.otf);
+    font-weight: 000;
+    font-style: italic;
+}*/

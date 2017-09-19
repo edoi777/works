@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" href="css/nouislider.min.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/proxima_nova.css" />
+
+
+
+	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>	
+
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/page_script.js"></script>
+</head>
+
+<body>
+<div id="popup">
+	<form>
+		<p class="popup_t1">Форма расчета стоимости</p><!-- /.popup_t1 -->
+		<p class="popup_t2">Введите свои данные и мы расчитаем стоимость Вашего  проекта.</p><!-- /.popup_t1 -->
+		<input type="text" name="name" placeholder="Имя..." />
+		<input type="text" name="tel" placeholder="Телефон..." />
+		<textarea name="comment" placeholder="Комментарий..."></textarea>
+		<button>Расчитать стоимость со скидкой</button>
+		<div id="close"></div><!-- /#close -->
+	</form>
+</div><!-- /#popup -->
+<section class="b1">
+	<div class="wrapper">
+		<header>
+			<a href="#" class="logo"><img src="img/1_screen/logo.png" alt="" /></a>
+			<a href="tel:84957643366" class="tel"><img src="img/1_screen/tel.png" alt="" />8 (495) 764 33 66</a>
+			<a href="malto:sale@vpsr-rus.ru" class="mail"><img src="img/1_screen/mail.png" alt="" />sale@vpsr-rus.ru</a>
+		</header>
+		<div class="b1_body">
+			<h1 class="b1_body_p1">Автономная <span>газификация вашего участка</span>
+			за <span>1 день под ключ</span> от завода-производителя
+			<span>со скидкой 30%</span></h1><!-- /.b1_body -->
+			<button class="popup_form">
+				Расчитать стоимость со скидкой
+			</button>
+		</div><!-- /.b1_body -->
+	</div><!-- /.wrapper -->
+</section><!-- /.b1 -->
+<section class="b2">
+	<div class="wrapper">
+		<p class="b2_title">Как происходит газификация участка?</p><!-- /.b2_title -->
+		<div class="b2_wr">
+			<div class="b2_wr_item">
+				<div class="b2_wr_item_img"><img src="img/2_screen/item_1.png" alt="" /></div><!-- /.b2_wr_item_img -->
+				<p>Вы оставляете заявку на нашем сайте</p>
+			</div><!-- /.b2_wr_item -->
+			<img src="img/2_screen/arrow.png" alt="" />
+			<div class="b2_wr_item">
+				<div class="b2_wr_item_img"><img src="img/2_screen/item_2.png" alt="" /></div><!-- /.b2_wr_item_img -->
+				<p>Мы связываемся с вами, уточняем детали
+				и присылаем к вам нашего специалиста</p>
+			</div><!-- /.b2_wr_item -->
+			<img src="img/2_screen/arrow.png" alt="" />
+			<div class="b2_wr_item">
+				<div class="b2_wr_item_img"><img src="img/2_screen/item_3.png" alt="" /></div><!-- /.b2_wr_item_img -->
+				<p>Наши специалисты в удобный
+				для вас день и время монтируют систему
+				в течении одного дня и запускают ее в работу</p>
+			</div><!-- /.b2_wr_item -->
+		</div><!-- /.b2_wr -->
+	</div><!-- /.wrapper -->
+</section><!-- /.b2 -->
+<section class="b3">
+	<div class="wrapper">
+		<p class="b3_title">Расчет стоимости и вашей экономии</p><!-- /.b3_title -->
+		<div class="b3_wr">
+			<p class="b3_wr_t1">Укажите размер дома, m<sup>2</sup></p><!-- /.b3_wr_t1 -->
+			<div id="noui">
+
+			</div><!-- /.noui -->
+			<p class="b3_wr_t3"><span  id="slider-range-value">400</span> <span>m<sup>2</sup></span></p><!-- /.b3_wr_t1 -->
+		</div><!-- /.b3_wr -->
+		<p class="b3_p1"><span>Стоимость газицикации:</span> <span id="prise">20 590 </span></p><!-- /.b3_p1 -->
+		<p class="b3_p2"><span>Ваша экономия:</span> <span  id="prise_persent">4 750 </span></p><!-- /.b3_p1 -->
+		<button class="popup_form">Сохранить деньги</button>
+	</div><!-- /.wrapper -->
+</section><!-- /.b3 -->
+<section class="b4">
+	<div class="wrapper">
+		<p class="b4_p1">Наши преимущества:</p><!-- /.b4_p1 -->
+		<ul class="b4_ul">
+			<li><img src="img/4_screen/item_1.png" alt="" /><span>15 лет опыт работы</span></li>
+			<li><img src="img/4_screen/item_2.png" alt="" /><span>Абсолютно безопасное использование</span></li>
+			<li><img src="img/4_screen/item_3.png" alt="" /><span>Официальный представитель лучшего производителя газгольдеров в Европе</span></li>
+			<li><img src="img/4_screen/item_4.png" alt="" /><span>Простота использования</span></li>
+			<li><img src="img/4_screen/item_5.png" alt="" /><span>Гарантия на наши работы и оборудование</span></li>
+		</ul><!-- /.b4_ul -->
+			<button class="popup_form">
+				Сохранить деньги
+			</button>
+	</div><!-- /.wrapper -->
+</section><!-- /.b4 -->
+<section class="b5">
+	<div class="wrapper">
+		<p class="b5_title">Отзывы наших клиентов:</p><!-- /.b5_title -->
+		<div class="b5_slider">
+			<div class="b5_slider_item">
+				<div class="b5_slider_item_img">
+					<img src="img/5_screen/slider_img.png" alt="" />
+				</div><!-- /.b5_slider_item_img -->
+				<p class="b5_slider_item_name">Михаил Юрьевич Иванов</p><!-- /.b5_slider_item_name -->
+				<p class="b5_slider_item_text">Спасибо, всем ответившим! Участок у нас 11 соток. Место присмотрели для этого аппарата. Дизель-хорошо, 
+но в 2 раза дороже,чем топить газом.А дом мы задумали аж 180 кв.м. из оцилиндровки. Проще ,наверное, ужать проект, чем отопить такую площадь. Будем думать!</p><!-- /.b5_slider_item_name -->
+			</div><!-- /.b5_slider_item -->
+			<div class="b5_slider_item">
+				<div class="b5_slider_item_img">
+					<img src="img/5_screen/slider_img.png" alt="" />
+				</div><!-- /.b5_slider_item_img -->
+				<p class="b5_slider_item_name">Михаил Юрьевич Иванов</p><!-- /.b5_slider_item_name -->
+				<p class="b5_slider_item_text">Спасибо, всем ответившим! Участок у нас 11 соток. Место присмотрели для этого аппарата. Дизель-хорошо, 
+но в 2 раза дороже,чем топить газом.А дом мы задумали аж 180 кв.м. из оцилиндровки. Проще ,наверное, ужать проект, чем отопить такую площадь. Будем думать!</p><!-- /.b5_slider_item_name -->
+			</div><!-- /.b5_slider_item -->
+			<div class="b5_slider_item">
+				<div class="b5_slider_item_img">
+					<img src="img/5_screen/slider_img.png" alt="" />
+				</div><!-- /.b5_slider_item_img -->
+				<p class="b5_slider_item_name">Михаил Юрьевич Иванов</p><!-- /.b5_slider_item_name -->
+				<p class="b5_slider_item_text">Спасибо, всем ответившим! Участок у нас 11 соток. Место присмотрели для этого аппарата. Дизель-хорошо, 
+но в 2 раза дороже,чем топить газом.А дом мы задумали аж 180 кв.м. из оцилиндровки. Проще ,наверное, ужать проект, чем отопить такую площадь. Будем думать!</p><!-- /.b5_slider_item_name -->
+			</div><!-- /.b5_slider_item -->
+		</div><!-- /.b5_slider -->
+		<button class="popup_form">
+				Сохранить деньги
+		</button>
+	</div><!-- /.wrapper -->
+</section><!-- /.b5 -->
+<section class="b6">
+	<div class="wrapper">
+		<p class="b6_title">Наши сертификаты:</p><!-- /.b6_title -->
+		<div class="b6_wr">
+			<a data-fancybox="gallery" href="img/6_screen/sertifikat.png"><img src="img/6_screen/item_1.jpg" alt="" /></a>
+			<a data-fancybox="gallery" href="img/6_screen/sertifikat2.png"><img src="img/6_screen/item_2.jpg" alt="" /></a>
+			<a data-fancybox="gallery" href="img/6_screen/sertifikat3.png"><img src="img/6_screen/item_3.jpg" alt="" /></a>
+		</div><!-- /.b6_wr -->
+	</div><!-- /.wrapper -->
+</section><!-- /.b6 -->
+<footer>
+	<div class="wrapper"><p class="copy_right">© Все права защищены! Копирование материалов запрещено и преследуется законом об авторском праве.</p><!-- /.copy_right --></div><!-- /.wrapper -->
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.wrapper {
+    margin: 0px auto;
+    max-width: 95%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}

@@ -1,0 +1,124 @@
+.p10_wrapper {
+    overflow: hidden;
+}
+.p10_img1 {
+    float: right;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.p10_b1 {
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: left;
+  color: #000000;
+    margin-bottom: 30px;
+}
+.p10_b2 {
+      background-color: #ffffff;
+  border: solid 2px #e8e8e8;
+    padding: 20px;
+    box-sizing: border-box;
+      font-size: 16px;
+  line-height: 1.38;
+    margin-bottom: 30px;
+    width: 655px;
+      width: calc(100% - 486px);
+}
+.p10_b3 {
+    margin-bottom: 40px;
+          font-size: 16px;
+  line-height: 1.38;
+}
+.p10_b4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin-bottom: 30px;
+}
+.p10_b4  li {
+      font-size: 18px;
+  line-height: 1.22;
+    margin-bottom: 28px;
+    width: 50%;
+    display: flex;
+}
+.p10_b4  li:before {
+    content: '';
+    display: block;
+      width: 7px;
+  height: 7px;
+  border: solid 2px #ee2c37;
+    margin-right: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+@media screen and (max-width:1300px) {
+    .p10_img1 {
+        width: 40%;
+    }
+    .p10_b2 {
+        width: 55%;
+    }
+    .p10_b4 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .p10_b4 li {
+        width: 100%;
+    }
+}
+@media screen and (max-width:780px) {
+    .p10_b2 {
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .p10_img1 {
+        width: 100%;
+        float: none;
+        margin-left: 0px;
+    }
+}
+/*/////////////////////////////////////////*/
+/*/////////////////////////////////////////*/
+/*/////////////////////////////////////////*/
+.p10_b5 {
+    display: flex;
+      background-color: #e8e8e8;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.p10_b5__right_part {
+    padding: 30px;
+    box-sizing: border-box;
+}
+.p10_b5__right_part_t1 {
+  font-family: 'Exo 2';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.01;
+  text-align: left;
+  color: #000000;
+    margin-bottom: 17px;
+}
+.p10_b5__right_part_t2{
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: left;
+  color: #000000;
+    margin-bottom: 18px;
+}
+.p10_b5__right_part_t3 {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #1f476e;
+}
+@media screen and (max-width:1300px) {
+    .p10_b5 {
+        flex-direction: column;
+    }
+    .p10_b5 img {
+        width: 100%;
+    }
+}

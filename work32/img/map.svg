@@ -1,0 +1,699 @@
+<svg id="Обьекты" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1049" height="998" viewBox="0 0 1049 998">
+<defs>
+
+    <style>
+           @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+           .xcls-1 {
+        font-size: 83.333px;
+      }
+
+      .xcls-1, .xcls-10, .xcls-11, .xcls-12, .xcls-13, .xcls-14, .xcls-15, .xcls-16, .xcls-17, .xcls-18, .xcls-19, .xcls-2, .xcls-20, .xcls-21, .xcls-22, .xcls-23, .xcls-24, .xcls-3, .xcls-4, .xcls-5, .xcls-6, .xcls-7, .xcls-8, .xcls-9 {
+        fill: #5875bd;
+        font-family: "Open Sans";
+        font-weight: 700;
+        text-transform: uppercase;
+         pointer-events: none;
+      }
+      .map_icon__g {
+        filter: url(#filter);
+      }
+      .map_icon {
+        opacity: 0.89;
+                 pointer-events: none;
+    
+      }
+      .map_icon2 {
+    display:none;
+<!--                 pointer-events: none;-->
+      }
+
+      .xcls-2 {
+        font-size: 95.686px;
+      }
+
+      .xcls-3 {
+        font-size: 107.076px;
+      }
+
+      .xcls-4 {
+        font-size: 120.736px;
+      }
+
+      .xcls-5 {
+        font-size: 150.224px;
+      }
+
+      .xcls-6 {
+        font-size: 102.099px;
+      }
+
+      .xcls-7 {
+        font-size: 108.321px;
+      }
+
+      .xcls-8 {
+        font-size: 135.052px;
+      }
+
+      .xcls-9 {
+        font-size: 117.618px;
+      }
+
+      .xcls-10 {
+        font-size: 140.811px;
+      }
+
+      .xcls-11 {
+        font-size: 92.295px;
+      }
+
+      .xcls-12 {
+        font-size: 115.134px;
+      }
+
+      .xcls-13 {
+        font-size: 96.359px;
+      }
+
+      .xcls-14 {
+        font-size: 127.331px;
+      }
+
+      .xcls-15 {
+        font-size: 196.083px;
+      }
+
+      .xcls-16 {
+        font-size: 107.582px;
+      }
+
+      .xcls-17 {
+        font-size: 123.03px;
+      }
+
+      .xcls-18 {
+        font-size: 126.538px;
+      }
+
+      .xcls-19 {
+        font-size: 128.289px;
+      }
+
+      .xcls-20 {
+        font-size: 118.479px;
+      }
+
+      .xcls-21 {
+        font-size: 117.262px;
+      }
+
+      .xcls-22 {
+        font-size: 122.813px;
+      }
+
+      .xcls-23 {
+        font-size: 116.636px;
+      }
+
+      .xcls-24 {
+        font-size: 136.981px;
+      }  
+        
+        
+        
+<!--        ////////////////////// -->
+      .regions {
+        fill-rule: evenodd;
+        stroke:#afafaf;
+        stroke-width:4px;
+        stroke-linecap:round;
+        stroke-linejoin:round;
+        transition:all 0.3s;
+      }
+    .regions:hover {
+    fill-opacity:0.5;
+    }
+      .rcls-1 {
+        fill: #8392cb;
+      }
+        
+      .cls-1 {
+        fill: #154172;
+      }
+
+      .cls-2 {
+        fill: #44b759;
+      }
+
+      .cls-3 {
+        fill: #913d14;
+      }
+
+      .cls-4 {
+        fill: #f24841;
+      }
+
+      .cls-5 {
+        fill: #7c7c7c;
+      }
+
+      .cls-6 {
+        fill: #2579bf;
+      }
+
+      .cls-7 {
+        fill: #fca67f;
+      }
+
+      .cls-8 {
+        fill: #00b7f4;
+      }
+
+      .cls-9 {
+        fill: #fa97c2;
+      }
+
+      .cls-10 {
+        fill: #2a1647;
+      }
+
+      .cls-11 {
+        fill: #8783c0;
+      }
+
+      .cls-12 {
+        fill: #935312;
+      }
+
+      .cls-13 {
+        fill: #9a8e00;
+      }
+
+      .cls-14 {
+        fill: #922a36;
+      }
+
+      .cls-15 {
+        fill: #00b29c;
+      }
+
+      .cls-16 {
+        fill: #f56a3f;
+      }
+
+      .cls-17 {
+        fill: #006889;
+      }
+
+      .cls-18 {
+        fill: #bea58c;
+      }
+
+      .cls-19 {
+        fill: #98315f;
+      }
+
+      .cls-20 {
+        fill: #3abeb1;
+      }
+
+      .cls-21 {
+        fill: #568ecc;
+      }
+
+      .cls-22 {
+        fill: #ffc087;
+      }
+
+      .cls-23 {
+        fill: #8e58a3;
+      }
+
+      .cls-24 {
+        fill: #00ad5d;
+      }
+
+      .cls-25 {
+        fill: #081e4b;
+      }
+
+      .cls-26 {
+        fill: #006756;
+      }
+
+      .cls-27 {
+        fill: #f655a0;
+      }
+
+      .cls-28 {
+        fill: #00662e;
+      }
+
+      .cls-29 {
+        fill: #627abc;
+      }
+
+      .cls-30 {
+        fill: #49bb7b;
+      }
+
+      .cls-31 {
+        fill: #9f87c0;
+      }
+
+      .cls-32 {
+        fill: #68cef8;
+      }
+
+      .cls-33 {
+        fill: #bb8e62;
+      }
+
+      .cls-34 {
+        fill: #6958a4;
+      }
+
+      .cls-35 {
+        fill: #f9895d;
+      }
+
+      .cls-36 {
+        fill: #976d49;
+      }
+
+      .cls-37 {
+        fill: #213869;
+      }
+
+      .cls-38 {
+        fill: #78c479;
+      }
+
+
+
+      .cls-40 {
+        fill: #f98e3c;
+      } 
+      .cls-41 {
+        fill: #9f87c0;
+      }
+
+      .cls-42 {
+        fill: #68cef8;
+      }
+
+      .cls-43 {
+        fill: #bb8e62;
+      }
+
+      .cls-44 {
+        fill: #6958a4;
+      }
+
+      .cls-45 {
+        fill: #f9895d;
+      }
+
+      .cls-46 {
+        fill: #976d49;
+      }
+
+      .cls-47 {
+        fill: #213869;
+      }
+
+      .cls-48 {
+        fill: #78c479;
+      }
+
+      .cls-49 {
+        fill: #8392cb;
+      }
+
+      .cls-50 {
+        fill: #f98e3c;
+      }
+
+      .cls-51 {
+        fill: #68cef8;
+      }
+
+      .cls-52 {
+        fill: #bb8e62;
+      }
+
+      .cls-53 {
+        fill: #6958a4;
+      }
+
+      .cls-54 {
+        fill: #f9895d;
+      }
+
+      .cls-55 {
+        fill: #976d49;
+      }
+
+      .cls-56 {
+        fill: #213869;
+      }
+
+      .cls-57 {
+        fill: #78c479;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#004b96"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <image id="image" width="63" height="90" xlink:href="data:image/png;base64,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"/>
+    <image id="image2" width="63" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAABaCAYAAAAPZo42AAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxMzggNzkuMTU5ODI0LCAyMDE2LzA5LzE0LTAxOjA5OjAxICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+IEmuOgAABlZJREFUeJzdnHuIVFUcxz97FY3apCzD9HIzW62kTIuIggIhKworoqAHlgRSVr4qJSvJTIQoIywCswcZSaWglmlllm0lmpWYD1LKx3jMNddMe62Tu/bHz2FnZ++duY/fOeP6gYXlzjnf+/vde+Y8fr9zpmZH795Y5GTgEqA/cC5wNnAmcEpI2QNAA7AV2AJsBtYCf5S7QWBMauM6p64ZTXfgBmAIcBnQLWa9WqA38rAK/A2sBOqBJcBvemZCjeKbvxi4B7gWOElLtIg88gDmAGsKF6v95gcBY4GrFbTK0QW4+ejf58DLFD2ENGR587XA48DwLAZk5F1gWmDMgTSVvZQ3HYp8D6vpOMDtQH3O94elqZzG+SeAN4AeaW5oge7AKznfn5K0YtJmPwfpxY9VVgJ3BMa0xCkc982fACzm2HYc4Apgac73Y402cZzvjAwxF2WxyiEDgMVxHkAc5+cD/TKb5JY6YGGlQpWcf4m2M66OxHk5359drkA554cjE4qOzHU53x8V9WFUb98H+MqWRVVgSGDMz6UXo978q5aNcc2bYRfDnL8FON+uLc7pk/P9EaUXS5t9J2ADMm8/3sgD/QNjmgsXSt/8vRyfjoOsCscVXyh98+sJj7IcL+SBusCYI9B2PT8Ud45vB/YCh5A3cjoywqRdZcalC3Ab8D60df5+yzdeAiwC1gG7Qj7vBQwEbkTCYLYexF0cdb7Q7LsBGy3dbD4wE9iWoE4AjEbW6zYYHBjTWHi611i4QRMwEhhPMscBcsAE4G7gL2W7AIZBa9O6Sll8H9KHfJxR5wskNrg3s0VtuRxanR+gKHwY+c5uV9LbBVyPbgu4MOf7XT0kiVCnKDyC8A4tCw1IR6WFD1zgIZmUTkqiC4AvlbRK+QGYq6jXz0N6Vg1agCeVtKJ4CpkbaNDDA3oqiS0CDippRdEEzFPS6uEhyUQNFijpVGK+kk6th05e7RASNnbB98B+DSEPqFHQ+RG972Ic2kVl0uAhaeCsaA9tlWjQEPHQ6aS0hsq4aLywfz1gj4LQYQWNJHRV0NjjATsUhFwnLTWG50YP2fvSXKlkBQah03HG5RwFjc0esJvsvWctcGl2e2LRHzgjo4YB1hdWdT9lFAO4SUEjDhpZpPWBMfmC8xrZmVtx0+vfqaCxBlrX80sVBE8EHlXQKcdo4DQFnQ+h1fmDwHcKog+hGxsopicwUUFnbWBMA7SNkGrl597BTvN/T0nnncI/xc4vBf5UEO+FLG81d3cuBPoq6OQ5GraG9rHxmQo3ANnCsgwZlrJwFvApehskZhWyNdDe+deQgIEGdcByYBTpWsFIYAV6GePDwAvFFzqN79ZmX3ALslbW3Ep6JTIMnoqEtPeVKVuH7Ah5Hpk3aGZtpgfGtNmuGrUzYxWyA9oGW5Gw9i7kYdcg/UQf7I0UvwfGtNtNFtUcJ1LUKyrTF53OKwkPh12Malb1wGp7tjhlQ2DM8rAPyn2nxlsyxjWPRH1QzvmdFI2JHZSFgTGboj6s1JtOAv7TtccpZZMolZzPA9P0bHHKjEqHEOJuOV+LbB3pKOwPjBlYqVDcScTojMa45rE4heI6/zUdZ+jbFBizJE7BJNPHCSmNcc0DcQsmcX4b9mZ9WnwQGPNL3MJJFw5TcJ+gSMKkJIWTOt8ETE1YxxXPBsYkSr2lPVRoc9WXhsbAmMFJK6VdL0fOl6tEqsBmWue/4dgZ+tYFxixLUzFLpOTBDHU1GVe5SDhZnN8DvJ2hvgYLws7OxCVrjGwq1Rv6Wog5jY0iq/NNyMHiajAd+CeLgEZ0dC4S+HBJIzArq4hWaDg0QGiRsRoiWs6vQoKeLlijdS/NpIDt9HQBtVam6fxu4HVFvTDmorePX/0QzzPo7JELoxl4WlNQ2/lmYLKyZoFpZBzaSrFxfGseOnv7ijFIBlkVW2fXtOf9VlaRtpxfB3ympLUaS9vZbR7f1Ap4jlHSaYdN5xuR39zIwlvArwq2hGL74O5zpD8P14Ty0FaKbeePID8elobJWE6S2nYe5OBRZJo4gp3IL55ZxYXzkHyjQ+rQVBJcOb8J+CRm2RXAt/ZMacWV8xB/ouIsNuDS+QPAjAplZqN/XDwSl84DvEj00JdHVoXOcO08wH0R18cgQ6MzquF8PfIANiKtYAuyEPrItSH/AzuWRiz71mp0AAAAAElFTkSuQmCC"/>
+  </defs>
+    
+  <path class="rcls-1 regions" data-metka="Текст метки" d="M602,74l-5-3-6-1-5-2-3-6V48l-1-9-2-7-7-5-9-3-11-1-9-4-6-3-1-5V6l-1-4-2-2-5,1-7,2-6,2-5,3-9,5-6,5-1,6,2,7-3,9-4,7-4,8-5,9-4,6-7,3-6,3-3,5-3,5-3,6-4,3-7,3h-7l-7,1h-6l6,5,6,3,5,6,6,7,5,9,4,10,4,10,3,9,5,4h6l8-4,4-5,6-3,4,2,4,5,4,4,5,5,7-1,5-5,5-4,3-5,9-5v-4l6-3-3-8-5-4-2-6-2-4,3-7,7,1,8,1,7-1,5-4,3-6,6-4,9-1,8-2,5,6,2,3,5-2-3-7-1-3,4-9Z"/>
+
+    
+    
+  <path class="cls-1 regions" data-metka="Текст метки" d="M695,856l9-4,19,1,21-3,20,18,3,8,7,13-3,6-9,7-1,6,3,11,3,6,4,4,10,2,11,1,5,3-6,6-41,18-6,5-1,3,2,28-4,3-7-4-14-4-9-4-5-5-3-5-1-6,7-16-1-6-5-3-11-4-4-5-2-6-1-6-4-7-8-10-4-5v-2l5-2,12-8,10-9,4-6,1-8-2-5Z"/>
+    
+  <path class="cls-2 regions" data-metka="Текст метки" d="M702,852l21,1,21-3,21,19,6-10,33,4,3-3,3-6,7-3h7l10,1,9,1,7-1,5-2,3-4-2-5-3-8-2-8v-4l5-5-1-9-1-6-9-7-9-4-13-5-19-5-13-4-6-5-5-8-6-5-6-2h-8l-2,1-1,8-2,9-6,8-13,7-14,6-13,8-6,7-2,5,4,7,5,8,3,5-1,7-4,6Z"/>
+    
+  <path class="cls-3 regions" data-metka="Текст метки" d="M583,802l6,2,9,5,2,5-2,6,1,6,10,6,12,5,7,4,5,3,7,3,10-3,9,4,4,5,6,3,5-2,7-2,5-2,9,3,3,2,6-4,8-8,1-6-3-7-6-10-5-7-3-5-3-7-9-7-2-6,2-7-1-6-5-3-6-1-7,1-6,1-6,3-6,1-8-3-8-2-4,1-3,3-3,5-4,5-3,1h-4l-5-2-6-3-6-1-4,1-2,1,1,3-1,4-2,4-2,6v2Z"/>
+    
+  <path class="cls-4 regions" data-metka="Текст метки" d="M678,716l4,5,6,1h15l8,1,4,4,3,5,7,8,6,3,9,2,7-1,6-1,3,8,2,8v9l-4,9-5,6-7,4-7,3-8,4-8,4-8,4-5,6-4,5-1,2-6-8-3-5-3-4-5-3-2-6,1-6,1-5-2-4-6-3h-6l-7,1h-2l5-7,2-4,1-5-4-3-6-4-4-6,1-11,3-6,4-3,4-3,5-2Z"/>
+    
+  <path class="cls-5 regions" data-metka="Текст метки" d="M855,819l11,1h9l5-2,1-5v-4l-5-2-4-1-2-4,3-6,3-5,4-5,5-6,5-5,4-6,4-4,2-4,1-5-1-5-1-5,2-6,4-4,4-3,5-2,6-3,6-3,5-3v-2l-4-4-4-4-4-4-5-6-3-5-3-6-3-6-2-5-3-4-4-5-6-4-10-2-9,2-5,3v3l-3,4-5,3-3,2H841l-7-3-8-2-6,1-4,2-2,5-2,5v11l1,6-1,4h-5l-9-2-5-3-5-2-6-2-3-2h-2v5l2,5,4,4,2,3,4,4,2,3,1,4-3,1H775l-5-2-6-3-3-3-5-3h-4l-2,2-1,3,2,7,1,5,1,6,2,7,3,10,3-2h9l4,2,6,6,2,4,3,3,3,3,4,3,8,2,9,3,9,2,7,3,7,2,8,3,6,3,7,5,2,7,1,6Z"/>
+    
+  <path class="cls-6 regions" data-metka="Текст метки" d="M935,704l3,2,9,3,12,3h8l5-1,4-5,2-7,1-8,2-10v-9l-1-4-4-1-6,3-6,3-5,1-6-2-2-3-2,2-1,4,1,5,1,6,1,5-4,3-5,2-4,2-2,4Z"/>
+    
+  <path class="cls-7 regions" data-metka="Текст метки" d="M930,719l1-7,1-5,4-4,3-5,3-2,4-1,4-4v-7l-1-10,3-4,6-8,2-3-4-4-4-4-2-3-1-4-1-5-1-6-3-4-6-1-5,2h-9l-5-1-5-2-6-3-5-3-5-4-2-3-1-4,1-6,2-5,4-5,4-5,9-14,8-11,4-6,2-6-1-6-1-7-6-5-5-2-8,1H881l-4-2-2-2-1-3,1-5-2-2h-5l-8,1-8,1-6,3-5,4-5,5-5,2-5,1-7-1-3,2-6,1h-4l-3,2-1,4v4l1,4v3h-3l-4-1-4-2-4,1v4l1,5,1,4v3l-4,2-3,2-4,1-2,1v10l4,5,4,5,2,4-5,7-3,5-1,6,1,10,6-1,4,2,1,2-3,4v5l1,6,4,5,4,4,6,4,2,2,7-6,4-6,4-1,4,6,4,6,8,3,8,2,8,2,8,3,5,2,5-3,9-2h7l6,2,5,4,5,6,5,9,6,12,6,8,8,8Z"/>
+    
+  <path class="cls-8 regions" data-metka="Текст метки" d="M960,659l5-7,4-5,7-5,5-3,5-1,5-1,8,2,4,1,3,2,2-3,3-5,5-6,5-4,5-3,5-4,5-3,4-4,4-5,2-5,3-6V581l-2-4-3-4-4-3-3-4-2-5-1-6v-6l2-4,3-2,4-1,4-2,1-7v-5l-2-3-4-3-6-3-6-2-6,1-4,3-3,1-3-4-1-4v-4l1-4,2-3,4-3,3-3,1-3-2-5-3-3-2-3v-4l-1-6v-4l-1-3-3-3-4-4-6-4-7-4-8-4-5-5-4-5-1-6,2-5,2-6v-5l-5-3-9-3-7-1-4,2-4,3-2,4-2,4-3,4-2,3h-3l-4-2-3-3-4-2h-3l-3,1-4,3-4,2-5,2-3,1-1,6v6l-2,4,1,5v5l-3,6-6,7-5,6-4,8v7l1,6-1,4-5,2-5,2-5,2-3,4v9l5,1,1,3-1,2v3l4,4,3,1h29l5-1,4,1,5,4,3,2v4l1,6v4l-2,7-5,5-5,8-7,10-7,10-6,10-1,7,1,5,4,4,5,3,5,4,7,3,5,1h12l5-2,5,1,3,4,1,4,1,7,2,6,5,5Z"/>
+    
+  <path class="cls-9 regions" data-metka="Текст метки" d="M817,535l7,1h5l4-1,4-3,4-3,5-4,4-3,5-1,7-1h7V509l2-2,3-3,3-1,6-1,4-2,1-3-1-5v-6l1-4,2-4,1-3,5-5,3-5,3-4,3-4V446l-6-4-4-4-6-5-6-3h-4l-4,1-4,3-3,2h-4l-3-4-2-3-1-4V412l1-5,4-6-9,6-5,1-6-1-5,2-2,2-5,2h-4l-4-2-5-5-3-4-4-5-4-4-2-3-2-4-1-3,2-5,2-3-2-3h-8l-6,1h-5l-7-2-6,1-5,3-4,6-2,2,4,5,2,5v4l-3,4-5,3-5,3-4,5-3,4-1,3,2,6,2,4,5,5,3,4v6l-2,6-1,6,1,9,1,6,4,6,4,2,7-1,5-1v4l-3,3-1,6,1,5,2,5,6-1h5l3,3,1,4v3l-1,3-6,1h-8l3,4,5,2,5,1,7-1,10-1h5l5,4,1,5v8Z"/>
+    
+  <path class="cls-10 regions" data-metka="Текст метки" d="M794,439l5-5,4-4,4-5,5-3h7l6,3,7,4,8,1,8,2,3,3-8,6-8,7-3,7-7,3-6-4-5-4-7-3-7-3-5-2Z"/>
+    
+  <path class="cls-11 regions" data-metka="Текст метки" d="M677,715l4,5,5,2h6l9,1h5l6,1,5,6,6,9,7,3,5,3h6l8-1,5-1-2-8-3-12,2-4h5l7,4,5,3,6,2,6,1h11l1-1-1-4-4-5-5-5-4-6-1-4s0.25-4.5,1-4,10,5,10,5l8,3,8,2,7,1,2-3v-5l-1-6,1-7,2-7,5-4,5-2,8,2,7,2,3,2,8-1h5l7-5,3-4v-3l-11-3-8-2-9-2-7-2-5-4-4-6-3-4-3,1-4,3-3,3-3,3-2,2-6-4-6-5-3-3-1-4-1-5,2-5,1-3-2-3-6-1-8,2-12,1-9-2-5-5-3-6-3-5-1-6,2-4,5-2,5-3,5-2-1-3-3-3-5-2h-7l-5,1-9-1-3-3-6-2-4-2h-4l-6,3h-4l-4-1-2,2-4,5-1,4,5,6,3,4v5l-5,6-2,4-2,6-3,5-7,4v9l2,8,3,7-2,5-3,6-1,7,2,9,2,8v7l-2,7-2,7Z"/>
+    
+  <path class="cls-12 regions" data-metka="Текст метки" d="M779,626l-1-10,3-8,3-4,2-3,1-2-2-5-7-8-2-4,1-7,6-2-6-3-4-2h-5l-5,1-4,2-1-4,2-4,1-4,1-7-1-5-3-1-8,2-7,2-3-1,2-5,4-5,2-5-2-3h-5l-7,1-6,1-6-2v-3l2-6,2-5v-3l-10-1H705l-8,2-9,5-2,6-2,7-3,5-3,2h-5l-4,2-3,5-1,7,2,5,7,3,3,3v8l1,5h4l10,1,4,2,5,1,4-1,4-1,4-1,5,2,7,2,3,3h5l4,1,7-1h8l3,3,3,4-5,4-6,2-4,3-2,3,1,6,3,5,3,5,4,5,6,2,5,1,7-1,6-1Z"/>
+    
+  <path class="cls-13 regions" data-metka="Текст метки" d="M586,782l8-1,5,1,5,3,5,2h4l4-1,5-7,5-5,3-2,5,1,6,2,5,1h3l6-1,4-2,3-2,5-7,2-5v-4l-6-3-5-4-2-6v-7l1-5,5-6,8-5,5-2,2-1,2-7,1-6,2-4v-5l-1-5-1-6-2-8,1-7,2-6,2-4,1-3-2-5-2-5v-6l-1-5-1-3-4-2-4-3-4-5-5,4-4,4-3,1-3-4-3-4-2-3-5-1h-7l-7,1-6,1-6,2-4,5-6,5-6,3-7,4-6,3-4,1-1-3-1-5-3-3h-4l-3,1-1,5-1,5,1,6,3,4,3,4,3,3-3,3-4,1h-3l-5-2-2-2h-2l-2,4v5l-2,5-2,2-4-1-4-4-4-4-4-3-4-3-3,1-1,5-1,5v2l5,5,3,4v4l-1,5-2,3-6-1h-4l-1,3,2,5,2,4,2,6v12l2,5,3,3,5,3,5,3,4,3,3,4,1,4v6l2,9,2,5,3,4,5,2,3,2,4-2h4l4,2,4,1Z"/>
+    
+  <path class="cls-14 regions" data-metka="Текст метки" d="M566,778l-6,4-7,2-8,2-1,2,2,7-1,9-3,11-6,8-4,4-6-2-7-4h-9l-5,1h-5l-1-9-1-4-7-7-6-11-8-8-7-5H460l-8,3-4-2-1-6-1-7-4-3-6,2-3-2v-2l1-4,2-3-3-2-5,2-3,6-3,5-4,1v-4l1-4,2-5-3-4-3-4-4-7-3-7-2-7-1-8-2-4-3-5,3-4,4-1h5l5-2,5,3,4,4h5l4-6,5-3,5,4,5,1,4-1,1,6,4,6,3,5-1,5-4,5,9,3h4l-2,6-4,6-4,7-1,7v4l4,2,3,1,4-1,4-5,4-5,3-5,5-6,5-6,2-6,2-6,2-4,4,2,5-4,5-5,5-2,4,4,6,5,3,7,6,6,8,5,7,6,1,10,3,12,4,6,6,3Z"/>
+    
+  <path class="cls-15 regions" data-metka="Текст метки" d="M417,768l3,4,5,6,6,6,7,3h5l4-3,2-3-2-6-1-5-1-4-1-3h-4l-4,2-3-2v-4l2-3,1-2-3-2-4,1-3,3-1,4-3,3-2,2Z"/>
+    
+  <path class="cls-16 regions" data-metka="Текст метки" d="M461,752h3l2-2,3-2,2-2,3,2,3,1,1,1,1,1-2,5-3,4-3,4-3,1h-3l-4-2-2-1v-6Z"/>
+    
+  <path class="cls-17 regions" data-metka="Текст метки" d="M460,752h4l3-2,4-4,5,3,3,2,5-5,4-5,4-5,2-8,3-7-4-3-3-3-1-5-1-6-2-5-3-3-3-1-3,1-4,3-4,2-7,1-5-1h-2v7l3,5,4,6-1,5-3,3-1,2,4,2,5,1,4,1-3,6-4,7Z"/>
+    
+  <path class="cls-18 regions" data-metka="Текст метки" d="M406,702h7l4-2,5,3,3,3,3,1h3l5-5,3-3h3l3,3,3,1h5l3-2s3.667-.5,4,0a5.122,5.122,0,0,0,1,1h5l6-2,4-3,3-2h3l3,3,2,3,1,5,2,7,2,5,6,3,3,2,4-3,4-3,4-3,3-1,2,1,5,4,4,4,1-2v-8c0-1.5-2-5-2-5l-2-5-2-4,1-3,2-1,6,1,3-1,2-3v-5l-1-4-3-3-3-3-2-2-3,2h-6l-4-1-1-1-1-5,1-5,2-5,2-4,4-2,5-4,2-2-4-6-2-4-2-5v-5l-1-8,1-5v-5l-3-3-4,1-2,1-2,4-2,5-3,3-4,2-3,1-3-2-1-3-4-2-5,3-4,4-4,3-3,2h-4l-4,1-4,3-5,3-5,3-4,2-2-4-2-3-4,1-3,2-3,1-3-2-2-3-4,1-4,2-2,3-1,5,1,7-2,8-2,4-3,4-4,1-5,2-4,1-3,2-1,3-1,4,1,3,3,2,4,1,3,3,1,4,1,5v5Z"/>
+    
+  <path class="cls-19 regions" data-metka="Текст метки" d="M469,628h4l5-3,3-3,4-4,5-2,3,3,2,3h4l5-2,3-4,2-5,3-4,3-1,3,1,2,4v5l-1,7,1,7,2,7,3,6,2,5-3,3-5,3-4,4-2,5-1,7,2,5,5,1,6-1,3-1v-7l2-5,3-1,4,3,4,3,4,4,4,4,4,1,2-2,1-4,1-5,1-3,2-2,4,2,3,1,4,1,5-1,1-2-3-6-5-5-1-6,1-6,2-6h4l4,3,2,6,2,2,6-2,6-4,6-3,5-3,7-6,2-4s1.8-3.4,1-4a12.586,12.586,0,0,1-2-3l-2-3-5-1-7-1-7-1-3-3v-3l5-5,5-4,1-4-3-4-7-6-5-5-5-4-1-7,1-6-3-5-5-4-2-4-1-4-3-4-3-4-4,1-5,6-2,2-5-2h-4l-2,3-2,1-5-1-4-3h-4l-1-4-5-1-3,3-5,3-5,2-6,3-4,4-1,6-3,7-5,1-5-2-3-5-3-5-4-2h-4l-5,3-3,5-1,4,5,3,6,2,6,5,3,4-1,5v6l-1,1h-6l1,5-2,4-4,2-4,3-1,4,2,5,2,6,1,6Z"/>
+    
+  <path class="cls-20 regions" data-metka="Текст метки" d="M571,540h6l3-1-2-4-1-4-2-5,1-4,4,2h9l5-4,3-2,4-4,7,3,5,4,5,3,6,2h9l5,5,1,5-2,5-3,5v3l3,2,5,1,4,1,4-4,4-4,4-3,9,4-2,5v5l3,3,4,2,4,2,1,6,1,8,11,2,7,2-7,11,10,11-4,8-3,6-2,5-2,4-4,4-3,2-3-1-4-2-2-3-4-2-2-3-11,9-4-4-5-6-5-2H631l-8,2-6,1h-1l-2-7-4-4h-8l-10-2-2-4,1-4,6-4,4-5-3-5-5-5-4-4-5-4-3-3-1-6,1-7-3-4-3-3-2-3-2-3v-4Z"/>
+    
+  <path class="cls-21 regions" data-metka="Текст метки" d="M657,541l10,5,4-5,5-1,5-1,3-6,2-7,4-7,6-4,6-2h11l14,1-3-4-4-3-5-4-3-5,10-1H712l-2-7,1-5-2-4-8-1-6-2h-5l-2,4,1,5,4,4,2,5-3,7-2,5-2,5-2,3-4,3-5-1h-4l-3-4-1-3,1-7v-4l-5,2-5,1-4-3-6-1-1,2,3,4v3l-4,4,1,5,3,4,2,5-2,7v5Z"/>
+    
+  <path class="cls-22 regions" data-metka="Текст метки" d="M759,571l9-3,6,1,7,4,6-2,3-3v-5l-2-6v-4l4-1,5,3,6,1v-5l-1-7,1-4,7-2,7-1V524l-2-3-4-3-9,1H787l-6-1-6-4,14-2,2-5-2-5-2-3h-9l-2,1-2-5-1-5,1-5,3-4v-4l-9,2-5-1-4-4-2-9-2-8,1-7,2-4v-7l-1-3-4-4-3-3-2-4-2-6,2-5,4-4,5-5-5-1-5,1-5,1-6,2v-4l2-5,1-6-3-4-5-3-3-2-3-1-3,5-3,3v13l-1,7-3,5-4,5-5,4-5,2-6,2-5-3-4-5-4-2-3-2-4,3-3,6-2,7-1,6v3l7,2,8,1,5,1,6,2,3,5-1,5-1,7-2,5-3,3-1,4,8,2,7,1,5,3,1,6v6l14,1-13,3,3,5,6,4,6,5-2,7-3,7,1,5,4,1,6-1,7-1,7,1,1,4-4,5-4,7,2,2,5-1,6-2,7-1,2,6-1,7-3,7Z"/>
+    
+  <path class="cls-23 regions" data-metka="Текст метки" d="M732,383l8,4,7-4,3-3,5,2,7,3,5,6v6l-3,4-5,3-2,1-5-1-7,2-6,1-3,1,1-6,2-5v-5l-4-4-4-3Z"/>
+    
+  <path class="cls-24 regions" data-metka="Текст метки" d="M726,383l3,2,3-2,8,3,5-2,5-4,10,3-4-6-6-7-7-6-7-5-9-1-6,2-3,2,2,6,3,6,3,7v2Z"/>
+    
+  <path class="cls-25 regions" data-metka="Текст метки" d="M514,538l4-1,4-3,4,2,1,3,5,1,3,2,5,1,5-4h5l3,2,5-6,5-3,5,5,3,3h8v-2l-4-11,1-5,5,2h8l5-4,6-6-2-2-1-4,1-4,2-4,3-3-5-3-2-2,2-5,3-7-7-1-7,1-4,2-3,5,1,4,6,5-1,4-2,3,1,5,2,5,1,2-8-2-4-4-3-5-3-3-4-1-2-2,4-5,1-4v-3l-1-2-3-2-4-3-3,5-4,5-3,5-4,4-6,4-5,4-6,4-5,2-8-1-6,2-4,3-1,5-1,6,3,6,4,3Z"/>
+    
+  <path class="cls-26 regions" data-metka="Текст метки" d="M603,497l7,2,3,1,2,1,5-5,3-3,4,5,3,4,5,1,4,1-2,7v11l-4,4h-8l-7-2-7-5-6-4-5-2-3-3,2-8Z"/>
+    
+  <path class="cls-27 regions" data-metka="Текст метки" d="M634,549l6,3,5,1,4-2,4-5,5-4-6-4-1-4,3-7-1-5-4-4-2-5,4-4,1-4-3-5,4-1,4,2,4,2,6-2h3v4l-1,7,4,6,5,1,5-1,4-5,3-6,3-6,2-5-2-6-5-4v-5l2-5,1-4-5-2-5-3-4-3-3-1-5,5-4,2-6,1-10,1-8,1-7-1h-4l-3-5-1-2-3-3-5-1h-3l-3,2-4,2-2,3v4l-2,5-2,4-3,5-3,7,5,3,6,2,7,3,9-8,7,8,8,3v4l-1,7v8l-4,3,5,6,1,4-2,5-3,4v4Z"/>
+    
+  <path class="cls-28 regions" data-metka="Текст метки" d="M559,479l5,3,5,5v5l-3,5-1,3,5,2,4,4,3,5,5,3,5,1-3-8v-4l2-4,1-3-7-6,1-4,3-5,5-2h9l4,1,4-7v-6l-4-3-5-2-5-1h-9l-1,4-1,5-1,4-4-3-4-4-5-4-3-1-4,5-4,5Z"/>
+    
+  <path class="cls-29 regions" data-metka="Текст метки" d="M558,433l9,3,4,4,5,1,7,2,6,2,3-2,3-5,6,1,5,1,5,4,2,2-4,6,2,4,5,5-9,6-5-3-6-2-5-1h-9l-3-5-1-1-5,1h-5l-6-3-4-4-3-5-1-5Z"/>
+    
+  <path class="cls-30 regions" data-metka="Текст метки" d="M601,437l8,5,4,4-4,6,3,5,5,4,7,2,3,4,2,4,6,2,8-1h9l10-1,7-3,5-6,7,5,5,3,6,2,4-6,1-9,1-5-4-5-12-2-11-2-2-3v-5l3-10,5-7h5l4,4,7,6h5l7-2,4-3,4-4,4-5,2-6V391l7-9-4-9-4-10-6-1-4-3-2-4v-3l4-4,4-4v-5l-5-4-5-3-3-3h-2l-3,2-3,1-7,2h-5l-4,1-3-1,1,5,2,3,4,1,5,1v3l-3,3-5,3-6,1-7,1-7,1-9-2-3-2-5-2-4-2-2,1,2,6,4,7,1,6v7l-2,5v4l8,4,5,3,6,1,4,3,4,4,1,5-2,3-4,2-6-1-6-3-7-1-5,1-6,1-6,1-5-1-4-1-1,6-2,4-4,5-4,2-4,1h-2v7Z"/>
+    
+  <path class="cls-31 regions" data-metka="Текст метки" d="M539,399l6-1,5,2,3,3,5,1,5-2,5-2,6,3,6,5,5,3h8l6,3,3,7-2,15-1,2h-5l-4,7-7-3-5-1h-4l-4-1-3-4-5-2-4-1-1-2V420l-2-4-4-4-4-3-4-5-3-3Z"/>
+    
+  <path class="cls-32 regions" data-metka="Текст метки" d="M569,400l4-4,3-3-1-3-3-6-3-4-1-5,1-3,4-3-4-4-4-2-2-2-2-3,4-3h11l6,2,5,3,5,5,4,5,4,5,5,3,5,3-4,6-3,4v6l3,5,4,1,5-1,3,3-2,7-3,5-3,4-4,1-4,1-2-5-2-5-5-2h-6l-4-1-7-5Z"/>
+    
+  <path class="cls-33 regions" data-metka="Текст метки" d="M616,402l2-4V387l-1-4-1-4,1-2,4-1,4,2,9,3,4,2,7,4,10,4,5,2,6,4,2,5-1,4-3,3h-5l-7-3-5-2h-6l-6,1-7,2-7-1Z"/>
+    
+  <path class="cls-34 regions" data-metka="Текст метки" d="M547,399l6-3,2-3-4-2h-5l-2-2,2-6,2-7,1-2h4l4,1,5-1,6-1,1,5,2,5,4,6,1,4-4,4-4,3-9,4h-3l-5-2Z"/>
+    
+  <path class="cls-35 regions" data-metka="Текст метки" d="M549,374l7,1h4l3-1h5l3-2,2-2-2-3-3-3-4-2-2-3v-2l3-1,5-1,6,1,3,1,6,2,6,5,5,6,6,7,5,2,3,2-4,6-3,3v5l2,5,3,2,3,1,3-1,3-2,1-2V385l-2-3v-4l4-2,5,2,6,2,5,2h3l1-3,2-4v-8l-1-5-3-5-3-5,1-3h2l5,2,7,3,5,1,5,1,9-1,9-2,5-3,3-4v-2l-7-1-4-3v-5l7-1,8-1,8-3,2-2v-8l-1-6-3-7-2-7-1-10V278l3-7-8,4-4,2h-5l-5-2-6,5-48,46-6,3h-4l-4-2-1-3-2-3,4-3,5-2,3-4v-4l-2-3-1-3,6-4,7-4,2-5-1-4-5-2-4-1-6,3-5,2-6,2-6-1-5-1-6-3-4-3-7-3-7-4-11-1-7,1-22,30,2,7v10l1,9,1,4,5,3,7,1,4,3,3,5-1,4-3,7-1,5,2,5,2,4Z"/>
+    
+  <path class="cls-36 regions" data-metka="Текст метки" d="M627,289l14-13,9-8,11-9,7-6,8-3-1,25-56,52-6,2h-5l-3-5-2-4,12-7v-4l-2-3-1-4,13-8Z"/>
+    
+  <path class="cls-37 regions" data-metka="Текст метки" d="M548,273l12,1,8,2,11,6,9,5,9,2,9-2,9-4h5l6,3,2,2,38-33,9-5V239l-1-6-2-5-1-3,1-7,5-8-7-3-8-1-1-4,3-6,7-5-1-4-4-2-7-1-3-3-3-8,6-7-1-2H646l-4-2,1-5,6-6,8-6,8-7-10-4-5-2,6-10-8-11v-9l4-8V84l-4-8-4-9-6-8-2,9-2,4-5,1-5-3h-7l-7,1-6,3-3,2-2,7-2,7,1,6,1,5-3,2-5-6-3-3-9,2-9,2-6,4-3,6-5,3H541l-6-1-3,7,3,7,3,5,5,5,1,5-5,4,1,4,4,7,2,8,1,9,1,4,8,5,4,4-2,7-3,11-1,8-5,8-4,4,1,12-1,9-3,9-2,3,6,5,2,5v8Z"/>
+    
+  <path class="cls-38 regions" data-metka="Текст метки" d="M538,399l-6-4-4-3H513l-6-1-4-3-3-1v-6l1-6,4-5H492l1-4,7-3,4-5,5-5,2-5-7-3-10-1-10-1-8-1-6-3,8-6,5-6,4-8v-5l1-9,1-5,1-5,5-3h6l5,3,5,3,4,4,4,2s3.5,1.25,5,1,3,7,3,7v18l3,6,7,2s8,0.25,8,2,3,6,3,6l-3,10-2,8,7,10-6,16,10,3-7,6h-9Z"/>
+    
+    
+  <path class="cls-40 regions" data-metka="Текст метки" d="M422,99l12-1h10l9-4,5-7,3-6,5-5,7-4,6-6-5-2h-5l-5,3-5,4-4,2h-8l-4-1-6,6-7-4-9-3-7-1-6,2-4,2-1,5,2,5,4,4,6,6Z"/>
+    
+  <path class="cls-41 regions" data-metka="Текст метки" d="M423,99l-4,4-3,3-5,2-2,4-1,7v7l4,7,1,6-2,8-4,5-2,3-1,7-3,3-4,3-8,2-6,4-4,8,1,7,5,3,6,3,2,3-3,6-4,7,1,6,1,8,4,5,4,5,5,4,7,4,5,5,3,4-1,6-4,6,2,3,7,2,7-1,6,4,2,4v5s-2,7.5-2,8-1,8-1,8l1,7,6,7,4,5,2,3-2,6-4,5v3l5,3h21l8,1,10-9,4-8,1-10,1-11,3-5,7-2,7,3,7,5,7,5h5l5-6,6-10,8-9,4-7v-9l-3-5-5-4,4-8,2-8v-7l-1-5v-4l7-9,3-6,1-10,3-9,1-5-5-5-6-3-2-5v-7l-2-8-4-7-3-3-8,5-4,4-4,4-6,5-5,2-4-1-6-8-6-5-4-2-7,4-5,5-5,2-5,1-7-5-3-9-3-9-3-7-3-7-3-5-4-5-3-4-7-5-5-3Z"/>
+    
+  <path class="cls-42 regions" data-metka="Текст метки" d="M470,339l-2,6-4,6-3,7,2,2,6-1,8,2,12-4,2,11,9-5,9-9,2-6-10-4-15-1-9-1Z"/>
+    
+  <path class="cls-43 regions" data-metka="Текст метки" d="M388,227l1,7-3,5-8,1-10,1-7,3-4,12-4,12-3,5-6,3-7-1-6,6-1,10-1,13-3,7-6,5-8,3-11,4-10,3-13,6-10,3H258l-7-3-3-3,2-9V309l-2-11-3-8-6-6-11-5-7-8-1-11-4-12-6-10-6-5-3-9v-7l4-11,5-8,5-2,5,2,5,3,5,1,4-1,6-4,7-6,7-8,10-5h11l8,2,7-2,4-9,5-6,10,2,12,7-7-9,2-6,7-4,7-2,10-4,5-8,1-8,9,4,10,7,10,8,12,4,11-1h7l-1,9-7,6-9,2-6,5-3,8,2,7,7,3,5,5-5,9-2,7,2,7v6Z"/>
+    
+  <path class="cls-44 regions" data-metka="Текст метки" d="M388,226l8,9,8,6,12,10v6l-5,7,3,4,11-1,8,6,3,7-4,14,2,11,8,10,3,4-6,12,5,5,27,2-9,16v6l-3,5-5,1-9-1-5-2-2-2-3-6-4-5-7-3-7-1h-6l1,5v10l2,7,9,5,7-1,8,6,1,15-1,3-8-5-7-3-8-3-7,1-5-5-4-8-4-7-7-8-8-5-11-6-9-3-6-5-8-7-8-6-12-4-6-3-2-2,9-8,2-11,1-9,1-8,5-5h7l6-2,5-9,3-10,3-9,8-5,10-1,9-2,2-4Z"/>
+    
+  <path class="cls-45 regions" data-metka="Текст метки" d="M418,371l6,2,5-1-1-2,5-4,5-4s-1.5-5.75-3-7l-6-5-7-3-11-1,1,10,1,10Z"/>
+    
+  <path class="cls-46 regions" data-metka="Текст метки" d="M438,362l5,3,7,1h7l5-5,6-2,7,2h4l10-4,2,12v3l2,5,1,5-4,8-7,5-6,4-7,2-4,2-4-5-7-2H443l-3,1-1-4V382l-1-5-5-2-4-3-1-2Z"/>
+    
+  <path class="cls-47 regions" data-metka="Текст метки" d="M407,386l8-1,8,3,8,4,7,4h5l15,1,4,2,4,4-2,3-6-1h-8v5l3,5,3,3h8l-3,6-2,5-3,4-1,3-5,1-3,1-4,4-3,3-3,2-6,1h-8l-7,2-6,1-6-2-3-4-6-3-9-2-7-2-5-3-4-3-4-4-5-4-4-3-4-3-4-2-2-1,5-5-1-6-3-7-4-6-2-6,2-5,7-3,5,2,6,5,6,2,6,2,10,6,5,6h14l4-4,1-4Z"/>
+    
+  <path class="cls-48 regions" data-metka="Текст метки" d="M410,452l8-2,7-2h12l4-3,3-5,7-3,4-1,3,9,2,7,1,7,4,8,2,5,1,3-3,1h-5l-4,1-4,5-15,1-4,3-2,3-1,4-2,4-4,3-6,2-9,2-8,1-7-6-6-4-7-2-8-1h-4l-5-5-5-5-6-1-6,1-6,2-4,2-5,4-4,5-4,3-5,6-5,4-5,2h-5l-7-2-7-4-3-2,4-5,3-5v-6l-1-6-3-6-2-5-2-6-1-6-1-6,1-8,1-6v-3l10-3,6-3,4-4,1-6,4-4,5-3h15l6,3,10,1,12,8,7,6,10,7,10,4,11,3,8,6Z"/>
+    
+  <path class="cls-49 regions" data-metka="Текст метки" d="M364,427l-3,2-3,3-5,2-6-2-8-2-8-2h-5l-2,4-1,4-3,3-5,1H299l-2,2,3,6,2,5h3l4,5,4,3,4-3,4-2,6,1,7,3,6-1h6l7,3,7-1,6-2h22l12-1,8-2,2-4-4-3-6-4-7-3-6-1-7-3-6-3-5-4Z"/>
+    
+  <path class="cls-50 regions" data-metka="Текст метки" d="M317,317l12,6,10,4,11,8,8,7,11,5,13,7,11,10,7,11,7,11,1,7-3,7-9,1-8-1-6-7-11-6-10-3-9-7-7,2-3,4,1,7,7,10,2,8-5,7-9-1-7-3H316l-6,4-3,4-2,7-7,4-7,3-6,2h-5l-6-1-5-2-4-4-2-4,2-5,3-5,6-3,5-4,3-3,1-4-5-4-5-6-4-5-2-4,8-6,6-5-4-5-8-2-6-1h-7l-7-1-6-2-5-4,1-5v-6l-3-6-5-6-2-5,3-3h7l10,1v6l8,3,8,1,7-2,11-3,16-7,11-4Z"/>
+    
+  <path class="cls-51 regions" data-metka="Текст метки" d="M266,382l-5,1-5,2-2,2,2,3,5,2,4,4v5l-1,4,3,5,3,3,7-4,5-5,1-4a14.672,14.672,0,0,0-3-3c-1.75-1.25-5-4-5-4l-3-5-3-3Z"/>
+    
+  <path class="cls-52 regions" data-metka="Текст метки" d="M204,234l-1,5-1,6-2,6-2,4-3,2-8,1-4,2-5,7-3,7-5,5-7,2H151l-13-1-6,2-5,2-4,6-2,7-3,5-4,4-10-2-8-4-7-5-8-8-7-8-3-6-6-6-2-3,4-6,2-5v-7l-3-7-2-6,3-5,7-6,2-7-1-11-11,3H61v-4l2-7,2-7V179l4-1,3,2,2,4,3,2,7,2,4-2,4-4,4-5,5-4,6,3,6,6,4,5,3,7,3,9,5,6h4l6-3,5-4,5-1,5,5,3,4,3,4,5,2,9-2,7-1,7-1,5,5,4,5,4,3Z"/>
+    
+  <path class="cls-53 regions" data-metka="Текст метки" d="M204,234l6,3,5,9,4,10,1,11,4,7,6,6,10,4,6,9,4,11v13l-1,8-10-1-8,1-1,3,2,6,5,5,2,5v8l-2,4-6,3-7,6-6,3-5,5v8l1,7v6l-5,4-5,2h-5l-6,2-1,5-1,7-3,3-4-1-6-3h-5l-5,2-3,5-4,6-4,4h-5l-4-1-6-1h-3l-4,6v4l5,4,2,2-1,4-5,3-4,4-4,1-4,1-5-2-6-3-4-4h-5l-5,1-5,2-3-2v-3l3-5,4-4,3-6v-8l1-6,4-5,1-5-2-6-2-5,3-4,5-8,5-8,3-6,2-8-2-8-5-8-6-7-3-5-1-5,1-6,3-9,5-7,5-5,4-7,1-6,6-7,9-2,13,1h14l8-5,4-6,4-8,6-5h8l5-4,2-6Z"/>
+    
+  <path class="cls-54 regions" data-metka="Текст метки" d="M63,264l-5-2-5-1-5-1-5,2-4,2-1,3,2,4,4,5,3,5,2,4-6,4-6,5-5,4-2,4,2,4,5,5,3,3,1,2-1,3-3,6-6,6L7,350l-5,7-2,5v5l2,6s4.286,4.143,5,5,9,8,9,8l7,8,7,10,5,8,4,11,2,6,6,4,8,2h8l5-1,5-3,5-6,5-4,5-4h14l5-6v-6l-3-5-1-4,12-19,6-12-1-8-3-7-4-5-5-6-3-5-1-7,1-6,4-8,4-6,1-1-10-3-9-4-6-5-5-4-5-5-4-5-4-6-2-4-4-3Z"/>
+    
+  <path class="cls-55 regions" data-metka="Текст метки" d="M41,430l8,4,8,1h9l7-3,5-7,7-6,3-2h14l-1,6v6l-2,6-6,7-2,5v2l2,1,3-1,7-1h7l4,4,7,4,7,1h3l4,3,5,2,5,1,8-4,8-2,6-1,7,3,6,4,5,6,5,5,4,7-1,6v6l4,5,7,5,7,4,6,3,6,5,4,5,2,4-2,6-5,5-5,6-7,6-4,6-2,8v3l-7-1-5,1-6,3-3,2-3,4-2,4,2,8,1,6-1,6-5,2-8-2-8-2-8,2-3,3-1,5,1,6,1,8,1,6-1,3-4,3-5,1-5-3-5-3-5-4-8-6-5-5-7-4-9-2-6,1-5,3-6,4-5,5-7,4-5,3-7,1-6-2-7-3-7-5-7-4-6-4-4-5,2-6,1-5,1-9,2-8-1-10,1-9,3-10,5-17,3-6,1-3-3-4-3-4-2-4,1-4,5-1,8-2,5-2v-5l-1-7-3-6-2-7-1-5-3-9-1-7v-7l2-7,1-7Z"/>
+    
+  <path class="cls-56 regions" data-metka="Текст метки" d="M238,355l7,5,9,2h10l9,2,6,3,2,4-8,6-5,4-8,3-4,1-2,2,3,4,7,3,1,6-1,5,5,8-6,10,2,5,4,4,5,2,6,1,6,1-1,9v14l4,11,4,10,1,6v7l-6,9-6,2-7,2-6,2-6,3-3,3-4,5v6l2,7,5,6,5,4,3,6,1,6-2,6-3,6-3,4-5,2h-4l-5-2-5-3-5-2h-5l-5,2-4,2-5-1-6-1-6-1-4-1-1-5,1-6,3-4,6-7,5-5,6-6,2-5,1-3-1-4-3-4-5-4-4-3-5-2-5-3-4-3-4-2-3-4-1-2,1-12-2-3-3-4-3-4-4-4-4-4-3-2-6-3-3-1-4,1-5,1-5,2-4,2-4,1-5-1-6-3-3-4,6-3,6-5,1-3-2-2-4-3-2-1v-5l5-5,8,1,5,1h5l5-7,4-6,5-4h6l5,3,5,1,3-3,1-3,1-5v-4l6-2h7l5-3,3-4v-9l-1-11,7-6,6-3,5-5Z"/>
+    
+  <path class="cls-57 regions" data-metka="Текст метки" d="M150,627l-2-16-1-8,3-6,7-1,5-1,10,4,5-1,3-2,1-7-2-5-1-6,2-6,5-6,7-3,9,1,9,2,10,2,6,1,6-3,8-1,7,3,8,4,7-1,5-5,4-9v-7l-3-7-6-6-5-7-1-9,3-6,8-7,12-3,8-3,9,5,8,2,5,1,7-5,7-6,8-9,8-6,10-3h9l6,6,4,4,9,1,12,3,10,8,5,9,6,8,2,8-1,7v27l-7-2-7-3-8-1-6-2-5-3-5-8-4-6-5-4-6-1-6,1h-8l-4,2v16l2,10,3,11,5,6,6,5,7,6,6,8,5,7,4,6,5,3,4,3v4l-6,2-4,1-3,3-2,5-2,4-4,2-7,3-6,2-6,5-4,3-4,1-2-3,1-5,3-6v-5l-2-3-4-4-6-1H314l-8-1-3-2-2-3V604l-4-7-5,1-6,5-3,3-4,3-4,2h-4l-8-1-5-2-6,1-5,4-3,6-2,3-3,7-2,9v7l-2,6-2,4-2,2-6-1-5-2-9-5-6,3-4,2-6,1-2-6-1-5-4-4-7-2-4,1h-8l-8-4-6-4Z"/>
+    
+    
+  <text id="талдомский" class="xcls-1" transform="translate(466.965 87.564) scale(0.185 0.184)">талдомский</text>
+  <text id="орехово-зуево" class="xcls-1" transform="translate(765.397 427.513) scale(0.113 0.113)">орехово-зуево</text>
+  <text id="Шатура" class="xcls-1" transform="translate(935.771 540.743) scale(0.165 0.165)">Шатура</text>
+  <text id="рошаль" class="xcls-2" transform="translate(924.932 478.376) scale(0.109 0.109)">рошаль</text>
+  <text id="Егорьевск" class="xcls-1" transform="translate(799.227 610.273) scale(0.161 0.161)">Егорьевск</text>
+  <text id="Луховицы" class="xcls-1" transform="translate(799.41 738.993) scale(0.151 0.151)">Луховицы</text>
+  <text id="Зарайск" class="xcls-1" transform="translate(732.322 811.69) scale(0.207 0.207)">Зарайск</text>
+  <text id="Серебряные_Пруды" data-name="Серебряные Пруды" class="xcls-3" transform="translate(684.02 914.341) scale(0.117 0.117)">Серебряные Пруды</text>
+  <text id="фрязино" class="xcls-4" transform="translate(540.067 292.312) scale(0.069 0.069)">фрязино</text>
+  <text id="Кашира" class="xcls-5" transform="translate(602.668 810.024) scale(0.111 0.111)">Кашира</text>
+  <text id="озёры" class="xcls-1" transform="translate(672.216 754.51) scale(0.198 0.198)">озёры</text>
+  <text id="коломенский" class="xcls-6" transform="translate(688.04 671.065) scale(0.123 0.122)">коломенский</text>
+  <text id="воскресенский" class="xcls-7" transform="translate(672.391 556.606) scale(0.096 0.096)">воскресенский</text>
+  <text id="бронницы" class="xcls-1" transform="translate(600.112 588.419) scale(0.142 0.142)">бронницы</text>
+  <text id="раменский" class="xcls-1" transform="translate(576.584 537.374) scale(0.118 0.118)">раменский</text>
+  <text id="жуковский" class="xcls-1" transform="translate(584.591 504.491) scale(0.096 0.096)">жуковский</text>
+  <text id="реутов" class="xcls-1" transform="translate(559.18 446.44) scale(0.106 0.106)">реутов</text>
+  <text id="балашиха" class="xcls-8" transform="translate(530.626 420.36) scale(0.062 0.062)">балашиха</text>
+  <text id="котельники" class="xcls-9" transform="translate(553.267 470.656) scale(0.071 0.071)">котельники</text>
+  <text id="Люберцы" class="xcls-10" transform="translate(553.55 483.208) scale(0.059 0.059)">Люберцы</text>
+  <text id="держинский" class="xcls-1" transform="translate(529.127 503.853) scale(0.079 0.079)">держинский</text>
+  <text id="ленинский" class="xcls-11" transform="translate(502.915 519.825) scale(0.09 0.09)">ленинский</text>
+  <text id="домодедово" class="xcls-1" transform="translate(506.823 559.545) scale(0.093 0.093)">домодедово</text>
+  <text id="подольск" class="xcls-1" transform="translate(486.273 585.931) scale(0.106 0.106)">подольск</text>
+  <text id="чеховский" class="xcls-1" transform="translate(431.528 670.624) scale(0.118 0.118)">чеховский</text>
+  <text id="серпуховский" class="xcls-12" transform="translate(438.333 723.239) scale(0.091 0.09)">серпуховский</text>
+  <text id="пущино" class="xcls-13" transform="translate(488.416 785.439) scale(0.108 0.108)">пущино</text>
+  <text id="лыткарино" class="xcls-14" transform="translate(566.867 518.762) scale(0.066 0.065)">лыткарино</text>
+  <text id="_.звЁздный_городок" data-name=".звЁздный городок" class="xcls-15" transform="translate(598.542 388.384) scale(0.043 0.042)">.звЁздный городок</text>
+  <text id="ступинский" class="xcls-1" transform="translate(549.539 697.144) scale(0.173 0.173)">ступинский</text>
+  <text id="серпухов" class="xcls-16" transform="translate(444.416 749.003) scale(0.097 0.097)">серпухов</text>
+  <text id="протвино" class="xcls-1" transform="translate(421.672 764.442) scale(0.115 0.114)">протвино</text>
+  <text id="власиха" class="xcls-17" transform="translate(418.711 461.536) scale(0.085 0.085)">власиха</text>
+  <text id="звенигород" class="xcls-1" transform="translate(315.308 444.592) scale(0.11 0.11)">звенигород</text>
+  <text id="Красногорск" class="xcls-1" transform="translate(365.216 413.856) scale(0.108 0.108)">Красногорск</text>
+  <text id="долгопрудный" class="xcls-18" transform="translate(427.514 366.599) scale(0.082 0.082)">долгопрудный</text>
+  <text id="химки" class="xcls-19" transform="translate(455.316 382.601) scale(0.081 0.081)">химки</text>
+  <text id="лобня" class="xcls-1" transform="translate(463.848 350.074) scale(0.113 0.113)">лобня</text>
+  <text id="мытищи" class="xcls-1" transform="translate(478.15 333.592) scale(0.089 0.089)">мытищи</text>
+  <text id="королёв" class="xcls-20" transform="translate(523.833 383.532) scale(0.088 0.088)">королёв</text>
+  <text id="ивантеевка" class="xcls-1" transform="translate(548.868 343.374) scale(0.121 0.12)">ивантеевка</text>
+  <text id="черноголовка" class="xcls-21" transform="translate(623.142 334.885) scale(0.089 0.089)">черноголовка</text>
+  <text id="Щёлковский" class="xcls-1" transform="translate(584.295 377.146) scale(0.132 0.132)">Щёлковский</text>
+  <text id="лосино-петровский" class="xcls-1" transform="translate(585.255 401.066) scale(0.122 0.122)">лосино-петровский</text>
+  <text id="ногинский" class="xcls-1" transform="translate(585.297 423.378) scale(0.156 0.155)">ногинский</text>
+  <text id="электросталь" class="xcls-1" transform="translate(634.928 445.744) scale(0.123 0.123)">электросталь</text>
+  <text id="электрогорск" class="xcls-1" transform="translate(697.048 384.815) scale(0.118 0.118)">электрогорск</text>
+  <text id="Павловский_Посад" data-name="Павловский Посад" class="xcls-22" transform="translate(693.375 465.769) scale(0.102 0.102)">Павловский Посад</text>
+  <text id="орехово-зуевский" class="xcls-1" transform="translate(727.74 501.954) scale(0.107 0.107)">орехово-зуевский</text>
+  <text id="лотошинский" class="xcls-1" transform="translate(81.45 242.141) scale(0.142 0.141)">лотошинский</text>
+  <text id="шаховская" class="xcls-1" transform="translate(21.942 359.598) scale(0.142 0.142)">шаховская</text>
+  <text id="волоколамский" class="xcls-1" transform="translate(122.619 333.418) scale(0.111 0.111)">волоколамский</text>
+  <text id="восход" class="xcls-23" transform="translate(256.95 395.073) scale(0.072 0.071)">восход</text>
+  <text id="клинский" class="xcls-1" transform="translate(245.113 236.375) scale(0.187 0.187)">клинский</text>
+  <text id="солнечногорский" class="xcls-1" transform="translate(333.421 313.963) scale(0.105 0.105)">солнечногорский</text>
+  <text id="дмитровский" class="xcls-1" transform="translate(410.06 212.34) scale(0.164 0.164)">дмитровский</text>
+
+  <text id="дубна" class="xcls-1" transform="translate(411.663 88.839) scale(0.115 0.115)">дубна</text>
+  <text id="сергиево-посадский" class="xcls-1" transform="translate(559.966 207.391) scale(0.155 0.155)">сергиево-посадский</text>
+  <text id="красноармейск" class="xcls-24" transform="translate(609.433 282.066) scale(0.076 0.076)">красноармейск</text>
+  <text id="пушкинский" class="xcls-1" transform="translate(524.958 307.642) scale(0.144 0.144)">пушкинский</text>
+  <text id="Истра" class="xcls-1" transform="translate(291.684 363.539) scale(0.16 0.16)">Истра</text>
+  <text id="Рузский" class="xcls-1" transform="translate(190.076 450.461) scale(0.164 0.163)">Рузский</text>
+  <text id="можайский" class="xcls-1" transform="translate(60.104 533.165) scale(0.204 0.204)">можайский</text>
+  <text id="наро_-_фоминский" data-name="наро - фоминский" class="xcls-1" transform="translate(186.158 581.725) scale(0.124 0.124)">наро - фоминский</text>
+  <text id="молодежный" class="xcls-1" transform="translate(301.127 602.934) scale(0.099 0.099)">молодежный</text>
+  <text id="краснознаменск" class="xcls-1" transform="translate(303.644 517.127) scale(0.108 0.108)">краснознаменск</text>
+  <text id="одинцовский" class="xcls-1" transform="translate(293.421 469.505) scale(0.158 0.158)">одинцовский</text>
+    
+    
+    
+    
+    
+    
+        
+ <g id="_2.ЗНАЧКИ_GOOGLE_LOCATION" data-name="2.ЗНАЧКИ GOOGLE LOCATION" class="map_icon__g">
+
+    <use id="клинский" class="map_icon" x="277" y="145" xlink:href="#image"/>
+    <use id="лотошинский" class="map_icon" x="111" y="159" xlink:href="#image"/>
+    <use id="красногорск" class="map_icon" x="380" y="336" xlink:href="#image"/>
+    <use id="истра" class="map_icon" x="294" y="283" xlink:href="#image"/>
+    <use id="дмитровский" class="map_icon" x="449" y="125" xlink:href="#image"/>
+    <use id="сергиево-посадский" class="map_icon" x="579" y="115" xlink:href="#image"/>
+    <use id="талдомский" class="map_icon" x="504" xlink:href="#image"/>
+    <use id="дубна" class="map_icon" x="409" y="11" xlink:href="#image"/>
+    <use id="волоколамский" class="map_icon" x="150" y="252" xlink:href="#image"/>
+    <use id="шаховская" class="map_icon" x="41" y="277" xlink:href="#image"/>
+    <use id="можайский" class="map_icon" x="106" y="441" xlink:href="#image"/>
+    <use id="рузский" class="map_icon" x="206" y="362" xlink:href="#image"/>
+    <use id="восход" class="map_icon" x="256" y="318" xlink:href="#image"/>
+    <use id="власиха" class="map_icon" x="426" y="380" xlink:href="#image"/>
+    <use id="одинцовский" class="map_icon" x="329" y="387" xlink:href="#image"/>
+    <use id="краснознаменск" class="map_icon" x="329" y="436" xlink:href="#image"/>
+    <use id="молодежный" class="map_icon" x="315" y="525" xlink:href="#image"/>
+    <use id="наро-фоминский" class="map_icon" x="222" y="500" xlink:href="#image"/>
+    <use id="мытищи" class="map_icon" x="479" y="255" xlink:href="#image"/>
+    <use id="лобня" class="map_icon" x="463" y="272" xlink:href="#image"/>
+    <use id="долгопрудный" class="map_icon" x="469" y="289" xlink:href="#image"/>
+    <use id="химки" class="map_icon" x="456" y="306" xlink:href="#image"/>
+    <use id="фрязино" class="map_icon" x="543" y="215" xlink:href="#image"/>
+    <use id="пушкинский" class="map_icon" x="550" y="229" xlink:href="#image"/>
+    <use id="красноармейск" class="map_icon" x="639" y="201" xlink:href="#image"/>
+    <use id="черноголовка" class="map_icon" x="643" y="254" xlink:href="#image"/>
+    <use id="ивантеевка" class="map_icon" x="561" y="264" xlink:href="#image"/>
+    <use id="королев" class="map_icon" x="530" y="304" xlink:href="#image"/>
+    <use id="щелковский" class="map_icon" x="605" y="298" xlink:href="#image"/>
+    <use id="электрогорск" class="map_icon" x="714" y="305" xlink:href="#image"/>
+    <use id="звездный_городок" data-name="звездный городок" class="map_icon" x="625" y="312" xlink:href="#image"/>
+    <use id="лосино-петровский" class="map_icon" x="621" y="325" xlink:href="#image"/>
+    <use id="ногинский" class="map_icon" x="611" y="344" xlink:href="#image"/>
+    <use id="балашиха" class="map_icon" x="537" y="341" xlink:href="#image"/>
+    <use id="реутов" class="map_icon" x="558" y="370" xlink:href="#image"/>
+    <use id="электросталь" class="map_icon" x="655" y="367" xlink:href="#image"/>
+    <use id="орехово-зуево" class="map_icon" x="788" y="348" xlink:href="#image"/>
+    <use id="павловский_посад" data-name="павловский посад" class="map_icon" x="741" y="383" xlink:href="#image"/>
+    <use id="орехово_зуевский" data-name="орехово зуевский" class="map_icon" x="756" y="424" xlink:href="#image"/>
+    <use id="воскресенский" class="map_icon" x="698" y="476" xlink:href="#image"/>
+    <use id="котельники" class="map_icon" x="564" y="394" xlink:href="#image"/>
+    <use id="люберцы" class="map_icon" x="556" y="408" xlink:href="#image"/>
+    <use id="жуковский" class="map_icon" x="595" y="428" xlink:href="#image"/>
+    <use id="держинский" class="map_icon" x="534" y="428" xlink:href="#image"/>
+    <use id="ленинский" class="map_icon" x="511" y="443" xlink:href="#image"/>
+    <use id="лыткарино" class="map_icon" x="577" y="444" xlink:href="#image"/>
+    <use id="раменский" class="map_icon" x="589" y="461" xlink:href="#image"/>
+    <use id="домодедово" class="map_icon" x="517" y="484" xlink:href="#image"/>
+    <use id="подольск" class="map_icon" x="491" y="511" xlink:href="#image"/>
+    <use id="бронницы" class="map_icon" x="616" y="509" xlink:href="#image"/>
+    <use id="рошаль" class="map_icon" x="930" y="398" xlink:href="#image"/>
+    <use id="шатура" class="map_icon" x="945" y="458" xlink:href="#image"/>
+    <use id="егорьевск" class="map_icon" x="817" y="527" xlink:href="#image"/>
+    <use id="коломенский" class="map_icon" x="715" y="591" xlink:href="#image"/>
+    <use id="ступенский" class="map_icon" x="585" y="616" xlink:href="#image"/>
+    <use id="чеховский" class="map_icon" x="443" y="593" xlink:href="#image"/>
+    <use id="серпуховский" class="map_icon" x="463" y="644" xlink:href="#image"/>
+    <use id="серпухов" class="map_icon" x="453" y="669" xlink:href="#image"/>
+    <use id="протвино" class="map_icon" x="430" y="687" xlink:href="#image"/>
+    <use id="пущино" class="map_icon" x="495" y="708" xlink:href="#image"/>
+    <use id="кашира" class="map_icon" x="622" y="727" xlink:href="#image"/>
+    <use id="озера" class="map_icon" x="681" y="670" xlink:href="#image"/>
+    <use id="зарайск" class="map_icon" x="756" y="727" xlink:href="#image"/>
+    <use id="пуховицы" class="map_icon" x="815" y="657" xlink:href="#image"/>
+<!--красные ниже-->
+    <use id="клинский" class="map_icon2" x="277" y="145" xlink:href="#image2"/>
+    <use id="лотошинский" class="map_icon2" x="111" y="159" xlink:href="#image2"/>
+    <use id="красногорск" class="map_icon2" x="380" y="336" xlink:href="#image2"/>
+    <use id="истра" class="map_icon2" x="294" y="283" xlink:href="#image2"/>
+    <use id="дмитровский" class="map_icon2" x="449" y="125" xlink:href="#image2"/>
+    <use id="сергиево-посадский" class="map_icon2" x="579" y="115" xlink:href="#image2"/>
+    <use id="талдомский" class="map_icon2" x="504" xlink:href="#image2"/>
+    <use id="дубна" class="map_icon2" x="409" y="11" xlink:href="#image2"/>
+    <use id="волоколамский" class="map_icon2" x="150" y="252" xlink:href="#image2"/>
+    <use id="шаховская" class="map_icon2" x="41" y="277" xlink:href="#image2"/>
+    <use id="можайский" class="map_icon2" x="106" y="441" xlink:href="#image2"/>
+    <use id="рузский" class="map_icon2" x="206" y="362" xlink:href="#image2"/>
+    <use id="восход" class="map_icon2" x="256" y="318" xlink:href="#image2"/>
+    <use id="власиха" class="map_icon2" x="426" y="380" xlink:href="#image2"/>
+    <use id="одинцовский" class="map_icon2" x="329" y="387" xlink:href="#image2"/>
+    <use id="краснознаменск" class="map_icon2" x="329" y="436" xlink:href="#image2"/>
+    <use id="молодежный" class="map_icon2" x="315" y="525" xlink:href="#image2"/>
+    <use id="наро-фоминский" class="map_icon2" x="222" y="500" xlink:href="#image2"/>
+    <use id="мытищи" class="map_icon2" x="479" y="255" xlink:href="#image2"/>
+    <use id="лобня" class="map_icon2" x="463" y="272" xlink:href="#image2"/>
+    <use id="долгопрудный" class="map_icon2" x="469" y="289" xlink:href="#image2"/>
+    <use id="химки" class="map_icon2" x="456" y="306" xlink:href="#image2"/>
+    <use id="фрязино" class="map_icon2" x="543" y="215" xlink:href="#image2"/>
+    <use id="пушкинский" class="map_icon2" x="550" y="229" xlink:href="#image2"/>
+    <use id="красноармейск" class="map_icon2" x="639" y="201" xlink:href="#image2"/>
+    <use id="черноголовка" class="map_icon2" x="643" y="254" xlink:href="#image2"/>
+    <use id="ивантеевка" class="map_icon2" x="561" y="264" xlink:href="#image2"/>
+    <use id="королев" class="map_icon2" x="530" y="304" xlink:href="#image2"/>
+    <use id="щелковский" class="map_icon2" x="605" y="298" xlink:href="#image2"/>
+    <use id="электрогорск" class="map_icon2" x="714" y="305" xlink:href="#image2"/>
+    <use id="звездный_городок" data-name="звездный городок" class="map_icon2" x="625" y="312" xlink:href="#image2"/>
+    <use id="лосино-петровский" class="map_icon2" x="621" y="325" xlink:href="#image2"/>
+    <use id="ногинский" class="map_icon2" x="611" y="344" xlink:href="#image2"/>
+    <use id="балашиха" class="map_icon2" x="537" y="341" xlink:href="#image2"/>
+    <use id="реутов" class="map_icon2" x="558" y="370" xlink:href="#image2"/>
+    <use id="электросталь" class="map_icon2" x="655" y="367" xlink:href="#image2"/>
+    <use id="орехово-зуево" class="map_icon2" x="788" y="348" xlink:href="#image2"/>
+    <use id="павловский_посад" data-name="павловский посад" class="map_icon2" x="741" y="383" xlink:href="#image2"/>
+    <use id="орехово_зуевский" data-name="орехово зуевский" class="map_icon2" x="756" y="424" xlink:href="#image2"/>
+    <use id="воскресенский" class="map_icon2" x="698" y="476" xlink:href="#image2"/>
+    <use id="котельники" class="map_icon2" x="564" y="394" xlink:href="#image2"/>
+    <use id="люберцы" class="map_icon2" x="556" y="408" xlink:href="#image2"/>
+    <use id="жуковский" class="map_icon2" x="595" y="428" xlink:href="#image2"/>
+    <use id="держинский" class="map_icon2" x="534" y="428" xlink:href="#image2"/>
+    <use id="ленинский" class="map_icon2" x="511" y="443" xlink:href="#image2"/>
+    <use id="лыткарино" class="map_icon2" x="577" y="444" xlink:href="#image2"/>
+    <use id="раменский" class="map_icon2" x="589" y="461" xlink:href="#image2"/>
+    <use id="домодедово" class="map_icon2" x="517" y="484" xlink:href="#image2"/>
+    <use id="подольск" class="map_icon2" x="491" y="511" xlink:href="#image2"/>
+    <use id="бронницы" class="map_icon2" x="616" y="509" xlink:href="#image2"/>
+    <use id="рошаль" class="map_icon2" x="930" y="398" xlink:href="#image2"/>
+    <use id="шатура" class="map_icon2" x="945" y="458" xlink:href="#image2"/>
+    <use id="егорьевск" class="map_icon2" x="817" y="527" xlink:href="#image2"/>
+    <use id="коломенский" class="map_icon2" x="715" y="591" xlink:href="#image2"/>
+    <use id="ступенский" class="map_icon2" x="585" y="616" xlink:href="#image2"/>
+    <use id="чеховский" class="map_icon2" x="443" y="593" xlink:href="#image2"/>
+    <use id="серпуховский" class="map_icon2" x="463" y="644" xlink:href="#image2"/>
+    <use id="серпухов" class="map_icon2" x="453" y="669" xlink:href="#image2"/>
+    <use id="протвино" class="map_icon2" x="430" y="687" xlink:href="#image2"/>
+    <use id="пущино" class="map_icon2" x="495" y="708" xlink:href="#image2"/>
+    <use id="кашира" class="map_icon2" x="622" y="727" xlink:href="#image2"/>
+    <use id="озера" class="map_icon2" x="681" y="670" xlink:href="#image2"/>
+    <use id="зарайск" class="map_icon2" x="756" y="727" xlink:href="#image2"/>
+    <use id="пуховицы" class="map_icon2" x="815" y="657" xlink:href="#image2"/>
+  </g>
+</svg>

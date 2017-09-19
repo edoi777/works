@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+<defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #ccc;
+        stroke-width: 1px;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ccc;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M0.337,26.5L26.5,0.337,52.663,26.5,26.5,52.662Z"/>
+  <path id="Forma_1_copy" data-name="Forma 1 copy" class="cls-2" d="M20.188,24.689a0.59,0.59,0,0,0,0,.878,0.687,0.687,0,0,0,.923,0l4.728-4.451V33.385a0.631,0.631,0,0,0,.653.615,0.639,0.639,0,0,0,.662-0.615V21.116l4.719,4.451a0.7,0.7,0,0,0,.932,0,0.59,0.59,0,0,0,0-.878l-5.847-5.505a0.67,0.67,0,0,0-.923,0Z"/>
+</svg>

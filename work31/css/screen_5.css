@@ -1,0 +1,192 @@
+.screen_5 {
+    background-image: url(../img/screen_5__bg.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: -124px;
+    position: relative;
+    z-index: 1;
+    padding-top: 180px;
+    color: #fff;
+}
+.screen_5 h2 {
+  font-size: 45px;
+  line-height: 1.2;
+  color: #ffffff;
+    margin-bottom: 33px;
+}
+.s5_t1 {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff;
+    padding-bottom: 31px;
+    border-bottom: 1px solid #1b4344;
+    margin-bottom: 35px;
+}
+.s5_wr {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*/////////////////////////////////////*/
+.s5_wr__right_part {
+    margin-left: 30px;
+    max-width: 514px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.s5_wr__right_part input {
+    background-color: rgba(0,0,0,.2);
+margin-bottom: 30px;
+    height: 53px;
+    box-sizing: border-box;
+    padding-left: 23px;
+    width: 100%;
+      font-size: 16px;
+    font-weight: 400;
+}
+.s5_wr__right_part__ipt_1 {
+    border:3px solid #999999;
+    color: #999;
+}
+.s5_wr__right_part__ipt_1::placeholder {
+     color: #999;  
+}
+.s5_wr__right_part__ipt_2 {
+    border:3px solid #00b3f1;
+    color: #00b3f1;
+}
+.s5_wr__right_part__ipt_2::placeholder {
+    color: #00b3f1; 
+}
+.s5_wr__right_part__ipt_3 {
+    border:3px solid #f04941;
+     color: #f04941;
+}
+.s5_wr__right_part__ipt_3::placeholder {
+    color: #f04941; 
+}
+.s5_wr__right_part__ipt_4 {
+    border:3px solid #999999;
+    color: #999;
+    background-color: rgba(0,0,0,.2);
+margin-bottom: 30px;
+    box-sizing: border-box;
+    padding-left: 23px;
+    width: 100%;
+      font-size: 16px;
+    font-weight: 400;
+    padding-top: 21px;
+}
+.s5_wr__right_part__ipt_4::placeholder {
+    color: #999;
+}
+.s5_wr__right_part button {
+    margin-left: 0px;
+}
+/*/////////////////////////////////////*/
+.s5_wr__left_part {
+    width: 100%;
+    max-width: 516px;
+    margin-right: 30px;
+}
+.s5_wr__left_part__t1 {
+  font-size: 22px;
+  line-height: 1.2;
+  color: #ffffff;
+    margin-bottom: 23px;
+}
+.s5_wr__left_part__t2{
+  font-size: 16px;
+  line-height: 1.2;
+  color: #ffffff;
+    margin-bottom: 21px;
+}
+.s5_wr__left_part__t3{
+  font-size: 16px;
+  line-height: 1.2;
+  color: #ffffff;
+    margin-bottom: 21px;
+}
+.s5_wr__left_part__t4{
+  font-size: 16px;
+  line-height: 1.2;
+  color: #ffffff;
+    margin-bottom: 21px;
+}
+/*//////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////*/
+footer {
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    padding: 40px 0px;
+    margin-top: 40px;
+}
+.footer__black_and_white__logo {
+    width: 204px;
+}
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__copy__right  {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  color: #989898;
+}
+.footer__tel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end\;
+}
+.footer__tel__text {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: right;
+  color: #989898;
+    margin-bottom: 4px;
+}
+.footer__tel__number {
+  font-size: 27px;
+  line-height: 1.2;
+  text-align: center;
+  color: #00b3f1;
+}
+@media screen and (max-width:1024px) {
+    .screen_5 {
+        margin-top: -216px;
+        padding-top: 220px;
+    }
+    .s5_wr {
+        flex-direction: column;
+    }
+    .screen_5 h2 {
+        font-size: 20px;
+    }
+    .s5_wr__left_part {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .s5_wr__right_part {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    footer .wrapper {
+        flex-direction: column;
+    }
+    footer .wrapper > * {
+        margin-bottom: 30px;
+    }
+}

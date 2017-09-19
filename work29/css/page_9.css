@@ -1,0 +1,95 @@
+.page_contacts__wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.page_contacts__wrapper__left_part {
+    max-width: 552px;
+}
+.page_contacts__wrapper__left_part ul li {
+    margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #212121;
+}
+.page_contacts__wrapper__left_part ul li  img {
+    vertical-align: middle;
+    margin-right: 19px;
+}
+.page_contacts__wrapper__left_part > p {
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: left;
+  color: #a4a4a4;
+    margin-bottom: 30px;
+}
+/*////////////////////////////*/
+/*////////////////////////////*/
+/*////////////////////////////*/
+.page_contacts__wrapper__right_part {
+    display: flex;
+    flex-direction: column;
+      width: 457px;
+  background-color: #e8e8e8;
+    background-image: url(../img/contacts_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 45px 60px 50px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.page_contacts__wrapper__right_part__t1 {
+  font-family: 'Exo 2';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.01;
+  text-align: left;
+  color: #000000;
+    margin-bottom: 18px;
+}
+.page_contacts__wrapper__right_part__t2 {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: left;
+  color: #212121;
+    margin-bottom: 27px;
+}
+.page_contacts__wrapper__right_part input {
+     height: 44px;
+  background-color: #ffffff;
+    padding-left: 17px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 25px;
+    border:none;
+    font-size: 16px;
+}
+
+.page_contacts__wrapper__right_part textarea {
+  width: 100%;
+    max-width: 100%;
+    border:None;
+  min-height: 146px;
+  background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.page_contacts__wrapper__right_part button  {
+  width: 221px;
+  height: 46px;
+  border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+  background-color: #ee2c37;
+    background-image:none;
+}
+@media screen and (max-width:900px) {
+    .page_contacts__wrapper {
+        flex-direction: column;
+    }   
+    .page_contacts__wrapper__right_part {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 20px;
+    }
+}

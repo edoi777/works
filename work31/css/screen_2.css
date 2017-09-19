@@ -1,0 +1,124 @@
+.screen_2 {
+    background-image: url(../img/screen_2__bg.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: -124px;
+    position: relative;
+    z-index: 1;
+    padding-top: 280px;
+    padding-bottom: 150px;
+}
+
+.s2_item__title {
+      width: 194px;
+  height: 49px;
+  background-color: #ffffff;
+      font-size: 20px;
+  text-align: center;
+    line-height: 47px;
+  color: #0b0e04;
+    position: relative;
+    margin-bottom: 39px;
+    cursor: pointer;
+}
+.s2_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s2_item__title.it1:before  {
+    content: url(../img/s2_item_1.svg);
+    display: block;
+    right: 100%;
+    bottom: 0px;
+    position: absolute;
+    height: 52px;
+}
+.s2_item__title.it1:after  {
+    content: url(../img/s2_item_1.svg);
+    display: block;
+    left: 100%;
+    transform: scaleX(-1);
+    bottom: 0px;
+    position: absolute;
+    height: 52px;
+}
+.s2_item__body {
+    background-color: rgba(0,0,0,.7);
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.4;        
+    color: #ffffff;
+    margin-bottom: 40px;
+    visibility: hidden;
+    height: 0px;
+    overflow: hidden;
+    display: none;
+}
+.s2_item.show .s2_item__body {
+    visibility: visible;
+    height: auto;
+    overflow: auto;
+    display: block;
+}
+.s2_item__body ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 10px;
+}
+/*////////////////////////////////////////*/
+.s2_item__title.it2 {
+      background-color: #00b4f2;
+    color: #fff;
+}
+.s2_item__title.it2:before  {
+    content: url(../img/s2_item_2.svg);
+    display: block;
+    right: 100%;
+    bottom: 0px;
+    position: absolute;
+    height: 52px;
+}
+.s2_item__title.it2:after  {
+    content: url(../img/s2_item_2.svg);
+    display: block;
+    left: 100%;
+    transform: scaleX(-1);
+    bottom: 0px;
+    position: absolute;
+    height: 52px;
+}
+/*////////////////////////////////////////*/
+.s2_item__title.it3 {
+      background-color: #f04941;
+    color: #fff;
+}
+.s2_item__title.it3:before  {
+    content: url(../img/s2_item_3.svg);
+    display: block;
+    right: 100%;
+    bottom: 0px;
+    position: absolute;
+    height: 52px;
+}
+.s2_item__title.it3:after  {
+    content: url(../img/s2_item_3.svg);
+    display: block;
+    left: 100%;
+    transform: scaleX(-1);
+    bottom: 0px;
+    position: absolute;
+    height: 52px;
+}
+@media screen and (max-width:1024px) {
+    .screen_2 {
+        padding-top: 30px;
+        margin-top: 0px;
+        padding-bottom: 50px;
+    }
+}

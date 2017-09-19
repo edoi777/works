@@ -1,0 +1,35 @@
+.pagination {
+  font-size: 18px;
+  line-height: 2.67;
+  color: #a4a4a4;
+display: flex;
+    margin-bottom: 68px;
+    flex-wrap: wrap
+}
+.pagination a {
+    margin: 0px 4px;
+      min-width: 26px;
+  height: 27px;
+display: block;
+    box-sizing: border-box;
+    padding: 0px 5px;
+    text-align: center;
+    line-height: 27px;
+}
+.pagination a.active {
+      background-color: #1f476e;
+    color: #fff;
+}
+@media screen and (max-width:1300px) {
+    .pagination {
+        font-size: 14px;
+    }
+    .pagination a {
+    margin: 0px 3px;
+  height: 20px;
+          height: 27px;
+display: block;
+    box-sizing: border-box;
+    padding: 0px 2px;
+}
+}

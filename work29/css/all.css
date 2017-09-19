@@ -1,0 +1,106 @@
+* {margin: 0px;padding: 0px;line-height: 100%;list-style: none;outline: none;}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+}
+a {color: inherit;text-decoration: inherit;}
+textarea {font-family: inherit;}
+button {border: none;color: inherit;background:inherit;cursor: pointer; font-family: inherit;}
+input {font-family: inherit;}
+.wrapper {
+	width: 1140px;
+	margin:0px auto;
+	max-width: 95%;
+}
+body {
+font-family: 'Cuprum', sans-serif;
+    font-size: 14px;
+}
+
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+@font-face {
+    font-family: 'baronneue';
+    src: url(../font/baronneue.otf);
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'baronneue';
+    src: url(../font/baronneueblack.otf);
+    font-weight: 800;
+    font-style: normal
+}
+
+
+@font-face {
+    font-family: 'baronneue';
+    src: url(../font/baronneueblackitalic.otf);
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'baronneue';
+    src: url(../font/baronneuebold.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'baronneue';
+    src: url(../font/baronneuebolditalic.otf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'baronneue';
+    src: url(../font/baronneueitalic.otf);
+    font-weight: 400;
+    font-style: italic;
+}
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+.rouble_icon {
+    display: inline-block;
+    background-image: url(../img/icons/roubl.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+/*////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////*/
+.title_page {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30.2px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.title_page:after {
+    content: '';
+    display: block;
+    width: 43.9px;
+    height: 4px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+@media screen and (max-width:600px) {
+    .title_page {
+        font-size: 20px;
+    }
+}

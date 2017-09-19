@@ -1,0 +1,140 @@
+.page_4_table {
+    display: table;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.page_4_table > .row {
+    display: table-row;
+}
+.page_4_table > .row > div {
+    display: table-cell;
+}
+.page_4_table__title {
+    display: table-row;
+}
+.page_4_table__title > div {
+    display: table-cell;
+}
+
+.page_4_table__title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  color: #000000;
+}
+.page_4_table__title > div {
+    padding-left: 30px;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 19px;
+    padding-top: 10px;
+}
+.page_4_table__title > div:last-child {
+    border-right:none;
+}
+.page_4_table__title > div:first-child {
+padding-left: 0px;
+}
+.page_4_table > .row > div  {
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    vertical-align: middle;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.page_4_table > .row > div:last-child {
+    border-right:none;
+}
+.page_4_table > .row > div:first-child {
+padding-left: 0px;
+}
+.page_4_table > .row > div a {
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: left;
+  color: #1f476e; 
+font-weight: 400;
+    border-bottom: 1px dotted  #1f476e; 
+}
+.title_page + p {
+      font-size: 18px;
+margin-bottom: 35px;
+}
+.page_4_table > .row > div img {
+    width: 318px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.page_4_table > .row > div .rouble_icon {
+    width: 15px;
+    height: 12px;
+}
+.page_4_table > .row > div.red .rouble_icon {
+    background-image: url(../img/icons/roubl__red.svg);
+}
+.page_4_table > .row > div.red  {
+  color: #ee2c37;
+}
+@media screen and (max-width:1300px) {
+    .page_4_table__title > div {
+        font-size: 14px;
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width:920px) {
+    .page_4_table__title {
+        display: none;
+    }
+    .title_page + p {
+        padding-bottom: 27px;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    .page_4_table > .row > div {
+        border-right:none;
+    }
+    .page_4_table > .row > div {
+        border-bottom: none;
+        width: 100%;
+        display: flex;
+        padding-left: 0px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .page_4_table > .row {
+        display: flex;
+        flex-direction: column;
+         border-bottom: 1px solid #e8e8e8;
+        margin-bottom: 30px;
+    }
+    .page_4_table > .row > div:nth-child(1):before {
+        content: 'Модель велосипеда';
+    }
+    .page_4_table > .row > div:nth-child(1) {
+      margin-bottom: 30px;
+    }
+    .page_4_table > .row > div:nth-child(2):before {
+        content: 'Старая цена';
+    }
+    .page_4_table > .row > div:nth-child(2) {
+      margin-bottom: 30px;
+    }
+    .page_4_table > .row > div:nth-child(3):before {
+        content: 'Цена по акции';
+        color: #000;
+    }
+    .page_4_table > .row > div:nth-child(3) {
+      margin-bottom: 30px;
+    }
+    .page_4_table > .row > div:nth-child(4):before {
+        content: 'Ваша экономия';
+        color: #000;
+    }
+    .page_4_table > .row > div:nth-child(4) {
+      margin-bottom: 30px;
+    }
+    .page_4_table > .row > div img {
+        width: 100%;
+    }
+}

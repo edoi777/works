@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+   <meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	    <script>
+  $( function() {
+    $( "#datepicker" ).datepicker({
+ monthNames: ['Январь', 'Февраль', 'Март', 'Апрель',
+'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь',
+'Октябрь', 'Ноябрь', 'Декабрь'],
+ dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
+ firstDay: 1,
+});
+  } );
+  </script>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <a href="#"><img src="img/logo__header.png" alt="" /></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Букеты</a></li>
+                    <li><a href="#">Оформление</a></li>
+                    <li><a href="#">Декор</a></li>
+                    <li><a href="#">Команда</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <div class="header__nav__search">
+                    <input type="text" placeholder="поиск по сайту" />
+                </div>
+                <!-- /.header__nav__search -->
+            </nav>
+        </div>
+        <!-- /.wrapper -->
+    </header>
+    <div class="after_header_block">
+    	<div class="wrapper">
+    		<p class="after_header_block_t1">    	Закажите цветы сегодня у нас
+		и получите скидку 50%!</p><!-- /.after_header_block_t1 -->
+		<button>ХОЧУ ЗАКАЗАТЬ!</button>
+    	</div><!-- /.wrapper -->
+    </div><!-- /.after_header_block -->
+    <main>
+    	<div class="wrapper">
+    		<div class="sidebar">
+    			<ul class="sidebar__contacts">
+    				<li><img src="img/icon_tel.png" alt="" /><span>+7 (903) 269 72 38</span></li>
+    				<li><img src="img/icon_mail.png" alt="" /><span>info@homeandflowers.ru</span></li>
+    				<li><img src="img/icon_map.png " alt="" /><span>«Микрогород в лесу»<br>ул. Лесная д. 18</span></li>
+    			</ul><!-- /.contacts -->
+    			<ul class="sidebar__soc">
+    				<li class="sidebar__soc__text">Обсудить детали заказа</li>
+    				<li><a href="#"><img src="img/icon_telegram.png" alt="" /></a></li>
+    				<li class="sidebar__soc__text">Красота каждый день</li>
+    				<li><a href="#"><img src="img/icon_inst.png" alt="" /></a><a href="#"><img src="img/icon_facebook.png" alt="" /></a></li>
+    			</ul><!-- /.contacts -->
+    		</div><!-- /.sidebar -->
+    		<div class="right_wrapper">
+    			<div class="right_wrapper__products">
+    				<div class="rwp__item">
+    					<p>Авторские букеты</p>
+    				</div><!-- /.rwp__item -->
+    				<div class="rwp__item">
+    					<p>Букеты в шляпной<br>
+коробке</p>
+    				</div><!-- /.rwp__item -->
+    				<div class="rwp__item">
+    					<p>Коробочки <br>
+с цветами</p>
+    				</div><!-- /.rwp__item -->
+    				<div class="rwp__item">
+    					<p>Цветочные яблоки</p>
+    				</div><!-- /.rwp__item -->
+    				<div class="rwp__item">
+    					<p>Корпоративные<br>
+заказы</p>
+    				</div><!-- /.rwp__item -->
+    				<div class="rwp__item">
+    					<p>Свадебные букеты</p>
+    				</div><!-- /.rwp__item -->
+    			</div><!-- /.right_wrapper__products -->
+    			<form action="" class="form_order">
+    				<div class="form_order__wrapper_title">Форма заказа:</div><!-- /.form_order__wrapper_title -->
+    				<div class="form_order__item">
+    					<p class="form_order__title">Бюджет</p><!-- /.form_order__title -->
+						<select name="" id="">
+							<option value="4000">4000</option>
+    						<option value="4000">4000</option>
+    						<option value="4000">4000</option>
+    						<option value="4000">4000</option>
+						</select>
+    				</div>
+    				<div class="form_order__item">
+    					<p class="form_order__title">Хочу заказать</p><!-- /.form_order__title -->
+						<select name="" id="">
+							<option value="Авторские букеты">Авторские букеты</option>
+    						<option value="Авторские букеты">Авторские букеты</option>
+    						<option value="Авторские букеты">Авторские букеты</option>
+    						<option value="Авторские букеты">Авторские букеты</option>
+						</select>
+    				</div>
+    				<div class="form_order__item">
+    					<p class="form_order__title">Фото примера</p><!-- /.form_order__title -->
+						<div class="form_order__item__foto">
+							<div class="close__form_order__item__foto"></div><!-- /.close__form_order__item__foto -->
+							<p class="foto_upload_title">Нажмите <span>сюда</span>:</p><!-- /.foto_upload_title -->
+							<img src="img/foto_upload.png" alt="" />
+						</div><!-- /.form_order__item__foto -->		
+    				</div>
+    			</form><!-- /.form_order -->
+    			<div class="form_contacts">
+    					<p class="form_contacts__title">Контактные данные:</p><!-- /.form_contacts__title -->
+    					<form action="">
+    						<input type="text" placeholder="Имя:" />
+    						<input type="text" placeholder="Телефон:" />
+    						<div class="checkbox_wrapper">
+    							<label><input type="checkbox" /> <span>Доставка</span></label>
+    							<label><input type="checkbox" /> <span>Забрать в магазине</span></label>
+    						</div><!-- /.checkbox_wrapper -->
+    						<input type="text" placeholder="Имя получателя:" />
+    						<input type="text" placeholder="Телефон получателя:" />
+    						<input type="text" placeholder="Адрес доставки:" />
+    						<div class="datepicker"><input type="text" id="datepicker" placeholder="Дата и время:" /></div><!-- /.datepicker -->
+    						<textarea name="" id="" cols="30" rows="10" placeholder="Ваш комментарий:"></textarea>
+    						<p>Стоимость доставки в пределах «МКАД» 450 рублей.</p>
+    						<button>ПРИМЕНИТЬ</button>
+    						<p>Нажмите «Применить» чтобы перейти к оплате.</p>
+    					</form>
+    				</div><!-- /.form_contacts -->
+    		</div><!-- /.right_wrapper -->
+    		</div><!-- /.sidebar -->
+    	</div><!-- /.wrapper -->
+    </main>
+    <footer>
+    	<a href="#"><img src="img/logo__header.png" alt="" /></a>
+    	<p class="copyrights">© Все права защищены! Нарушение авторских прав преследуется по закону!</p><!-- /.copyrights -->
+    </footer>
+</body>
+</html>

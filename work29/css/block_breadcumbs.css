@@ -1,0 +1,33 @@
+.breadcumbs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.breadcumbs a {
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  color: #878787;
+    display: block;
+    margin-right: 10px;
+}
+.breadcumbs li:last-child a {
+  color: #a4a4a4;
+}
+.breadcumbs li a:after {
+    content: '';
+    width: 1px;
+    height: 9px;
+    background-color: #e9e9e9;
+    display: inline-block;
+    margin-left: 10px;
+}
+.breadcumbs li:last-child a:after {
+display: none;
+}
+@media screen and (max-width:1300px) {
+    .breadcumbs a {
+        font-size: 9px;
+    }
+}

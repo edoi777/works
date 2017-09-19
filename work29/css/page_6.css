@@ -1,0 +1,119 @@
+.page_granita {
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.page_granita > img {
+    margin-left: 41px;
+}
+.page_granita div p {
+      font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #000000;
+}
+@media screen and (max-width:1024px) {
+    .page_granita {
+        flex-direction: column;
+    }
+    .page_granita div {
+        margin-bottom: 20px;
+    }
+    .page_granita > img  {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+.p6_t1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 36px;
+}
+.p6_t1 li {
+    width: 33.33%;
+      font-size: 18px;
+    margin-bottom: 28px;
+}
+.p6_t1 li:before {
+    content: '';
+    display: inline-block;
+      width: 7px;
+  height: 7px;
+  background-color: #ffffff;
+  border: solid 2px #ee2c37;
+    margin-right: 10px;
+}
+.p6_t2 {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.p6_t3 {
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: left;
+  color: #000000;
+    margin-bottom: 18px;
+}
+.p6_t4 {
+    display: flex;
+    margin-bottom: 60px;
+      background-color: #e8e8e8;
+}
+.p6_t4 > div {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p6_t4 > div > p:nth-child(1) {
+    margin-bottom: 17px;
+  font-family: 'Exo 2';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.17;
+  text-align: left;
+  color: #000000;
+}
+.p6_t4 > div > p:nth-child(2) {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #000000;
+    margin-bottom: 20px;
+}
+.p6_t4 > div > a:nth-child(3) {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #1f476e;
+}
+@media screen and (max-width:1300px) {
+    .p6_t1 li {
+        width: 50%;
+    }
+    .p6_t4 {
+        flex-direction: column;
+    }
+    .p6_t4 img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .p6_t4 > div {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        box-sizing: border-box;
+        width: 100%;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width:600px) {
+    .p6_t1 li {
+        width: 100%;
+    }
+}

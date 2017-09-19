@@ -1,0 +1,192 @@
+.block_gratitude {
+    padding-top: 116px;
+    padding-bottom: 112px;
+    background-image: url(../img/block_news_angle.svg), url(../img/block_gratitude__bg.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, left bottom;
+    background-size: auto, auto;
+}
+
+.block_gratitude .common_block__title {
+    margin-bottom: 30px;
+}
+.block_gratitude__item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.block_gratitude__item__svg_img {
+width: 278px;
+    margin-right: -278px;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+.block_gratitude .wrapper {
+    width: 1137px;
+    margin-bottom: 32px;
+}
+.block_gratitude__item__description {
+    flex-basis: 320px;
+    height: 322px;
+    flex-grow:1;
+    margin-left: 145.0px;
+    background-image: url(../img/block_gratitude__item__bg_body.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    box-sizing: border-box;
+    padding-left: 185px;
+    padding-top: 53px;
+    display: flex;
+    flex-direction: column;
+}
+.block_gratitude__item__description__count {
+  color: #333333;
+    width: 50%;
+}
+.block_gratitude__item__description__date {
+    width: 50%;
+    text-align: left;
+    padding-left: 123px;
+    box-sizing: border-box;
+        font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    color: #999999;
+}
+.block_gratitude__item__description__date:before {
+    content: url(../img/icons/date.svg);
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.block_gratitude__item__description__wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.block_gratitude__item__description__name {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #111111;
+    display: block;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 17px;
+}
+.block_gratitude__item__description__name:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+  width: 116px;
+  height: 1px;
+  background-color: #00bfa5;
+}
+.block_gratitude__item__description__name:after {
+        content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    margin-top: -1.6px;
+    transform: rotate(45deg);
+    width: 4px;
+  height: 4px;
+  background-color: #00bfa5;
+}
+.block_gratitude__item__description__text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+    box-sizing: border-box;
+    padding-right: 177px;
+  color: #666666;
+}
+.block_gratitude .arrow_right {
+    top: 32px;
+    right: 19px;
+}
+.block_gratitude .arrow_left {
+    transform: rotate(180deg);
+    bottom: 36px;
+    right: 19px;
+}
+.block_gratitude .slick-arrow {
+    cursor: pointer;
+    position: absolute;
+    right: 19px;
+    z-index: 1;
+}
+.block_gratitude .slick-arrow .cls-2 {
+transition: all 0.3s;
+}
+.block_gratitude .slick-arrow:hover .cls-2 {
+    fill:  #00bfa5;
+    stroke:  #00bfa5;
+}
+.block_gratitude .slick-arrow .cls-3 {
+transition: all 0.3s;
+}
+.block_gratitude .slick-arrow:hover .cls-3 {
+    fill: #fff;
+}
+.block_gratitude .btn_t_1 {
+    width: 246px;
+}
+.block_gratitude .wrapper.anim {
+    transform: translateX(100vw);
+}
+@media screen and (max-width:1170px) {
+    .block_gratitude__item {
+        flex-direction: column;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        overflow-x: hidden;
+    }
+    .block_gratitude__item__svg_img {
+        margin: 0px auto;
+    }
+    .block_gratitude__item__description {
+       margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0px;
+        background-image: none;
+        padding-left: 15px;
+        background-color: #fff;
+          box-shadow: 0px 2px 14.7px 0.3px rgba(24, 25, 27, 0.13);
+  border: solid 1px #ebebeb;
+        padding-bottom: 30px;
+        height: auto;
+        max-height: auto;
+        display: block;
+    }
+    .block_gratitude .wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+    .block_gratitude__item__description__text {
+        padding-right: 15px;
+    }
+    .block_gratitude__item__description__date {
+        padding-left: 0px;
+    }
+    .block_gratitude .wrapper {
+        margin-bottom: 70px;
+    }
+    .block_gratitude .arrow_left {
+        left: 10px;
+        top: 100%;
+        transform: rotate(-90deg)
+    }
+    .block_gratitude .arrow_right {
+        right: 10px;
+        top: 100%;
+        transform: rotate(90deg)
+    }
+}

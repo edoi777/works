@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="52">
+<defs>
+    <style>
+      .cls-1 {
+        fill: #f04941;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #c51a10;
+      }
+    </style>
+  </defs>
+  <path id="Контур" class="cls-1" d="M0,10L16,0V49L0,51V10Z"/>
+  <path id="Контур-2" data-name="Контур" class="cls-2" d="M16,0L30,3V52L16,49V0Z"/>
+</svg>

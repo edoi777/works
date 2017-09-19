@@ -1,0 +1,127 @@
+.block_callback_gratitude {
+      background-color: #efefef;
+    padding-top: 54px;
+    padding-bottom: 67px;
+    position: relative;
+    margin-top: -1px;
+}
+.block_callback_gratitude .wrapper.anim {
+    transform: translatex(-100vw);
+}
+.block_callback_gratitude:before {
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    height: 70px;
+    background-image: url(../img/block_example_text__angle_bottom.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    z-index: 1;
+}
+.block_callback_gratitude .common_block__title{
+margin-bottom: 5px;
+}
+.block_callback_gratitude .wrapper {
+    background-color: #fff;
+    width: 1170px;
+    position: relative;
+    padding-top: 65px;
+    padding-bottom: 20px;
+      box-shadow: 0px 2px 14.7px 0.3px rgba(24, 25, 27, 0.11);
+}
+.block_callback_gratitude .wrapper form {
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.block_callback_gratitude .wrapper form textarea {
+    width: 50%;
+    box-sizing: border-box;
+}
+.block_callback_gratitude__wr_inputs {
+    flex-direction: column;
+    display: flex;
+  width: 445px;
+    max-width: 41%;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.block_callback_gratitude__wr_inputs input, .block_callback_gratitude__wr_inputs select {
+  width: 445px;
+    max-width: 100%;
+    height: 48px;
+    background-color: #ffffff;
+    border: solid 1px #c6c6c6;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-left: 19px;
+    transition: all 0.3s;
+    font-size: 14px;
+}
+.block_callback_gratitude__wr_inputs select {
+    padding-left: 14px;
+    padding-right: 10px;
+    color: #333;
+}
+.block_callback_gratitude__wr_inputs input:hover, .block_callback_gratitude__wr_inputs select:hover {
+    color: #ec9b0e;
+    border: solid 1px #ec9b0e;
+}
+.block_callback_gratitude__wr_inputs select:hover {
+    color: #333;
+}
+.block_callback_gratitude__change_icon {
+    position: absolute;
+      width: 97px;
+    height: 72px;
+    right: 142px;
+    background-color: #ededed;
+    z-index: 1;
+    top: 0px;
+    background-image: url(../img/icons/change_list.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.block_callback_gratitude .wrapper form textarea {
+  width: 655px;
+  max-width: 57%;
+  height: 164px;
+    background-color: #ffffff;
+    padding-top: 17px;
+    border: solid 1px #c6c6c6;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-left: 19px;
+    transition: color 0.3s, border 0.3s;
+    font-size: 14px;
+}
+.block_callback_gratitude__form__submit {
+    margin-top: 20px;
+}
+@media screen and (max-width:800px) {
+    .block_callback_gratitude .wrapper form {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .block_callback_gratitude .wrapper form > * {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .block_callback_gratitude__wr_inputs input {
+        width: 100%;
+    }
+    .block_callback_gratitude__wr_inputs select {
+        width: 100%;
+    }
+    .block_callback_gratitude .wrapper {
+        padding-top: 102px;
+    }
+}
